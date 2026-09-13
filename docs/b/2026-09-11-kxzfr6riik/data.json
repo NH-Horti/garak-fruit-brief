@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T13:23:17.946Z",
+  "generatedAt": "2026-09-13T14:05:13.589Z",
   "targetDate": "2026-09-11",
   "weekday": "금",
   "sentOn": "2026-09-13",
@@ -190,6 +190,7 @@
               "price": 52897
             }
           ],
+          "sparkPct": -5.4,
           "onPoster": true,
           "forThreshold": false
         },
@@ -348,6 +349,7 @@
               "price": 58282
             }
           ],
+          "sparkPct": 37.9,
           "onPoster": true,
           "forThreshold": false
         }
@@ -395,9 +397,19 @@
         "unit": "원/10kg",
         "price": 52897,
         "band": {
+          "criticalDown": 8114,
+          "alertDown": 16935,
           "cautionDown": 25755,
+          "stable": 30300,
           "cautionUp": 40643,
-          "stable": 30300
+          "alertUp": 50987,
+          "criticalUp": 61330
+        },
+        "prevStage": {
+          "date": "2026-09-10",
+          "stage": "CAUTION",
+          "label": "주의 ↑",
+          "price": 50351
         },
         "reportStage": {
           "stage": "STABLE",
@@ -592,6 +604,7 @@
               "price": 41029
             }
           ],
+          "sparkPct": -4.5,
           "onPoster": true,
           "forThreshold": false
         },
@@ -750,6 +763,7 @@
               "price": 51884
             }
           ],
+          "sparkPct": -9.2,
           "onPoster": true,
           "forThreshold": false
         }
@@ -797,9 +811,19 @@
         "unit": "원/15kg",
         "price": 51884,
         "band": {
+          "criticalDown": 24811,
+          "alertDown": 31470,
           "cautionDown": 38129,
+          "stable": 47661,
           "cautionUp": 52221,
-          "stable": 47661
+          "alertUp": 56782,
+          "criticalUp": 61342
+        },
+        "prevStage": {
+          "date": "2026-09-10",
+          "stage": "CAUTION",
+          "label": "주의 ↑",
+          "price": 52586
         },
         "reportStage": {
           "stage": "STABLE",
@@ -994,6 +1018,7 @@
               "price": 7218
             }
           ],
+          "sparkPct": -12.4,
           "onPoster": true,
           "forThreshold": false
         },
@@ -1059,6 +1084,7 @@
               "price": 13057.204109356428
             }
           ],
+          "sparkPct": -3.1,
           "onPoster": true,
           "forThreshold": false
         }
@@ -1106,9 +1132,19 @@
         "unit": "원/2kg",
         "price": 7218,
         "band": {
+          "criticalDown": 6178,
+          "alertDown": 9193,
           "cautionDown": 12207,
+          "stable": 15259,
           "cautionUp": 20726,
-          "stable": 15259
+          "alertUp": 26193,
+          "criticalUp": 31660
+        },
+        "prevStage": {
+          "date": "2026-09-10",
+          "stage": "ALERT",
+          "label": "경계 ↓",
+          "price": 7196
         },
         "reportStage": {
           "stage": "CRITICAL",
@@ -1210,6 +1246,7 @@
               "price": 18115.036936236393
             }
           ],
+          "sparkPct": -19,
           "onPoster": true,
           "forThreshold": false
         }
@@ -1257,9 +1294,19 @@
         "unit": "원/4.5kg",
         "price": 14054,
         "band": {
+          "criticalDown": 7290,
+          "alertDown": 10043,
           "cautionDown": 12796,
+          "stable": 15995,
           "cautionUp": 19296,
-          "stable": 15995
+          "alertUp": 22596,
+          "criticalUp": 25897
+        },
+        "prevStage": {
+          "date": "2026-09-10",
+          "stage": "STABLE",
+          "label": "안정",
+          "price": 14054
         },
         "reportStage": null,
         "offSeason": false
@@ -1449,6 +1496,7 @@
               "price": 24862
             }
           ],
+          "sparkPct": -11.2,
           "onPoster": true,
           "forThreshold": false
         }
@@ -1479,11 +1527,12 @@
         "label": "비시즌",
         "deviationPct": null,
         "basis": "BAND",
-        "basisLabel": "안정대(5kg) 기준",
+        "basisLabel": "",
         "thresholdId": null,
         "unit": null,
         "price": 27404,
         "band": null,
+        "prevStage": null,
         "reportStage": null,
         "offSeason": true
       }
@@ -1667,6 +1716,7 @@
               "price": 21179
             }
           ],
+          "sparkPct": 7.8,
           "onPoster": true,
           "forThreshold": false
         },
@@ -1732,6 +1782,7 @@
               "price": 30559.33147632312
             }
           ],
+          "sparkPct": -8.1,
           "onPoster": true,
           "forThreshold": false
         },
@@ -1885,6 +1936,7 @@
               "price": 66744
             }
           ],
+          "sparkPct": null,
           "onPoster": false,
           "forThreshold": false
         }
@@ -1909,11 +1961,12 @@
         "label": "비시즌",
         "deviationPct": null,
         "basis": "BAND",
-        "basisLabel": "안정대(5kg) 기준",
+        "basisLabel": "",
         "thresholdId": null,
         "unit": null,
         "price": 16792,
         "band": null,
+        "prevStage": null,
         "reportStage": null,
         "offSeason": true
       }
@@ -2008,6 +2061,7 @@
               "price": 18000
             }
           ],
+          "sparkPct": 9.1,
           "onPoster": true,
           "forThreshold": false
         },
@@ -2069,6 +2123,7 @@
               "price": 23000
             }
           ],
+          "sparkPct": 8.9,
           "onPoster": false,
           "forThreshold": false
         }
@@ -2086,12 +2141,13 @@
         "direction": null,
         "label": "—",
         "deviationPct": null,
-        "basis": "BAND",
-        "basisLabel": "안정대(10kg) 기준",
+        "basis": "NONE",
+        "basisLabel": "당일가 없음",
         "thresholdId": null,
         "unit": null,
-        "price": 18261,
+        "price": null,
         "band": null,
+        "prevStage": null,
         "reportStage": null,
         "offSeason": false
       }
@@ -2135,6 +2191,21 @@
       "tons": 1
     }
   ],
+  "headlines": [
+    "사과 홍로 10kg 52,897원(▲5.1%) 경계↑ 진입 · 전일 주의↑",
+    "배 신고 7.5kg 41,029원(▼4.2%) 안정 회복 · 전일 주의↑",
+    "포도 샤인머스캣 2kg 7,218원(▲0.3%) 경계↓ 지속 · 안정 대비 ▼52.7%"
+  ],
+  "chuseok": {
+    "thisYear": {
+      "chuseok": "2026-09-25",
+      "daysBefore": 14
+    },
+    "prevYear": {
+      "chuseok": "2025-10-06",
+      "daysBefore": 25
+    }
+  },
   "footnotes": [
     "가격은 가락시장 가격백분위 '상'(상위 5~40% 구간 평균, 공문 '상품기준')이며 단위는 실물 포장규격당 원. '평균가' 표기는 상품기준가 미수신으로 경매원표 전등급 평균을 쓴 값.",
     "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
