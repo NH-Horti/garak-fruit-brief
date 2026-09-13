@@ -1,0 +1,137 @@
+name: garak-fruit-brief (send)
+run-name: >-
+  send · ${{ github.event.client_payload.date || inputs.date }} · ${{ github.event.client_payload.freshness || inputs.freshness || 'FRESH' }}
+
+on:
+  repository_dispatch:
+    types: [brief-published]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '기준 거래일 (YYYY-MM-DD)'
+        required: true
+        type: string
+      token:
+        description: '경로 토큰 (docs/b/<date>-<token>)'
+        required: false
+        type: string
+      freshness:
+        description: 'FRESH | PARTIAL | STALE'
+        required: false
+        default: 'FRESH'
+        type: string
+      dry_run:
+        description: '템플릿만 출력, 전송 안 함'
+        required: false
+        default: false
+        type: boolean
+      force:
+        description: '영수증 무시하고 재전송'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: send-${{ github.event.client_payload.date || inputs.date }}
+  cancel-in-progress: false
+
+jobs:
+  send:
+    if: github.ref_name == 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Resolve inputs
+        id: vars
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "date=${{ github.event.client_payload.date || inputs.date }}" >> "$GITHUB_OUTPUT"
+          echo "token=${{ github.event.client_payload.token || inputs.token }}" >> "$GITHUB_OUTPUT"
+          echo "freshness=${{ github.event.client_payload.freshness || inputs.freshness || 'FRESH' }}" >> "$GITHUB_OUTPUT"
+          echo "reason=${{ github.event.client_payload.reason || '' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Send Kakao
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_STATUS_FILE: ${{ runner.temp }}/kakao-status.txt
+          KAKAO_REFRESH_TOKEN_OUT_FILE: ${{ runner.temp }}/kakao-refresh-token.txt
+        shell: bash
+        run: |
+          set -euo pipefail
+          extra=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then extra="$extra --dry-run"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then extra="$extra --force"; fi
+          python send_brief.py \
+            --date "${{ steps.vars.outputs.date }}" \
+            --token "${{ steps.vars.outputs.token }}" \
+            --freshness "${{ steps.vars.outputs.freshness }}" \
+            --reason "${{ steps.vars.outputs.reason }}" \
+            $extra
+
+      - name: Commit delivery receipt
+        if: always() && inputs.dry_run != true
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- docs/delivery && [ -z "$(git ls-files --others --exclude-standard docs/delivery)" ]; then
+            echo "No receipt changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/delivery
+          git commit -m "delivery receipt (${{ steps.vars.outputs.date }})"
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main || true
+          done
+          exit 1
+
+      - name: Summary
+        if: always()
+        shell: bash
+        run: |
+          status='not_attempted'
+          if [ -f "$RUNNER_TEMP/kakao-status.txt" ]; then status="$(tr -d '\r\n' < "$RUNNER_TEMP/kakao-status.txt")"; fi
+          renewed='false'
+          if [ -s "$RUNNER_TEMP/kakao-refresh-token.txt" ]; then renewed='true'; fi
+          {
+            echo '## garak-fruit-brief send'
+            echo "- Date: ${{ steps.vars.outputs.date }}"
+            echo "- Freshness: ${{ steps.vars.outputs.freshness }}"
+            echo "- Kakao: $status"
+            echo "- Refresh token renewed: $renewed"
+            echo "- Page: https://nh-horti.github.io/garak-fruit-brief/b/${{ steps.vars.outputs.date }}-${{ steps.vars.outputs.token }}/index.html"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$renewed" = 'true' ]; then
+            echo "::error::Kakao returned a renewed refresh token. Rotate KAKAO_REFRESH_TOKEN in BOTH repos (garak-fruit-brief, agri-news-brief) — see README."
+            exit 1
+          fi
+          if [ "$status" != 'success' ] && [ "$status" != 'already_delivered' ] && [ "${{ inputs.dry_run }}" != 'true' ]; then
+            echo "::error::Kakao delivery did not complete: $status"
+            exit 1
+          fi
