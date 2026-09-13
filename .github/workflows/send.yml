@@ -30,6 +30,11 @@ on:
         required: false
         default: false
         type: boolean
+      wait:
+        description: '발송 시각(SEND_AT_KST, 기본 07:00)까지 기다렸다 전송 (수동 실행 기본: 즉시)'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -42,7 +47,8 @@ jobs:
   send:
     if: github.ref_name == 'main'
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    # 05:07 게시 → 07:00 발송 대기까지 포함 (아래 "Wait until send time" 최대 3h 가드)
+    timeout-minutes: 210
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -71,6 +77,23 @@ jobs:
           echo "token=${{ github.event.client_payload.token || inputs.token }}" >> "$GITHUB_OUTPUT"
           echo "freshness=${{ github.event.client_payload.freshness || inputs.freshness || 'FRESH' }}" >> "$GITHUB_OUTPUT"
           echo "reason=${{ github.event.client_payload.reason || '' }}" >> "$GITHUB_OUTPUT"
+
+      # 발송 시각 대기 — Market Analysis 가 05:07 에 게시·dispatch 하지만 카톡은 SEND_AT_KST(레포 Variables, 기본 07:00) 에 보낸다.
+      #   이미 지난 시각이면(08:30 캐치업·수동 재발행) 즉시. 수동 실행은 inputs.wait=true 일 때만 대기.
+      - name: Wait until send time
+        if: github.event_name == 'repository_dispatch' || inputs.wait == true
+        shell: bash
+        run: |
+          set -euo pipefail
+          target="${{ vars.SEND_AT_KST || '07:00' }}"
+          today="$(TZ=Asia/Seoul date +%F)"
+          target_epoch="$(TZ=Asia/Seoul date -d "$today $target" +%s)"
+          now_epoch="$(date +%s)"
+          wait=$(( target_epoch - now_epoch ))
+          if [ "$wait" -le 0 ]; then echo "send time $today $target KST already passed — sending now"; exit 0; fi
+          if [ "$wait" -gt 10800 ]; then echo "::warning::wait ${wait}s > 3h — capping"; wait=10800; fi
+          echo "waiting ${wait}s until $today $target KST"
+          sleep "$wait"
 
       - name: Send Kakao
         env:

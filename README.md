@@ -36,6 +36,12 @@ GitHub Pages: Settings → Pages → Source `Deploy from a branch`, Branch `main
 - Actions → `garak-fruit-brief (send)` → Run workflow: `date`·`token`(Market Analysis `out/brief/garak-fruit/<date>/published.json` 의 token)·`dry_run` 으로 템플릿만 확인 가능.
 - 로컬: `pip install -r requirements.txt` → `python send_brief.py --date 2026-09-11 --token <token> --dry-run` (env 에 KAKAO_* 필요, dry-run 은 불필요).
 
+## 발송 시각
+
+Market Analysis 의 05:00 갱신이 끝나면(≈05:07) 게시·dispatch 되지만, 카톡은 **`SEND_AT_KST` 시각(기본 07:00)** 까지 워크플로가 기다렸다 보낸다.
+바꾸려면 Settings → Secrets and variables → Actions → **Variables** 에 `SEND_AT_KST` = `HH:MM` 추가/수정 (코드 수정 불필요).
+이미 지난 시각에 dispatch 되면(08:30 캐치업·수동 재발행) 즉시 발송. 수동 Run workflow 는 `wait` 체크 시에만 대기.
+
 ## 신선도별 동작
 
 | freshness | 발송 |
