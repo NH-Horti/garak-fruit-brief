@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T14:05:13.589Z",
+  "generatedAt": "2026-09-13T14:13:02.628Z",
   "targetDate": "2026-09-11",
   "weekday": "금",
   "sentOn": "2026-09-13",
@@ -1313,235 +1313,10 @@
       }
     },
     {
-      "itemCode": "plum",
-      "nameKo": "자두",
-      "iconDataUri": null,
-      "rank": 5,
-      "onPoster": true,
-      "tradeValue": 210099014,
-      "defaultBoxKg": 5,
-      "offSeason": true,
-      "variety": {
-        "code": "chuhui",
-        "nameKo": "추희",
-        "share": 0.977,
-        "sangLaneFound": true
-      },
-      "volume": {
-        "tons": 64,
-        "vsPrev": {
-          "date": "2026-09-10",
-          "value": 72,
-          "pct": -11.1
-        },
-        "vsYoy": {
-          "date": "2025-09-11",
-          "value": 35,
-          "pct": 82.9
-        }
-      },
-      "units": [
-        {
-          "unitTag": "5kg",
-          "unitLabel": "5kg",
-          "kg": 5,
-          "isRep": true,
-          "qtyUnits": 12608,
-          "tons": 63,
-          "kgShare": 0.996,
-          "sang": {
-            "date": "2026-09-11",
-            "price": 24862,
-            "key": "GARAK_SANG#V_chuhui",
-            "source": "SANG"
-          },
-          "perKg": 4972,
-          "grades": {
-            "SPECIAL": {
-              "price": 38924,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 38161,
-                "pct": 2
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 46843,
-                "pct": -16.9
-              },
-              "vs3y": {
-                "date": null,
-                "value": 44251,
-                "pct": -12,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "HIGH": {
-              "price": 24862,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 25373,
-                "pct": -2
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 36532,
-                "pct": -31.9
-              },
-              "vs3y": {
-                "date": null,
-                "value": 31730,
-                "pct": -21.6,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "MID": {
-              "price": 13475,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 15261,
-                "pct": -11.7
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 26765,
-                "pct": -49.7
-              },
-              "vs3y": {
-                "date": null,
-                "value": 21824,
-                "pct": -38.3,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "LOW": {
-              "price": 5255,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 7427,
-                "pct": -29.2
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 16754,
-                "pct": -68.6
-              },
-              "vs3y": {
-                "date": null,
-                "value": 12638,
-                "pct": -58.4,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            }
-          },
-          "vsPrev": {
-            "date": "2026-09-10",
-            "value": 25373,
-            "pct": -2
-          },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 36532,
-            "pct": -31.9
-          },
-          "vs3y": {
-            "date": null,
-            "value": 31730,
-            "pct": -21.6,
-            "years": [
-              2025,
-              2024,
-              2023
-            ]
-          },
-          "spark": [
-            {
-              "date": "2026-09-05",
-              "price": 28012
-            },
-            {
-              "date": "2026-09-07",
-              "price": 28115
-            },
-            {
-              "date": "2026-09-08",
-              "price": 26846
-            },
-            {
-              "date": "2026-09-09",
-              "price": 24569
-            },
-            {
-              "date": "2026-09-10",
-              "price": 25373
-            },
-            {
-              "date": "2026-09-11",
-              "price": 24862
-            }
-          ],
-          "sparkPct": -11.2,
-          "onPoster": true,
-          "forThreshold": false
-        }
-      ],
-      "varieties": [
-        {
-          "code": "chuhui",
-          "nameKo": "추희",
-          "share": 0.977,
-          "sang": 24862
-        },
-        {
-          "code": "첼시",
-          "nameKo": "첼시",
-          "share": 0.012,
-          "sang": null
-        },
-        {
-          "code": "dodam",
-          "nameKo": "도담",
-          "share": 0.009,
-          "sang": 19587
-        }
-      ],
-      "crisis": {
-        "stage": "UNKNOWN",
-        "direction": null,
-        "label": "비시즌",
-        "deviationPct": null,
-        "basis": "BAND",
-        "basisLabel": "",
-        "thresholdId": null,
-        "unit": null,
-        "price": 27404,
-        "band": null,
-        "prevStage": null,
-        "reportStage": null,
-        "offSeason": true
-      }
-    },
-    {
       "itemCode": "citrus",
       "nameKo": "감귤",
       "iconDataUri": null,
-      "rank": 6,
+      "rank": 5,
       "onPoster": true,
       "tradeValue": 188295063,
       "defaultBoxKg": 5,
@@ -1972,49 +1747,49 @@
       }
     },
     {
-      "itemCode": "chestnut",
-      "nameKo": "밤",
+      "itemCode": "sweet-persimmon",
+      "nameKo": "단감",
       "iconDataUri": null,
-      "rank": 7,
-      "onPoster": false,
-      "tradeValue": 931296,
+      "rank": 6,
+      "onPoster": true,
+      "tradeValue": 13132264,
       "defaultBoxKg": 10,
-      "offSeason": false,
+      "offSeason": true,
       "variety": {
-        "code": "default",
-        "nameKo": "일반",
-        "share": 0.288,
-        "sangLaneFound": false
+        "code": "태추",
+        "nameKo": "태추",
+        "share": 0.635,
+        "sangLaneFound": true
       },
       "volume": {
-        "tons": 1,
+        "tons": 3,
         "vsPrev": {
           "date": "2026-09-10",
           "value": 0,
           "pct": null
         },
         "vsYoy": {
-          "date": "2025-09-12",
+          "date": "2025-09-11",
           "value": 0,
           "pct": null
         }
       },
       "units": [
         {
-          "unitTag": "10kg",
-          "unitLabel": "10kg",
-          "kg": 10,
-          "isRep": true,
-          "qtyUnits": 44,
-          "tons": 0.4,
-          "kgShare": 0.932,
+          "unitTag": "4.5kg",
+          "unitLabel": "4.5kg",
+          "kg": 4.5,
+          "isRep": false,
+          "qtyUnits": 185,
+          "tons": 0.8,
+          "kgShare": 0.481,
           "sang": {
             "date": "2026-09-11",
-            "price": 18000,
-            "key": "GARAK#U_10kg",
+            "price": 28400,
+            "key": "GARAK#U_4.5kg#V_태추",
             "source": "DATA12_AVG"
           },
-          "perKg": 1800,
+          "perKg": 6311,
           "grades": {},
           "vsPrev": {
             "date": "2026-09-10",
@@ -2022,14 +1797,14 @@
             "pct": null
           },
           "vsYoy": {
-            "date": "2025-09-12",
+            "date": "2025-09-11",
             "value": null,
             "pct": null
           },
           "vs3y": {
             "date": null,
-            "value": 29000,
-            "pct": -37.9,
+            "value": 26239,
+            "pct": 8.2,
             "years": [
               2024,
               2023
@@ -2037,20 +1812,20 @@
           },
           "spark": [
             {
-              "date": "2025-09-12",
-              "price": null
-            },
-            {
-              "date": "2026-09-01",
-              "price": null
-            },
-            {
               "date": "2026-09-03",
               "price": null
             },
             {
+              "date": "2026-09-05",
+              "price": null
+            },
+            {
+              "date": "2026-09-07",
+              "price": 24421.875
+            },
+            {
               "date": "2026-09-09",
-              "price": 16500
+              "price": 27653.846153846152
             },
             {
               "date": "2026-09-10",
@@ -2058,98 +1833,177 @@
             },
             {
               "date": "2026-09-11",
-              "price": 18000
+              "price": 28400
             }
           ],
-          "sparkPct": 9.1,
+          "sparkPct": 16.3,
           "onPoster": true,
           "forThreshold": false
         },
         {
-          "unitTag": "8kg",
-          "unitLabel": "8kg",
-          "kg": 8,
+          "unitTag": "2.5kg",
+          "unitLabel": "2.5kg",
+          "kg": 2.5,
           "isRep": false,
-          "qtyUnits": 4,
-          "tons": 0,
-          "kgShare": 0.068,
+          "qtyUnits": 222,
+          "tons": 0.6,
+          "kgShare": 0.32,
           "sang": {
             "date": "2026-09-11",
-            "price": 23000,
-            "key": "GARAK#U_8kg",
+            "price": 22004.504504504504,
+            "key": "GARAK#U_2.5kg#V_태추",
             "source": "DATA12_AVG"
           },
-          "perKg": 2875,
+          "perKg": 8802,
           "grades": {},
           "vsPrev": {
             "date": "2026-09-10",
-            "value": 21111.11111111111,
-            "pct": 8.9
+            "value": null,
+            "pct": null
           },
           "vsYoy": {
-            "date": "2025-09-12",
+            "date": "2025-09-11",
             "value": null,
             "pct": null
           },
           "vs3y": {
             "date": null,
-            "value": null,
-            "pct": null,
-            "years": []
+            "value": 17116,
+            "pct": 28.6,
+            "years": [
+              2024
+            ]
           },
           "spark": [
-            {
-              "date": "2025-09-12",
-              "price": null
-            },
-            {
-              "date": "2026-09-01",
-              "price": null
-            },
             {
               "date": "2026-09-03",
               "price": null
             },
             {
+              "date": "2026-09-05",
+              "price": 16370.37037037037
+            },
+            {
+              "date": "2026-09-07",
+              "price": 17078.947368421053
+            },
+            {
               "date": "2026-09-09",
-              "price": null
+              "price": 16450
             },
             {
               "date": "2026-09-10",
-              "price": 21111.11111111111
+              "price": null
             },
             {
               "date": "2026-09-11",
-              "price": 23000
+              "price": 22004.504504504504
             }
           ],
-          "sparkPct": 8.9,
+          "sparkPct": 34.4,
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "5kg",
+          "unitLabel": "5kg",
+          "kg": 5,
+          "isRep": false,
+          "qtyUnits": 69,
+          "tons": 0.3,
+          "kgShare": 0.199,
+          "sang": {
+            "date": "2026-09-11",
+            "price": 19710.144927536232,
+            "key": "GARAK#U_5kg#V_태추",
+            "source": "DATA12_AVG"
+          },
+          "perKg": 3942,
+          "grades": {},
+          "vsPrev": {
+            "date": "2026-09-10",
+            "value": null,
+            "pct": null
+          },
+          "vsYoy": {
+            "date": "2025-09-11",
+            "value": 23901.960784313724,
+            "pct": -17.5
+          },
+          "vs3y": {
+            "date": null,
+            "value": 27085,
+            "pct": -27.2,
+            "years": [
+              2025,
+              2024
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-09-03",
+              "price": null
+            },
+            {
+              "date": "2026-09-05",
+              "price": null
+            },
+            {
+              "date": "2026-09-07",
+              "price": 20744.68085106383
+            },
+            {
+              "date": "2026-09-09",
+              "price": 23264.150943396227
+            },
+            {
+              "date": "2026-09-10",
+              "price": null
+            },
+            {
+              "date": "2026-09-11",
+              "price": 19710.144927536232
+            }
+          ],
+          "sparkPct": -5,
           "onPoster": false,
           "forThreshold": false
         }
       ],
       "varieties": [
         {
-          "code": "default",
-          "nameKo": "일반",
-          "share": 0.288,
+          "code": "태추",
+          "nameKo": "태추",
+          "share": 0.635,
+          "sang": 67182
+        },
+        {
+          "code": "seochon",
+          "nameKo": "서촌",
+          "share": 0.312,
+          "sang": 23120
+        },
+        {
+          "code": "조추",
+          "nameKo": "조추",
+          "share": 0.051,
           "sang": null
         }
       ],
       "crisis": {
         "stage": "UNKNOWN",
         "direction": null,
-        "label": "—",
+        "label": "비시즌",
         "deviationPct": null,
-        "basis": "NONE",
-        "basisLabel": "당일가 없음",
+        "basis": "BAND",
+        "basisLabel": "",
         "thresholdId": null,
         "unit": null,
-        "price": null,
+        "price": 23120,
         "band": null,
         "prevStage": null,
         "reportStage": null,
-        "offSeason": false
+        "offSeason": true
       }
     }
   ],
@@ -2159,12 +2013,6 @@
       "nameKo": "감/곶감",
       "reason": "OFF_SEASON",
       "tons": 0
-    },
-    {
-      "itemCode": "sweet-persimmon",
-      "nameKo": "단감",
-      "reason": "OFF_SEASON",
-      "tons": 3
     },
     {
       "itemCode": "japanese-apricot",
@@ -2187,8 +2035,14 @@
     {
       "itemCode": "chestnut",
       "nameKo": "밤",
-      "reason": "POSTER_CAP",
-      "tons": 1
+      "reason": "EXCLUDED",
+      "tons": null
+    },
+    {
+      "itemCode": "plum",
+      "nameKo": "자두",
+      "reason": "EXCLUDED",
+      "tons": null
     }
   ],
   "headlines": [
