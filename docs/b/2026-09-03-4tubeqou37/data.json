@@ -1,0 +1,6498 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T06:55:38.320Z",
+  "targetDate": "2026-09-03",
+  "weekday": "목",
+  "sentOn": "2026-09-14",
+  "freshness": "FRESH",
+  "items": [
+    {
+      "itemCode": "apple",
+      "nameKo": "사과",
+      "iconDataUri": null,
+      "rank": 1,
+      "onPoster": true,
+      "tradeValue": 1089194474,
+      "defaultBoxKg": 10,
+      "offSeason": false,
+      "variety": {
+        "code": "hongro",
+        "nameKo": "홍로",
+        "share": 0.917,
+        "sangLaneFound": true
+      },
+      "volume": {
+        "tons": 203,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 132,
+          "pct": 53.8
+        }
+      },
+      "units": [
+        {
+          "unitTag": "10kg",
+          "unitLabel": "10kg",
+          "kg": 10,
+          "isRep": true,
+          "isAnchor": true,
+          "qtyUnits": 19144,
+          "tons": 191.4,
+          "kgShare": 0.98,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 65746,
+            "key": "GARAK_SANG#V_hongro",
+            "source": "SANG"
+          },
+          "perKg": 6575,
+          "grades": {
+            "SPECIAL": {
+              "price": 132259,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 155683,
+                "pct": -15
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 106522,
+                "pct": 24.2
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 108985,
+                "pct": 21.4
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 85949,
+                "pct": 53.9,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 65746,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 71282,
+                "pct": -7.8
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 71389,
+                "pct": -7.9
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 64856,
+                "pct": 1.4
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 48311,
+                "pct": 36.1,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              }
+            },
+            "MID": {
+              "price": 47122,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 51423,
+                "pct": -8.4
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 48860,
+                "pct": -3.6
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 43606,
+                "pct": 8.1
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 31500,
+                "pct": 49.6,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            },
+            "LOW": {
+              "price": 31040,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 33112,
+                "pct": -6.3
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 29605,
+                "pct": 4.8
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 25284,
+                "pct": 22.8
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 17871,
+                "pct": 73.7,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 71282,
+            "pct": -7.8
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 71389,
+            "pct": -7.9
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 64856,
+            "pct": 1.4
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 48311,
+            "pct": 36.1,
+            "years": [
+              2025,
+              2024,
+              2021
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 60093
+            },
+            {
+              "date": "2026-08-29",
+              "price": 59189
+            },
+            {
+              "date": "2026-08-31",
+              "price": 61410
+            },
+            {
+              "date": "2026-09-01",
+              "price": 65315
+            },
+            {
+              "date": "2026-09-02",
+              "price": 71282
+            },
+            {
+              "date": "2026-09-03",
+              "price": 65746
+            }
+          ],
+          "sparkPct": 9.4,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 64944
+            },
+            {
+              "date": "2026-08-06",
+              "price": 58000
+            },
+            {
+              "date": "2026-08-07",
+              "price": 58876
+            },
+            {
+              "date": "2026-08-08",
+              "price": 52763
+            },
+            {
+              "date": "2026-08-10",
+              "price": 62928
+            },
+            {
+              "date": "2026-08-11",
+              "price": 100333
+            },
+            {
+              "date": "2026-08-12",
+              "price": 83765
+            },
+            {
+              "date": "2026-08-13",
+              "price": 82719
+            },
+            {
+              "date": "2026-08-14",
+              "price": 72931
+            },
+            {
+              "date": "2026-08-15",
+              "price": 92719
+            },
+            {
+              "date": "2026-08-17",
+              "price": 73440
+            },
+            {
+              "date": "2026-08-18",
+              "price": 74020
+            },
+            {
+              "date": "2026-08-19",
+              "price": 85136
+            },
+            {
+              "date": "2026-08-20",
+              "price": 81168
+            },
+            {
+              "date": "2026-08-21",
+              "price": 85215
+            },
+            {
+              "date": "2026-08-22",
+              "price": 72000
+            },
+            {
+              "date": "2026-08-24",
+              "price": 68155
+            },
+            {
+              "date": "2026-08-25",
+              "price": 66282
+            },
+            {
+              "date": "2026-08-26",
+              "price": 65582
+            },
+            {
+              "date": "2026-08-27",
+              "price": 60274
+            },
+            {
+              "date": "2026-08-28",
+              "price": 60093
+            },
+            {
+              "date": "2026-08-29",
+              "price": 59189
+            },
+            {
+              "date": "2026-08-31",
+              "price": 61410
+            },
+            {
+              "date": "2026-09-01",
+              "price": 65315
+            },
+            {
+              "date": "2026-09-02",
+              "price": 71282
+            },
+            {
+              "date": "2026-09-03",
+              "price": 65746
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 81000
+              },
+              {
+                "date": "2026-08-06",
+                "price": 73280
+              },
+              {
+                "date": "2026-08-07",
+                "price": 107243
+              },
+              {
+                "date": "2026-08-08",
+                "price": 63146
+              },
+              {
+                "date": "2026-08-10",
+                "price": 87295
+              },
+              {
+                "date": "2026-08-11",
+                "price": 94143
+              },
+              {
+                "date": "2026-08-12",
+                "price": 101441
+              },
+              {
+                "date": "2026-08-13",
+                "price": 101786
+              },
+              {
+                "date": "2026-08-14",
+                "price": 91535
+              },
+              {
+                "date": "2026-08-15",
+                "price": 103535
+              },
+              {
+                "date": "2026-08-17",
+                "price": 112106
+              },
+              {
+                "date": "2026-08-18",
+                "price": 91024
+              },
+              {
+                "date": "2026-08-19",
+                "price": 88518
+              },
+              {
+                "date": "2026-08-20",
+                "price": 83635
+              },
+              {
+                "date": "2026-08-21",
+                "price": 76556
+              },
+              {
+                "date": "2026-08-22",
+                "price": 74413
+              },
+              {
+                "date": "2026-08-24",
+                "price": 71220
+              },
+              {
+                "date": "2026-08-25",
+                "price": 79158
+              },
+              {
+                "date": "2026-08-26",
+                "price": 77126
+              },
+              {
+                "date": "2026-08-27",
+                "price": 79586
+              },
+              {
+                "date": "2026-08-28",
+                "price": 74753
+              },
+              {
+                "date": "2026-08-29",
+                "price": 72196
+              },
+              {
+                "date": "2026-08-31",
+                "price": 71211
+              },
+              {
+                "date": "2026-09-01",
+                "price": 68052
+              },
+              {
+                "date": "2026-09-02",
+                "price": 67166
+              },
+              {
+                "date": "2026-09-03",
+                "price": 67782
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 70468
+              },
+              {
+                "date": "2026-08-06",
+                "price": 77697
+              },
+              {
+                "date": "2026-08-07",
+                "price": 59005
+              },
+              {
+                "date": "2026-08-08",
+                "price": 64358
+              },
+              {
+                "date": "2026-08-10",
+                "price": 72346
+              },
+              {
+                "date": "2026-08-11",
+                "price": 75650
+              },
+              {
+                "date": "2026-08-12",
+                "price": 75064
+              },
+              {
+                "date": "2026-08-13",
+                "price": 72423
+              },
+              {
+                "date": "2026-08-14",
+                "price": 73119
+              },
+              {
+                "date": "2026-08-15",
+                "price": 67488
+              },
+              {
+                "date": "2026-08-17",
+                "price": 65383
+              },
+              {
+                "date": "2026-08-18",
+                "price": 66530
+              },
+              {
+                "date": "2026-08-19",
+                "price": 67198
+              },
+              {
+                "date": "2026-08-20",
+                "price": 69124
+              },
+              {
+                "date": "2026-08-21",
+                "price": 65289
+              },
+              {
+                "date": "2026-08-22",
+                "price": 64306
+              },
+              {
+                "date": "2026-08-24",
+                "price": 64702
+              },
+              {
+                "date": "2026-08-25",
+                "price": 66688
+              },
+              {
+                "date": "2026-08-26",
+                "price": 67744
+              },
+              {
+                "date": "2026-08-27",
+                "price": 66431
+              },
+              {
+                "date": "2026-08-28",
+                "price": 63408
+              },
+              {
+                "date": "2026-08-29",
+                "price": 61511
+              },
+              {
+                "date": "2026-08-31",
+                "price": 58328
+              },
+              {
+                "date": "2026-09-01",
+                "price": 56795
+              },
+              {
+                "date": "2026-09-02",
+                "price": 57193
+              },
+              {
+                "date": "2026-09-03",
+                "price": 55906
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        }
+      ],
+      "varieties": [
+        {
+          "code": "hongro",
+          "nameKo": "홍로",
+          "share": 0.917,
+          "sang": 65746
+        },
+        {
+          "code": "arisu",
+          "nameKo": "아리수",
+          "share": 0.028,
+          "sang": 69731
+        },
+        {
+          "code": "aori",
+          "nameKo": "아오리",
+          "share": 0.014,
+          "sang": null
+        },
+        {
+          "code": "애기사과",
+          "nameKo": "애기사과",
+          "share": 0.009,
+          "sang": null
+        },
+        {
+          "code": "골든볼",
+          "nameKo": "골든볼",
+          "share": 0.006,
+          "sang": null
+        }
+      ],
+      "crisis": {
+        "stage": "STABLE",
+        "direction": "FLAT",
+        "label": "안정",
+        "deviationPct": 37,
+        "basis": "VARIETY",
+        "basisLabel": "홍로 10kg 상 기준",
+        "thresholdId": 763,
+        "unit": "원/10kg",
+        "price": 65746,
+        "band": {
+          "criticalDown": 26001,
+          "alertDown": 33335,
+          "cautionDown": 40670,
+          "stable": 48004,
+          "cautionUp": 66651,
+          "alertUp": 85297,
+          "criticalUp": 103944
+        },
+        "prevStage": {
+          "date": "2026-09-02",
+          "stage": "CAUTION",
+          "label": "주의 ↑",
+          "price": 71282
+        },
+        "reportStage": {
+          "stage": "STABLE",
+          "label": "안정",
+          "price": 51133,
+          "basisLabel": "공문 대표(부사 10kg) 기준"
+        },
+        "offSeason": false,
+        "local": null
+      },
+      "retail": {
+        "kindCode": "07",
+        "varietyCode": "hongro",
+        "varietyLabel": "홍로",
+        "matchesWholesaleVariety": true,
+        "unit": "10개",
+        "unitKg": null,
+        "gradeLabel": "상품",
+        "key": "RETAIL_EA#V_07@HIGH",
+        "date": "2026-09-03",
+        "lagDays": 0,
+        "price": 22832,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 24562,
+          "pct": -7
+        },
+        "vsPrevMonth": {
+          "date": "2026-08",
+          "value": 27989,
+          "pct": -18.4
+        },
+        "vsYoy": {
+          "date": "2025-09",
+          "value": 27868,
+          "pct": -18.1
+        },
+        "vsNormal": {
+          "date": null,
+          "value": 27049,
+          "pct": -15.6,
+          "years": [
+            2025,
+            2022,
+            2021
+          ]
+        },
+        "spark": [
+          {
+            "date": "2026-08-27",
+            "price": 25345
+          },
+          {
+            "date": "2026-08-28",
+            "price": 24819
+          },
+          {
+            "date": "2026-08-31",
+            "price": 24709
+          },
+          {
+            "date": "2026-09-01",
+            "price": 24774
+          },
+          {
+            "date": "2026-09-02",
+            "price": 24562
+          },
+          {
+            "date": "2026-09-03",
+            "price": 22832
+          }
+        ],
+        "trend30": [
+          {
+            "date": "2026-08-19",
+            "price": 30338
+          },
+          {
+            "date": "2026-08-20",
+            "price": 30126
+          },
+          {
+            "date": "2026-08-21",
+            "price": 29324
+          },
+          {
+            "date": "2026-08-24",
+            "price": 29165
+          },
+          {
+            "date": "2026-08-25",
+            "price": 28756
+          },
+          {
+            "date": "2026-08-26",
+            "price": 29318
+          },
+          {
+            "date": "2026-08-27",
+            "price": 25345
+          },
+          {
+            "date": "2026-08-28",
+            "price": 24819
+          },
+          {
+            "date": "2026-08-31",
+            "price": 24709
+          },
+          {
+            "date": "2026-09-01",
+            "price": 24774
+          },
+          {
+            "date": "2026-09-02",
+            "price": 24562
+          },
+          {
+            "date": "2026-09-03",
+            "price": 22832
+          }
+        ],
+        "trend30Ref": {
+          "yoy": [
+            {
+              "date": "2026-08-19",
+              "price": 34406
+            },
+            {
+              "date": "2026-08-20",
+              "price": 34872
+            },
+            {
+              "date": "2026-08-21",
+              "price": 33514
+            },
+            {
+              "date": "2026-08-24",
+              "price": 33820
+            },
+            {
+              "date": "2026-08-25",
+              "price": 33820
+            },
+            {
+              "date": "2026-08-26",
+              "price": 34012
+            },
+            {
+              "date": "2026-08-27",
+              "price": 33521
+            },
+            {
+              "date": "2026-08-28",
+              "price": 33568
+            },
+            {
+              "date": "2026-08-31",
+              "price": 33591
+            },
+            {
+              "date": "2026-09-01",
+              "price": 33591
+            },
+            {
+              "date": "2026-09-02",
+              "price": 33285
+            },
+            {
+              "date": "2026-09-03",
+              "price": 33088
+            }
+          ],
+          "normal": [
+            {
+              "date": "2026-08-19",
+              "price": 32240
+            },
+            {
+              "date": "2026-08-20",
+              "price": 32644
+            },
+            {
+              "date": "2026-08-21",
+              "price": 32450
+            },
+            {
+              "date": "2026-08-24",
+              "price": 31278
+            },
+            {
+              "date": "2026-08-25",
+              "price": 31235
+            },
+            {
+              "date": "2026-08-26",
+              "price": 30737
+            },
+            {
+              "date": "2026-08-27",
+              "price": 30567
+            },
+            {
+              "date": "2026-08-28",
+              "price": 30317
+            },
+            {
+              "date": "2026-08-31",
+              "price": 28922
+            },
+            {
+              "date": "2026-09-01",
+              "price": 29450
+            },
+            {
+              "date": "2026-09-02",
+              "price": 28456
+            },
+            {
+              "date": "2026-09-03",
+              "price": 28201
+            }
+          ]
+        },
+        "grades": {
+          "HIGH": {
+            "label": "상품",
+            "date": "2026-09-03",
+            "price": 22832,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 24562,
+              "pct": -7
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 27989,
+              "pct": -18.4
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 27868,
+              "pct": -18.1
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 27049,
+              "pct": -15.6,
+              "years": [
+                2025,
+                2022,
+                2021
+              ]
+            }
+          },
+          "MID": {
+            "label": "중품",
+            "date": "2026-09-03",
+            "price": 16786,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 17839,
+              "pct": -5.9
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 21964,
+              "pct": -23.6
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 20174,
+              "pct": -16.8
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 19066,
+              "pct": -12,
+              "years": [
+                2025,
+                2024,
+                2022
+              ]
+            }
+          }
+        },
+        "passThrough": {
+          "prevMonth": 2.33,
+          "yoy": null,
+          "wholesalePrevMonthPct": -7.9,
+          "wholesaleYoyPct": 1.4,
+          "wholesaleUnit": "10kg"
+        },
+        "ratioToWholesale": null
+      }
+    },
+    {
+      "itemCode": "pear",
+      "nameKo": "배",
+      "iconDataUri": null,
+      "rank": 2,
+      "onPoster": true,
+      "tradeValue": 202860489,
+      "defaultBoxKg": 15,
+      "offSeason": false,
+      "variety": {
+        "code": "wonhwang",
+        "nameKo": "원황",
+        "share": 0.362,
+        "sangLaneFound": true
+      },
+      "volume": {
+        "tons": 70,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 64,
+          "pct": 9.4
+        }
+      },
+      "units": [
+        {
+          "unitTag": "15kg",
+          "unitLabel": "15kg",
+          "kg": 15,
+          "isRep": true,
+          "isAnchor": true,
+          "qtyUnits": 686,
+          "tons": 10.3,
+          "kgShare": 1,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 36417,
+            "key": "GARAK_SANG#V_wonhwang",
+            "source": "SANG"
+          },
+          "perKg": 2428,
+          "grades": {
+            "SPECIAL": {
+              "price": 39636,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 49985,
+                "pct": -20.7
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 68888,
+                "pct": -42.5
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 49916,
+                "pct": -20.6
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 44990,
+                "pct": -11.9,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 36417,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 36344,
+                "pct": 0.2
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 52691,
+                "pct": -30.9
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 40015,
+                "pct": -9
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 37228,
+                "pct": -2.2,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              }
+            },
+            "MID": {
+              "price": 29732,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 23995,
+                "pct": 23.9
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 40063,
+                "pct": -25.8
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 29329,
+                "pct": 1.4
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 27302,
+                "pct": 8.9,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              }
+            },
+            "LOW": {
+              "price": 19485,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 10187,
+                "pct": 91.3
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 27027,
+                "pct": -27.9
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 16351,
+                "pct": 19.2
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 16163,
+                "pct": 20.6,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 36344,
+            "pct": 0.2
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 52691,
+            "pct": -30.9
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 40015,
+            "pct": -9
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 37228,
+            "pct": -2.2,
+            "years": [
+              2025,
+              2024,
+              2021
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 33559
+            },
+            {
+              "date": "2026-08-29",
+              "price": 35775
+            },
+            {
+              "date": "2026-08-31",
+              "price": 34420
+            },
+            {
+              "date": "2026-09-01",
+              "price": 36687
+            },
+            {
+              "date": "2026-09-02",
+              "price": 36344
+            },
+            {
+              "date": "2026-09-03",
+              "price": 36417
+            }
+          ],
+          "sparkPct": 8.5,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 69389
+            },
+            {
+              "date": "2026-08-06",
+              "price": 69466
+            },
+            {
+              "date": "2026-08-07",
+              "price": 70132
+            },
+            {
+              "date": "2026-08-08",
+              "price": 68822
+            },
+            {
+              "date": "2026-08-10",
+              "price": 66135
+            },
+            {
+              "date": "2026-08-11",
+              "price": 62648
+            },
+            {
+              "date": "2026-08-12",
+              "price": 64660
+            },
+            {
+              "date": "2026-08-13",
+              "price": 60799
+            },
+            {
+              "date": "2026-08-14",
+              "price": 53763
+            },
+            {
+              "date": "2026-08-15",
+              "price": 55576
+            },
+            {
+              "date": "2026-08-17",
+              "price": 55212
+            },
+            {
+              "date": "2026-08-18",
+              "price": 48559
+            },
+            {
+              "date": "2026-08-19",
+              "price": 48452
+            },
+            {
+              "date": "2026-08-20",
+              "price": 50120
+            },
+            {
+              "date": "2026-08-21",
+              "price": 44889
+            },
+            {
+              "date": "2026-08-22",
+              "price": 45815
+            },
+            {
+              "date": "2026-08-24",
+              "price": 45494
+            },
+            {
+              "date": "2026-08-25",
+              "price": 36795
+            },
+            {
+              "date": "2026-08-26",
+              "price": 36365
+            },
+            {
+              "date": "2026-08-27",
+              "price": 34112
+            },
+            {
+              "date": "2026-08-28",
+              "price": 33559
+            },
+            {
+              "date": "2026-08-29",
+              "price": 35775
+            },
+            {
+              "date": "2026-08-31",
+              "price": 34420
+            },
+            {
+              "date": "2026-09-01",
+              "price": 36687
+            },
+            {
+              "date": "2026-09-02",
+              "price": 36344
+            },
+            {
+              "date": "2026-09-03",
+              "price": 36417
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 50167
+              },
+              {
+                "date": "2026-08-06",
+                "price": 50167
+              },
+              {
+                "date": "2026-08-07",
+                "price": 50167
+              },
+              {
+                "date": "2026-08-08",
+                "price": 50167
+              },
+              {
+                "date": "2026-08-10",
+                "price": 47772
+              },
+              {
+                "date": "2026-08-11",
+                "price": 52634
+              },
+              {
+                "date": "2026-08-12",
+                "price": 51183
+              },
+              {
+                "date": "2026-08-13",
+                "price": 56323
+              },
+              {
+                "date": "2026-08-14",
+                "price": 39047
+              },
+              {
+                "date": "2026-08-15",
+                "price": 54691
+              },
+              {
+                "date": "2026-08-17",
+                "price": 43982
+              },
+              {
+                "date": "2026-08-18",
+                "price": 53649
+              },
+              {
+                "date": "2026-08-19",
+                "price": 54405
+              },
+              {
+                "date": "2026-08-20",
+                "price": 58033
+              },
+              {
+                "date": "2026-08-21",
+                "price": 52660
+              },
+              {
+                "date": "2026-08-22",
+                "price": 52167
+              },
+              {
+                "date": "2026-08-24",
+                "price": 57461
+              },
+              {
+                "date": "2026-08-25",
+                "price": 46771
+              },
+              {
+                "date": "2026-08-26",
+                "price": 45604
+              },
+              {
+                "date": "2026-08-27",
+                "price": 44181
+              },
+              {
+                "date": "2026-08-28",
+                "price": 44428
+              },
+              {
+                "date": "2026-08-29",
+                "price": 40636
+              },
+              {
+                "date": "2026-08-31",
+                "price": 38468
+              },
+              {
+                "date": "2026-09-01",
+                "price": 43624
+              },
+              {
+                "date": "2026-09-02",
+                "price": 41339
+              },
+              {
+                "date": "2026-09-03",
+                "price": 47768
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 60428
+              },
+              {
+                "date": "2026-08-06",
+                "price": 58113
+              },
+              {
+                "date": "2026-08-07",
+                "price": 58494
+              },
+              {
+                "date": "2026-08-08",
+                "price": 56693
+              },
+              {
+                "date": "2026-08-10",
+                "price": 52510
+              },
+              {
+                "date": "2026-08-11",
+                "price": 53211
+              },
+              {
+                "date": "2026-08-12",
+                "price": 53750
+              },
+              {
+                "date": "2026-08-13",
+                "price": 57222
+              },
+              {
+                "date": "2026-08-14",
+                "price": 55996
+              },
+              {
+                "date": "2026-08-15",
+                "price": 55942
+              },
+              {
+                "date": "2026-08-17",
+                "price": 50944
+              },
+              {
+                "date": "2026-08-18",
+                "price": 53363
+              },
+              {
+                "date": "2026-08-19",
+                "price": 49533
+              },
+              {
+                "date": "2026-08-20",
+                "price": 48037
+              },
+              {
+                "date": "2026-08-21",
+                "price": 45328
+              },
+              {
+                "date": "2026-08-22",
+                "price": 44759
+              },
+              {
+                "date": "2026-08-24",
+                "price": 45165
+              },
+              {
+                "date": "2026-08-25",
+                "price": 45593
+              },
+              {
+                "date": "2026-08-26",
+                "price": 44668
+              },
+              {
+                "date": "2026-08-27",
+                "price": 41723
+              },
+              {
+                "date": "2026-08-28",
+                "price": 40536
+              },
+              {
+                "date": "2026-08-29",
+                "price": 38442
+              },
+              {
+                "date": "2026-08-31",
+                "price": 37966
+              },
+              {
+                "date": "2026-09-01",
+                "price": 40873
+              },
+              {
+                "date": "2026-09-02",
+                "price": 40185
+              },
+              {
+                "date": "2026-09-03",
+                "price": 41046
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        }
+      ],
+      "varieties": [
+        {
+          "code": "wonhwang",
+          "nameKo": "원황",
+          "share": 0.362,
+          "sang": 36417
+        },
+        {
+          "code": "hwasan",
+          "nameKo": "화산",
+          "share": 0.297,
+          "sang": 48345
+        },
+        {
+          "code": "shingo",
+          "nameKo": "신고",
+          "share": 0.155,
+          "sang": 57671
+        },
+        {
+          "code": "신화",
+          "nameKo": "신화",
+          "share": 0.133,
+          "sang": null
+        },
+        {
+          "code": "슈퍼골드",
+          "nameKo": "슈퍼골드",
+          "share": 0.009,
+          "sang": null
+        }
+      ],
+      "crisis": {
+        "stage": "STABLE",
+        "direction": "FLAT",
+        "label": "안정",
+        "deviationPct": 8,
+        "basis": "VARIETY",
+        "basisLabel": "원황 15kg 상 기준",
+        "thresholdId": 491,
+        "unit": "원/15kg",
+        "price": 36417,
+        "band": {
+          "criticalDown": 17804,
+          "alertDown": 22387,
+          "cautionDown": 26970,
+          "stable": 33712,
+          "cautionUp": 41439,
+          "alertUp": 49165,
+          "criticalUp": 56892
+        },
+        "prevStage": {
+          "date": "2026-09-02",
+          "stage": "STABLE",
+          "label": "안정",
+          "price": 36344
+        },
+        "reportStage": {
+          "stage": "ALERT",
+          "label": "경계 ↑",
+          "price": 57671,
+          "basisLabel": "공문 대표(신고 15kg) 기준"
+        },
+        "offSeason": false,
+        "local": null
+      },
+      "retail": {
+        "kindCode": "04",
+        "varietyCode": "wonhwang",
+        "varietyLabel": "원황",
+        "matchesWholesaleVariety": true,
+        "unit": "10개",
+        "unitKg": null,
+        "gradeLabel": "상품",
+        "key": "RETAIL_EA#V_04@HIGH",
+        "date": "2026-09-03",
+        "lagDays": 0,
+        "price": 24881,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 25448,
+          "pct": -2.2
+        },
+        "vsPrevMonth": {
+          "date": "2026-08",
+          "value": 27850,
+          "pct": -10.7
+        },
+        "vsYoy": {
+          "date": "2025-09",
+          "value": 28896,
+          "pct": -13.9
+        },
+        "vsNormal": {
+          "date": null,
+          "value": 30215,
+          "pct": -17.7,
+          "years": [
+            2025,
+            2022,
+            2021
+          ]
+        },
+        "spark": [
+          {
+            "date": "2026-08-27",
+            "price": 25409
+          },
+          {
+            "date": "2026-08-28",
+            "price": 25757
+          },
+          {
+            "date": "2026-08-31",
+            "price": 25604
+          },
+          {
+            "date": "2026-09-01",
+            "price": 25704
+          },
+          {
+            "date": "2026-09-02",
+            "price": 25448
+          },
+          {
+            "date": "2026-09-03",
+            "price": 24881
+          }
+        ],
+        "trend30": [
+          {
+            "date": "2026-08-10",
+            "price": 27769
+          },
+          {
+            "date": "2026-08-11",
+            "price": 30856
+          },
+          {
+            "date": "2026-08-12",
+            "price": 31889
+          },
+          {
+            "date": "2026-08-13",
+            "price": 29496
+          },
+          {
+            "date": "2026-08-14",
+            "price": 30031
+          },
+          {
+            "date": "2026-08-18",
+            "price": 30084
+          },
+          {
+            "date": "2026-08-19",
+            "price": 29326
+          },
+          {
+            "date": "2026-08-20",
+            "price": 26526
+          },
+          {
+            "date": "2026-08-21",
+            "price": 26114
+          },
+          {
+            "date": "2026-08-24",
+            "price": 25981
+          },
+          {
+            "date": "2026-08-25",
+            "price": 26362
+          },
+          {
+            "date": "2026-08-26",
+            "price": 26540
+          },
+          {
+            "date": "2026-08-27",
+            "price": 25409
+          },
+          {
+            "date": "2026-08-28",
+            "price": 25757
+          },
+          {
+            "date": "2026-08-31",
+            "price": 25604
+          },
+          {
+            "date": "2026-09-01",
+            "price": 25704
+          },
+          {
+            "date": "2026-09-02",
+            "price": 25448
+          },
+          {
+            "date": "2026-09-03",
+            "price": 24881
+          }
+        ],
+        "trend30Ref": {
+          "yoy": [
+            {
+              "date": "2026-08-10",
+              "price": null
+            },
+            {
+              "date": "2026-08-11",
+              "price": null
+            },
+            {
+              "date": "2026-08-12",
+              "price": null
+            },
+            {
+              "date": "2026-08-13",
+              "price": null
+            },
+            {
+              "date": "2026-08-14",
+              "price": null
+            },
+            {
+              "date": "2026-08-18",
+              "price": 31369
+            },
+            {
+              "date": "2026-08-19",
+              "price": 31369
+            },
+            {
+              "date": "2026-08-20",
+              "price": 31174
+            },
+            {
+              "date": "2026-08-21",
+              "price": 29985
+            },
+            {
+              "date": "2026-08-24",
+              "price": 29351
+            },
+            {
+              "date": "2026-08-25",
+              "price": 29351
+            },
+            {
+              "date": "2026-08-26",
+              "price": 29109
+            },
+            {
+              "date": "2026-08-27",
+              "price": 29076
+            },
+            {
+              "date": "2026-08-28",
+              "price": 28843
+            },
+            {
+              "date": "2026-08-31",
+              "price": 28402
+            },
+            {
+              "date": "2026-09-01",
+              "price": 28402
+            },
+            {
+              "date": "2026-09-02",
+              "price": 28692
+            },
+            {
+              "date": "2026-09-03",
+              "price": 29210
+            }
+          ],
+          "normal": [
+            {
+              "date": "2026-08-10",
+              "price": null
+            },
+            {
+              "date": "2026-08-11",
+              "price": null
+            },
+            {
+              "date": "2026-08-12",
+              "price": null
+            },
+            {
+              "date": "2026-08-13",
+              "price": null
+            },
+            {
+              "date": "2026-08-14",
+              "price": null
+            },
+            {
+              "date": "2026-08-18",
+              "price": 30491
+            },
+            {
+              "date": "2026-08-19",
+              "price": 30491
+            },
+            {
+              "date": "2026-08-20",
+              "price": 31413
+            },
+            {
+              "date": "2026-08-21",
+              "price": 30914
+            },
+            {
+              "date": "2026-08-24",
+              "price": 31083
+            },
+            {
+              "date": "2026-08-25",
+              "price": 30262
+            },
+            {
+              "date": "2026-08-26",
+              "price": 29979
+            },
+            {
+              "date": "2026-08-27",
+              "price": 30117
+            },
+            {
+              "date": "2026-08-28",
+              "price": 30096
+            },
+            {
+              "date": "2026-08-31",
+              "price": 29353
+            },
+            {
+              "date": "2026-09-01",
+              "price": 29774
+            },
+            {
+              "date": "2026-09-02",
+              "price": 30146
+            },
+            {
+              "date": "2026-09-03",
+              "price": 30359
+            }
+          ]
+        },
+        "grades": {
+          "HIGH": {
+            "label": "상품",
+            "date": "2026-09-03",
+            "price": 24881,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 25448,
+              "pct": -2.2
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 27850,
+              "pct": -10.7
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 28896,
+              "pct": -13.9
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 30215,
+              "pct": -17.7,
+              "years": [
+                2025,
+                2022,
+                2021
+              ]
+            }
+          },
+          "MID": {
+            "label": "중품",
+            "date": "2026-09-03",
+            "price": 19941,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 20806,
+              "pct": -4.2
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 22093,
+              "pct": -9.7
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 21606,
+              "pct": -7.7
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 23157,
+              "pct": -13.9,
+              "years": [
+                2025,
+                2024,
+                2023,
+                2021
+              ]
+            }
+          }
+        },
+        "passThrough": {
+          "prevMonth": 0.35,
+          "yoy": 1.54,
+          "wholesalePrevMonthPct": -30.9,
+          "wholesaleYoyPct": -9,
+          "wholesaleUnit": "15kg"
+        },
+        "ratioToWholesale": null
+      }
+    },
+    {
+      "itemCode": "grape",
+      "nameKo": "포도",
+      "iconDataUri": null,
+      "rank": 3,
+      "onPoster": true,
+      "tradeValue": 1038826250,
+      "defaultBoxKg": 5,
+      "offSeason": false,
+      "variety": {
+        "code": "shine",
+        "nameKo": "샤인머스캣",
+        "share": 0.519,
+        "sangLaneFound": true
+      },
+      "volume": {
+        "tons": 268,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 256,
+          "pct": 4.7
+        }
+      },
+      "units": [
+        {
+          "unitTag": "2kg",
+          "unitLabel": "2kg",
+          "kg": 2,
+          "isRep": false,
+          "isAnchor": true,
+          "qtyUnits": 38373,
+          "tons": 76.7,
+          "kgShare": 0.555,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 8342,
+            "key": "GARAK_SANG#U_2kg#V_shine",
+            "source": "SANG"
+          },
+          "perKg": 4171,
+          "grades": {
+            "SPECIAL": {
+              "price": 11978,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 12877,
+                "pct": -7
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 16019,
+                "pct": -25.2
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 16766,
+                "pct": -28.6
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 21879,
+                "pct": -45.3,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 8342,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 8288,
+                "pct": 0.7
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 11219,
+                "pct": -25.6
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 9496,
+                "pct": -12.2
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 13819,
+                "pct": -39.6,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            },
+            "MID": {
+              "price": 6525,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 6535,
+                "pct": -0.2
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 8651,
+                "pct": -24.6
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 7129,
+                "pct": -8.5
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 10469,
+                "pct": -37.7,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            },
+            "LOW": {
+              "price": 4453,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 4416,
+                "pct": 0.8
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 6194,
+                "pct": -28.1
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 5028,
+                "pct": -11.4
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 7572,
+                "pct": -41.2,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 8288,
+            "pct": 0.7
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 11219,
+            "pct": -25.6
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 9496,
+            "pct": -12.2
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 13819,
+            "pct": -39.6,
+            "years": [
+              2025,
+              2024,
+              2023,
+              2022
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 9227
+            },
+            {
+              "date": "2026-08-29",
+              "price": 9031
+            },
+            {
+              "date": "2026-08-31",
+              "price": 8706
+            },
+            {
+              "date": "2026-09-01",
+              "price": 8596
+            },
+            {
+              "date": "2026-09-02",
+              "price": 8288
+            },
+            {
+              "date": "2026-09-03",
+              "price": 8342
+            }
+          ],
+          "sparkPct": -9.6,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 13173
+            },
+            {
+              "date": "2026-08-06",
+              "price": 12695
+            },
+            {
+              "date": "2026-08-07",
+              "price": 13063
+            },
+            {
+              "date": "2026-08-08",
+              "price": 12310
+            },
+            {
+              "date": "2026-08-10",
+              "price": 12494
+            },
+            {
+              "date": "2026-08-11",
+              "price": 11947
+            },
+            {
+              "date": "2026-08-12",
+              "price": 11644
+            },
+            {
+              "date": "2026-08-13",
+              "price": 11921
+            },
+            {
+              "date": "2026-08-14",
+              "price": 11532
+            },
+            {
+              "date": "2026-08-15",
+              "price": 12952
+            },
+            {
+              "date": "2026-08-17",
+              "price": 12419
+            },
+            {
+              "date": "2026-08-18",
+              "price": 12093
+            },
+            {
+              "date": "2026-08-19",
+              "price": 11242
+            },
+            {
+              "date": "2026-08-20",
+              "price": 10636
+            },
+            {
+              "date": "2026-08-21",
+              "price": 9543
+            },
+            {
+              "date": "2026-08-22",
+              "price": 9237
+            },
+            {
+              "date": "2026-08-24",
+              "price": 9248
+            },
+            {
+              "date": "2026-08-25",
+              "price": 9405
+            },
+            {
+              "date": "2026-08-26",
+              "price": 9400
+            },
+            {
+              "date": "2026-08-27",
+              "price": 8999
+            },
+            {
+              "date": "2026-08-28",
+              "price": 9227
+            },
+            {
+              "date": "2026-08-29",
+              "price": 9031
+            },
+            {
+              "date": "2026-08-31",
+              "price": 8706
+            },
+            {
+              "date": "2026-09-01",
+              "price": 8596
+            },
+            {
+              "date": "2026-09-02",
+              "price": 8288
+            },
+            {
+              "date": "2026-09-03",
+              "price": 8342
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 16062
+              },
+              {
+                "date": "2026-08-06",
+                "price": 14851
+              },
+              {
+                "date": "2026-08-07",
+                "price": 14337
+              },
+              {
+                "date": "2026-08-08",
+                "price": 15004
+              },
+              {
+                "date": "2026-08-10",
+                "price": 15002
+              },
+              {
+                "date": "2026-08-11",
+                "price": 15305
+              },
+              {
+                "date": "2026-08-12",
+                "price": 14203
+              },
+              {
+                "date": "2026-08-13",
+                "price": 13760
+              },
+              {
+                "date": "2026-08-14",
+                "price": 13065
+              },
+              {
+                "date": "2026-08-15",
+                "price": 14624
+              },
+              {
+                "date": "2026-08-17",
+                "price": 15023
+              },
+              {
+                "date": "2026-08-18",
+                "price": 14961
+              },
+              {
+                "date": "2026-08-19",
+                "price": 14990
+              },
+              {
+                "date": "2026-08-20",
+                "price": 14410
+              },
+              {
+                "date": "2026-08-21",
+                "price": 14433
+              },
+              {
+                "date": "2026-08-22",
+                "price": 14240
+              },
+              {
+                "date": "2026-08-24",
+                "price": 13807
+              },
+              {
+                "date": "2026-08-25",
+                "price": 13638
+              },
+              {
+                "date": "2026-08-26",
+                "price": 13446
+              },
+              {
+                "date": "2026-08-27",
+                "price": 13369
+              },
+              {
+                "date": "2026-08-28",
+                "price": 12963
+              },
+              {
+                "date": "2026-08-29",
+                "price": 12711
+              },
+              {
+                "date": "2026-08-31",
+                "price": 12193
+              },
+              {
+                "date": "2026-09-01",
+                "price": 12516
+              },
+              {
+                "date": "2026-09-02",
+                "price": 12483
+              },
+              {
+                "date": "2026-09-03",
+                "price": 12886
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 21597
+              },
+              {
+                "date": "2026-08-06",
+                "price": 20214
+              },
+              {
+                "date": "2026-08-07",
+                "price": 19921
+              },
+              {
+                "date": "2026-08-08",
+                "price": 19432
+              },
+              {
+                "date": "2026-08-10",
+                "price": 19601
+              },
+              {
+                "date": "2026-08-11",
+                "price": 20073
+              },
+              {
+                "date": "2026-08-12",
+                "price": 19000
+              },
+              {
+                "date": "2026-08-13",
+                "price": 18595
+              },
+              {
+                "date": "2026-08-14",
+                "price": 18016
+              },
+              {
+                "date": "2026-08-15",
+                "price": 18242
+              },
+              {
+                "date": "2026-08-17",
+                "price": 18681
+              },
+              {
+                "date": "2026-08-18",
+                "price": 19036
+              },
+              {
+                "date": "2026-08-19",
+                "price": 18341
+              },
+              {
+                "date": "2026-08-20",
+                "price": 17918
+              },
+              {
+                "date": "2026-08-21",
+                "price": 17224
+              },
+              {
+                "date": "2026-08-22",
+                "price": 16679
+              },
+              {
+                "date": "2026-08-24",
+                "price": 16533
+              },
+              {
+                "date": "2026-08-25",
+                "price": 16505
+              },
+              {
+                "date": "2026-08-26",
+                "price": 16130
+              },
+              {
+                "date": "2026-08-27",
+                "price": 15968
+              },
+              {
+                "date": "2026-08-28",
+                "price": 15975
+              },
+              {
+                "date": "2026-08-29",
+                "price": 15893
+              },
+              {
+                "date": "2026-08-31",
+                "price": 18124
+              },
+              {
+                "date": "2026-09-01",
+                "price": 18269
+              },
+              {
+                "date": "2026-09-02",
+                "price": 17724
+              },
+              {
+                "date": "2026-09-03",
+                "price": 17409
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "4kg",
+          "unitLabel": "4kg",
+          "kg": 4,
+          "isRep": false,
+          "isAnchor": false,
+          "qtyUnits": 15238,
+          "tons": 61,
+          "kgShare": 0.44,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 15546,
+            "key": "GARAK_SANG#V_shine",
+            "source": "SANG"
+          },
+          "perKg": 3887,
+          "grades": {
+            "SPECIAL": {
+              "price": 22565,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 26668,
+                "pct": -15.4
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 31757,
+                "pct": -28.9
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 33396,
+                "pct": -32.4
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 43951,
+                "pct": -48.7,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 15546,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 15969,
+                "pct": -2.6
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 22312,
+                "pct": -30.3
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 17860,
+                "pct": -13
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 29476,
+                "pct": -47.3,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            },
+            "MID": {
+              "price": 12360,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 12415,
+                "pct": -0.4
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 18178,
+                "pct": -32
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 13821,
+                "pct": -10.6
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 23283,
+                "pct": -46.9,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            },
+            "LOW": {
+              "price": 9561,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 9647,
+                "pct": -0.9
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 14289,
+                "pct": -33.1
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 11093,
+                "pct": -13.8
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 18130,
+                "pct": -47.3,
+                "years": [
+                  2025,
+                  2024,
+                  2023,
+                  2022
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 15969,
+            "pct": -2.6
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 22312,
+            "pct": -30.3
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 17860,
+            "pct": -13
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 29476,
+            "pct": -47.3,
+            "years": [
+              2025,
+              2024,
+              2023,
+              2022
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 17420
+            },
+            {
+              "date": "2026-08-29",
+              "price": 17289
+            },
+            {
+              "date": "2026-08-31",
+              "price": 17204
+            },
+            {
+              "date": "2026-09-01",
+              "price": 16859
+            },
+            {
+              "date": "2026-09-02",
+              "price": 15969
+            },
+            {
+              "date": "2026-09-03",
+              "price": 15546
+            }
+          ],
+          "sparkPct": -10.8,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 26591
+            },
+            {
+              "date": "2026-08-06",
+              "price": 25448
+            },
+            {
+              "date": "2026-08-07",
+              "price": 27392
+            },
+            {
+              "date": "2026-08-08",
+              "price": 24841
+            },
+            {
+              "date": "2026-08-10",
+              "price": 25719
+            },
+            {
+              "date": "2026-08-11",
+              "price": 24598
+            },
+            {
+              "date": "2026-08-12",
+              "price": 23596
+            },
+            {
+              "date": "2026-08-13",
+              "price": 23861
+            },
+            {
+              "date": "2026-08-14",
+              "price": 22533
+            },
+            {
+              "date": "2026-08-15",
+              "price": 23592
+            },
+            {
+              "date": "2026-08-17",
+              "price": 23251
+            },
+            {
+              "date": "2026-08-18",
+              "price": 22805
+            },
+            {
+              "date": "2026-08-19",
+              "price": 22698
+            },
+            {
+              "date": "2026-08-20",
+              "price": 21541
+            },
+            {
+              "date": "2026-08-21",
+              "price": 19971
+            },
+            {
+              "date": "2026-08-22",
+              "price": 18612
+            },
+            {
+              "date": "2026-08-24",
+              "price": 19541
+            },
+            {
+              "date": "2026-08-25",
+              "price": 17842
+            },
+            {
+              "date": "2026-08-26",
+              "price": 18452
+            },
+            {
+              "date": "2026-08-27",
+              "price": 17415
+            },
+            {
+              "date": "2026-08-28",
+              "price": 17420
+            },
+            {
+              "date": "2026-08-29",
+              "price": 17289
+            },
+            {
+              "date": "2026-08-31",
+              "price": 17204
+            },
+            {
+              "date": "2026-09-01",
+              "price": 16859
+            },
+            {
+              "date": "2026-09-02",
+              "price": 15969
+            },
+            {
+              "date": "2026-09-03",
+              "price": 15546
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 33259
+              },
+              {
+                "date": "2026-08-06",
+                "price": 30478
+              },
+              {
+                "date": "2026-08-07",
+                "price": 28221
+              },
+              {
+                "date": "2026-08-08",
+                "price": 30392
+              },
+              {
+                "date": "2026-08-10",
+                "price": 29171
+              },
+              {
+                "date": "2026-08-11",
+                "price": 29392
+              },
+              {
+                "date": "2026-08-12",
+                "price": 27555
+              },
+              {
+                "date": "2026-08-13",
+                "price": 25737
+              },
+              {
+                "date": "2026-08-14",
+                "price": 24793
+              },
+              {
+                "date": "2026-08-15",
+                "price": 26558
+              },
+              {
+                "date": "2026-08-17",
+                "price": 29001
+              },
+              {
+                "date": "2026-08-18",
+                "price": 29038
+              },
+              {
+                "date": "2026-08-19",
+                "price": 29317
+              },
+              {
+                "date": "2026-08-20",
+                "price": 27749
+              },
+              {
+                "date": "2026-08-21",
+                "price": 28589
+              },
+              {
+                "date": "2026-08-22",
+                "price": 28326
+              },
+              {
+                "date": "2026-08-24",
+                "price": 27093
+              },
+              {
+                "date": "2026-08-25",
+                "price": 27032
+              },
+              {
+                "date": "2026-08-26",
+                "price": 28240
+              },
+              {
+                "date": "2026-08-27",
+                "price": 27070
+              },
+              {
+                "date": "2026-08-28",
+                "price": 25717
+              },
+              {
+                "date": "2026-08-29",
+                "price": 25515
+              },
+              {
+                "date": "2026-08-31",
+                "price": 25104
+              },
+              {
+                "date": "2026-09-01",
+                "price": 24663
+              },
+              {
+                "date": "2026-09-02",
+                "price": 25868
+              },
+              {
+                "date": "2026-09-03",
+                "price": 24018
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 43348
+              },
+              {
+                "date": "2026-08-06",
+                "price": 40873
+              },
+              {
+                "date": "2026-08-07",
+                "price": 40090
+              },
+              {
+                "date": "2026-08-08",
+                "price": 39566
+              },
+              {
+                "date": "2026-08-10",
+                "price": 38729
+              },
+              {
+                "date": "2026-08-11",
+                "price": 39038
+              },
+              {
+                "date": "2026-08-12",
+                "price": 37764
+              },
+              {
+                "date": "2026-08-13",
+                "price": 37373
+              },
+              {
+                "date": "2026-08-14",
+                "price": 37027
+              },
+              {
+                "date": "2026-08-15",
+                "price": 36286
+              },
+              {
+                "date": "2026-08-17",
+                "price": 37916
+              },
+              {
+                "date": "2026-08-18",
+                "price": 37701
+              },
+              {
+                "date": "2026-08-19",
+                "price": 37119
+              },
+              {
+                "date": "2026-08-20",
+                "price": 36174
+              },
+              {
+                "date": "2026-08-21",
+                "price": 35342
+              },
+              {
+                "date": "2026-08-22",
+                "price": 34625
+              },
+              {
+                "date": "2026-08-24",
+                "price": 33522
+              },
+              {
+                "date": "2026-08-25",
+                "price": 33369
+              },
+              {
+                "date": "2026-08-26",
+                "price": 33303
+              },
+              {
+                "date": "2026-08-27",
+                "price": 32548
+              },
+              {
+                "date": "2026-08-28",
+                "price": 31742
+              },
+              {
+                "date": "2026-08-29",
+                "price": 31616
+              },
+              {
+                "date": "2026-08-31",
+                "price": 38986
+              },
+              {
+                "date": "2026-09-01",
+                "price": 39074
+              },
+              {
+                "date": "2026-09-02",
+                "price": 38573
+              },
+              {
+                "date": "2026-09-03",
+                "price": 37815
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        }
+      ],
+      "varieties": [
+        {
+          "code": "shine",
+          "nameKo": "샤인머스캣",
+          "share": 0.519,
+          "sang": 15546
+        },
+        {
+          "code": "campbell",
+          "nameKo": "캠벨얼리",
+          "share": 0.261,
+          "sang": 16803
+        },
+        {
+          "code": "geobong",
+          "nameKo": "거봉",
+          "share": 0.108,
+          "sang": 26392
+        },
+        {
+          "code": "mba",
+          "nameKo": "마스캇베리에이",
+          "share": 0.076,
+          "sang": 11861
+        },
+        {
+          "code": "BK씨들리스",
+          "nameKo": "BK씨들리스",
+          "share": 0.006,
+          "sang": null
+        }
+      ],
+      "crisis": {
+        "stage": "ALERT",
+        "direction": "DOWN",
+        "label": "경계 ↓",
+        "deviationPct": -45.3,
+        "basis": "VARIETY",
+        "basisLabel": "샤인머스캣 2kg 상 기준",
+        "thresholdId": 703,
+        "unit": "원/2kg",
+        "price": 8342,
+        "band": {
+          "criticalDown": 6178,
+          "alertDown": 9193,
+          "cautionDown": 12207,
+          "stable": 15259,
+          "cautionUp": 20726,
+          "alertUp": 26193,
+          "criticalUp": 31660
+        },
+        "prevStage": {
+          "date": "2026-09-02",
+          "stage": "ALERT",
+          "label": "경계 ↓",
+          "price": 8288
+        },
+        "reportStage": null,
+        "offSeason": false,
+        "local": null
+      },
+      "retail": {
+        "kindCode": "12",
+        "varietyCode": "shine",
+        "varietyLabel": "샤인머스캣",
+        "matchesWholesaleVariety": true,
+        "unit": "2kg",
+        "unitKg": 2,
+        "gradeLabel": "L과",
+        "key": "RETAIL#V_12@HIGH",
+        "date": "2026-09-03",
+        "lagDays": 0,
+        "price": 14820,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 16202,
+          "pct": -8.5
+        },
+        "vsPrevMonth": {
+          "date": "2026-08",
+          "value": 19497,
+          "pct": -24
+        },
+        "vsYoy": {
+          "date": "2025-09",
+          "value": 18027,
+          "pct": -17.8
+        },
+        "vsNormal": {
+          "date": null,
+          "value": 28214,
+          "pct": -47.5,
+          "years": [
+            2024,
+            2023,
+            2022
+          ]
+        },
+        "spark": [
+          {
+            "date": "2026-08-27",
+            "price": 17358
+          },
+          {
+            "date": "2026-08-28",
+            "price": 17124
+          },
+          {
+            "date": "2026-08-31",
+            "price": 16584
+          },
+          {
+            "date": "2026-09-01",
+            "price": 16572
+          },
+          {
+            "date": "2026-09-02",
+            "price": 16202
+          },
+          {
+            "date": "2026-09-03",
+            "price": 14820
+          }
+        ],
+        "trend30": [
+          {
+            "date": "2026-08-05",
+            "price": 22069
+          },
+          {
+            "date": "2026-08-06",
+            "price": 23202
+          },
+          {
+            "date": "2026-08-07",
+            "price": 22873
+          },
+          {
+            "date": "2026-08-10",
+            "price": 22373
+          },
+          {
+            "date": "2026-08-11",
+            "price": 22229
+          },
+          {
+            "date": "2026-08-12",
+            "price": 22069
+          },
+          {
+            "date": "2026-08-13",
+            "price": 18376
+          },
+          {
+            "date": "2026-08-14",
+            "price": 17670
+          },
+          {
+            "date": "2026-08-18",
+            "price": 17618
+          },
+          {
+            "date": "2026-08-19",
+            "price": 17506
+          },
+          {
+            "date": "2026-08-20",
+            "price": 17684
+          },
+          {
+            "date": "2026-08-21",
+            "price": 17684
+          },
+          {
+            "date": "2026-08-24",
+            "price": 17562
+          },
+          {
+            "date": "2026-08-25",
+            "price": 17536
+          },
+          {
+            "date": "2026-08-26",
+            "price": 17562
+          },
+          {
+            "date": "2026-08-27",
+            "price": 17358
+          },
+          {
+            "date": "2026-08-28",
+            "price": 17124
+          },
+          {
+            "date": "2026-08-31",
+            "price": 16584
+          },
+          {
+            "date": "2026-09-01",
+            "price": 16572
+          },
+          {
+            "date": "2026-09-02",
+            "price": 16202
+          },
+          {
+            "date": "2026-09-03",
+            "price": 14820
+          }
+        ],
+        "trend30Ref": {
+          "yoy": [
+            {
+              "date": "2026-08-05",
+              "price": 24590
+            },
+            {
+              "date": "2026-08-06",
+              "price": 24586
+            },
+            {
+              "date": "2026-08-07",
+              "price": 26324
+            },
+            {
+              "date": "2026-08-10",
+              "price": 25900
+            },
+            {
+              "date": "2026-08-11",
+              "price": 25900
+            },
+            {
+              "date": "2026-08-12",
+              "price": 25849
+            },
+            {
+              "date": "2026-08-13",
+              "price": 25639
+            },
+            {
+              "date": "2026-08-14",
+              "price": 22834
+            },
+            {
+              "date": "2026-08-18",
+              "price": 23370
+            },
+            {
+              "date": "2026-08-19",
+              "price": 23834
+            },
+            {
+              "date": "2026-08-20",
+              "price": 23526
+            },
+            {
+              "date": "2026-08-21",
+              "price": 22760
+            },
+            {
+              "date": "2026-08-24",
+              "price": 22326
+            },
+            {
+              "date": "2026-08-25",
+              "price": 22326
+            },
+            {
+              "date": "2026-08-26",
+              "price": 22122
+            },
+            {
+              "date": "2026-08-27",
+              "price": 22134
+            },
+            {
+              "date": "2026-08-28",
+              "price": 20859
+            },
+            {
+              "date": "2026-08-31",
+              "price": 21049
+            },
+            {
+              "date": "2026-09-01",
+              "price": 21049
+            },
+            {
+              "date": "2026-09-02",
+              "price": 20920
+            },
+            {
+              "date": "2026-09-03",
+              "price": 20961
+            }
+          ],
+          "normal": [
+            {
+              "date": "2026-08-05",
+              "price": 30447
+            },
+            {
+              "date": "2026-08-06",
+              "price": 30563
+            },
+            {
+              "date": "2026-08-07",
+              "price": 34302
+            },
+            {
+              "date": "2026-08-10",
+              "price": 34598
+            },
+            {
+              "date": "2026-08-11",
+              "price": 34021
+            },
+            {
+              "date": "2026-08-12",
+              "price": 34435
+            },
+            {
+              "date": "2026-08-13",
+              "price": 34111
+            },
+            {
+              "date": "2026-08-14",
+              "price": 33295
+            },
+            {
+              "date": "2026-08-18",
+              "price": 32856
+            },
+            {
+              "date": "2026-08-19",
+              "price": 32750
+            },
+            {
+              "date": "2026-08-20",
+              "price": 32636
+            },
+            {
+              "date": "2026-08-21",
+              "price": 32368
+            },
+            {
+              "date": "2026-08-24",
+              "price": 31377
+            },
+            {
+              "date": "2026-08-25",
+              "price": 31277
+            },
+            {
+              "date": "2026-08-26",
+              "price": 31096
+            },
+            {
+              "date": "2026-08-27",
+              "price": 31051
+            },
+            {
+              "date": "2026-08-28",
+              "price": 30716
+            },
+            {
+              "date": "2026-08-31",
+              "price": 29481
+            },
+            {
+              "date": "2026-09-01",
+              "price": 29149
+            },
+            {
+              "date": "2026-09-02",
+              "price": 28571
+            },
+            {
+              "date": "2026-09-03",
+              "price": 30615
+            }
+          ]
+        },
+        "grades": {
+          "HIGH": {
+            "label": "L과",
+            "date": "2026-09-03",
+            "price": 14820,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 16202,
+              "pct": -8.5
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 19497,
+              "pct": -24
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 18027,
+              "pct": -17.8
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 28214,
+              "pct": -47.5,
+              "years": [
+                2024,
+                2023,
+                2022
+              ]
+            }
+          },
+          "MID": {
+            "label": "M과",
+            "date": "2025-09-15",
+            "price": 13113,
+            "vsPrev": {
+              "date": "2025-08-18",
+              "value": 17500,
+              "pct": -25.1
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": null,
+              "pct": null
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 13113,
+              "pct": 0
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 24064,
+              "pct": -45.5,
+              "years": [
+                2025,
+                2024,
+                2022,
+                2021
+              ]
+            }
+          }
+        },
+        "passThrough": {
+          "prevMonth": 0.94,
+          "yoy": 1.46,
+          "wholesalePrevMonthPct": -25.6,
+          "wholesaleYoyPct": -12.2,
+          "wholesaleUnit": "2kg"
+        },
+        "ratioToWholesale": {
+          "unit": "2kg",
+          "retail": 14820,
+          "wholesale": 8342,
+          "ratio": 1.8
+        }
+      }
+    },
+    {
+      "itemCode": "peach",
+      "nameKo": "복숭아",
+      "iconDataUri": null,
+      "rank": 4,
+      "onPoster": true,
+      "tradeValue": 1434131027,
+      "defaultBoxKg": 4.5,
+      "offSeason": false,
+      "variety": null,
+      "volume": {
+        "tons": 333,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 304,
+          "pct": 9.5
+        }
+      },
+      "units": [
+        {
+          "unitTag": "4kg",
+          "unitLabel": "4kg",
+          "kg": 4,
+          "isRep": false,
+          "isAnchor": false,
+          "qtyUnits": 42438,
+          "tons": 169.8,
+          "kgShare": 0.51,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 20966.515858428767,
+            "key": "GARAK#U_4kg",
+            "source": "DATA12_AVG"
+          },
+          "perKg": 5242,
+          "grades": {},
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 20447.234340137868,
+            "pct": 2.5
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 18789,
+            "pct": 11.6
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 20537,
+            "pct": 2.1
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 19447,
+            "pct": 7.8,
+            "years": [
+              2025,
+              2024,
+              2021
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 17608.97393544977
+            },
+            {
+              "date": "2026-08-29",
+              "price": 16103.917069573055
+            },
+            {
+              "date": "2026-08-31",
+              "price": 17474.281685175392
+            },
+            {
+              "date": "2026-09-01",
+              "price": 18187.439588286004
+            },
+            {
+              "date": "2026-09-02",
+              "price": 20447.234340137868
+            },
+            {
+              "date": "2026-09-03",
+              "price": 20966.515858428767
+            }
+          ],
+          "sparkPct": 19.1,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 18132.6470752556
+            },
+            {
+              "date": "2026-08-06",
+              "price": 19457.880518204704
+            },
+            {
+              "date": "2026-08-07",
+              "price": 22652.771151957346
+            },
+            {
+              "date": "2026-08-08",
+              "price": 24329.05290858025
+            },
+            {
+              "date": "2026-08-10",
+              "price": 22276.40608034745
+            },
+            {
+              "date": "2026-08-11",
+              "price": 23537.562153715015
+            },
+            {
+              "date": "2026-08-12",
+              "price": 23314.045981730473
+            },
+            {
+              "date": "2026-08-13",
+              "price": 23394.12950026867
+            },
+            {
+              "date": "2026-08-14",
+              "price": 22066.249843430338
+            },
+            {
+              "date": "2026-08-15",
+              "price": 18122.179073856976
+            },
+            {
+              "date": "2026-08-17",
+              "price": 19575.84644356389
+            },
+            {
+              "date": "2026-08-18",
+              "price": 20050.61980955164
+            },
+            {
+              "date": "2026-08-19",
+              "price": 17884.926880451178
+            },
+            {
+              "date": "2026-08-20",
+              "price": 16754.621240374323
+            },
+            {
+              "date": "2026-08-21",
+              "price": 15027.696185088484
+            },
+            {
+              "date": "2026-08-22",
+              "price": 15025.269286754003
+            },
+            {
+              "date": "2026-08-24",
+              "price": 15377.889007824631
+            },
+            {
+              "date": "2026-08-25",
+              "price": 14692.895592585108
+            },
+            {
+              "date": "2026-08-26",
+              "price": 15572.814278323849
+            },
+            {
+              "date": "2026-08-27",
+              "price": 16724.731925341926
+            },
+            {
+              "date": "2026-08-28",
+              "price": 17608.97393544977
+            },
+            {
+              "date": "2026-08-29",
+              "price": 16103.917069573055
+            },
+            {
+              "date": "2026-08-31",
+              "price": 17474.281685175392
+            },
+            {
+              "date": "2026-09-01",
+              "price": 18187.439588286004
+            },
+            {
+              "date": "2026-09-02",
+              "price": 20447.234340137868
+            },
+            {
+              "date": "2026-09-03",
+              "price": 20966.515858428767
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 18366.731269444586
+              },
+              {
+                "date": "2026-08-06",
+                "price": 19518.455471387635
+              },
+              {
+                "date": "2026-08-07",
+                "price": 19688.290530312748
+              },
+              {
+                "date": "2026-08-08",
+                "price": 21280.43950081389
+              },
+              {
+                "date": "2026-08-10",
+                "price": 21642.701525054465
+              },
+              {
+                "date": "2026-08-11",
+                "price": 21453.272770082014
+              },
+              {
+                "date": "2026-08-12",
+                "price": 21605.348437846224
+              },
+              {
+                "date": "2026-08-13",
+                "price": 23814.489455317856
+              },
+              {
+                "date": "2026-08-14",
+                "price": 24316.811123149153
+              },
+              {
+                "date": "2026-08-15",
+                "price": 26813.08203231991
+              },
+              {
+                "date": "2026-08-17",
+                "price": 25697.006811491436
+              },
+              {
+                "date": "2026-08-18",
+                "price": 21091.050996108497
+              },
+              {
+                "date": "2026-08-19",
+                "price": 19076.063254702465
+              },
+              {
+                "date": "2026-08-20",
+                "price": 18105.349794238682
+              },
+              {
+                "date": "2026-08-21",
+                "price": 17974.354103343467
+              },
+              {
+                "date": "2026-08-22",
+                "price": 18365.78738527362
+              },
+              {
+                "date": "2026-08-24",
+                "price": 17076.878514490516
+              },
+              {
+                "date": "2026-08-25",
+                "price": 17375.77660723933
+              },
+              {
+                "date": "2026-08-26",
+                "price": 16765.961153869463
+              },
+              {
+                "date": "2026-08-27",
+                "price": 17868.4690048351
+              },
+              {
+                "date": "2026-08-28",
+                "price": 19049.97756841633
+              },
+              {
+                "date": "2026-08-29",
+                "price": 19993.193774489144
+              },
+              {
+                "date": "2026-08-31",
+                "price": 18378.84181712454
+              },
+              {
+                "date": "2026-09-01",
+                "price": 19121.263322069146
+              },
+              {
+                "date": "2026-09-02",
+                "price": 19511.11406641842
+              },
+              {
+                "date": "2026-09-03",
+                "price": 20909.24387546184
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 18942
+              },
+              {
+                "date": "2026-08-06",
+                "price": 18605
+              },
+              {
+                "date": "2026-08-07",
+                "price": 19150
+              },
+              {
+                "date": "2026-08-08",
+                "price": 19419
+              },
+              {
+                "date": "2026-08-10",
+                "price": 19994
+              },
+              {
+                "date": "2026-08-11",
+                "price": 21566
+              },
+              {
+                "date": "2026-08-12",
+                "price": 22496
+              },
+              {
+                "date": "2026-08-13",
+                "price": 22994
+              },
+              {
+                "date": "2026-08-14",
+                "price": 21296
+              },
+              {
+                "date": "2026-08-15",
+                "price": 20350
+              },
+              {
+                "date": "2026-08-17",
+                "price": 21715
+              },
+              {
+                "date": "2026-08-18",
+                "price": 19959
+              },
+              {
+                "date": "2026-08-19",
+                "price": 18409
+              },
+              {
+                "date": "2026-08-20",
+                "price": 17983
+              },
+              {
+                "date": "2026-08-21",
+                "price": 17409
+              },
+              {
+                "date": "2026-08-22",
+                "price": 17965
+              },
+              {
+                "date": "2026-08-24",
+                "price": 18286
+              },
+              {
+                "date": "2026-08-25",
+                "price": 18944
+              },
+              {
+                "date": "2026-08-26",
+                "price": 18726
+              },
+              {
+                "date": "2026-08-27",
+                "price": 18670
+              },
+              {
+                "date": "2026-08-28",
+                "price": 19534
+              },
+              {
+                "date": "2026-08-29",
+                "price": 19820
+              },
+              {
+                "date": "2026-08-31",
+                "price": 20288
+              },
+              {
+                "date": "2026-09-01",
+                "price": 21197
+              },
+              {
+                "date": "2026-09-02",
+                "price": 21081
+              },
+              {
+                "date": "2026-09-03",
+                "price": 22254
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "10kg",
+          "unitLabel": "10kg",
+          "kg": 10,
+          "isRep": false,
+          "isAnchor": false,
+          "qtyUnits": 13281,
+          "tons": 132.8,
+          "kgShare": 0.399,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 31092.726451321436,
+            "key": "GARAK#U_10kg",
+            "source": "DATA12_AVG"
+          },
+          "perKg": 3109,
+          "grades": {},
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 30473.76669392205,
+            "pct": 2
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 34970,
+            "pct": -11.1
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 43929,
+            "pct": -29.2
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 36191,
+            "pct": -14.1,
+            "years": [
+              2024,
+              2023,
+              2022
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 32319.010600706715
+            },
+            {
+              "date": "2026-08-29",
+              "price": 35819.07657837881
+            },
+            {
+              "date": "2026-08-31",
+              "price": 32423.411206312026
+            },
+            {
+              "date": "2026-09-01",
+              "price": 28511.018577834722
+            },
+            {
+              "date": "2026-09-02",
+              "price": 30473.76669392205
+            },
+            {
+              "date": "2026-09-03",
+              "price": 31092.726451321436
+            }
+          ],
+          "sparkPct": -3.8,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 35409.67052114684
+            },
+            {
+              "date": "2026-08-06",
+              "price": 37984.54567521644
+            },
+            {
+              "date": "2026-08-07",
+              "price": 39719.848601488324
+            },
+            {
+              "date": "2026-08-08",
+              "price": 38013.85944456222
+            },
+            {
+              "date": "2026-08-10",
+              "price": 39470.935369856095
+            },
+            {
+              "date": "2026-08-11",
+              "price": 38146.99536910924
+            },
+            {
+              "date": "2026-08-12",
+              "price": 37548.92021754052
+            },
+            {
+              "date": "2026-08-13",
+              "price": 35272.86790758022
+            },
+            {
+              "date": "2026-08-14",
+              "price": 33560.468962833234
+            },
+            {
+              "date": "2026-08-15",
+              "price": 33306.22673998778
+            },
+            {
+              "date": "2026-08-17",
+              "price": 37076.23465600913
+            },
+            {
+              "date": "2026-08-18",
+              "price": 40501.0348583878
+            },
+            {
+              "date": "2026-08-19",
+              "price": 37039.58742111683
+            },
+            {
+              "date": "2026-08-20",
+              "price": 33437.983542163885
+            },
+            {
+              "date": "2026-08-21",
+              "price": 29709.129281887548
+            },
+            {
+              "date": "2026-08-22",
+              "price": 29833.7174383686
+            },
+            {
+              "date": "2026-08-24",
+              "price": 33125.88365243004
+            },
+            {
+              "date": "2026-08-25",
+              "price": 34023.784205302705
+            },
+            {
+              "date": "2026-08-26",
+              "price": 32362.137926585383
+            },
+            {
+              "date": "2026-08-27",
+              "price": 32429.46518668012
+            },
+            {
+              "date": "2026-08-28",
+              "price": 32319.010600706715
+            },
+            {
+              "date": "2026-08-29",
+              "price": 35819.07657837881
+            },
+            {
+              "date": "2026-08-31",
+              "price": 32423.411206312026
+            },
+            {
+              "date": "2026-09-01",
+              "price": 28511.018577834722
+            },
+            {
+              "date": "2026-09-02",
+              "price": 30473.76669392205
+            },
+            {
+              "date": "2026-09-03",
+              "price": 31092.726451321436
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 32443.475769482644
+              },
+              {
+                "date": "2026-08-06",
+                "price": 36622.16404886562
+              },
+              {
+                "date": "2026-08-07",
+                "price": 42407.72186437646
+              },
+              {
+                "date": "2026-08-08",
+                "price": 42346.70762142446
+              },
+              {
+                "date": "2026-08-10",
+                "price": 38866.64953751284
+              },
+              {
+                "date": "2026-08-11",
+                "price": 35961.19642068051
+              },
+              {
+                "date": "2026-08-12",
+                "price": 35111.06143488323
+              },
+              {
+                "date": "2026-08-13",
+                "price": 35201.94693643825
+              },
+              {
+                "date": "2026-08-14",
+                "price": 34039.37308868502
+              },
+              {
+                "date": "2026-08-15",
+                "price": 38755.52592800505
+              },
+              {
+                "date": "2026-08-17",
+                "price": 42969.05978695893
+              },
+              {
+                "date": "2026-08-18",
+                "price": 42132.934562332484
+              },
+              {
+                "date": "2026-08-19",
+                "price": 40630.37634408602
+              },
+              {
+                "date": "2026-08-20",
+                "price": 38430.38779402416
+              },
+              {
+                "date": "2026-08-21",
+                "price": 39712.70327598397
+              },
+              {
+                "date": "2026-08-22",
+                "price": 42013.80389164441
+              },
+              {
+                "date": "2026-08-24",
+                "price": 42237.4974974975
+              },
+              {
+                "date": "2026-08-25",
+                "price": 42362.21385105766
+              },
+              {
+                "date": "2026-08-26",
+                "price": 41449.34557198708
+              },
+              {
+                "date": "2026-08-27",
+                "price": 41604.24872203134
+              },
+              {
+                "date": "2026-08-28",
+                "price": 42583.552014995315
+              },
+              {
+                "date": "2026-08-29",
+                "price": 46381.15330520394
+              },
+              {
+                "date": "2026-08-31",
+                "price": 44359.38335412582
+              },
+              {
+                "date": "2026-09-01",
+                "price": 46424.0441627479
+              },
+              {
+                "date": "2026-09-02",
+                "price": 43968.19001166366
+              },
+              {
+                "date": "2026-09-03",
+                "price": 44363.5225375626
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 29087
+              },
+              {
+                "date": "2026-08-06",
+                "price": 29833
+              },
+              {
+                "date": "2026-08-07",
+                "price": 29450
+              },
+              {
+                "date": "2026-08-08",
+                "price": 28680
+              },
+              {
+                "date": "2026-08-10",
+                "price": 32812
+              },
+              {
+                "date": "2026-08-11",
+                "price": 34203
+              },
+              {
+                "date": "2026-08-12",
+                "price": 33329
+              },
+              {
+                "date": "2026-08-13",
+                "price": 32504
+              },
+              {
+                "date": "2026-08-14",
+                "price": 32644
+              },
+              {
+                "date": "2026-08-15",
+                "price": 34882
+              },
+              {
+                "date": "2026-08-17",
+                "price": 37389
+              },
+              {
+                "date": "2026-08-18",
+                "price": 36843
+              },
+              {
+                "date": "2026-08-19",
+                "price": 35512
+              },
+              {
+                "date": "2026-08-20",
+                "price": 34466
+              },
+              {
+                "date": "2026-08-21",
+                "price": 34590
+              },
+              {
+                "date": "2026-08-22",
+                "price": 36881
+              },
+              {
+                "date": "2026-08-24",
+                "price": 38293
+              },
+              {
+                "date": "2026-08-25",
+                "price": 39408
+              },
+              {
+                "date": "2026-08-26",
+                "price": 37428
+              },
+              {
+                "date": "2026-08-27",
+                "price": 36846
+              },
+              {
+                "date": "2026-08-28",
+                "price": 36819
+              },
+              {
+                "date": "2026-08-29",
+                "price": 38947
+              },
+              {
+                "date": "2026-08-31",
+                "price": 38686
+              },
+              {
+                "date": "2026-09-01",
+                "price": 39774
+              },
+              {
+                "date": "2026-09-02",
+                "price": 39742
+              },
+              {
+                "date": "2026-09-03",
+                "price": 40775
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "5kg",
+          "unitLabel": "5kg",
+          "kg": 5,
+          "isRep": false,
+          "isAnchor": false,
+          "qtyUnits": 3335,
+          "tons": 16.7,
+          "kgShare": 0.05,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 14466.266866566717,
+            "key": "GARAK#U_5kg",
+            "source": "DATA12_AVG"
+          },
+          "perKg": 2893,
+          "grades": {},
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 15749.543200208822,
+            "pct": -8.1
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 15510,
+            "pct": -6.7
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 17438,
+            "pct": -17
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 13313,
+            "pct": 8.7,
+            "years": [
+              2024,
+              2023,
+              2022
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 15460.27846027846
+            },
+            {
+              "date": "2026-08-29",
+              "price": 16148.01778436458
+            },
+            {
+              "date": "2026-08-31",
+              "price": 16003.859964093357
+            },
+            {
+              "date": "2026-09-01",
+              "price": 14045.238723292008
+            },
+            {
+              "date": "2026-09-02",
+              "price": 15749.543200208822
+            },
+            {
+              "date": "2026-09-03",
+              "price": 14466.266866566717
+            }
+          ],
+          "sparkPct": -6.4,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 17352.59842519685
+            },
+            {
+              "date": "2026-08-06",
+              "price": 17552.949619635423
+            },
+            {
+              "date": "2026-08-07",
+              "price": 16807.013917596803
+            },
+            {
+              "date": "2026-08-08",
+              "price": 15913.480534572922
+            },
+            {
+              "date": "2026-08-10",
+              "price": 15943.926992191175
+            },
+            {
+              "date": "2026-08-11",
+              "price": 16565.658657829328
+            },
+            {
+              "date": "2026-08-12",
+              "price": 15206.751592356688
+            },
+            {
+              "date": "2026-08-13",
+              "price": 15227.170363697782
+            },
+            {
+              "date": "2026-08-14",
+              "price": 14846.490786426342
+            },
+            {
+              "date": "2026-08-15",
+              "price": 14108.400787573835
+            },
+            {
+              "date": "2026-08-17",
+              "price": 16694.969447207615
+            },
+            {
+              "date": "2026-08-18",
+              "price": 16320.614409362428
+            },
+            {
+              "date": "2026-08-19",
+              "price": 15164.782397276927
+            },
+            {
+              "date": "2026-08-20",
+              "price": 13836.071887034659
+            },
+            {
+              "date": "2026-08-21",
+              "price": 12817.488262910798
+            },
+            {
+              "date": "2026-08-22",
+              "price": 14029.842157185136
+            },
+            {
+              "date": "2026-08-24",
+              "price": 15187.990970654628
+            },
+            {
+              "date": "2026-08-25",
+              "price": 13650.142218610321
+            },
+            {
+              "date": "2026-08-26",
+              "price": 13874.551679165308
+            },
+            {
+              "date": "2026-08-27",
+              "price": 14783.714138464182
+            },
+            {
+              "date": "2026-08-28",
+              "price": 15460.27846027846
+            },
+            {
+              "date": "2026-08-29",
+              "price": 16148.01778436458
+            },
+            {
+              "date": "2026-08-31",
+              "price": 16003.859964093357
+            },
+            {
+              "date": "2026-09-01",
+              "price": 14045.238723292008
+            },
+            {
+              "date": "2026-09-02",
+              "price": 15749.543200208822
+            },
+            {
+              "date": "2026-09-03",
+              "price": 14466.266866566717
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 17551.55663501877
+              },
+              {
+                "date": "2026-08-06",
+                "price": 16102.058273188986
+              },
+              {
+                "date": "2026-08-07",
+                "price": 16168.911335578003
+              },
+              {
+                "date": "2026-08-08",
+                "price": 16681.422651933703
+              },
+              {
+                "date": "2026-08-10",
+                "price": 16195.920950155763
+              },
+              {
+                "date": "2026-08-11",
+                "price": 16205.546198267564
+              },
+              {
+                "date": "2026-08-12",
+                "price": 14324.65552292749
+              },
+              {
+                "date": "2026-08-13",
+                "price": 14753.956599771578
+              },
+              {
+                "date": "2026-08-14",
+                "price": 14182.565789473685
+              },
+              {
+                "date": "2026-08-15",
+                "price": 15458.756873854358
+              },
+              {
+                "date": "2026-08-17",
+                "price": 16501.532657392123
+              },
+              {
+                "date": "2026-08-18",
+                "price": 18133.394083835694
+              },
+              {
+                "date": "2026-08-19",
+                "price": 17700.990241102183
+              },
+              {
+                "date": "2026-08-20",
+                "price": 16829.6928888159
+              },
+              {
+                "date": "2026-08-21",
+                "price": 17428.611369990682
+              },
+              {
+                "date": "2026-08-22",
+                "price": 18172.739412438
+              },
+              {
+                "date": "2026-08-24",
+                "price": 20704.83682983683
+              },
+              {
+                "date": "2026-08-25",
+                "price": 19773.40895981542
+              },
+              {
+                "date": "2026-08-26",
+                "price": 19600.046210720888
+              },
+              {
+                "date": "2026-08-27",
+                "price": 18686.653214182763
+              },
+              {
+                "date": "2026-08-28",
+                "price": 18163.719512195123
+              },
+              {
+                "date": "2026-08-29",
+                "price": 16948.613678373382
+              },
+              {
+                "date": "2026-08-31",
+                "price": 17158.015061861217
+              },
+              {
+                "date": "2026-09-01",
+                "price": 17502.400295420975
+              },
+              {
+                "date": "2026-09-02",
+                "price": 19147.91818845873
+              },
+              {
+                "date": "2026-09-03",
+                "price": 19054.30711610487
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 13580
+              },
+              {
+                "date": "2026-08-06",
+                "price": 12865
+              },
+              {
+                "date": "2026-08-07",
+                "price": 11688
+              },
+              {
+                "date": "2026-08-08",
+                "price": 13149
+              },
+              {
+                "date": "2026-08-10",
+                "price": 13761
+              },
+              {
+                "date": "2026-08-11",
+                "price": 14710
+              },
+              {
+                "date": "2026-08-12",
+                "price": 13409
+              },
+              {
+                "date": "2026-08-13",
+                "price": 13549
+              },
+              {
+                "date": "2026-08-14",
+                "price": 12769
+              },
+              {
+                "date": "2026-08-15",
+                "price": 13652
+              },
+              {
+                "date": "2026-08-17",
+                "price": 15791
+              },
+              {
+                "date": "2026-08-18",
+                "price": 16488
+              },
+              {
+                "date": "2026-08-19",
+                "price": 14314
+              },
+              {
+                "date": "2026-08-20",
+                "price": 13798
+              },
+              {
+                "date": "2026-08-21",
+                "price": 14453
+              },
+              {
+                "date": "2026-08-22",
+                "price": 16469
+              },
+              {
+                "date": "2026-08-24",
+                "price": 16388
+              },
+              {
+                "date": "2026-08-25",
+                "price": 17657
+              },
+              {
+                "date": "2026-08-26",
+                "price": 17455
+              },
+              {
+                "date": "2026-08-27",
+                "price": 17324
+              },
+              {
+                "date": "2026-08-28",
+                "price": 15915
+              },
+              {
+                "date": "2026-08-29",
+                "price": 16636
+              },
+              {
+                "date": "2026-08-31",
+                "price": 18015
+              },
+              {
+                "date": "2026-09-01",
+                "price": 17935
+              },
+              {
+                "date": "2026-09-02",
+                "price": 15933
+              },
+              {
+                "date": "2026-09-03",
+                "price": 13882
+              }
+            ]
+          },
+          "onPoster": false,
+          "forThreshold": false
+        }
+      ],
+      "varieties": [
+        {
+          "code": "hwangdo",
+          "nameKo": "황도",
+          "share": 0.188,
+          "sang": 35458
+        },
+        {
+          "code": "fantasia",
+          "nameKo": "환타지아",
+          "share": 0.127,
+          "sang": 35940
+        },
+        {
+          "code": "cheonhajeil",
+          "nameKo": "천하제일도",
+          "share": 0.109,
+          "sang": null
+        },
+        {
+          "code": "yumyeong-baekdo",
+          "nameKo": "유명백도",
+          "share": 0.106,
+          "sang": 46135
+        },
+        {
+          "code": "elberta",
+          "nameKo": "엘바트",
+          "share": 0.061,
+          "sang": 28165
+        }
+      ],
+      "crisis": {
+        "stage": "UNKNOWN",
+        "direction": null,
+        "label": "판정 보류",
+        "deviationPct": null,
+        "basis": "NONE",
+        "basisLabel": "공문 기준가 정체(전 거래일 값 반복) — 판정 보류",
+        "thresholdId": 767,
+        "unit": "원/4kg",
+        "price": null,
+        "band": {
+          "criticalDown": 10563,
+          "alertDown": 14134,
+          "cautionDown": 17704,
+          "stable": 22130,
+          "cautionUp": 25630,
+          "alertUp": 29129,
+          "criticalUp": 32629
+        },
+        "prevStage": null,
+        "reportStage": null,
+        "offSeason": false,
+        "local": null
+      },
+      "retail": {
+        "kindCode": "01",
+        "varietyCode": "baekdo",
+        "varietyLabel": "백도",
+        "matchesWholesaleVariety": false,
+        "unit": "10개",
+        "unitKg": null,
+        "gradeLabel": "상품",
+        "key": "RETAIL_EA#V_01@HIGH",
+        "date": "2026-09-03",
+        "lagDays": 0,
+        "price": 19075,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 18027,
+          "pct": 5.8
+        },
+        "vsPrevMonth": {
+          "date": "2026-08",
+          "value": 18360,
+          "pct": 3.9
+        },
+        "vsYoy": {
+          "date": "2025-09",
+          "value": 23438,
+          "pct": -18.6
+        },
+        "vsNormal": {
+          "date": null,
+          "value": 23806,
+          "pct": -19.9,
+          "years": [
+            2025,
+            2024,
+            2021
+          ]
+        },
+        "spark": [
+          {
+            "date": "2026-08-27",
+            "price": 18167
+          },
+          {
+            "date": "2026-08-28",
+            "price": 18140
+          },
+          {
+            "date": "2026-08-31",
+            "price": 18057
+          },
+          {
+            "date": "2026-09-01",
+            "price": 18064
+          },
+          {
+            "date": "2026-09-02",
+            "price": 18027
+          },
+          {
+            "date": "2026-09-03",
+            "price": 19075
+          }
+        ],
+        "trend30": [
+          {
+            "date": "2026-08-05",
+            "price": 17510
+          },
+          {
+            "date": "2026-08-06",
+            "price": 18582
+          },
+          {
+            "date": "2026-08-07",
+            "price": 18602
+          },
+          {
+            "date": "2026-08-10",
+            "price": 18506
+          },
+          {
+            "date": "2026-08-11",
+            "price": 18470
+          },
+          {
+            "date": "2026-08-12",
+            "price": 18678
+          },
+          {
+            "date": "2026-08-13",
+            "price": 19049
+          },
+          {
+            "date": "2026-08-14",
+            "price": 17931
+          },
+          {
+            "date": "2026-08-18",
+            "price": 18371
+          },
+          {
+            "date": "2026-08-19",
+            "price": 18620
+          },
+          {
+            "date": "2026-08-20",
+            "price": 18439
+          },
+          {
+            "date": "2026-08-21",
+            "price": 18659
+          },
+          {
+            "date": "2026-08-24",
+            "price": 18771
+          },
+          {
+            "date": "2026-08-25",
+            "price": 18718
+          },
+          {
+            "date": "2026-08-26",
+            "price": 18639
+          },
+          {
+            "date": "2026-08-27",
+            "price": 18167
+          },
+          {
+            "date": "2026-08-28",
+            "price": 18140
+          },
+          {
+            "date": "2026-08-31",
+            "price": 18057
+          },
+          {
+            "date": "2026-09-01",
+            "price": 18064
+          },
+          {
+            "date": "2026-09-02",
+            "price": 18027
+          },
+          {
+            "date": "2026-09-03",
+            "price": 19075
+          }
+        ],
+        "trend30Ref": {
+          "yoy": [
+            {
+              "date": "2026-08-05",
+              "price": 22700
+            },
+            {
+              "date": "2026-08-06",
+              "price": 22512
+            },
+            {
+              "date": "2026-08-07",
+              "price": 23476
+            },
+            {
+              "date": "2026-08-10",
+              "price": 22814
+            },
+            {
+              "date": "2026-08-11",
+              "price": 22814
+            },
+            {
+              "date": "2026-08-12",
+              "price": 23245
+            },
+            {
+              "date": "2026-08-13",
+              "price": 23342
+            },
+            {
+              "date": "2026-08-14",
+              "price": 23027
+            },
+            {
+              "date": "2026-08-18",
+              "price": 22685
+            },
+            {
+              "date": "2026-08-19",
+              "price": 23042
+            },
+            {
+              "date": "2026-08-20",
+              "price": 22953
+            },
+            {
+              "date": "2026-08-21",
+              "price": 22565
+            },
+            {
+              "date": "2026-08-24",
+              "price": 22802
+            },
+            {
+              "date": "2026-08-25",
+              "price": 22802
+            },
+            {
+              "date": "2026-08-26",
+              "price": 22327
+            },
+            {
+              "date": "2026-08-27",
+              "price": 22178
+            },
+            {
+              "date": "2026-08-28",
+              "price": 20454
+            },
+            {
+              "date": "2026-08-31",
+              "price": 20574
+            },
+            {
+              "date": "2026-09-01",
+              "price": 20574
+            },
+            {
+              "date": "2026-09-02",
+              "price": 20602
+            },
+            {
+              "date": "2026-09-03",
+              "price": 20688
+            }
+          ],
+          "normal": [
+            {
+              "date": "2026-08-05",
+              "price": 21161
+            },
+            {
+              "date": "2026-08-06",
+              "price": 21404
+            },
+            {
+              "date": "2026-08-07",
+              "price": 21522
+            },
+            {
+              "date": "2026-08-10",
+              "price": 21491
+            },
+            {
+              "date": "2026-08-11",
+              "price": 21450
+            },
+            {
+              "date": "2026-08-12",
+              "price": 21823
+            },
+            {
+              "date": "2026-08-13",
+              "price": 21832
+            },
+            {
+              "date": "2026-08-14",
+              "price": 21727
+            },
+            {
+              "date": "2026-08-18",
+              "price": 22372
+            },
+            {
+              "date": "2026-08-19",
+              "price": 22557
+            },
+            {
+              "date": "2026-08-20",
+              "price": 22333
+            },
+            {
+              "date": "2026-08-21",
+              "price": 22230
+            },
+            {
+              "date": "2026-08-24",
+              "price": 22525
+            },
+            {
+              "date": "2026-08-25",
+              "price": 22765
+            },
+            {
+              "date": "2026-08-26",
+              "price": 22654
+            },
+            {
+              "date": "2026-08-27",
+              "price": 22606
+            },
+            {
+              "date": "2026-08-28",
+              "price": 22444
+            },
+            {
+              "date": "2026-08-31",
+              "price": 23199
+            },
+            {
+              "date": "2026-09-01",
+              "price": 23392
+            },
+            {
+              "date": "2026-09-02",
+              "price": 23124
+            },
+            {
+              "date": "2026-09-03",
+              "price": 23565
+            }
+          ]
+        },
+        "grades": {
+          "HIGH": {
+            "label": "상품",
+            "date": "2026-09-03",
+            "price": 19075,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 18027,
+              "pct": 5.8
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 18360,
+              "pct": 3.9
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 23438,
+              "pct": -18.6
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 23806,
+              "pct": -19.9,
+              "years": [
+                2025,
+                2024,
+                2021
+              ]
+            }
+          },
+          "MID": {
+            "label": "중품",
+            "date": "2026-09-03",
+            "price": 16121,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 14976,
+              "pct": 7.6
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 14598,
+              "pct": 10.4
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 19833,
+              "pct": -18.7
+            },
+            "vsNormal": {
+              "date": null,
+              "value": null,
+              "pct": null,
+              "years": []
+            }
+          }
+        },
+        "passThrough": {
+          "prevMonth": 0.34,
+          "yoy": null,
+          "wholesalePrevMonthPct": 11.6,
+          "wholesaleYoyPct": 2.1,
+          "wholesaleUnit": "4kg"
+        },
+        "ratioToWholesale": null
+      }
+    },
+    {
+      "itemCode": "citrus",
+      "nameKo": "감귤",
+      "iconDataUri": null,
+      "rank": 5,
+      "onPoster": true,
+      "tradeValue": 146895909,
+      "defaultBoxKg": 5,
+      "offSeason": true,
+      "variety": {
+        "code": "house",
+        "nameKo": "하우스감귤",
+        "share": 0.994,
+        "sangLaneFound": true
+      },
+      "volume": {
+        "tons": 26,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 20,
+          "pct": 30
+        }
+      },
+      "units": [
+        {
+          "unitTag": "3kg",
+          "unitLabel": "3kg",
+          "kg": 3,
+          "isRep": false,
+          "isAnchor": false,
+          "qtyUnits": 4629,
+          "tons": 13.9,
+          "kgShare": 0.543,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 20054,
+            "key": "GARAK_SANG#U_3kg#V_house",
+            "source": "SANG"
+          },
+          "perKg": 6685,
+          "grades": {
+            "SPECIAL": {
+              "price": 27751,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 30164,
+                "pct": -8
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 27051,
+                "pct": 2.6
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 30411,
+                "pct": -8.7
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 29397,
+                "pct": -5.6,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 20054,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 21460,
+                "pct": -6.6
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 21822,
+                "pct": -8.1
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 22993,
+                "pct": -12.8
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 22525,
+                "pct": -11,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            },
+            "MID": {
+              "price": 15784,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 16835,
+                "pct": -6.2
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 18351,
+                "pct": -14
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 18230,
+                "pct": -13.4
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 17278,
+                "pct": -8.6,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            },
+            "LOW": {
+              "price": 12971,
+              "vsPrev": {
+                "date": "2026-09-02",
+                "value": 14107,
+                "pct": -8.1
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 15123,
+                "pct": -14.2
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 13953,
+                "pct": -7
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 12675,
+                "pct": 2.3,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 21460,
+            "pct": -6.6
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 21822,
+            "pct": -8.1
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 22993,
+            "pct": -12.8
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 22525,
+            "pct": -11,
+            "years": [
+              2025,
+              2024,
+              2022
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 21681
+            },
+            {
+              "date": "2026-08-29",
+              "price": 20862
+            },
+            {
+              "date": "2026-08-31",
+              "price": 22009
+            },
+            {
+              "date": "2026-09-01",
+              "price": 20317
+            },
+            {
+              "date": "2026-09-02",
+              "price": 21460
+            },
+            {
+              "date": "2026-09-03",
+              "price": 20054
+            }
+          ],
+          "sparkPct": -7.5,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 20724
+            },
+            {
+              "date": "2026-08-06",
+              "price": 20527
+            },
+            {
+              "date": "2026-08-07",
+              "price": 21055
+            },
+            {
+              "date": "2026-08-08",
+              "price": 21502
+            },
+            {
+              "date": "2026-08-10",
+              "price": 24908
+            },
+            {
+              "date": "2026-08-11",
+              "price": 21092
+            },
+            {
+              "date": "2026-08-12",
+              "price": 22788
+            },
+            {
+              "date": "2026-08-13",
+              "price": 21815
+            },
+            {
+              "date": "2026-08-14",
+              "price": 20646
+            },
+            {
+              "date": "2026-08-15",
+              "price": 21982
+            },
+            {
+              "date": "2026-08-17",
+              "price": 20793
+            },
+            {
+              "date": "2026-08-18",
+              "price": 21608
+            },
+            {
+              "date": "2026-08-19",
+              "price": 22143
+            },
+            {
+              "date": "2026-08-20",
+              "price": 21756
+            },
+            {
+              "date": "2026-08-21",
+              "price": 22139
+            },
+            {
+              "date": "2026-08-22",
+              "price": 22236
+            },
+            {
+              "date": "2026-08-24",
+              "price": 21386
+            },
+            {
+              "date": "2026-08-25",
+              "price": 22577
+            },
+            {
+              "date": "2026-08-26",
+              "price": 22367
+            },
+            {
+              "date": "2026-08-27",
+              "price": 20788
+            },
+            {
+              "date": "2026-08-28",
+              "price": 21681
+            },
+            {
+              "date": "2026-08-29",
+              "price": 20862
+            },
+            {
+              "date": "2026-08-31",
+              "price": 22009
+            },
+            {
+              "date": "2026-09-01",
+              "price": 20317
+            },
+            {
+              "date": "2026-09-02",
+              "price": 21460
+            },
+            {
+              "date": "2026-09-03",
+              "price": 20054
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 23218
+              },
+              {
+                "date": "2026-08-06",
+                "price": 22359
+              },
+              {
+                "date": "2026-08-07",
+                "price": 21970
+              },
+              {
+                "date": "2026-08-08",
+                "price": 23744
+              },
+              {
+                "date": "2026-08-10",
+                "price": 23216
+              },
+              {
+                "date": "2026-08-11",
+                "price": 23381
+              },
+              {
+                "date": "2026-08-12",
+                "price": 25177
+              },
+              {
+                "date": "2026-08-13",
+                "price": 25177
+              },
+              {
+                "date": "2026-08-14",
+                "price": 25177
+              },
+              {
+                "date": "2026-08-15",
+                "price": null
+              },
+              {
+                "date": "2026-08-17",
+                "price": null
+              },
+              {
+                "date": "2026-08-18",
+                "price": null
+              },
+              {
+                "date": "2026-08-19",
+                "price": null
+              },
+              {
+                "date": "2026-08-20",
+                "price": null
+              },
+              {
+                "date": "2026-08-21",
+                "price": null
+              },
+              {
+                "date": "2026-08-22",
+                "price": null
+              },
+              {
+                "date": "2026-08-24",
+                "price": 22865
+              },
+              {
+                "date": "2026-08-25",
+                "price": 22865
+              },
+              {
+                "date": "2026-08-26",
+                "price": 26293
+              },
+              {
+                "date": "2026-08-27",
+                "price": 22330
+              },
+              {
+                "date": "2026-08-28",
+                "price": 22113
+              },
+              {
+                "date": "2026-08-29",
+                "price": 21998
+              },
+              {
+                "date": "2026-08-31",
+                "price": 22124
+              },
+              {
+                "date": "2026-09-01",
+                "price": 26383
+              },
+              {
+                "date": "2026-09-02",
+                "price": 22998
+              },
+              {
+                "date": "2026-09-03",
+                "price": 22998
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 23165
+              },
+              {
+                "date": "2026-08-06",
+                "price": 22755
+              },
+              {
+                "date": "2026-08-07",
+                "price": 22290
+              },
+              {
+                "date": "2026-08-08",
+                "price": 24641
+              },
+              {
+                "date": "2026-08-10",
+                "price": 23379
+              },
+              {
+                "date": "2026-08-11",
+                "price": 23664
+              },
+              {
+                "date": "2026-08-12",
+                "price": 23983
+              },
+              {
+                "date": "2026-08-13",
+                "price": 23741
+              },
+              {
+                "date": "2026-08-14",
+                "price": 24070
+              },
+              {
+                "date": "2026-08-15",
+                "price": 23733
+              },
+              {
+                "date": "2026-08-17",
+                "price": 23097
+              },
+              {
+                "date": "2026-08-18",
+                "price": 23574
+              },
+              {
+                "date": "2026-08-19",
+                "price": 23812
+              },
+              {
+                "date": "2026-08-20",
+                "price": 23905
+              },
+              {
+                "date": "2026-08-21",
+                "price": 24351
+              },
+              {
+                "date": "2026-08-22",
+                "price": 24083
+              },
+              {
+                "date": "2026-08-24",
+                "price": 22415
+              },
+              {
+                "date": "2026-08-25",
+                "price": 22694
+              },
+              {
+                "date": "2026-08-26",
+                "price": 23946
+              },
+              {
+                "date": "2026-08-27",
+                "price": 22489
+              },
+              {
+                "date": "2026-08-28",
+                "price": 22745
+              },
+              {
+                "date": "2026-08-29",
+                "price": 22097
+              },
+              {
+                "date": "2026-08-31",
+                "price": 22747
+              },
+              {
+                "date": "2026-09-01",
+                "price": 23604
+              },
+              {
+                "date": "2026-09-02",
+                "price": 23976
+              },
+              {
+                "date": "2026-09-03",
+                "price": 23750
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "6kg",
+          "unitLabel": "6kg",
+          "kg": 6,
+          "isRep": false,
+          "isAnchor": false,
+          "qtyUnits": 1372,
+          "tons": 8.2,
+          "kgShare": 0.322,
+          "sang": {
+            "date": "2026-09-03",
+            "price": 31584.985422740523,
+            "key": "GARAK#U_6kg#V_house",
+            "source": "DATA12_AVG"
+          },
+          "perKg": 5264,
+          "grades": {},
+          "vsPrev": {
+            "date": "2026-09-02",
+            "value": 35018.12865497076,
+            "pct": -9.8
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 37608,
+            "pct": -16
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 31994,
+            "pct": -1.3
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 28449,
+            "pct": 11,
+            "years": [
+              2023,
+              2022,
+              2021
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-08-28",
+              "price": 42168.40148698885
+            },
+            {
+              "date": "2026-08-29",
+              "price": 32794.08381265407
+            },
+            {
+              "date": "2026-08-31",
+              "price": 32159.14893617021
+            },
+            {
+              "date": "2026-09-01",
+              "price": 36549.2125984252
+            },
+            {
+              "date": "2026-09-02",
+              "price": 35018.12865497076
+            },
+            {
+              "date": "2026-09-03",
+              "price": 31584.985422740523
+            }
+          ],
+          "sparkPct": -25.1,
+          "trend30": [
+            {
+              "date": "2026-08-05",
+              "price": 37469.02173913043
+            },
+            {
+              "date": "2026-08-06",
+              "price": 39264.37684003925
+            },
+            {
+              "date": "2026-08-07",
+              "price": 39580.6275579809
+            },
+            {
+              "date": "2026-08-08",
+              "price": 40805.78512396694
+            },
+            {
+              "date": "2026-08-10",
+              "price": 38753.868194842406
+            },
+            {
+              "date": "2026-08-11",
+              "price": 38418.69009584664
+            },
+            {
+              "date": "2026-08-12",
+              "price": 36886.81672025724
+            },
+            {
+              "date": "2026-08-13",
+              "price": 36160.361718161264
+            },
+            {
+              "date": "2026-08-14",
+              "price": 33868.09078771696
+            },
+            {
+              "date": "2026-08-15",
+              "price": 32629.46273830156
+            },
+            {
+              "date": "2026-08-17",
+              "price": 37540.51565377532
+            },
+            {
+              "date": "2026-08-18",
+              "price": 36382.995169082125
+            },
+            {
+              "date": "2026-08-19",
+              "price": 33608.85860306644
+            },
+            {
+              "date": "2026-08-20",
+              "price": 46613.65853658537
+            },
+            {
+              "date": "2026-08-21",
+              "price": 36837.83102143758
+            },
+            {
+              "date": "2026-08-22",
+              "price": 40857.96766743649
+            },
+            {
+              "date": "2026-08-24",
+              "price": 40496.02076124567
+            },
+            {
+              "date": "2026-08-25",
+              "price": 37260.76458752515
+            },
+            {
+              "date": "2026-08-26",
+              "price": 36825.17123287671
+            },
+            {
+              "date": "2026-08-27",
+              "price": 35355.574182732606
+            },
+            {
+              "date": "2026-08-28",
+              "price": 42168.40148698885
+            },
+            {
+              "date": "2026-08-29",
+              "price": 32794.08381265407
+            },
+            {
+              "date": "2026-08-31",
+              "price": 32159.14893617021
+            },
+            {
+              "date": "2026-09-01",
+              "price": 36549.2125984252
+            },
+            {
+              "date": "2026-09-02",
+              "price": 35018.12865497076
+            },
+            {
+              "date": "2026-09-03",
+              "price": 31584.985422740523
+            }
+          ],
+          "trend30Ref": {
+            "yoy": [
+              {
+                "date": "2026-08-05",
+                "price": 42454.636591478695
+              },
+              {
+                "date": "2026-08-06",
+                "price": 39954.22459893048
+              },
+              {
+                "date": "2026-08-07",
+                "price": 39870.24504084014
+              },
+              {
+                "date": "2026-08-08",
+                "price": 39418.666666666664
+              },
+              {
+                "date": "2026-08-10",
+                "price": 39871.28514056225
+              },
+              {
+                "date": "2026-08-11",
+                "price": 42013.64392678869
+              },
+              {
+                "date": "2026-08-12",
+                "price": 39620.2492211838
+              },
+              {
+                "date": "2026-08-13",
+                "price": 42164.851485148516
+              },
+              {
+                "date": "2026-08-14",
+                "price": 40158.80535530381
+              },
+              {
+                "date": "2026-08-15",
+                "price": 36888.84826325411
+              },
+              {
+                "date": "2026-08-17",
+                "price": 41661.266568483064
+              },
+              {
+                "date": "2026-08-18",
+                "price": 41192.05909510619
+              },
+              {
+                "date": "2026-08-19",
+                "price": 36110.604870384916
+              },
+              {
+                "date": "2026-08-20",
+                "price": 39845.47511312217
+              },
+              {
+                "date": "2026-08-21",
+                "price": 31692.220113851992
+              },
+              {
+                "date": "2026-08-22",
+                "price": 35094.901960784315
+              },
+              {
+                "date": "2026-08-24",
+                "price": 38374.89986648865
+              },
+              {
+                "date": "2026-08-25",
+                "price": 37844.2088091354
+              },
+              {
+                "date": "2026-08-26",
+                "price": 39150.46511627907
+              },
+              {
+                "date": "2026-08-27",
+                "price": 34757.873620862585
+              },
+              {
+                "date": "2026-08-28",
+                "price": 40346.666666666664
+              },
+              {
+                "date": "2026-08-29",
+                "price": 38769.5067264574
+              },
+              {
+                "date": "2026-08-31",
+                "price": 48941.93548387097
+              },
+              {
+                "date": "2026-09-01",
+                "price": 37909.85324947589
+              },
+              {
+                "date": "2026-09-02",
+                "price": 36937.945492662475
+              },
+              {
+                "date": "2026-09-03",
+                "price": 36149.0662139219
+              }
+            ],
+            "normal": [
+              {
+                "date": "2026-08-05",
+                "price": 45860
+              },
+              {
+                "date": "2026-08-06",
+                "price": 44524
+              },
+              {
+                "date": "2026-08-07",
+                "price": 41066
+              },
+              {
+                "date": "2026-08-08",
+                "price": 39595
+              },
+              {
+                "date": "2026-08-10",
+                "price": 38458
+              },
+              {
+                "date": "2026-08-11",
+                "price": 38700
+              },
+              {
+                "date": "2026-08-12",
+                "price": 38356
+              },
+              {
+                "date": "2026-08-13",
+                "price": 36839
+              },
+              {
+                "date": "2026-08-14",
+                "price": 36921
+              },
+              {
+                "date": "2026-08-15",
+                "price": 37731
+              },
+              {
+                "date": "2026-08-17",
+                "price": 37855
+              },
+              {
+                "date": "2026-08-18",
+                "price": 37988
+              },
+              {
+                "date": "2026-08-19",
+                "price": 37723
+              },
+              {
+                "date": "2026-08-20",
+                "price": 36806
+              },
+              {
+                "date": "2026-08-21",
+                "price": 32803
+              },
+              {
+                "date": "2026-08-22",
+                "price": 36513
+              },
+              {
+                "date": "2026-08-24",
+                "price": 35611
+              },
+              {
+                "date": "2026-08-25",
+                "price": 36451
+              },
+              {
+                "date": "2026-08-26",
+                "price": 33932
+              },
+              {
+                "date": "2026-08-27",
+                "price": 32434
+              },
+              {
+                "date": "2026-08-28",
+                "price": 34170
+              },
+              {
+                "date": "2026-08-29",
+                "price": 37257
+              },
+              {
+                "date": "2026-08-31",
+                "price": 33940
+              },
+              {
+                "date": "2026-09-01",
+                "price": 32488
+              },
+              {
+                "date": "2026-09-02",
+                "price": 33576
+              },
+              {
+                "date": "2026-09-03",
+                "price": 34328
+              }
+            ]
+          },
+          "onPoster": true,
+          "forThreshold": false
+        }
+      ],
+      "varieties": [
+        {
+          "code": "house",
+          "nameKo": "하우스감귤",
+          "share": 0.994,
+          "sang": 16081
+        },
+        {
+          "code": "hwanggeumhyang",
+          "nameKo": "황금향",
+          "share": 0.006,
+          "sang": null
+        }
+      ],
+      "crisis": {
+        "stage": "STABLE",
+        "direction": "FLAT",
+        "label": "안정",
+        "deviationPct": -11,
+        "basis": "LOCAL",
+        "basisLabel": "하우스감귤 3kg 상 · 자체 산출 · 시즌 외",
+        "thresholdId": null,
+        "unit": "원/3kg",
+        "price": 20054,
+        "band": {
+          "criticalDown": 12231,
+          "alertDown": 15126,
+          "cautionDown": 18020,
+          "stable": 22525,
+          "cautionUp": 24275,
+          "alertUp": 26025,
+          "criticalUp": 27775
+        },
+        "prevStage": {
+          "date": "2026-09-02",
+          "stage": "STABLE",
+          "label": "안정",
+          "price": 21460
+        },
+        "reportStage": null,
+        "offSeason": true,
+        "local": {
+          "laneKey": "GARAK_SANG#U_3kg#V_house",
+          "laneLabel": "하우스감귤 3kg 상",
+          "scope": "VARIETY",
+          "laneName": null,
+          "source": "SANG",
+          "unit": "원/3kg",
+          "yearly": [
+            {
+              "year": 2021,
+              "avg": 20271,
+              "days": 22
+            },
+            {
+              "year": 2022,
+              "avg": 22184,
+              "days": 24
+            },
+            {
+              "year": 2023,
+              "avg": 25695,
+              "days": 24
+            },
+            {
+              "year": 2024,
+              "avg": 22398,
+              "days": 22
+            },
+            {
+              "year": 2025,
+              "avg": 22993,
+              "days": 18
+            }
+          ],
+          "method": "OLYMPIC",
+          "sigma": 1750,
+          "criticalDownRatio": 0.543,
+          "ratioSource": "부서 최근접 월 대표 10월 5694/10489"
+        }
+      },
+      "retail": {
+        "kindCode": "02",
+        "varietyCode": "house",
+        "varietyLabel": "하우스감귤",
+        "matchesWholesaleVariety": true,
+        "unit": "10개",
+        "unitKg": null,
+        "gradeLabel": "M과",
+        "key": "RETAIL_EA#V_02@HIGH",
+        "date": "2026-09-03",
+        "lagDays": 0,
+        "price": 7166,
+        "vsPrev": {
+          "date": "2026-09-02",
+          "value": 8004,
+          "pct": -10.5
+        },
+        "vsPrevMonth": {
+          "date": "2026-08",
+          "value": 8425,
+          "pct": -14.9
+        },
+        "vsYoy": {
+          "date": "2025-09",
+          "value": 9980,
+          "pct": -28.2
+        },
+        "vsNormal": {
+          "date": null,
+          "value": 9294,
+          "pct": -22.9,
+          "years": [
+            2025,
+            2024,
+            2023,
+            2021
+          ]
+        },
+        "spark": [
+          {
+            "date": "2026-08-27",
+            "price": 8238
+          },
+          {
+            "date": "2026-08-28",
+            "price": 8143
+          },
+          {
+            "date": "2026-08-31",
+            "price": 7962
+          },
+          {
+            "date": "2026-09-01",
+            "price": 7969
+          },
+          {
+            "date": "2026-09-02",
+            "price": 8004
+          },
+          {
+            "date": "2026-09-03",
+            "price": 7166
+          }
+        ],
+        "trend30": [
+          {
+            "date": "2026-08-05",
+            "price": 7951
+          },
+          {
+            "date": "2026-08-06",
+            "price": 8295
+          },
+          {
+            "date": "2026-08-07",
+            "price": 8513
+          },
+          {
+            "date": "2026-08-10",
+            "price": 8836
+          },
+          {
+            "date": "2026-08-11",
+            "price": 8902
+          },
+          {
+            "date": "2026-08-12",
+            "price": 8953
+          },
+          {
+            "date": "2026-08-13",
+            "price": 8300
+          },
+          {
+            "date": "2026-08-14",
+            "price": 7901
+          },
+          {
+            "date": "2026-08-18",
+            "price": 7908
+          },
+          {
+            "date": "2026-08-19",
+            "price": 8088
+          },
+          {
+            "date": "2026-08-20",
+            "price": 8890
+          },
+          {
+            "date": "2026-08-21",
+            "price": 8915
+          },
+          {
+            "date": "2026-08-24",
+            "price": 8898
+          },
+          {
+            "date": "2026-08-25",
+            "price": 8906
+          },
+          {
+            "date": "2026-08-26",
+            "price": 8889
+          },
+          {
+            "date": "2026-08-27",
+            "price": 8238
+          },
+          {
+            "date": "2026-08-28",
+            "price": 8143
+          },
+          {
+            "date": "2026-08-31",
+            "price": 7962
+          },
+          {
+            "date": "2026-09-01",
+            "price": 7969
+          },
+          {
+            "date": "2026-09-02",
+            "price": 8004
+          },
+          {
+            "date": "2026-09-03",
+            "price": 7166
+          }
+        ],
+        "trend30Ref": {
+          "yoy": [
+            {
+              "date": "2026-08-05",
+              "price": 9200
+            },
+            {
+              "date": "2026-08-06",
+              "price": 9108
+            },
+            {
+              "date": "2026-08-07",
+              "price": 9845
+            },
+            {
+              "date": "2026-08-10",
+              "price": 10011
+            },
+            {
+              "date": "2026-08-11",
+              "price": 10011
+            },
+            {
+              "date": "2026-08-12",
+              "price": 10160
+            },
+            {
+              "date": "2026-08-13",
+              "price": 10221
+            },
+            {
+              "date": "2026-08-14",
+              "price": 10494
+            },
+            {
+              "date": "2026-08-18",
+              "price": 10689
+            },
+            {
+              "date": "2026-08-19",
+              "price": 10761
+            },
+            {
+              "date": "2026-08-20",
+              "price": 10737
+            },
+            {
+              "date": "2026-08-21",
+              "price": 10349
+            },
+            {
+              "date": "2026-08-24",
+              "price": 10465
+            },
+            {
+              "date": "2026-08-25",
+              "price": 10465
+            },
+            {
+              "date": "2026-08-26",
+              "price": 10548
+            },
+            {
+              "date": "2026-08-27",
+              "price": 10541
+            },
+            {
+              "date": "2026-08-28",
+              "price": 10404
+            },
+            {
+              "date": "2026-08-31",
+              "price": 10516
+            },
+            {
+              "date": "2026-09-01",
+              "price": 10516
+            },
+            {
+              "date": "2026-09-02",
+              "price": 10599
+            },
+            {
+              "date": "2026-09-03",
+              "price": 10584
+            }
+          ],
+          "normal": [
+            {
+              "date": "2026-08-05",
+              "price": 9233
+            },
+            {
+              "date": "2026-08-06",
+              "price": 9189
+            },
+            {
+              "date": "2026-08-07",
+              "price": 9384
+            },
+            {
+              "date": "2026-08-10",
+              "price": 9463
+            },
+            {
+              "date": "2026-08-11",
+              "price": 9399
+            },
+            {
+              "date": "2026-08-12",
+              "price": 9457
+            },
+            {
+              "date": "2026-08-13",
+              "price": 9511
+            },
+            {
+              "date": "2026-08-14",
+              "price": 9579
+            },
+            {
+              "date": "2026-08-18",
+              "price": 9611
+            },
+            {
+              "date": "2026-08-19",
+              "price": 9588
+            },
+            {
+              "date": "2026-08-20",
+              "price": 9609
+            },
+            {
+              "date": "2026-08-21",
+              "price": 9509
+            },
+            {
+              "date": "2026-08-24",
+              "price": 9534
+            },
+            {
+              "date": "2026-08-25",
+              "price": 9604
+            },
+            {
+              "date": "2026-08-26",
+              "price": 9648
+            },
+            {
+              "date": "2026-08-27",
+              "price": 9645
+            },
+            {
+              "date": "2026-08-28",
+              "price": 9624
+            },
+            {
+              "date": "2026-08-31",
+              "price": 9636
+            },
+            {
+              "date": "2026-09-01",
+              "price": 9552
+            },
+            {
+              "date": "2026-09-02",
+              "price": 9598
+            },
+            {
+              "date": "2026-09-03",
+              "price": 9665
+            }
+          ]
+        },
+        "grades": {
+          "HIGH": {
+            "label": "M과",
+            "date": "2026-09-03",
+            "price": 7166,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 8004,
+              "pct": -10.5
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 8425,
+              "pct": -14.9
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 9980,
+              "pct": -28.2
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 9294,
+              "pct": -22.9,
+              "years": [
+                2025,
+                2024,
+                2023,
+                2021
+              ]
+            }
+          },
+          "MID": {
+            "label": "S과",
+            "date": "2026-09-03",
+            "price": 5400,
+            "vsPrev": {
+              "date": "2026-09-02",
+              "value": 6108,
+              "pct": -11.6
+            },
+            "vsPrevMonth": {
+              "date": "2026-08",
+              "value": 6363,
+              "pct": -15.1
+            },
+            "vsYoy": {
+              "date": "2025-09",
+              "value": 7848,
+              "pct": -31.2
+            },
+            "vsNormal": {
+              "date": null,
+              "value": 7365,
+              "pct": -26.7,
+              "years": [
+                2025,
+                2024,
+                2023,
+                2021
+              ]
+            }
+          }
+        },
+        "passThrough": {
+          "prevMonth": 1.84,
+          "yoy": 2.2,
+          "wholesalePrevMonthPct": -8.1,
+          "wholesaleYoyPct": -12.8,
+          "wholesaleUnit": "3kg"
+        },
+        "ratioToWholesale": null
+      }
+    }
+  ],
+  "omitted": [
+    {
+      "itemCode": "persimmon",
+      "nameKo": "감/곶감",
+      "reason": "OFF_SEASON",
+      "tons": null
+    },
+    {
+      "itemCode": "sweet-persimmon",
+      "nameKo": "단감",
+      "reason": "THIN",
+      "tons": 0
+    },
+    {
+      "itemCode": "japanese-apricot",
+      "nameKo": "매실",
+      "reason": "OFF_SEASON",
+      "tons": null
+    },
+    {
+      "itemCode": "yuzu",
+      "nameKo": "유자",
+      "reason": "OFF_SEASON",
+      "tons": null
+    },
+    {
+      "itemCode": "kiwi",
+      "nameKo": "참다래(키위)",
+      "reason": "OFF_SEASON",
+      "tons": 2
+    },
+    {
+      "itemCode": "chestnut",
+      "nameKo": "밤",
+      "reason": "EXCLUDED",
+      "tons": null
+    },
+    {
+      "itemCode": "plum",
+      "nameKo": "자두",
+      "reason": "EXCLUDED",
+      "tons": null
+    }
+  ],
+  "headlines": [
+    "사과 홍로 10kg 65,746원(▼7.8%) 안정 회복 · 전일 주의↑",
+    "포도 샤인머스캣 2kg 8,342원(▲0.7%) 경계↓ 지속 · 안정 대비 ▼45.3%",
+    "감귤 하우스감귤 3kg 20,054원 전일 ▼6.6%"
+  ],
+  "chuseok": {
+    "thisYear": {
+      "chuseok": "2026-09-25",
+      "daysBefore": 22
+    },
+    "prevYear": null
+  },
+  "edition": "AM",
+  "footnotes": [
+    "가격은 가락시장 가격백분위 '상'(상위 5~40% 구간 평균, 공문 '상품기준')이며 단위는 실물 포장규격당 원. '평균가' 표기는 상품기준가 미수신으로 경매원표 전등급 평균을 쓴 값.",
+    "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
+    "전일비는 직전 거래일 대비. 전월·전년동월·평년동월은 일일 가격동향과 같은 정의 — 전월=직전 달력월 평균, 전년동월=전년 같은 달 평균, 평년동월=최근 5년 같은 달 중 최고·최저를 뺀 3년 평균. 같은 품종·규격·등급 lane 의 일별가 단순평균으로 산정.",
+    "명절(추석) 시기 차이는 보정하지 않음. 전년동월 대비 해석 시 추석 위치를 함께 볼 것.",
+    "가락 상품기준가는 거래가 적은 날 전 거래일 값이 그대로 반복되는 경우가 있어, 전 거래일과 완전히 같은 값은 결측으로 처리(평균·추이에서 제외, 당일이면 평균가† 표시).",
+    "소비자가격은 KAMIS 전국 소매 평균(주 5일 조사·오후 발표)이며 낱개 단위(10개 등)라 도매 원/상자와 수준 비교는 하지 않음 — 같은 소매 lane 의 변화율끼리만. 전이율 = 소매 전월비 ÷ 도매(기준규격 상) 전월비(도매 변화 ±3% 미만이면 미산출). 소매·도매 단위가 같은 경우(포도 2kg)에만 소매/도매 배율 표기.",
+    "부서 임계표에 지배품종·월 행이 없는 품목(복숭아 엘바트·감귤 하우스·단감 태추 등)은 '자체 산출' 임계로 판정 — 부서 산식(안정=직전 5개년 같은 달 올림픽 평균, σ 구간)을 가락 '상' lane 에 적용한 보조 지표이며 심각↓는 같은 품목 부서 비율 차용. 부서 임계와 구분해 읽을 것.",
+    "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
+  ],
+  "provenance": {
+    "sangLatest": "2026-09-14",
+    "garakLatest": "2026-09-14",
+    "expectedDate": "2026-09-03",
+    "queries": [
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-01..2026-09-03",
+      "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2026-08-01..2026-09-03 (§13 소매, kg kind lane 은 단위당 환산)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2025-08-03..2025-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2025-08-03..2025-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2024-08-03..2024-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2024-08-03..2024-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2023-08-03..2023-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2023-08-03..2023-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2022-08-03..2022-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2022-08-03..2022-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-08-03..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2021-08-03..2021-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "apple: BIX5 반복값 3768행 제외 (예 GARAK_SANG@SPECIAL 2021-08-12)",
+      "pear: BIX5 반복값 1044행 제외 (예 GARAK_SANG#U_7.5kg@SPECIAL 2021-09-27)",
+      "grape: BIX5 반복값 1694행 제외 (예 GARAK_SANG@SPECIAL 2022-08-10)",
+      "peach: BIX5 반복값 8242행 제외 (예 GARAK_SANG@SPECIAL 2022-09-19)",
+      "citrus: BIX5 반복값 1354행 제외 (예 GARAK_SANG#U_3kg@SPECIAL 2022-08-06)"
+    ]
+  },
+  "links": {
+    "page": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-03-4tubeqou37/index.html",
+    "poster": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-03-4tubeqou37/poster.png",
+    "card": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-03-4tubeqou37/card.png",
+    "prevPage": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-02-2hwsvmcyh7/index.html",
+    "prevDate": "2026-09-02"
+  }
+}
