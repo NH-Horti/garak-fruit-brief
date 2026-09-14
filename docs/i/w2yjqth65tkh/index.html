@@ -1,0 +1,20 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>가락 과일 시세</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="../../assets/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="가락 과일">
+<meta name="theme-color" content="#1f7a3a">
+<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:-apple-system,"Malgun Gothic",sans-serif;background:#f6f8f6;color:#1f2937}.box{text-align:center;padding:24px}.em{font-size:56px}.t{font-size:18px;font-weight:700;color:#1f7a3a;margin-top:8px}.m{font-size:13px;color:#6b7280;margin-top:6px}a{color:#1f7a3a}</style></head>
+<body><div class="box"><div class="em">🍎</div><div class="t">가락 과일 시세</div><div class="m" id="m">최신 브리프로 이동 중…</div></div>
+<script>
+(function(){
+  if('serviceWorker' in navigator){try{navigator.serviceWorker.register('../../sw.js',{scope:'../../'}).catch(function(){});}catch(e){}}
+  var m=document.getElementById('m');
+  fetch('./dates.json?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){
+    if(!j||!j.dates||!j.dates.length){m.textContent='아직 게시된 브리프가 없습니다.';return;}
+    var top=j.dates[0].date, pick=null;
+    j.dates.forEach(function(d){if(d.date!==top)return;if(!pick||d.edition==='pm')pick=d;});
+    if(pick&&pick.url){location.replace(pick.url);}else{m.textContent='이동할 페이지를 찾지 못했습니다.';}
+  }).catch(function(){m.textContent='목록을 읽지 못했습니다. 네트워크를 확인하세요.';});
+})();
+</script></body></html>
