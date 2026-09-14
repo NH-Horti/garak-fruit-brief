@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T14:13:02.628Z",
+  "generatedAt": "2026-09-14T00:01:12.945Z",
   "targetDate": "2026-09-11",
   "weekday": "금",
-  "sentOn": "2026-09-13",
+  "sentOn": "2026-09-14",
   "freshness": "FRESH",
   "items": [
     {
@@ -27,11 +27,6 @@
           "date": "2026-09-10",
           "value": 362,
           "pct": 30.7
-        },
-        "vsYoy": {
-          "date": "2025-09-11",
-          "value": 168,
-          "pct": 181.5
         }
       },
       "units": [
@@ -58,19 +53,24 @@
                 "value": 126534,
                 "pct": -11.5
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 100905,
-                "pct": 10.9
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 106522,
+                "pct": 5.1
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 108985,
+                "pct": 2.7
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 94720,
-                "pct": 18.2,
+                "value": 86326,
+                "pct": 29.7,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2021
                 ]
               }
             },
@@ -81,19 +81,24 @@
                 "value": 50351,
                 "pct": 5.1
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 67670,
-                "pct": -21.8
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 71389,
+                "pct": -25.9
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 64856,
+                "pct": -18.4
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 59088,
-                "pct": -10.5,
+                "value": 48422,
+                "pct": 9.2,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2021
                 ]
               }
             },
@@ -104,19 +109,24 @@
                 "value": 31092,
                 "pct": 3
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 44694,
-                "pct": -28.3
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 48860,
+                "pct": -34.4
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 43606,
+                "pct": -26.5
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 38534,
-                "pct": -16.9,
+                "value": 31439,
+                "pct": 1.9,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2021
                 ]
               }
             },
@@ -127,19 +137,24 @@
                 "value": 18773,
                 "pct": -6.4
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 25710,
-                "pct": -31.6
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 29605,
+                "pct": -40.6
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 25284,
+                "pct": -30.5
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 21509,
-                "pct": -18.3,
+                "value": 17783,
+                "pct": -1.1,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2022
                 ]
               }
             }
@@ -149,19 +164,24 @@
             "value": 50351,
             "pct": 5.1
           },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 67670,
-            "pct": -21.8
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 71389,
+            "pct": -25.9
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 64856,
+            "pct": -18.4
+          },
+          "vsNormal": {
             "date": null,
-            "value": 59088,
-            "pct": -10.5,
+            "value": 48422,
+            "pct": 9.2,
             "years": [
               2025,
               2024,
-              2023
+              2021
             ]
           },
           "spark": [
@@ -191,6 +211,112 @@
             }
           ],
           "sparkPct": -5.4,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": 82719
+            },
+            {
+              "date": "2026-08-14",
+              "price": 72931
+            },
+            {
+              "date": "2026-08-15",
+              "price": 92719
+            },
+            {
+              "date": "2026-08-17",
+              "price": 73440
+            },
+            {
+              "date": "2026-08-18",
+              "price": 74020
+            },
+            {
+              "date": "2026-08-19",
+              "price": 85136
+            },
+            {
+              "date": "2026-08-20",
+              "price": 81168
+            },
+            {
+              "date": "2026-08-21",
+              "price": 85215
+            },
+            {
+              "date": "2026-08-22",
+              "price": 72000
+            },
+            {
+              "date": "2026-08-24",
+              "price": 68155
+            },
+            {
+              "date": "2026-08-25",
+              "price": 66282
+            },
+            {
+              "date": "2026-08-26",
+              "price": 65582
+            },
+            {
+              "date": "2026-08-27",
+              "price": 60274
+            },
+            {
+              "date": "2026-08-28",
+              "price": 60093
+            },
+            {
+              "date": "2026-08-29",
+              "price": 59189
+            },
+            {
+              "date": "2026-08-31",
+              "price": 61410
+            },
+            {
+              "date": "2026-09-01",
+              "price": 65315
+            },
+            {
+              "date": "2026-09-02",
+              "price": 71282
+            },
+            {
+              "date": "2026-09-03",
+              "price": 65746
+            },
+            {
+              "date": "2026-09-04",
+              "price": 60564
+            },
+            {
+              "date": "2026-09-05",
+              "price": 55908
+            },
+            {
+              "date": "2026-09-07",
+              "price": 58893
+            },
+            {
+              "date": "2026-09-08",
+              "price": 57119
+            },
+            {
+              "date": "2026-09-09",
+              "price": 54015
+            },
+            {
+              "date": "2026-09-10",
+              "price": 50351
+            },
+            {
+              "date": "2026-09-11",
+              "price": 52897
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         },
@@ -217,19 +343,24 @@
                 "value": 78242,
                 "pct": 10.1
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 70513,
-                "pct": 22.2
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 82554,
+                "pct": 4.4
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 66652,
-                "pct": 29.3,
+                "value": 58293,
+                "pct": 47.8,
                 "years": [
-                  2025,
                   2024,
-                  2023
+                  2023,
+                  2021
                 ]
               }
             },
@@ -240,19 +371,24 @@
                 "value": 54961,
                 "pct": 6
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 59263,
-                "pct": -1.7
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 62033,
+                "pct": -6
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 51157,
-                "pct": 13.9,
+                "value": 44630,
+                "pct": 30.6,
                 "years": [
-                  2025,
                   2024,
-                  2023
+                  2023,
+                  2021
                 ]
               }
             },
@@ -263,19 +399,24 @@
                 "value": 37549,
                 "pct": -7.4
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 49096,
-                "pct": -29.2
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 42324,
+                "pct": -17.8
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 37660,
-                "pct": -7.7,
+                "value": 31124,
+                "pct": 11.7,
                 "years": [
-                  2025,
                   2024,
-                  2023
+                  2023,
+                  2021
                 ]
               }
             },
@@ -286,19 +427,24 @@
                 "value": 17205,
                 "pct": -10
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 37146,
-                "pct": -58.3
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 25627,
+                "pct": -39.6
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 25254,
-                "pct": -38.7,
+                "value": 20292,
+                "pct": -23.7,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2021
                 ]
               }
             }
@@ -308,19 +454,24 @@
             "value": 54961,
             "pct": 6
           },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 59263,
-            "pct": -1.7
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": null,
+            "pct": null
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 62033,
+            "pct": -6
+          },
+          "vsNormal": {
             "date": null,
-            "value": 51157,
-            "pct": 13.9,
+            "value": 44630,
+            "pct": 30.6,
             "years": [
-              2025,
               2024,
-              2023
+              2023,
+              2021
             ]
           },
           "spark": [
@@ -350,6 +501,112 @@
             }
           ],
           "sparkPct": 37.9,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": null
+            },
+            {
+              "date": "2026-08-14",
+              "price": null
+            },
+            {
+              "date": "2026-08-15",
+              "price": null
+            },
+            {
+              "date": "2026-08-17",
+              "price": null
+            },
+            {
+              "date": "2026-08-18",
+              "price": null
+            },
+            {
+              "date": "2026-08-19",
+              "price": null
+            },
+            {
+              "date": "2026-08-20",
+              "price": null
+            },
+            {
+              "date": "2026-08-21",
+              "price": null
+            },
+            {
+              "date": "2026-08-22",
+              "price": null
+            },
+            {
+              "date": "2026-08-24",
+              "price": null
+            },
+            {
+              "date": "2026-08-25",
+              "price": null
+            },
+            {
+              "date": "2026-08-26",
+              "price": null
+            },
+            {
+              "date": "2026-08-27",
+              "price": null
+            },
+            {
+              "date": "2026-08-28",
+              "price": null
+            },
+            {
+              "date": "2026-08-29",
+              "price": null
+            },
+            {
+              "date": "2026-08-31",
+              "price": null
+            },
+            {
+              "date": "2026-09-01",
+              "price": null
+            },
+            {
+              "date": "2026-09-02",
+              "price": null
+            },
+            {
+              "date": "2026-09-03",
+              "price": null
+            },
+            {
+              "date": "2026-09-04",
+              "price": 42273
+            },
+            {
+              "date": "2026-09-05",
+              "price": 42273
+            },
+            {
+              "date": "2026-09-07",
+              "price": 55594
+            },
+            {
+              "date": "2026-09-08",
+              "price": 53291
+            },
+            {
+              "date": "2026-09-09",
+              "price": 49134
+            },
+            {
+              "date": "2026-09-10",
+              "price": 54961
+            },
+            {
+              "date": "2026-09-11",
+              "price": 58282
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         }
@@ -441,173 +698,9 @@
           "date": "2026-09-10",
           "value": 405,
           "pct": 18
-        },
-        "vsYoy": {
-          "date": "2025-09-11",
-          "value": 74,
-          "pct": 545.9
         }
       },
       "units": [
-        {
-          "unitTag": "7.5kg",
-          "unitLabel": "7.5kg",
-          "kg": 7.5,
-          "isRep": false,
-          "qtyUnits": 46395,
-          "tons": 348,
-          "kgShare": 0.79,
-          "sang": {
-            "date": "2026-09-11",
-            "price": 41029,
-            "key": "GARAK_SANG#U_7.5kg#V_shingo",
-            "source": "SANG"
-          },
-          "perKg": 5471,
-          "grades": {
-            "SPECIAL": {
-              "price": 49046,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 50829,
-                "pct": -3.5
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 37000,
-                "pct": 32.6
-              },
-              "vs3y": {
-                "date": null,
-                "value": 43372,
-                "pct": 13.1,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "HIGH": {
-              "price": 41029,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 42848,
-                "pct": -4.2
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 32720,
-                "pct": 25.4
-              },
-              "vs3y": {
-                "date": null,
-                "value": 36589,
-                "pct": 12.1,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "MID": {
-              "price": 32349,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 32543,
-                "pct": -0.6
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 27361,
-                "pct": 18.2
-              },
-              "vs3y": {
-                "date": null,
-                "value": 29875,
-                "pct": 8.3,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "LOW": {
-              "price": 22842,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 22691,
-                "pct": 0.7
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 23000,
-                "pct": -0.7
-              },
-              "vs3y": {
-                "date": null,
-                "value": 22366,
-                "pct": 2.1,
-                "years": [
-                  2025,
-                  2024,
-                  2023
-                ]
-              }
-            }
-          },
-          "vsPrev": {
-            "date": "2026-09-10",
-            "value": 42848,
-            "pct": -4.2
-          },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 32720,
-            "pct": 25.4
-          },
-          "vs3y": {
-            "date": null,
-            "value": 36589,
-            "pct": 12.1,
-            "years": [
-              2025,
-              2024,
-              2023
-            ]
-          },
-          "spark": [
-            {
-              "date": "2026-09-05",
-              "price": 42968
-            },
-            {
-              "date": "2026-09-07",
-              "price": 42609
-            },
-            {
-              "date": "2026-09-08",
-              "price": 42265
-            },
-            {
-              "date": "2026-09-09",
-              "price": 41627
-            },
-            {
-              "date": "2026-09-10",
-              "price": 42848
-            },
-            {
-              "date": "2026-09-11",
-              "price": 41029
-            }
-          ],
-          "sparkPct": -4.5,
-          "onPoster": true,
-          "forThreshold": false
-        },
         {
           "unitTag": "15kg",
           "unitLabel": "15kg",
@@ -631,19 +724,24 @@
                 "value": 64041,
                 "pct": 5.3
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 65587,
-                "pct": 2.8
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 58831,
+                "pct": 14.6
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 59453,
+                "pct": 13.4
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 67155,
-                "pct": 0.4,
+                "value": 59903,
+                "pct": 12.6,
                 "years": [
                   2025,
-                  2024,
-                  2023
+                  2023,
+                  2021
                 ]
               }
             },
@@ -654,19 +752,24 @@
                 "value": 52586,
                 "pct": -1.3
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 57193,
-                "pct": -9.3
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 41427,
+                "pct": 25.2
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 47037,
+                "pct": 10.3
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 52323,
-                "pct": -0.8,
+                "value": 48318,
+                "pct": 7.4,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2021
                 ]
               }
             },
@@ -677,19 +780,24 @@
                 "value": 41018,
                 "pct": -9.7
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 46590,
-                "pct": -20.5
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 30375,
+                "pct": 21.9
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 32645,
+                "pct": 13.4
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 40456,
-                "pct": -8.5,
+                "value": 34622,
+                "pct": 6.9,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2021
                 ]
               }
             },
@@ -700,19 +808,24 @@
                 "value": 31274,
                 "pct": -14.2
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 27091,
-                "pct": -1
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 23269,
+                "pct": 15.3
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 21821,
+                "pct": 23
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 27428,
-                "pct": -2.2,
+                "value": 22700,
+                "pct": 18.2,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2021
                 ]
               }
             }
@@ -722,19 +835,24 @@
             "value": 52586,
             "pct": -1.3
           },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 57193,
-            "pct": -9.3
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 41427,
+            "pct": 25.2
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 47037,
+            "pct": 10.3
+          },
+          "vsNormal": {
             "date": null,
-            "value": 52323,
-            "pct": -0.8,
+            "value": 48318,
+            "pct": 7.4,
             "years": [
               2025,
               2024,
-              2023
+              2021
             ]
           },
           "spark": [
@@ -764,6 +882,402 @@
             }
           ],
           "sparkPct": -9.2,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": 37481
+            },
+            {
+              "date": "2026-08-14",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-15",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-17",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-18",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-19",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-20",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-21",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-22",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-24",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-25",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-26",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-27",
+              "price": 28456
+            },
+            {
+              "date": "2026-08-28",
+              "price": 63366
+            },
+            {
+              "date": "2026-08-29",
+              "price": 69111
+            },
+            {
+              "date": "2026-08-31",
+              "price": 69331
+            },
+            {
+              "date": "2026-09-01",
+              "price": 69331
+            },
+            {
+              "date": "2026-09-02",
+              "price": 45000
+            },
+            {
+              "date": "2026-09-03",
+              "price": 57671
+            },
+            {
+              "date": "2026-09-04",
+              "price": 56911
+            },
+            {
+              "date": "2026-09-05",
+              "price": 57117
+            },
+            {
+              "date": "2026-09-07",
+              "price": 53645
+            },
+            {
+              "date": "2026-09-08",
+              "price": 51875
+            },
+            {
+              "date": "2026-09-09",
+              "price": 48840
+            },
+            {
+              "date": "2026-09-10",
+              "price": 52586
+            },
+            {
+              "date": "2026-09-11",
+              "price": 51884
+            }
+          ],
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "7.5kg",
+          "unitLabel": "7.5kg",
+          "kg": 7.5,
+          "isRep": false,
+          "qtyUnits": 46395,
+          "tons": 348,
+          "kgShare": 0.79,
+          "sang": {
+            "date": "2026-09-11",
+            "price": 41029,
+            "key": "GARAK_SANG#U_7.5kg#V_shingo",
+            "source": "SANG"
+          },
+          "perKg": 5471,
+          "grades": {
+            "SPECIAL": {
+              "price": 49046,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 50829,
+                "pct": -3.5
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 41977,
+                "pct": 16.8
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 41197,
+                "pct": 19.1,
+                "years": [
+                  2024,
+                  2023,
+                  2021
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 41029,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 42848,
+                "pct": -4.2
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 35572,
+                "pct": 15.3
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 34561,
+                "pct": 18.7,
+                "years": [
+                  2024,
+                  2023,
+                  2021
+                ]
+              }
+            },
+            "MID": {
+              "price": 32349,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 32543,
+                "pct": -0.6
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 28555,
+                "pct": 13.3
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 27813,
+                "pct": 16.3,
+                "years": [
+                  2024,
+                  2023,
+                  2021
+                ]
+              }
+            },
+            "LOW": {
+              "price": 22842,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 22691,
+                "pct": 0.7
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 21534,
+                "pct": 6.1
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 20945,
+                "pct": 9.1,
+                "years": [
+                  2025,
+                  2024,
+                  2023
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-10",
+            "value": 42848,
+            "pct": -4.2
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": null,
+            "pct": null
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 35572,
+            "pct": 15.3
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 34561,
+            "pct": 18.7,
+            "years": [
+              2024,
+              2023,
+              2021
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-09-05",
+              "price": 42968
+            },
+            {
+              "date": "2026-09-07",
+              "price": 42609
+            },
+            {
+              "date": "2026-09-08",
+              "price": 42265
+            },
+            {
+              "date": "2026-09-09",
+              "price": 41627
+            },
+            {
+              "date": "2026-09-10",
+              "price": 42848
+            },
+            {
+              "date": "2026-09-11",
+              "price": 41029
+            }
+          ],
+          "sparkPct": -4.5,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": null
+            },
+            {
+              "date": "2026-08-14",
+              "price": null
+            },
+            {
+              "date": "2026-08-15",
+              "price": null
+            },
+            {
+              "date": "2026-08-17",
+              "price": null
+            },
+            {
+              "date": "2026-08-18",
+              "price": null
+            },
+            {
+              "date": "2026-08-19",
+              "price": null
+            },
+            {
+              "date": "2026-08-20",
+              "price": null
+            },
+            {
+              "date": "2026-08-21",
+              "price": null
+            },
+            {
+              "date": "2026-08-22",
+              "price": null
+            },
+            {
+              "date": "2026-08-24",
+              "price": null
+            },
+            {
+              "date": "2026-08-25",
+              "price": null
+            },
+            {
+              "date": "2026-08-26",
+              "price": null
+            },
+            {
+              "date": "2026-08-27",
+              "price": null
+            },
+            {
+              "date": "2026-08-28",
+              "price": null
+            },
+            {
+              "date": "2026-08-29",
+              "price": null
+            },
+            {
+              "date": "2026-08-31",
+              "price": null
+            },
+            {
+              "date": "2026-09-01",
+              "price": null
+            },
+            {
+              "date": "2026-09-02",
+              "price": 49072
+            },
+            {
+              "date": "2026-09-03",
+              "price": 40794
+            },
+            {
+              "date": "2026-09-04",
+              "price": 42968
+            },
+            {
+              "date": "2026-09-05",
+              "price": 42968
+            },
+            {
+              "date": "2026-09-07",
+              "price": 42609
+            },
+            {
+              "date": "2026-09-08",
+              "price": 42265
+            },
+            {
+              "date": "2026-09-09",
+              "price": 41627
+            },
+            {
+              "date": "2026-09-10",
+              "price": 42848
+            },
+            {
+              "date": "2026-09-11",
+              "price": 41029
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         }
@@ -855,11 +1369,6 @@
           "date": "2026-09-10",
           "value": 374,
           "pct": -0.8
-        },
-        "vsYoy": {
-          "date": "2025-09-11",
-          "value": 270,
-          "pct": 37.4
         }
       },
       "units": [
@@ -886,19 +1395,25 @@
                 "value": 12287,
                 "pct": 2.8
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 15541,
-                "pct": -18.7
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 16019,
+                "pct": -21.2
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 16766,
+                "pct": -24.7
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 20434,
-                "pct": -38.2,
+                "value": 21879,
+                "pct": -42.3,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2023,
+                  2022
                 ]
               }
             },
@@ -909,19 +1424,25 @@
                 "value": 7196,
                 "pct": 0.3
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 9982,
-                "pct": -27.7
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 11219,
+                "pct": -35.7
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 9496,
+                "pct": -24
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 12375,
-                "pct": -41.7,
+                "value": 13819,
+                "pct": -47.8,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2023,
+                  2022
                 ]
               }
             },
@@ -932,19 +1453,25 @@
                 "value": 5065,
                 "pct": -6.2
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 8191,
-                "pct": -42
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 8651,
+                "pct": -45.1
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 7129,
+                "pct": -33.3
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 9454,
-                "pct": -49.7,
+                "value": 10469,
+                "pct": -54.6,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2023,
+                  2022
                 ]
               }
             },
@@ -955,19 +1482,25 @@
                 "value": 3326,
                 "pct": -9.3
               },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": 6186,
-                "pct": -51.2
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 6194,
+                "pct": -51.3
               },
-              "vs3y": {
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 5028,
+                "pct": -40
+              },
+              "vsNormal": {
                 "date": null,
-                "value": 6923,
-                "pct": -56.4,
+                "value": 7572,
+                "pct": -60.1,
                 "years": [
                   2025,
                   2024,
-                  2023
+                  2023,
+                  2022
                 ]
               }
             }
@@ -977,19 +1510,25 @@
             "value": 7196,
             "pct": 0.3
           },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 9982,
-            "pct": -27.7
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 11219,
+            "pct": -35.7
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 9496,
+            "pct": -24
+          },
+          "vsNormal": {
             "date": null,
-            "value": 12375,
-            "pct": -41.7,
+            "value": 13819,
+            "pct": -47.8,
             "years": [
               2025,
               2024,
-              2023
+              2023,
+              2022
             ]
           },
           "spark": [
@@ -1019,6 +1558,112 @@
             }
           ],
           "sparkPct": -12.4,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": 11921
+            },
+            {
+              "date": "2026-08-14",
+              "price": 11532
+            },
+            {
+              "date": "2026-08-15",
+              "price": 12952
+            },
+            {
+              "date": "2026-08-17",
+              "price": 12419
+            },
+            {
+              "date": "2026-08-18",
+              "price": 12093
+            },
+            {
+              "date": "2026-08-19",
+              "price": 11242
+            },
+            {
+              "date": "2026-08-20",
+              "price": 10636
+            },
+            {
+              "date": "2026-08-21",
+              "price": 9543
+            },
+            {
+              "date": "2026-08-22",
+              "price": 9237
+            },
+            {
+              "date": "2026-08-24",
+              "price": 9248
+            },
+            {
+              "date": "2026-08-25",
+              "price": 9405
+            },
+            {
+              "date": "2026-08-26",
+              "price": 9400
+            },
+            {
+              "date": "2026-08-27",
+              "price": 8999
+            },
+            {
+              "date": "2026-08-28",
+              "price": 9227
+            },
+            {
+              "date": "2026-08-29",
+              "price": 9031
+            },
+            {
+              "date": "2026-08-31",
+              "price": 8706
+            },
+            {
+              "date": "2026-09-01",
+              "price": 8596
+            },
+            {
+              "date": "2026-09-02",
+              "price": 8288
+            },
+            {
+              "date": "2026-09-03",
+              "price": 8342
+            },
+            {
+              "date": "2026-09-04",
+              "price": 7959
+            },
+            {
+              "date": "2026-09-05",
+              "price": 8237
+            },
+            {
+              "date": "2026-09-07",
+              "price": 8165
+            },
+            {
+              "date": "2026-09-08",
+              "price": 8278
+            },
+            {
+              "date": "2026-09-09",
+              "price": 7764
+            },
+            {
+              "date": "2026-09-10",
+              "price": 7196
+            },
+            {
+              "date": "2026-09-11",
+              "price": 7218
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         },
@@ -1043,19 +1688,24 @@
             "value": 12988.117770767612,
             "pct": 0.5
           },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 16969.713800313642,
-            "pct": -23.1
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 19523,
+            "pct": -33.1
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 15529,
+            "pct": -15.9
+          },
+          "vsNormal": {
             "date": null,
-            "value": 23084,
-            "pct": -43.4,
+            "value": 28664,
+            "pct": -54.4,
             "years": [
-              2025,
               2024,
-              2023
+              2023,
+              2022
             ]
           },
           "spark": [
@@ -1085,6 +1735,112 @@
             }
           ],
           "sparkPct": -3.1,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": 20460.558920704847
+            },
+            {
+              "date": "2026-08-14",
+              "price": 20157.625924621345
+            },
+            {
+              "date": "2026-08-15",
+              "price": 20390.450310559005
+            },
+            {
+              "date": "2026-08-17",
+              "price": 20486.573146292587
+            },
+            {
+              "date": "2026-08-18",
+              "price": 19804.55302609661
+            },
+            {
+              "date": "2026-08-19",
+              "price": 19628.47071583514
+            },
+            {
+              "date": "2026-08-20",
+              "price": 18148.91139830015
+            },
+            {
+              "date": "2026-08-21",
+              "price": 17373.586341887778
+            },
+            {
+              "date": "2026-08-22",
+              "price": 15744.292237442922
+            },
+            {
+              "date": "2026-08-24",
+              "price": 16442.767366176635
+            },
+            {
+              "date": "2026-08-25",
+              "price": 15328.20823244552
+            },
+            {
+              "date": "2026-08-26",
+              "price": 15588.68562338437
+            },
+            {
+              "date": "2026-08-27",
+              "price": 15445.885062074489
+            },
+            {
+              "date": "2026-08-28",
+              "price": 14599.142367066896
+            },
+            {
+              "date": "2026-08-29",
+              "price": 14603.96274076413
+            },
+            {
+              "date": "2026-08-31",
+              "price": 15126.639248855436
+            },
+            {
+              "date": "2026-09-01",
+              "price": 14624.044585987262
+            },
+            {
+              "date": "2026-09-02",
+              "price": 13915.158444952629
+            },
+            {
+              "date": "2026-09-03",
+              "price": 13288.22680141751
+            },
+            {
+              "date": "2026-09-04",
+              "price": 13103.456977037598
+            },
+            {
+              "date": "2026-09-05",
+              "price": 13469.106999195496
+            },
+            {
+              "date": "2026-09-07",
+              "price": 14073.29934522917
+            },
+            {
+              "date": "2026-09-08",
+              "price": 14392.899320932978
+            },
+            {
+              "date": "2026-09-09",
+              "price": 13632.297099937408
+            },
+            {
+              "date": "2026-09-10",
+              "price": 12988.117770767612
+            },
+            {
+              "date": "2026-09-11",
+              "price": 13057.204109356428
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         }
@@ -1176,11 +1932,6 @@
           "date": "2026-09-10",
           "value": 254,
           "pct": 7.5
-        },
-        "vsYoy": {
-          "date": "2025-09-11",
-          "value": 237,
-          "pct": 15.2
         }
       },
       "units": [
@@ -1205,19 +1956,24 @@
             "value": 19343.12991388993,
             "pct": -6.3
           },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 21649.88277629355,
-            "pct": -16.3
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 22346,
+            "pct": -18.9
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 20710,
+            "pct": -12.5
+          },
+          "vsNormal": {
             "date": null,
-            "value": 21751,
-            "pct": -16.7,
+            "value": 19741,
+            "pct": -8.2,
             "years": [
               2025,
               2024,
-              2023
+              2021
             ]
           },
           "spark": [
@@ -1247,6 +2003,112 @@
             }
           ],
           "sparkPct": -19,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": 48333.333333333336
+            },
+            {
+              "date": "2026-08-14",
+              "price": 31666.666666666668
+            },
+            {
+              "date": "2026-08-15",
+              "price": 16275.42372881356
+            },
+            {
+              "date": "2026-08-17",
+              "price": 20272.321428571428
+            },
+            {
+              "date": "2026-08-18",
+              "price": 24786.40776699029
+            },
+            {
+              "date": "2026-08-19",
+              "price": 28240.31007751938
+            },
+            {
+              "date": "2026-08-20",
+              "price": 22935.149156939042
+            },
+            {
+              "date": "2026-08-21",
+              "price": 20516.932270916335
+            },
+            {
+              "date": "2026-08-22",
+              "price": 20534.334763948496
+            },
+            {
+              "date": "2026-08-24",
+              "price": 22851.654215581642
+            },
+            {
+              "date": "2026-08-25",
+              "price": 20943.123543123544
+            },
+            {
+              "date": "2026-08-26",
+              "price": 23683.89287061486
+            },
+            {
+              "date": "2026-08-27",
+              "price": 22391.78488947542
+            },
+            {
+              "date": "2026-08-28",
+              "price": 22233.326534774627
+            },
+            {
+              "date": "2026-08-29",
+              "price": 20195.114534765864
+            },
+            {
+              "date": "2026-08-31",
+              "price": 22034.833960972268
+            },
+            {
+              "date": "2026-09-01",
+              "price": 23269.214960953555
+            },
+            {
+              "date": "2026-09-02",
+              "price": 24775.218427323274
+            },
+            {
+              "date": "2026-09-03",
+              "price": 24638.24828263003
+            },
+            {
+              "date": "2026-09-04",
+              "price": 24566.532258064515
+            },
+            {
+              "date": "2026-09-05",
+              "price": 22365.632519766245
+            },
+            {
+              "date": "2026-09-07",
+              "price": 20915.302468346337
+            },
+            {
+              "date": "2026-09-08",
+              "price": 20221.439339319655
+            },
+            {
+              "date": "2026-09-09",
+              "price": 19630.24715574735
+            },
+            {
+              "date": "2026-09-10",
+              "price": 19343.12991388993
+            },
+            {
+              "date": "2026-09-11",
+              "price": 18115.036936236393
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         }
@@ -1313,444 +2175,10 @@
       }
     },
     {
-      "itemCode": "citrus",
-      "nameKo": "감귤",
-      "iconDataUri": null,
-      "rank": 5,
-      "onPoster": true,
-      "tradeValue": 188295063,
-      "defaultBoxKg": 5,
-      "offSeason": true,
-      "variety": {
-        "code": "house",
-        "nameKo": "하우스감귤",
-        "share": 0.972,
-        "sangLaneFound": true
-      },
-      "volume": {
-        "tons": 31,
-        "vsPrev": {
-          "date": "2026-09-10",
-          "value": 29,
-          "pct": 6.9
-        },
-        "vsYoy": {
-          "date": "2025-09-11",
-          "value": 19,
-          "pct": 63.2
-        }
-      },
-      "units": [
-        {
-          "unitTag": "3kg",
-          "unitLabel": "3kg",
-          "kg": 3,
-          "isRep": false,
-          "qtyUnits": 4772,
-          "tons": 14.3,
-          "kgShare": 0.495,
-          "sang": {
-            "date": "2026-09-11",
-            "price": 21179,
-            "key": "GARAK_SANG#U_3kg#V_house",
-            "source": "SANG"
-          },
-          "perKg": 7060,
-          "grades": {
-            "SPECIAL": {
-              "price": 27609,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 27244,
-                "pct": 1.3
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 28447,
-                "pct": -2.9,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "HIGH": {
-              "price": 21179,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 20059,
-                "pct": 5.6
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 23807,
-                "pct": -11,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "MID": {
-              "price": 17101,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 16300,
-                "pct": 4.9
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 19983,
-                "pct": -14.4,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "LOW": {
-              "price": 14208,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": 14306,
-                "pct": -0.7
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 13007,
-                "pct": 9.2,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            }
-          },
-          "vsPrev": {
-            "date": "2026-09-10",
-            "value": 20059,
-            "pct": 5.6
-          },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": null,
-            "pct": null
-          },
-          "vs3y": {
-            "date": null,
-            "value": 23807,
-            "pct": -11,
-            "years": [
-              2024,
-              2023
-            ]
-          },
-          "spark": [
-            {
-              "date": "2026-09-05",
-              "price": 19642
-            },
-            {
-              "date": "2026-09-07",
-              "price": 21674
-            },
-            {
-              "date": "2026-09-08",
-              "price": 20798
-            },
-            {
-              "date": "2026-09-09",
-              "price": 20661
-            },
-            {
-              "date": "2026-09-10",
-              "price": 20059
-            },
-            {
-              "date": "2026-09-11",
-              "price": 21179
-            }
-          ],
-          "sparkPct": 7.8,
-          "onPoster": true,
-          "forThreshold": false
-        },
-        {
-          "unitTag": "6kg",
-          "unitLabel": "6kg",
-          "kg": 6,
-          "isRep": false,
-          "qtyUnits": 1436,
-          "tons": 8.6,
-          "kgShare": 0.298,
-          "sang": {
-            "date": "2026-09-11",
-            "price": 30559.33147632312,
-            "key": "GARAK#U_6kg#V_house",
-            "source": "DATA12_AVG"
-          },
-          "perKg": 5093,
-          "grades": {},
-          "vsPrev": {
-            "date": "2026-09-10",
-            "value": 30570.886075949365,
-            "pct": 0
-          },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 35122.97794117647,
-            "pct": -13
-          },
-          "vs3y": {
-            "date": null,
-            "value": 32199,
-            "pct": -5.1,
-            "years": [
-              2025,
-              2024,
-              2023
-            ]
-          },
-          "spark": [
-            {
-              "date": "2026-09-05",
-              "price": 33237.728937728934
-            },
-            {
-              "date": "2026-09-07",
-              "price": 32950.256786500366
-            },
-            {
-              "date": "2026-09-08",
-              "price": 28357.675628794448
-            },
-            {
-              "date": "2026-09-09",
-              "price": 37120.58823529412
-            },
-            {
-              "date": "2026-09-10",
-              "price": 30570.886075949365
-            },
-            {
-              "date": "2026-09-11",
-              "price": 30559.33147632312
-            }
-          ],
-          "sparkPct": -8.1,
-          "onPoster": true,
-          "forThreshold": false
-        },
-        {
-          "unitTag": "10kg",
-          "unitLabel": "10kg",
-          "kg": 10,
-          "isRep": false,
-          "qtyUnits": 478,
-          "tons": 4.8,
-          "kgShare": 0.165,
-          "sang": {
-            "date": "2026-09-11",
-            "price": 66744,
-            "key": "GARAK_SANG#U_10kg#V_house",
-            "source": "SANG"
-          },
-          "perKg": 6674,
-          "grades": {
-            "SPECIAL": {
-              "price": 74909,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": null,
-                "pct": null
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 82000,
-                "pct": -8.6,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "HIGH": {
-              "price": 66744,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": null,
-                "pct": null
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 60839,
-                "pct": 9.7,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "MID": {
-              "price": 39067,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": null,
-                "pct": null
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 32011,
-                "pct": 22,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            },
-            "LOW": {
-              "price": 27884,
-              "vsPrev": {
-                "date": "2026-09-10",
-                "value": null,
-                "pct": null
-              },
-              "vsYoy": {
-                "date": "2025-09-11",
-                "value": null,
-                "pct": null
-              },
-              "vs3y": {
-                "date": null,
-                "value": 31000,
-                "pct": -10.1,
-                "years": [
-                  2024,
-                  2023
-                ]
-              }
-            }
-          },
-          "vsPrev": {
-            "date": "2026-09-10",
-            "value": null,
-            "pct": null
-          },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": null,
-            "pct": null
-          },
-          "vs3y": {
-            "date": null,
-            "value": 60839,
-            "pct": 9.7,
-            "years": [
-              2024,
-              2023
-            ]
-          },
-          "spark": [
-            {
-              "date": "2026-09-05",
-              "price": null
-            },
-            {
-              "date": "2026-09-07",
-              "price": null
-            },
-            {
-              "date": "2026-09-08",
-              "price": null
-            },
-            {
-              "date": "2026-09-09",
-              "price": null
-            },
-            {
-              "date": "2026-09-10",
-              "price": null
-            },
-            {
-              "date": "2026-09-11",
-              "price": 66744
-            }
-          ],
-          "sparkPct": null,
-          "onPoster": false,
-          "forThreshold": false
-        }
-      ],
-      "varieties": [
-        {
-          "code": "house",
-          "nameKo": "하우스감귤",
-          "share": 0.972,
-          "sang": 16792
-        },
-        {
-          "code": "hwanggeumhyang",
-          "nameKo": "황금향",
-          "share": 0.028,
-          "sang": null
-        }
-      ],
-      "crisis": {
-        "stage": "UNKNOWN",
-        "direction": null,
-        "label": "비시즌",
-        "deviationPct": null,
-        "basis": "BAND",
-        "basisLabel": "",
-        "thresholdId": null,
-        "unit": null,
-        "price": 16792,
-        "band": null,
-        "prevStage": null,
-        "reportStage": null,
-        "offSeason": true
-      }
-    },
-    {
       "itemCode": "sweet-persimmon",
       "nameKo": "단감",
       "iconDataUri": null,
-      "rank": 6,
+      "rank": 5,
       "onPoster": true,
       "tradeValue": 13132264,
       "defaultBoxKg": 10,
@@ -1765,11 +2193,6 @@
         "tons": 3,
         "vsPrev": {
           "date": "2026-09-10",
-          "value": 0,
-          "pct": null
-        },
-        "vsYoy": {
-          "date": "2025-09-11",
           "value": 0,
           "pct": null
         }
@@ -1796,18 +2219,24 @@
             "value": null,
             "pct": null
           },
-          "vsYoy": {
-            "date": "2025-09-11",
+          "vsPrevMonth": {
+            "date": "2026-08",
             "value": null,
             "pct": null
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 21537,
+            "pct": 31.9
+          },
+          "vsNormal": {
             "date": null,
-            "value": 26239,
-            "pct": 8.2,
+            "value": 23178,
+            "pct": 22.5,
             "years": [
-              2024,
-              2023
+              2025,
+              2023,
+              2021
             ]
           },
           "spark": [
@@ -1837,6 +2266,32 @@
             }
           ],
           "sparkPct": 16.3,
+          "trend30": [
+            {
+              "date": "2026-09-03",
+              "price": null
+            },
+            {
+              "date": "2026-09-05",
+              "price": null
+            },
+            {
+              "date": "2026-09-07",
+              "price": 24421.875
+            },
+            {
+              "date": "2026-09-09",
+              "price": 27653.846153846152
+            },
+            {
+              "date": "2026-09-10",
+              "price": null
+            },
+            {
+              "date": "2026-09-11",
+              "price": 28400
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         },
@@ -1861,17 +2316,24 @@
             "value": null,
             "pct": null
           },
-          "vsYoy": {
-            "date": "2025-09-11",
+          "vsPrevMonth": {
+            "date": "2026-08",
             "value": null,
             "pct": null
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 18782,
+            "pct": 17.2
+          },
+          "vsNormal": {
             "date": null,
-            "value": 17116,
-            "pct": 28.6,
+            "value": 25461,
+            "pct": -13.6,
             "years": [
-              2024
+              2024,
+              2022,
+              2021
             ]
           },
           "spark": [
@@ -1901,6 +2363,32 @@
             }
           ],
           "sparkPct": 34.4,
+          "trend30": [
+            {
+              "date": "2026-09-03",
+              "price": null
+            },
+            {
+              "date": "2026-09-05",
+              "price": 16370.37037037037
+            },
+            {
+              "date": "2026-09-07",
+              "price": 17078.947368421053
+            },
+            {
+              "date": "2026-09-09",
+              "price": 16450
+            },
+            {
+              "date": "2026-09-10",
+              "price": null
+            },
+            {
+              "date": "2026-09-11",
+              "price": 22004.504504504504
+            }
+          ],
           "onPoster": true,
           "forThreshold": false
         },
@@ -1925,18 +2413,24 @@
             "value": null,
             "pct": null
           },
-          "vsYoy": {
-            "date": "2025-09-11",
-            "value": 23901.960784313724,
-            "pct": -17.5
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": null,
+            "pct": null
           },
-          "vs3y": {
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 21751,
+            "pct": -9.4
+          },
+          "vsNormal": {
             "date": null,
-            "value": 27085,
-            "pct": -27.2,
+            "value": 21383,
+            "pct": -7.8,
             "years": [
               2025,
-              2024
+              2023,
+              2021
             ]
           },
           "spark": [
@@ -1966,6 +2460,32 @@
             }
           ],
           "sparkPct": -5,
+          "trend30": [
+            {
+              "date": "2026-09-03",
+              "price": null
+            },
+            {
+              "date": "2026-09-05",
+              "price": null
+            },
+            {
+              "date": "2026-09-07",
+              "price": 20744.68085106383
+            },
+            {
+              "date": "2026-09-09",
+              "price": 23264.150943396227
+            },
+            {
+              "date": "2026-09-10",
+              "price": null
+            },
+            {
+              "date": "2026-09-11",
+              "price": 19710.144927536232
+            }
+          ],
           "onPoster": false,
           "forThreshold": false
         }
@@ -2000,6 +2520,818 @@
         "thresholdId": null,
         "unit": null,
         "price": 23120,
+        "band": null,
+        "prevStage": null,
+        "reportStage": null,
+        "offSeason": true
+      }
+    },
+    {
+      "itemCode": "citrus",
+      "nameKo": "감귤",
+      "iconDataUri": null,
+      "rank": 6,
+      "onPoster": true,
+      "tradeValue": 188295063,
+      "defaultBoxKg": 5,
+      "offSeason": true,
+      "variety": {
+        "code": "house",
+        "nameKo": "하우스감귤",
+        "share": 0.972,
+        "sangLaneFound": true
+      },
+      "volume": {
+        "tons": 31,
+        "vsPrev": {
+          "date": "2026-09-10",
+          "value": 29,
+          "pct": 6.9
+        }
+      },
+      "units": [
+        {
+          "unitTag": "3kg",
+          "unitLabel": "3kg",
+          "kg": 3,
+          "isRep": false,
+          "qtyUnits": 4772,
+          "tons": 14.3,
+          "kgShare": 0.495,
+          "sang": {
+            "date": "2026-09-11",
+            "price": 21179,
+            "key": "GARAK_SANG#U_3kg#V_house",
+            "source": "SANG"
+          },
+          "perKg": 7060,
+          "grades": {
+            "SPECIAL": {
+              "price": 27609,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 27244,
+                "pct": 1.3
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 27051,
+                "pct": 2.1
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 30411,
+                "pct": -9.2
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 29397,
+                "pct": -6.1,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 21179,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 20059,
+                "pct": 5.6
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 21822,
+                "pct": -2.9
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 22993,
+                "pct": -7.9
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 22525,
+                "pct": -6,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            },
+            "MID": {
+              "price": 17101,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 16300,
+                "pct": 4.9
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 18351,
+                "pct": -6.8
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 18230,
+                "pct": -6.2
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 17278,
+                "pct": -1,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            },
+            "LOW": {
+              "price": 14208,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": 14306,
+                "pct": -0.7
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 15123,
+                "pct": -6.1
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 13953,
+                "pct": 1.8
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 12675,
+                "pct": 12.1,
+                "years": [
+                  2025,
+                  2024,
+                  2022
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-10",
+            "value": 20059,
+            "pct": 5.6
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 21822,
+            "pct": -2.9
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 22993,
+            "pct": -7.9
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 22525,
+            "pct": -6,
+            "years": [
+              2025,
+              2024,
+              2022
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-09-05",
+              "price": 19642
+            },
+            {
+              "date": "2026-09-07",
+              "price": 21674
+            },
+            {
+              "date": "2026-09-08",
+              "price": 20798
+            },
+            {
+              "date": "2026-09-09",
+              "price": 20661
+            },
+            {
+              "date": "2026-09-10",
+              "price": 20059
+            },
+            {
+              "date": "2026-09-11",
+              "price": 21179
+            }
+          ],
+          "sparkPct": 7.8,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": 21815
+            },
+            {
+              "date": "2026-08-14",
+              "price": 20646
+            },
+            {
+              "date": "2026-08-15",
+              "price": 21982
+            },
+            {
+              "date": "2026-08-17",
+              "price": 20793
+            },
+            {
+              "date": "2026-08-18",
+              "price": 21608
+            },
+            {
+              "date": "2026-08-19",
+              "price": 22143
+            },
+            {
+              "date": "2026-08-20",
+              "price": 21756
+            },
+            {
+              "date": "2026-08-21",
+              "price": 22139
+            },
+            {
+              "date": "2026-08-22",
+              "price": 22236
+            },
+            {
+              "date": "2026-08-24",
+              "price": 21386
+            },
+            {
+              "date": "2026-08-25",
+              "price": 22577
+            },
+            {
+              "date": "2026-08-26",
+              "price": 22367
+            },
+            {
+              "date": "2026-08-27",
+              "price": 20788
+            },
+            {
+              "date": "2026-08-28",
+              "price": 21681
+            },
+            {
+              "date": "2026-08-29",
+              "price": 20862
+            },
+            {
+              "date": "2026-08-31",
+              "price": 22009
+            },
+            {
+              "date": "2026-09-01",
+              "price": 20317
+            },
+            {
+              "date": "2026-09-02",
+              "price": 21460
+            },
+            {
+              "date": "2026-09-03",
+              "price": 20054
+            },
+            {
+              "date": "2026-09-04",
+              "price": 20781
+            },
+            {
+              "date": "2026-09-05",
+              "price": 19642
+            },
+            {
+              "date": "2026-09-07",
+              "price": 21674
+            },
+            {
+              "date": "2026-09-08",
+              "price": 20798
+            },
+            {
+              "date": "2026-09-09",
+              "price": 20661
+            },
+            {
+              "date": "2026-09-10",
+              "price": 20059
+            },
+            {
+              "date": "2026-09-11",
+              "price": 21179
+            }
+          ],
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "6kg",
+          "unitLabel": "6kg",
+          "kg": 6,
+          "isRep": false,
+          "qtyUnits": 1436,
+          "tons": 8.6,
+          "kgShare": 0.298,
+          "sang": {
+            "date": "2026-09-11",
+            "price": 30559.33147632312,
+            "key": "GARAK#U_6kg#V_house",
+            "source": "DATA12_AVG"
+          },
+          "perKg": 5093,
+          "grades": {},
+          "vsPrev": {
+            "date": "2026-09-10",
+            "value": 30570.886075949365,
+            "pct": 0
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": 37608,
+            "pct": -18.7
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 31994,
+            "pct": -4.5
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 28449,
+            "pct": 7.4,
+            "years": [
+              2023,
+              2022,
+              2021
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-09-05",
+              "price": 33237.728937728934
+            },
+            {
+              "date": "2026-09-07",
+              "price": 32950.256786500366
+            },
+            {
+              "date": "2026-09-08",
+              "price": 28357.675628794448
+            },
+            {
+              "date": "2026-09-09",
+              "price": 37120.58823529412
+            },
+            {
+              "date": "2026-09-10",
+              "price": 30570.886075949365
+            },
+            {
+              "date": "2026-09-11",
+              "price": 30559.33147632312
+            }
+          ],
+          "sparkPct": -8.1,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": 36160.361718161264
+            },
+            {
+              "date": "2026-08-14",
+              "price": 33868.09078771696
+            },
+            {
+              "date": "2026-08-15",
+              "price": 32629.46273830156
+            },
+            {
+              "date": "2026-08-17",
+              "price": 37540.51565377532
+            },
+            {
+              "date": "2026-08-18",
+              "price": 36382.995169082125
+            },
+            {
+              "date": "2026-08-19",
+              "price": 33608.85860306644
+            },
+            {
+              "date": "2026-08-20",
+              "price": 46613.65853658537
+            },
+            {
+              "date": "2026-08-21",
+              "price": 36837.83102143758
+            },
+            {
+              "date": "2026-08-22",
+              "price": 40857.96766743649
+            },
+            {
+              "date": "2026-08-24",
+              "price": 40496.02076124567
+            },
+            {
+              "date": "2026-08-25",
+              "price": 37260.76458752515
+            },
+            {
+              "date": "2026-08-26",
+              "price": 36825.17123287671
+            },
+            {
+              "date": "2026-08-27",
+              "price": 35355.574182732606
+            },
+            {
+              "date": "2026-08-28",
+              "price": 42168.40148698885
+            },
+            {
+              "date": "2026-08-29",
+              "price": 32794.08381265407
+            },
+            {
+              "date": "2026-08-31",
+              "price": 32159.14893617021
+            },
+            {
+              "date": "2026-09-01",
+              "price": 36549.2125984252
+            },
+            {
+              "date": "2026-09-02",
+              "price": 35018.12865497076
+            },
+            {
+              "date": "2026-09-03",
+              "price": 31584.985422740523
+            },
+            {
+              "date": "2026-09-04",
+              "price": 29544.827586206895
+            },
+            {
+              "date": "2026-09-05",
+              "price": 33237.728937728934
+            },
+            {
+              "date": "2026-09-07",
+              "price": 32950.256786500366
+            },
+            {
+              "date": "2026-09-08",
+              "price": 28357.675628794448
+            },
+            {
+              "date": "2026-09-09",
+              "price": 37120.58823529412
+            },
+            {
+              "date": "2026-09-10",
+              "price": 30570.886075949365
+            },
+            {
+              "date": "2026-09-11",
+              "price": 30559.33147632312
+            }
+          ],
+          "onPoster": true,
+          "forThreshold": false
+        },
+        {
+          "unitTag": "10kg",
+          "unitLabel": "10kg",
+          "kg": 10,
+          "isRep": false,
+          "qtyUnits": 478,
+          "tons": 4.8,
+          "kgShare": 0.165,
+          "sang": {
+            "date": "2026-09-11",
+            "price": 66744,
+            "key": "GARAK_SANG#U_10kg#V_house",
+            "source": "SANG"
+          },
+          "perKg": 6674,
+          "grades": {
+            "SPECIAL": {
+              "price": 74909,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": null,
+                "pct": null
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 53043,
+                "pct": 41.2
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 65242,
+                "pct": 14.8,
+                "years": [
+                  2023,
+                  2022,
+                  2021
+                ]
+              }
+            },
+            "HIGH": {
+              "price": 66744,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": null,
+                "pct": null
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 45230,
+                "pct": 47.6
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 49816,
+                "pct": 34,
+                "years": [
+                  2023,
+                  2022,
+                  2021
+                ]
+              }
+            },
+            "MID": {
+              "price": 39067,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": null,
+                "pct": null
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 27148,
+                "pct": 43.9
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 32093,
+                "pct": 21.7,
+                "years": [
+                  2025,
+                  2023,
+                  2022
+                ]
+              }
+            },
+            "LOW": {
+              "price": 27884,
+              "vsPrev": {
+                "date": "2026-09-10",
+                "value": null,
+                "pct": null
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": null,
+                "pct": null
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 17167,
+                "pct": 62.4
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 23594,
+                "pct": 18.2,
+                "years": [
+                  2024,
+                  2022,
+                  2021
+                ]
+              }
+            }
+          },
+          "vsPrev": {
+            "date": "2026-09-10",
+            "value": null,
+            "pct": null
+          },
+          "vsPrevMonth": {
+            "date": "2026-08",
+            "value": null,
+            "pct": null
+          },
+          "vsYoy": {
+            "date": "2025-09",
+            "value": 45230,
+            "pct": 47.6
+          },
+          "vsNormal": {
+            "date": null,
+            "value": 49816,
+            "pct": 34,
+            "years": [
+              2023,
+              2022,
+              2021
+            ]
+          },
+          "spark": [
+            {
+              "date": "2026-09-05",
+              "price": null
+            },
+            {
+              "date": "2026-09-07",
+              "price": null
+            },
+            {
+              "date": "2026-09-08",
+              "price": null
+            },
+            {
+              "date": "2026-09-09",
+              "price": null
+            },
+            {
+              "date": "2026-09-10",
+              "price": null
+            },
+            {
+              "date": "2026-09-11",
+              "price": 66744
+            }
+          ],
+          "sparkPct": null,
+          "trend30": [
+            {
+              "date": "2026-08-13",
+              "price": null
+            },
+            {
+              "date": "2026-08-14",
+              "price": null
+            },
+            {
+              "date": "2026-08-15",
+              "price": null
+            },
+            {
+              "date": "2026-08-17",
+              "price": null
+            },
+            {
+              "date": "2026-08-18",
+              "price": null
+            },
+            {
+              "date": "2026-08-19",
+              "price": null
+            },
+            {
+              "date": "2026-08-20",
+              "price": null
+            },
+            {
+              "date": "2026-08-21",
+              "price": null
+            },
+            {
+              "date": "2026-08-22",
+              "price": null
+            },
+            {
+              "date": "2026-08-24",
+              "price": null
+            },
+            {
+              "date": "2026-08-25",
+              "price": null
+            },
+            {
+              "date": "2026-08-26",
+              "price": null
+            },
+            {
+              "date": "2026-08-27",
+              "price": null
+            },
+            {
+              "date": "2026-08-28",
+              "price": null
+            },
+            {
+              "date": "2026-08-29",
+              "price": null
+            },
+            {
+              "date": "2026-08-31",
+              "price": null
+            },
+            {
+              "date": "2026-09-01",
+              "price": null
+            },
+            {
+              "date": "2026-09-02",
+              "price": null
+            },
+            {
+              "date": "2026-09-03",
+              "price": null
+            },
+            {
+              "date": "2026-09-04",
+              "price": null
+            },
+            {
+              "date": "2026-09-05",
+              "price": null
+            },
+            {
+              "date": "2026-09-07",
+              "price": null
+            },
+            {
+              "date": "2026-09-08",
+              "price": null
+            },
+            {
+              "date": "2026-09-09",
+              "price": null
+            },
+            {
+              "date": "2026-09-10",
+              "price": null
+            },
+            {
+              "date": "2026-09-11",
+              "price": 66744
+            }
+          ],
+          "onPoster": false,
+          "forThreshold": false
+        }
+      ],
+      "varieties": [
+        {
+          "code": "house",
+          "nameKo": "하우스감귤",
+          "share": 0.972,
+          "sang": 16792
+        },
+        {
+          "code": "hwanggeumhyang",
+          "nameKo": "황금향",
+          "share": 0.028,
+          "sang": null
+        }
+      ],
+      "crisis": {
+        "stage": "UNKNOWN",
+        "direction": null,
+        "label": "비시즌",
+        "deviationPct": null,
+        "basis": "BAND",
+        "basisLabel": "",
+        "thresholdId": null,
+        "unit": null,
+        "price": 16792,
         "band": null,
         "prevStage": null,
         "reportStage": null,
@@ -2047,7 +3379,7 @@
   ],
   "headlines": [
     "사과 홍로 10kg 52,897원(▲5.1%) 경계↑ 진입 · 전일 주의↑",
-    "배 신고 7.5kg 41,029원(▼4.2%) 안정 회복 · 전일 주의↑",
+    "배 신고 15kg 51,884원(▼1.3%) 안정 회복 · 전일 주의↑",
     "포도 샤인머스캣 2kg 7,218원(▲0.3%) 경계↓ 지속 · 안정 대비 ▼52.7%"
   ],
   "chuseok": {
@@ -2055,27 +3387,26 @@
       "chuseok": "2026-09-25",
       "daysBefore": 14
     },
-    "prevYear": {
-      "chuseok": "2025-10-06",
-      "daysBefore": 25
-    }
+    "prevYear": null
   },
   "footnotes": [
     "가격은 가락시장 가격백분위 '상'(상위 5~40% 구간 평균, 공문 '상품기준')이며 단위는 실물 포장규격당 원. '평균가' 표기는 상품기준가 미수신으로 경매원표 전등급 평균을 쓴 값.",
     "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
-    "전일비는 직전 거래일, 전년비는 전년 동일 일자에 가장 가까운 거래일(±3일) 대비. 3개년은 직전 3개년 같은 규칙 값의 단순평균(결측 연도 제외). 같은 품종·규격·등급끼리만 비교.",
-    "명절(추석) 시기 차이는 보정하지 않음. 전년 대비 해석 시 명절 전후 여부를 함께 볼 것.",
+    "전일비는 직전 거래일 대비. 전월·전년동월·평년동월은 일일 가격동향과 같은 정의 — 전월=직전 달력월 평균, 전년동월=전년 같은 달 평균, 평년동월=최근 5년 같은 달 중 최고·최저를 뺀 3년 평균. 같은 품종·규격·등급 lane 의 일별가 단순평균으로 산정.",
+    "명절(추석) 시기 차이는 보정하지 않음. 전년동월 대비 해석 시 추석 위치를 함께 볼 것.",
     "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
   ],
   "provenance": {
-    "sangLatest": "2026-09-12",
-    "garakLatest": "2026-09-12",
+    "sangLatest": "2026-09-14",
+    "garakLatest": "2026-09-14",
     "expectedDate": "2026-09-11",
     "queries": [
-      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-28..2026-09-11",
-      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2025-09-07..2025-09-15",
-      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2024-09-07..2024-09-15",
-      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2023-09-07..2023-09-15"
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-01..2026-09-11",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2025-09-01..2025-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2024-09-01..2024-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2023-09-01..2023-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2022-09-01..2022-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
+      "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-09-01..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)"
     ]
   },
   "links": {
