@@ -56,3 +56,12 @@ Market Analysis 의 05:00 갱신이 끝나면(≈05:07) 게시·dispatch 되지�
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
+
+## 하루 2판 (2026-09-14)
+
+| 판 | 발송 | 기준 | 경로 | 수신증 |
+|---|---|---|---|---|
+| am | 06:30 KST (`SEND_AT_KST`) | 직전 거래일 확정 | `docs/b/<date>-<token>/` | `docs/delivery/<date>.json` |
+| pm | 16:00 KST (`SEND_AT_PM_KST`) | 당일 오전 경매 잠정(확정 전) | `docs/b/<date>-pm-<token>/` | `docs/delivery/<date>-pm.json` |
+
+dispatch payload 의 `edition`(am|pm)·`send_at`(HH:MM) 으로 판별. 수동 실행은 `workflow_dispatch` 의 `edition` 입력.

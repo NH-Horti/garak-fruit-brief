@@ -1,6 +1,6 @@
 name: garak-fruit-brief (send)
 run-name: >-
-  send · ${{ github.event.client_payload.date || inputs.date }} · ${{ github.event.client_payload.freshness || inputs.freshness || 'FRESH' }}
+  send · ${{ github.event.client_payload.date || inputs.date }} · ${{ github.event.client_payload.edition || inputs.edition || 'am' }} · ${{ github.event.client_payload.freshness || inputs.freshness || 'FRESH' }}
 
 on:
   repository_dispatch:
@@ -12,8 +12,13 @@ on:
         required: true
         type: string
       token:
-        description: '경로 토큰 (docs/b/<date>-<token>)'
+        description: '경로 토큰 (docs/b/<date>[-pm]-<token>)'
         required: false
+        type: string
+      edition:
+        description: 'am(아침, 전일 확정) | pm(오후 16:00, 당일 잠정)'
+        required: false
+        default: 'am'
         type: string
       freshness:
         description: 'FRESH | PARTIAL | STALE'
@@ -40,7 +45,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: send-${{ github.event.client_payload.date || inputs.date }}
+  group: send-${{ github.event.client_payload.date || inputs.date }}-${{ github.event.client_payload.edition || inputs.edition || 'am' }}
   cancel-in-progress: false
 
 jobs:
@@ -77,6 +82,12 @@ jobs:
           echo "token=${{ github.event.client_payload.token || inputs.token }}" >> "$GITHUB_OUTPUT"
           echo "freshness=${{ github.event.client_payload.freshness || inputs.freshness || 'FRESH' }}" >> "$GITHUB_OUTPUT"
           echo "reason=${{ github.event.client_payload.reason || '' }}" >> "$GITHUB_OUTPUT"
+          edition="${{ github.event.client_payload.edition || inputs.edition || 'am' }}"
+          echo "edition=$edition" >> "$GITHUB_OUTPUT"
+          # 발송 시각: payload send_at > 판별 기본 (am: SEND_AT_KST|06:30 · pm: SEND_AT_PM_KST|16:00)
+          if [ "$edition" = "pm" ]; then def="${{ vars.SEND_AT_PM_KST || '16:00' }}"; else def="${{ vars.SEND_AT_KST || '06:30' }}"; fi
+          echo "send_at=${{ github.event.client_payload.send_at || '' }}" | sed "s/^send_at=$/send_at=$def/" >> "$GITHUB_OUTPUT"
+          if [ "$edition" = "pm" ]; then echo "pathdate=${{ github.event.client_payload.date || inputs.date }}-pm" >> "$GITHUB_OUTPUT"; else echo "pathdate=${{ github.event.client_payload.date || inputs.date }}" >> "$GITHUB_OUTPUT"; fi
 
       # 발송 시각 대기 — Market Analysis 가 05:07 에 게시·dispatch 하지만 카톡은 SEND_AT_KST(레포 Variables, 기본 06:30) 에 보낸다.
       #   이미 지난 시각이면(08:30 캐치업·수동 재발행) 즉시. 수동 실행은 inputs.wait=true 일 때만 대기.
@@ -85,7 +96,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          target="${{ vars.SEND_AT_KST || '06:30' }}"
+          target="${{ steps.vars.outputs.send_at }}"
           today="$(TZ=Asia/Seoul date +%F)"
           target_epoch="$(TZ=Asia/Seoul date -d "$today $target" +%s)"
           now_epoch="$(date +%s)"
@@ -112,6 +123,7 @@ jobs:
             --date "${{ steps.vars.outputs.date }}" \
             --token "${{ steps.vars.outputs.token }}" \
             --freshness "${{ steps.vars.outputs.freshness }}" \
+            --edition "${{ steps.vars.outputs.edition }}" \
             --reason "${{ steps.vars.outputs.reason }}" \
             $extra
 
@@ -127,7 +139,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/delivery
-          git commit -m "delivery receipt (${{ steps.vars.outputs.date }})"
+          git commit -m "delivery receipt (${{ steps.vars.outputs.date }} ${{ steps.vars.outputs.edition }})"
           for i in 1 2 3; do
             if git push origin HEAD:main; then exit 0; fi
             git pull --rebase origin main || true
@@ -144,11 +156,11 @@ jobs:
           if [ -s "$RUNNER_TEMP/kakao-refresh-token.txt" ]; then renewed='true'; fi
           {
             echo '## garak-fruit-brief send'
-            echo "- Date: ${{ steps.vars.outputs.date }}"
+            echo "- Date: ${{ steps.vars.outputs.date }} (${{ steps.vars.outputs.edition }}, send at ${{ steps.vars.outputs.send_at }} KST)"
             echo "- Freshness: ${{ steps.vars.outputs.freshness }}"
             echo "- Kakao: $status"
             echo "- Refresh token renewed: $renewed"
-            echo "- Page: https://nh-horti.github.io/garak-fruit-brief/b/${{ steps.vars.outputs.date }}-${{ steps.vars.outputs.token }}/index.html"
+            echo "- Page: https://nh-horti.github.io/garak-fruit-brief/b/${{ steps.vars.outputs.pathdate }}-${{ steps.vars.outputs.token }}/index.html"
           } >> "$GITHUB_STEP_SUMMARY"
           if [ "$renewed" = 'true' ]; then
             echo "::error::Kakao returned a renewed refresh token. Rotate KAKAO_REFRESH_TOKEN in BOTH repos (garak-fruit-brief, agri-news-brief) — see README."

@@ -1,7 +1,8 @@
 """가락 과일 시세 브리프 — 카카오 발송 (§12 docs/design/12 §7.3, Market Analysis 레포 문서).
 
-입력: docs/b/<date>-<token>/brief.json (Market Analysis 의 brief-garak-fruit.ts 가 Contents API 로 올림)
-동작: 영수증 멱등 확인 → Pages URL 200 대기 → 피드 카드 전송(실패 시 텍스트 폴백) → docs/delivery/<date>.json 영수증
+입력: docs/b/<date>[-pm]-<token>/brief.json (Market Analysis 의 brief-garak-fruit.ts 가 Contents API 로 올림)
+동작: 영수증 멱등 확인 → Pages URL 200 대기 → 피드 카드 전송(실패 시 텍스트 폴백) → docs/delivery/<date>[-pm].json 영수증
+판(edition): am = 아침 06:30 전일 확정 · pm = 오후 16:00 당일 잠정 (2026-09-14). 경로·영수증이 분리돼 하루 2번 발송.
 STALE 알림(dispatch payload freshness=STALE, 파일 없음): 텍스트 경고 1건.
 
 사용: python send_brief.py --date 2026-09-11 --token abcd1234ef [--freshness FRESH] [--dry-run] [--reason ...]
@@ -39,12 +40,16 @@ def now_kst() -> str:
     return datetime.now(KST).isoformat(timespec="seconds")
 
 
-def brief_dir(date: str, token: str) -> Path:
-    return DOCS / "b" / f"{date}-{token}"
+def _pm(edition: str) -> bool:
+    return (edition or "am").lower() == "pm"
 
 
-def load_meta(date: str, token: str) -> dict[str, Any]:
-    p = brief_dir(date, token) / "brief.json"
+def brief_dir(date: str, token: str, edition: str = "am") -> Path:
+    return DOCS / "b" / f"{date}{'-pm' if _pm(edition) else ''}-{token}"
+
+
+def load_meta(date: str, token: str, edition: str = "am") -> dict[str, Any]:
+    p = brief_dir(date, token, edition) / "brief.json"
     with open(p, encoding="utf-8") as fh:
         meta = json.load(fh)
     if not isinstance(meta, dict):
@@ -52,12 +57,12 @@ def load_meta(date: str, token: str) -> dict[str, Any]:
     return meta
 
 
-def receipt_path(date: str) -> Path:
-    return DELIVERY_DIR / f"{date}.json"
+def receipt_path(date: str, edition: str = "am") -> Path:
+    return DELIVERY_DIR / f"{date}{'-pm' if _pm(edition) else ''}.json"
 
 
-def load_receipt(date: str) -> dict[str, Any] | None:
-    p = receipt_path(date)
+def load_receipt(date: str, edition: str = "am") -> dict[str, Any] | None:
+    p = receipt_path(date, edition)
     if not p.exists():
         return None
     try:
@@ -150,9 +155,9 @@ def build_stale_template(date: str, reason: str, prev_page: str) -> dict[str, An
     return {"object_type": "text", "text": text, "link": _link(link), "button_title": "확인"}
 
 
-def write_receipt(date: str, payload: dict[str, Any]) -> Path:
+def write_receipt(date: str, payload: dict[str, Any], edition: str = "am") -> Path:
     DELIVERY_DIR.mkdir(parents=True, exist_ok=True)
-    p = receipt_path(date)
+    p = receipt_path(date, edition)
     with open(p, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
@@ -165,9 +170,10 @@ def sha256(obj: Any) -> str:
 
 def run(args: argparse.Namespace) -> int:
     date = args.date
+    edition = (args.edition or "am").lower()
     freshness = (args.freshness or "").upper()
     session = requests.Session()
-    receipt = load_receipt(date)
+    receipt = load_receipt(date, edition)
     if already_delivered(receipt, date) and not args.force:
         log.info("already delivered for %s — skip", date)
         _status("already_delivered")
@@ -180,11 +186,11 @@ def run(args: argparse.Namespace) -> int:
             print(json.dumps(tpl, ensure_ascii=False, indent=2))
             return 0
         kakao_client.send_template(tpl, session)
-        write_receipt(date, {"schema_version": 1, "date": date, "status": "success", "channel": "kakao", "message_format": "text_stale", "freshness": "STALE", "sent_at_kst": now_kst(), "reason": args.reason or ""})
+        write_receipt(date, {"schema_version": 1, "date": date, "edition": edition, "status": "success", "channel": "kakao", "message_format": "text_stale", "freshness": "STALE", "sent_at_kst": now_kst(), "reason": args.reason or ""}, edition)
         _status("success")
         return 0
 
-    meta = load_meta(date, args.token)
+    meta = load_meta(date, args.token, edition)
     fmt = "feed"
     pages_ok = wait_for_url(meta.get("card_url", ""), timeout_sec=args.wait_sec, session=session) and wait_for_url(meta.get("page_url", ""), timeout_sec=60, session=session)
     tpl = build_feed_template(meta) if pages_ok else build_text_template(meta)
@@ -205,11 +211,11 @@ def run(args: argparse.Namespace) -> int:
         else:
             raise
     write_receipt(date, {
-        "schema_version": 1, "date": date, "status": "success", "channel": "kakao", "message_format": fmt,
+        "schema_version": 1, "date": date, "edition": edition, "status": "success", "channel": "kakao", "message_format": fmt,
         "freshness": meta.get("freshness"), "sent_at_kst": now_kst(),
         "urls": {"page": meta.get("page_url"), "poster": meta.get("poster_url"), "card": meta.get("card_url")},
         "item_count": meta.get("item_count"), "template_sha256": sha256(tpl),
-    })
+    }, edition)
     _status("success")
     return 0
 
@@ -227,6 +233,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--date", required=True)
     ap.add_argument("--token", default="")
     ap.add_argument("--freshness", default="")
+    ap.add_argument("--edition", default="am", help="am(아침, 전일 확정) | pm(오후 16:00, 당일 잠정)")
     ap.add_argument("--reason", default="")
     ap.add_argument("--wait-sec", type=int, default=300)
     ap.add_argument("--dry-run", action="store_true")
