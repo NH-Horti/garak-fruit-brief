@@ -1,0 +1,24 @@
+{
+  "name": "가락 과일 시세",
+  "short_name": "가락 과일",
+  "lang": "ko",
+  "start_url": "/garak-fruit-brief/i/w2yjqth65tkh/index.html",
+  "scope": "/garak-fruit-brief/",
+  "display": "standalone",
+  "background_color": "#f6f8f6",
+  "theme_color": "#1f7a3a",
+  "icons": [
+    {
+      "src": "/garak-fruit-brief/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/garak-fruit-brief/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
