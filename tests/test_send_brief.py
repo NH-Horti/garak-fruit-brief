@@ -26,11 +26,14 @@ class TemplateTests(unittest.TestCase):
     def test_feed_template_shape(self):
         t = send_brief.build_feed_template(META)
         self.assertEqual(t["object_type"], "feed")
-        self.assertEqual(t["content"]["image_url"], META["card_url"])
+        self.assertTrue(t["content"]["image_url"].startswith(META["card_url"] + "?v="))
+        # 재게시(generated_at 변경) 시 이미지 URL 이 달라져야 카카오 캐시를 피한다
+        t2 = send_brief.build_feed_template(dict(META, generated_at_kst="2026-09-14T09:00:00+09:00"))
+        self.assertNotEqual(t["content"]["image_url"], t2["content"]["image_url"])
         self.assertEqual(t["content"]["image_width"], 800)
-        self.assertEqual(t["content"]["link"]["mobile_web_url"], META["page_url"])
+        self.assertTrue(t["content"]["link"]["mobile_web_url"].startswith(META["page_url"] + "?v="))
         self.assertEqual([b["title"] for b in t["buttons"]], ["포스터 보기", "상세 보기"])
-        self.assertEqual(t["buttons"][0]["link"]["web_url"], META["poster_url"])
+        self.assertTrue(t["buttons"][0]["link"]["web_url"].startswith(META["poster_url"] + "?v="))
 
     def test_text_fallback_truncates_200(self):
         m = dict(META, description="가" * 500)

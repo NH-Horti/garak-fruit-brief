@@ -95,12 +95,26 @@ def _link(url: str) -> dict[str, str]:
     return {"web_url": url, "mobile_web_url": url}
 
 
+def _version_tag(meta: dict[str, Any]) -> str:
+    """생성 시각 기반 짧은 버전 — 같은 날짜를 재게시해도 URL 이 달라져 카카오·CDN·브라우저 캐시를 피한다.
+    (2026-09-14 사고: card.png 를 6품목으로 바꿔 재게시했는데 카톡엔 예전 4품목 그림 — 카카오가 image_url 기준으로 캐시)"""
+    src = str(meta.get("generated_at_kst") or meta.get("date") or "")
+    return hashlib.sha256(src.encode("utf-8")).hexdigest()[:8]
+
+
+def _versioned(url: str, v: str) -> str:
+    if not url:
+        return url
+    return f"{url}{'&' if '?' in url else '?'}v={v}"
+
+
 def build_feed_template(meta: dict[str, Any]) -> dict[str, Any]:
+    v = _version_tag(meta)
     title = str(meta.get("title") or "가락 과일 시세")[:TITLE_MAX]
     desc = str(meta.get("description") or "")[:DESC_MAX]
-    page = str(meta.get("page_url") or "")
-    poster = str(meta.get("poster_url") or page)
-    card = str(meta.get("card_url") or "")
+    page = _versioned(str(meta.get("page_url") or ""), v)
+    poster = _versioned(str(meta.get("poster_url") or meta.get("page_url") or ""), v)
+    card = _versioned(str(meta.get("card_url") or ""), v)
     return {
         "object_type": "feed",
         "content": {
@@ -124,7 +138,7 @@ def build_text_template(meta: dict[str, Any]) -> dict[str, Any]:
     text = f"{title}\n{desc}".strip()
     if len(text) > TEXT_MAX:
         text = text[: TEXT_MAX - 1].rstrip() + "…"
-    page = str(meta.get("page_url") or "")
+    page = _versioned(str(meta.get("page_url") or ""), _version_tag(meta))
     return {"object_type": "text", "text": text, "link": _link(page), "button_title": "상세 보기"}
 
 
