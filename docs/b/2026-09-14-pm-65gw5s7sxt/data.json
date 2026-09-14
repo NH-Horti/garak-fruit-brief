@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T13:04:59.132Z",
+  "generatedAt": "2026-09-14T13:12:05.050Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-14",
@@ -5357,10 +5357,10 @@
           "prevShare": 0.026,
           "tonsPct": 26.8,
           "unitLabel": "4kg",
-          "source": "DATA12_AVG",
-          "sang": 14352.941176470587,
-          "prevSang": 13602.251407129455,
-          "sangPct": 5.5
+          "source": "SANG",
+          "sang": 21930,
+          "prevSang": 19369,
+          "sangPct": 13.2
         },
         {
           "code": "yumyeong-baekdo",
