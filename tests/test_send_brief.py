@@ -31,6 +31,9 @@ class TemplateTests(unittest.TestCase):
         t2 = send_brief.build_feed_template(dict(META, generated_at_kst="2026-09-14T09:00:00+09:00"))
         self.assertNotEqual(t["content"]["image_url"], t2["content"]["image_url"])
         self.assertEqual(t["content"]["image_width"], 800)
+        self.assertEqual(t["content"]["image_height"], 800)  # 메타에 없으면 기본 800
+        t3 = send_brief.build_feed_template(dict(META, card_width=800, card_height=1000))
+        self.assertEqual((t3["content"]["image_width"], t3["content"]["image_height"]), (800, 1000))
         self.assertTrue(t["content"]["link"]["mobile_web_url"].startswith(META["page_url"] + "?v="))
         self.assertEqual([b["title"] for b in t["buttons"]], ["포스터 보기", "상세 보기"])
         self.assertTrue(t["buttons"][0]["link"]["web_url"].startswith(META["poster_url"] + "?v="))

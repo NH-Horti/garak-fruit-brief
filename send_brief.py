@@ -121,8 +121,8 @@ def build_feed_template(meta: dict[str, Any]) -> dict[str, Any]:
             "title": title,
             "description": desc,
             "image_url": card,
-            "image_width": 800,
-            "image_height": 800,
+            "image_width": int(meta.get("card_width") or 800),
+            "image_height": int(meta.get("card_height") or 800),
             "link": _link(page),
         },
         "buttons": [
