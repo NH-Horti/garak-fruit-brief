@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T10:58:57.715Z",
+  "generatedAt": "2026-09-14T11:17:47.032Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-14",
@@ -559,8 +559,8 @@
               },
               "vsNormal": {
                 "date": null,
-                "value": 67620,
-                "pct": 14.3,
+                "value": 67752,
+                "pct": 14,
                 "years": [
                   2024,
                   2023,
@@ -1515,8 +1515,8 @@
               },
               "vsNormal": {
                 "date": null,
-                "value": 61372,
-                "pct": 13,
+                "value": 61200,
+                "pct": 13.3,
                 "years": [
                   2024,
                   2023,
@@ -1543,8 +1543,8 @@
               },
               "vsNormal": {
                 "date": null,
-                "value": 49018,
-                "pct": 21.1,
+                "value": 48952,
+                "pct": 21.2,
                 "years": [
                   2025,
                   2024,
@@ -1626,8 +1626,8 @@
           },
           "vsNormal": {
             "date": null,
-            "value": 49018,
-            "pct": 21.1,
+            "value": 48952,
+            "pct": 21.2,
             "years": [
               2025,
               2024,
@@ -1925,7 +1925,7 @@
               },
               {
                 "date": "2026-09-02",
-                "price": 46408
+                "price": 45079
               },
               {
                 "date": "2026-09-03",
@@ -2036,8 +2036,8 @@
               },
               "vsNormal": {
                 "date": null,
-                "value": 34510,
-                "pct": 16.1,
+                "value": 34619,
+                "pct": 15.7,
                 "years": [
                   2025,
                   2023,
@@ -2119,8 +2119,8 @@
           },
           "vsNormal": {
             "date": null,
-            "value": 34510,
-            "pct": 16.1,
+            "value": 34619,
+            "pct": 15.7,
             "years": [
               2025,
               2023,
@@ -2418,15 +2418,15 @@
               },
               {
                 "date": "2026-09-02",
-                "price": 34542
+                "price": 36140
               },
               {
                 "date": "2026-09-03",
-                "price": 35410
+                "price": 36393
               },
               {
                 "date": "2026-09-04",
-                "price": 36004
+                "price": 36988
               },
               {
                 "date": "2026-09-05",
@@ -7420,8 +7420,8 @@
               },
               "vsNormal": {
                 "date": null,
-                "value": 34644,
-                "pct": 18.5,
+                "value": 34815,
+                "pct": 18,
                 "years": [
                   2023,
                   2022,
@@ -7857,8 +7857,8 @@
               },
               "vsNormal": {
                 "date": null,
-                "value": 24337,
-                "pct": -8.1,
+                "value": 24444,
+                "pct": -8.5,
                 "years": [
                   2025,
                   2022,
@@ -8841,7 +8841,7 @@
     "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
     "전일비는 직전 거래일 대비. 전월·전년동월·평년동월은 일일 가격동향과 같은 정의 — 전월=직전 달력월 평균, 전년동월=전년 같은 달 평균, 평년동월=최근 5년 같은 달 중 최고·최저를 뺀 3년 평균. 같은 품종·규격·등급 lane 의 일별가 단순평균으로 산정.",
     "명절(추석) 시기 차이는 보정하지 않음. 전년동월 대비 해석 시 추석 위치를 함께 볼 것.",
-    "가락 상품기준가는 거래가 적은 날 전 거래일 값이 그대로 반복되는 경우가 있어, 전 거래일과 완전히 같은 값은 결측으로 처리(평균·추이에서 제외, 당일이면 평균가† 표시).",
+    "가락 상품기준가는 거래가 적은 날 전 거래일 값이 그대로 반복(미갱신)되는 경우가 있어, 특·상·보통·하 전 등급이 전 거래일과 완전히 같은 날은 결측으로 처리(평균·추이에서 제외, 당일이면 평균가† 표시). 다른 등급이 바뀐 날의 '상' 동일값은 실제 값으로 본다.",
     "소비자가격은 KAMIS 전국 소매 평균(주 5일 조사·오후 발표)이며 낱개 단위(10개 등)라 도매 원/상자와 수준 비교는 하지 않음 — 같은 소매 lane 의 변화율끼리만. 전이율 = 소매 전월비 ÷ 도매(기준규격 상) 전월비(도매 변화 ±3% 미만이면 미산출). 소매·도매 단위가 같은 경우(포도 2kg)에만 소매/도매 배율 표기.",
     "부서 임계표에 지배품종·월 행이 없는 품목(복숭아 엘바트·감귤 하우스·단감 태추 등)은 '자체 산출' 임계로 판정 — 부서 산식(안정=직전 5개년 같은 달 올림픽 평균, σ 구간)을 가락 '상' lane 에 적용한 보조 지표이며 심각↓는 같은 품목 부서 비율 차용. 부서 임계와 구분해 읽을 것.",
     "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
@@ -8863,14 +8863,14 @@
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2022-08-14..2022-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-08-14..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2021-08-14..2021-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
-      "apple: BIX5 반복값 3508행 제외 (예 GARAK_SANG@SPECIAL 2021-08-20)",
-      "pear: BIX5 반복값 928행 제외 (예 GARAK_SANG#U_7.5kg@SPECIAL 2021-09-27)",
-      "grape: BIX5 반복값 1851행 제외 (예 GARAK_SANG@SPECIAL 2023-08-16)",
+      "apple: BIX5 반복값 3501행 제외 (예 GARAK_SANG@SPECIAL 2021-08-20)",
+      "pear: BIX5 반복값 920행 제외 (예 GARAK_SANG#U_7.5kg@SPECIAL 2021-09-27)",
+      "grape: BIX5 반복값 1808행 제외 (예 GARAK_SANG@SPECIAL 2023-08-16)",
       "grape: BIX5 규격 정본화 1372행 이동 (예 GARAK_SANG#U_3kg@SPECIAL 2026-08-03)",
-      "peach: BIX5 반복값 8896행 제외 (예 GARAK_SANG@SPECIAL 2022-09-19)",
+      "peach: BIX5 반복값 8852행 제외 (예 GARAK_SANG@SPECIAL 2022-09-19)",
       "peach: BIX5 규격 정본화 1788행 이동 (예 GARAK_SANG#U_10kg@SPECIAL 2025-09-01)",
-      "sweet-persimmon: BIX5 반복값 270행 제외 (예 GARAK_SANG@SPECIAL 2021-09-10)",
-      "citrus: BIX5 반복값 1034행 제외 (예 GARAK_SANG@SPECIAL 2021-08-18)",
+      "sweet-persimmon: BIX5 반복값 264행 제외 (예 GARAK_SANG@SPECIAL 2021-09-10)",
+      "citrus: BIX5 반복값 1016행 제외 (예 GARAK_SANG@SPECIAL 2021-08-18)",
       "citrus: BIX5 규격 정본화 280행 이동 (예 GARAK_SANG#U_3kg@SPECIAL 2025-08-14)"
     ]
   },
