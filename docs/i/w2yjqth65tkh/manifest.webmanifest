@@ -9,13 +9,13 @@
   "theme_color": "#1f7a3a",
   "icons": [
     {
-      "src": "/garak-fruit-brief/assets/icon-192.png",
+      "src": "/garak-fruit-brief/assets/icon-192.png?v=0dc58aee",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/garak-fruit-brief/assets/icon-512.png",
+      "src": "/garak-fruit-brief/assets/icon-512.png?v=0dc58aee",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
