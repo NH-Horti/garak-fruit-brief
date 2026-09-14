@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T07:03:57.176Z",
+  "generatedAt": "2026-09-14T07:12:04.527Z",
   "targetDate": "2026-09-01",
   "weekday": "화",
   "sentOn": "2026-09-14",
@@ -6596,6 +6596,7 @@
     "poster": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-01-ylcshaerrt/poster.png",
     "card": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-01-ylcshaerrt/card.png",
     "prevPage": "https://nh-horti.github.io/garak-fruit-brief/b/2026-08-31-iffw7dxuno/index.html",
-    "prevDate": "2026-08-31"
+    "prevDate": "2026-08-31",
+    "indexUrl": "https://nh-horti.github.io/garak-fruit-brief/i/w2yjqth65tkh/dates.json"
   }
 }
