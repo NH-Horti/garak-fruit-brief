@@ -4,13 +4,14 @@
   "weekday": "금",
   "sent_on": "2026-09-14",
   "freshness": "FRESH",
+  "edition": "am",
   "title": "가락 과일 시세 09-11(금)",
-  "description": "사과 홍로10kg 52,897 ▲5.1% 경계↑ · 배 신고15kg 51,884 ▼1.3% 안정 · 포도 샤인머스캣2kg 7,218 ▲0.3% 경계↓ · 복숭아 엘바트4kg 18,115(평균) ▼6.3% 안정 · 단감 태추4.5kg 28,400(평균) · 감귤 하우스감귤3kg 21,179 ▲5.6%",
+  "description": "사과 홍로10kg 52,897 ▲5.1% 안정 · 배 신고15kg 51,884 ▼1.3% 안정 · 포도 샤인머스캣2kg 7,218 ▲0.3% 경계↓ · 복숭아 엘바트4kg 23,440 ▼3.2% 안정 · 단감 태추4.5kg 28,400(평균) 주의↑ · 감귤 하우스감귤3kg 21,179 ▲5.6% 안정",
   "page_url": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-11-kxzfr6riik/index.html",
   "poster_url": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-11-kxzfr6riik/poster.png",
   "card_url": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-11-kxzfr6riik/card.png",
   "card_width": 800,
   "card_height": 1000,
   "item_count": 6,
-  "generated_at_kst": "2026-09-14T13:51:40.392+09:00"
+  "generated_at_kst": "2026-09-14T16:01:02.497+09:00"
 }
