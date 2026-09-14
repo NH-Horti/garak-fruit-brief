@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T11:58:03.512Z",
+  "generatedAt": "2026-09-14T13:56:38.010Z",
   "targetDate": "2026-09-03",
   "weekday": "목",
   "sentOn": "2026-09-14",
@@ -540,32 +540,30 @@
         {
           "code": "hongro",
           "nameKo": "홍로",
-          "share": 0.917,
-          "sang": 65746
+          "tons": 195.3,
+          "share": 0.962,
+          "prevTons": 118.2,
+          "prevShare": 0.896,
+          "tonsPct": 65.2,
+          "unitLabel": "10kg",
+          "source": "SANG",
+          "sang": 65746,
+          "prevSang": 71282,
+          "sangPct": -7.8
         },
         {
           "code": "arisu",
           "nameKo": "아리수",
-          "share": 0.028,
-          "sang": 69731
-        },
-        {
-          "code": "aori",
-          "nameKo": "아오리",
-          "share": 0.014,
-          "sang": null
-        },
-        {
-          "code": "애기사과",
-          "nameKo": "애기사과",
-          "share": 0.009,
-          "sang": null
-        },
-        {
-          "code": "골든볼",
-          "nameKo": "골든볼",
-          "share": 0.006,
-          "sang": null
+          "tons": 3.4,
+          "share": 0.017,
+          "prevTons": 8.9,
+          "prevShare": 0.067,
+          "tonsPct": -61.8,
+          "unitLabel": "10kg",
+          "source": "SANG",
+          "sang": 69731,
+          "prevSang": 91114,
+          "sangPct": -23.5
         }
       ],
       "crisis": {
@@ -1422,34 +1420,60 @@
       ],
       "varieties": [
         {
-          "code": "wonhwang",
-          "nameKo": "원황",
-          "share": 0.362,
-          "sang": 36417
-        },
-        {
           "code": "hwasan",
           "nameKo": "화산",
-          "share": 0.297,
-          "sang": 48345
+          "tons": 26.1,
+          "share": 0.376,
+          "prevTons": 20.6,
+          "prevShare": 0.319,
+          "tonsPct": 26.7,
+          "unitLabel": "15kg",
+          "source": "SANG",
+          "sang": 48345,
+          "prevSang": 47526,
+          "sangPct": 1.7
         },
         {
           "code": "shingo",
           "nameKo": "신고",
-          "share": 0.155,
-          "sang": 57671
+          "tons": 21.9,
+          "share": 0.315,
+          "prevTons": 15.4,
+          "prevShare": 0.238,
+          "tonsPct": 42.2,
+          "unitLabel": "15kg",
+          "source": "SANG",
+          "sang": 57671,
+          "prevSang": 45000,
+          "sangPct": 28.2
+        },
+        {
+          "code": "wonhwang",
+          "nameKo": "원황",
+          "tons": 10.3,
+          "share": 0.148,
+          "prevTons": 21.7,
+          "prevShare": 0.337,
+          "tonsPct": -52.5,
+          "unitLabel": "15kg",
+          "source": "SANG",
+          "sang": 36417,
+          "prevSang": 36344,
+          "sangPct": 0.2
         },
         {
           "code": "신화",
           "nameKo": "신화",
-          "share": 0.133,
-          "sang": null
-        },
-        {
-          "code": "슈퍼골드",
-          "nameKo": "슈퍼골드",
-          "share": 0.009,
-          "sang": null
+          "tons": 9.3,
+          "share": 0.134,
+          "prevTons": 4.6,
+          "prevShare": 0.072,
+          "tonsPct": 102.2,
+          "unitLabel": null,
+          "source": null,
+          "sang": null,
+          "prevSang": null,
+          "sangPct": null
         }
       ],
       "crisis": {
@@ -2891,32 +2915,58 @@
         {
           "code": "shine",
           "nameKo": "샤인머스캣",
-          "share": 0.519,
-          "sang": 15546
+          "tons": 138.4,
+          "share": 0.516,
+          "prevTons": 135.3,
+          "prevShare": 0.528,
+          "tonsPct": 2.3,
+          "unitLabel": "2kg",
+          "source": "SANG",
+          "sang": 8342,
+          "prevSang": 8288,
+          "sangPct": 0.7
         },
         {
           "code": "campbell",
           "nameKo": "캠벨얼리",
-          "share": 0.261,
-          "sang": 16803
+          "tons": 62.4,
+          "share": 0.233,
+          "prevTons": 55.5,
+          "prevShare": 0.216,
+          "tonsPct": 12.4,
+          "unitLabel": "3kg",
+          "source": "SANG",
+          "sang": 16803,
+          "prevSang": 16862,
+          "sangPct": -0.3
         },
         {
           "code": "geobong",
           "nameKo": "거봉",
-          "share": 0.108,
-          "sang": 26392
+          "tons": 31.3,
+          "share": 0.117,
+          "prevTons": 28.1,
+          "prevShare": 0.11,
+          "tonsPct": 11.4,
+          "unitLabel": "2kg",
+          "source": "SANG",
+          "sang": 14073,
+          "prevSang": 14364,
+          "sangPct": -2
         },
         {
           "code": "mba",
           "nameKo": "마스캇베리에이",
-          "share": 0.076,
-          "sang": 11861
-        },
-        {
-          "code": "BK씨들리스",
-          "nameKo": "BK씨들리스",
-          "share": 0.006,
-          "sang": null
+          "tons": 26,
+          "share": 0.097,
+          "prevTons": 26.7,
+          "prevShare": 0.104,
+          "tonsPct": -2.6,
+          "unitLabel": "3kg",
+          "source": "SANG",
+          "sang": 11861,
+          "prevSang": 12227,
+          "sangPct": -3
         }
       ],
       "crisis": {
@@ -4548,34 +4598,116 @@
       ],
       "varieties": [
         {
-          "code": "hwangdo",
-          "nameKo": "황도",
-          "share": 0.188,
-          "sang": 35458
-        },
-        {
           "code": "fantasia",
           "nameKo": "환타지아",
-          "share": 0.127,
-          "sang": 35940
+          "tons": 50.4,
+          "share": 0.152,
+          "prevTons": 52.1,
+          "prevShare": 0.172,
+          "tonsPct": -3.3,
+          "unitLabel": "10kg",
+          "source": "SANG",
+          "sang": 35940,
+          "prevSang": 36139,
+          "sangPct": -0.6
+        },
+        {
+          "code": "hwangdo",
+          "nameKo": "황도",
+          "tons": 45.2,
+          "share": 0.136,
+          "prevTons": 44.7,
+          "prevShare": 0.147,
+          "tonsPct": 1.1,
+          "unitLabel": "10kg",
+          "source": "SANG",
+          "sang": 35458,
+          "prevSang": 37818,
+          "sangPct": -6.2
         },
         {
           "code": "cheonhajeil",
           "nameKo": "천하제일도",
-          "share": 0.109,
-          "sang": null
+          "tons": 42.6,
+          "share": 0.128,
+          "prevTons": 38.2,
+          "prevShare": 0.126,
+          "tonsPct": 11.5,
+          "unitLabel": null,
+          "source": null,
+          "sang": null,
+          "prevSang": null,
+          "sangPct": null
         },
         {
           "code": "yumyeong-baekdo",
           "nameKo": "유명백도",
-          "share": 0.106,
-          "sang": 46135
+          "tons": 39.3,
+          "share": 0.118,
+          "prevTons": 37.7,
+          "prevShare": 0.124,
+          "tonsPct": 4.2,
+          "unitLabel": "10kg",
+          "source": "SANG",
+          "sang": 46135,
+          "prevSang": 41464,
+          "sangPct": 11.3
         },
         {
           "code": "elberta",
           "nameKo": "엘바트",
-          "share": 0.061,
-          "sang": 28165
+          "tons": 34.7,
+          "share": 0.104,
+          "prevTons": 15.7,
+          "prevShare": 0.052,
+          "tonsPct": 121,
+          "unitLabel": "4kg",
+          "source": "SANG",
+          "sang": 28165,
+          "prevSang": 26935,
+          "sangPct": 4.6
+        },
+        {
+          "code": "hwanggwibi",
+          "nameKo": "황귀비유도",
+          "tons": 24.5,
+          "share": 0.074,
+          "prevTons": 12.3,
+          "prevShare": 0.04,
+          "tonsPct": 99.2,
+          "unitLabel": null,
+          "source": null,
+          "sang": null,
+          "prevSang": null,
+          "sangPct": null
+        },
+        {
+          "code": "yumyeong",
+          "nameKo": "유명",
+          "tons": 17.8,
+          "share": 0.054,
+          "prevTons": 16,
+          "prevShare": 0.053,
+          "tonsPct": 11.3,
+          "unitLabel": null,
+          "source": null,
+          "sang": null,
+          "prevSang": null,
+          "sangPct": null
+        },
+        {
+          "code": "baekdo",
+          "nameKo": "백도",
+          "tons": 7.9,
+          "share": 0.024,
+          "prevTons": 7.7,
+          "prevShare": 0.026,
+          "tonsPct": 2.6,
+          "unitLabel": "4kg",
+          "source": "SANG",
+          "sang": 29151,
+          "prevSang": 26288,
+          "sangPct": 10.9
         }
       ],
       "crisis": {
@@ -5920,14 +6052,30 @@
         {
           "code": "house",
           "nameKo": "하우스감귤",
-          "share": 0.994,
-          "sang": 16081
+          "tons": 25.6,
+          "share": 0.983,
+          "prevTons": 19.9,
+          "prevShare": 1,
+          "tonsPct": 28.6,
+          "unitLabel": "3kg",
+          "source": "SANG",
+          "sang": 20054,
+          "prevSang": 21460,
+          "sangPct": -6.6
         },
         {
           "code": "hwanggeumhyang",
           "nameKo": "황금향",
-          "share": 0.006,
-          "sang": null
+          "tons": 0.4,
+          "share": 0.017,
+          "prevTons": null,
+          "prevShare": null,
+          "tonsPct": null,
+          "unitLabel": null,
+          "source": null,
+          "sang": null,
+          "prevSang": null,
+          "sangPct": null
         }
       ],
       "crisis": {
