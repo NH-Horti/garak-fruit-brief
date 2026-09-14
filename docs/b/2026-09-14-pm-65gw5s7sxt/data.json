@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T11:17:47.032Z",
+  "generatedAt": "2026-09-14T11:34:46.254Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-14",
@@ -732,7 +732,8 @@
             },
             {
               "date": "2026-08-24",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-25",
@@ -744,11 +745,13 @@
             },
             {
               "date": "2026-08-27",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-28",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-29",
@@ -756,7 +759,8 @@
             },
             {
               "date": "2026-08-31",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-01",
@@ -776,7 +780,8 @@
             },
             {
               "date": "2026-09-05",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-07",
@@ -1664,7 +1669,8 @@
           "trend30": [
             {
               "date": "2026-08-17",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-18",
@@ -1672,35 +1678,43 @@
             },
             {
               "date": "2026-08-19",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-20",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-21",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-22",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-24",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-25",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-26",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-27",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-28",
@@ -1716,7 +1730,8 @@
             },
             {
               "date": "2026-09-01",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-02",
@@ -2205,7 +2220,8 @@
             },
             {
               "date": "2026-08-31",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-01",
@@ -2225,7 +2241,8 @@
             },
             {
               "date": "2026-09-05",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-07",
@@ -4493,11 +4510,13 @@
             },
             {
               "date": "2026-08-18",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-19",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-20",
@@ -4517,11 +4536,13 @@
             },
             {
               "date": "2026-08-25",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-26",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-27",
@@ -7486,15 +7507,18 @@
           "spark": [
             {
               "date": "2026-09-08",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-09",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-10",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-11",
@@ -7517,7 +7541,8 @@
             },
             {
               "date": "2026-08-18",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-19",
@@ -7525,7 +7550,8 @@
             },
             {
               "date": "2026-08-20",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-21",
@@ -7533,19 +7559,23 @@
             },
             {
               "date": "2026-08-22",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-24",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-25",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-26",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-27",
@@ -7557,47 +7587,58 @@
             },
             {
               "date": "2026-08-29",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-31",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-01",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-02",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-03",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-04",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-05",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-07",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-08",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-09",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-10",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-11",
@@ -7979,7 +8020,8 @@
           "spark": [
             {
               "date": "2026-09-08",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-09",
@@ -7991,11 +8033,13 @@
             },
             {
               "date": "2026-09-11",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-12",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-14",
@@ -8006,7 +8050,8 @@
           "trend30": [
             {
               "date": "2026-08-17",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-18",
@@ -8014,11 +8059,13 @@
             },
             {
               "date": "2026-08-19",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-20",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-21",
@@ -8026,15 +8073,18 @@
             },
             {
               "date": "2026-08-22",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-24",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-25",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-26",
@@ -8046,15 +8096,18 @@
             },
             {
               "date": "2026-08-28",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-29",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-08-31",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-01",
@@ -8082,7 +8135,8 @@
             },
             {
               "date": "2026-09-08",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-09",
@@ -8094,11 +8148,13 @@
             },
             {
               "date": "2026-09-11",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-12",
-              "price": null
+              "price": null,
+              "bridge": true
             },
             {
               "date": "2026-09-14",
