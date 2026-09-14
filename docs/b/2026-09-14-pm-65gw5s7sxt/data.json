@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T13:41:37.371Z",
+  "generatedAt": "2026-09-14T13:43:59.377Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-14",
@@ -3888,11 +3888,11 @@
           "prevTons": 211,
           "prevShare": 0.554,
           "tonsPct": 32.2,
-          "unitLabel": "4kg",
+          "unitLabel": "2kg",
           "source": "SANG",
-          "sang": 16058,
-          "prevSang": 15863,
-          "sangPct": 1.2
+          "sang": 6818,
+          "prevSang": 6848,
+          "sangPct": -0.4
         },
         {
           "code": "campbell",
@@ -6519,9 +6519,9 @@
           "prevTons": 1.7,
           "prevShare": 0.663,
           "tonsPct": 170.6,
-          "unitLabel": "10kg",
-          "source": "SANG",
-          "sang": 58140,
+          "unitLabel": null,
+          "source": null,
+          "sang": null,
           "prevSang": null,
           "sangPct": null
         },
