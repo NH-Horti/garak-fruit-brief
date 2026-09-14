@@ -15,6 +15,8 @@
   if(window.PointerEvent){document.addEventListener('pointerdown',function(e){if(e.pointerType==='mouse')begin(e);},{passive:true});document.addEventListener('pointerup',function(e){if(e.pointerType==='mouse')end(e);},{passive:true});}
   document.addEventListener('keydown',function(e){if(e.altKey||e.ctrlKey||e.metaKey||e.shiftKey)return;if(e.key==='ArrowLeft')go(-1);else if(e.key==='ArrowRight')go(1);});
   try{if(hint&&('ontouchstart' in window)&&!sessionStorage.getItem('gfb_hint')){hint.classList.add('show');sessionStorage.setItem('gfb_hint','1');setTimeout(function(){hint.classList.remove('show');},4000);}}catch(e){}
+  // 홈 화면 앱 — 사이트 루트 서비스워커(캐시 없음, 설치 가능 조건용) 등록
+  try{var ixs=(document.getElementById('navRow')||{getAttribute:function(){return '';}}).getAttribute('data-index')||'';var base=ixs?ixs.replace(//i/[^/]+/dates.json$/,'/'):'';if(base&&'serviceWorker' in navigator)navigator.serviceWorker.register(base+'sw.js',{scope:base}).catch(function(){});}catch(e){}
   // 날짜 선택 — 토큰 경로의 dates.json(게시 때마다 갱신)을 읽어 드롭다운 채움. 못 읽으면 숨김.
   var row=document.getElementById('navRow'),pick=document.getElementById('datePick');
   var ix=row?row.getAttribute('data-index'):'';
