@@ -31,7 +31,7 @@ on:
         default: false
         type: boolean
       wait:
-        description: '발송 시각(SEND_AT_KST, 기본 07:00)까지 기다렸다 전송 (수동 실행 기본: 즉시)'
+        description: '발송 시각(SEND_AT_KST, 기본 06:30)까지 기다렸다 전송 (수동 실행 기본: 즉시)'
         required: false
         default: false
         type: boolean
@@ -78,14 +78,14 @@ jobs:
           echo "freshness=${{ github.event.client_payload.freshness || inputs.freshness || 'FRESH' }}" >> "$GITHUB_OUTPUT"
           echo "reason=${{ github.event.client_payload.reason || '' }}" >> "$GITHUB_OUTPUT"
 
-      # 발송 시각 대기 — Market Analysis 가 05:07 에 게시·dispatch 하지만 카톡은 SEND_AT_KST(레포 Variables, 기본 07:00) 에 보낸다.
+      # 발송 시각 대기 — Market Analysis 가 05:07 에 게시·dispatch 하지만 카톡은 SEND_AT_KST(레포 Variables, 기본 06:30) 에 보낸다.
       #   이미 지난 시각이면(08:30 캐치업·수동 재발행) 즉시. 수동 실행은 inputs.wait=true 일 때만 대기.
       - name: Wait until send time
         if: github.event_name == 'repository_dispatch' || inputs.wait == true
         shell: bash
         run: |
           set -euo pipefail
-          target="${{ vars.SEND_AT_KST || '07:00' }}"
+          target="${{ vars.SEND_AT_KST || '06:30' }}"
           today="$(TZ=Asia/Seoul date +%F)"
           target_epoch="$(TZ=Asia/Seoul date -d "$today $target" +%s)"
           now_epoch="$(date +%s)"
