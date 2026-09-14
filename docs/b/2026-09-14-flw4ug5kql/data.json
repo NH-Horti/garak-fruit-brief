@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T06:14:38.497Z",
+  "generatedAt": "2026-09-14T07:02:31.584Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-14",
@@ -12,7 +12,7 @@
       "iconDataUri": null,
       "rank": 1,
       "onPoster": true,
-      "tradeValue": 3168909829,
+      "tradeValue": 3201426003,
       "defaultBoxKg": 10,
       "offSeason": false,
       "variety": {
@@ -22,11 +22,11 @@
         "sangLaneFound": true
       },
       "volume": {
-        "tons": 559,
+        "tons": 567,
         "vsPrev": {
           "date": "2026-09-12",
           "value": 238,
-          "pct": 134.9
+          "pct": 138.2
         }
       },
       "units": [
@@ -36,9 +36,9 @@
           "kg": 10,
           "isRep": true,
           "isAnchor": true,
-          "qtyUnits": 29072,
-          "tons": 290.7,
-          "kgShare": 0.611,
+          "qtyUnits": 29705,
+          "tons": 297.1,
+          "kgShare": 0.614,
           "sang": {
             "date": "2026-09-14",
             "price": 44122,
@@ -529,9 +529,9 @@
           "kg": 5,
           "isRep": false,
           "isAnchor": false,
-          "qtyUnits": 36703,
-          "tons": 183.5,
-          "kgShare": 0.386,
+          "qtyUnits": 36775,
+          "tons": 183.9,
+          "kgShare": 0.38,
           "sang": {
             "date": "2026-09-14",
             "price": 54199,
@@ -1092,28 +1092,28 @@
         "unitKg": null,
         "gradeLabel": "상품",
         "key": "RETAIL_EA#V_07@HIGH",
-        "date": "2026-09-11",
-        "lagDays": 3,
-        "price": 22976,
+        "date": "2026-09-14",
+        "lagDays": 0,
+        "price": 22583,
         "vsPrev": {
-          "date": "2026-09-10",
-          "value": 22968,
-          "pct": 0
+          "date": "2026-09-11",
+          "value": 22976,
+          "pct": -1.7
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 27989,
-          "pct": -17.9
+          "pct": -19.3
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 27868,
-          "pct": -17.6
+          "pct": -19
         },
         "vsNormal": {
           "date": null,
           "value": 27049,
-          "pct": -15.1,
+          "pct": -16.5,
           "years": [
             2025,
             2022,
@@ -1121,10 +1121,6 @@
           ]
         },
         "spark": [
-          {
-            "date": "2026-09-04",
-            "price": 22816
-          },
           {
             "date": "2026-09-07",
             "price": 23255
@@ -1144,6 +1140,10 @@
           {
             "date": "2026-09-11",
             "price": 22976
+          },
+          {
+            "date": "2026-09-14",
+            "price": 22583
           }
         ],
         "trend30": [
@@ -1218,6 +1218,10 @@
           {
             "date": "2026-09-11",
             "price": 22976
+          },
+          {
+            "date": "2026-09-14",
+            "price": 22583
           }
         ],
         "trend30Ref": {
@@ -1293,6 +1297,10 @@
             {
               "date": "2026-09-11",
               "price": 27110
+            },
+            {
+              "date": "2026-09-14",
+              "price": 26220
             }
           ],
           "normal": [
@@ -1367,33 +1375,37 @@
             {
               "date": "2026-09-11",
               "price": 27076
+            },
+            {
+              "date": "2026-09-14",
+              "price": 27408
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "상품",
-            "date": "2026-09-11",
-            "price": 22976,
+            "date": "2026-09-14",
+            "price": 22583,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 22968,
-              "pct": 0
+              "date": "2026-09-11",
+              "value": 22976,
+              "pct": -1.7
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 27989,
-              "pct": -17.9
+              "pct": -19.3
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 27868,
-              "pct": -17.6
+              "pct": -19
             },
             "vsNormal": {
               "date": null,
               "value": 27049,
-              "pct": -15.1,
+              "pct": -16.5,
               "years": [
                 2025,
                 2022,
@@ -1403,27 +1415,27 @@
           },
           "MID": {
             "label": "중품",
-            "date": "2026-09-11",
-            "price": 16483,
+            "date": "2026-09-14",
+            "price": 16756,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 16621,
-              "pct": -0.8
+              "date": "2026-09-11",
+              "value": 16483,
+              "pct": 1.7
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 21964,
-              "pct": -25
+              "pct": -23.7
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 20174,
-              "pct": -18.3
+              "pct": -16.9
             },
             "vsNormal": {
               "date": null,
               "value": 19066,
-              "pct": -13.5,
+              "pct": -12.1,
               "years": [
                 2025,
                 2024,
@@ -1433,8 +1445,8 @@
           }
         },
         "passThrough": {
-          "prevMonth": 0.47,
-          "yoy": 0.55,
+          "prevMonth": 0.51,
+          "yoy": 0.59,
           "wholesalePrevMonthPct": -38.2,
           "wholesaleYoyPct": -32,
           "wholesaleUnit": "10kg"
@@ -1448,7 +1460,7 @@
       "iconDataUri": null,
       "rank": 2,
       "onPoster": true,
-      "tradeValue": 2235832037,
+      "tradeValue": 2255288070,
       "defaultBoxKg": 15,
       "offSeason": false,
       "variety": {
@@ -1458,11 +1470,11 @@
         "sangLaneFound": true
       },
       "volume": {
-        "tons": 544,
+        "tons": 552,
         "vsPrev": {
           "date": "2026-09-12",
           "value": 325,
-          "pct": 67.4
+          "pct": 69.8
         }
       },
       "units": [
@@ -1472,9 +1484,9 @@
           "kg": 15,
           "isRep": true,
           "isAnchor": true,
-          "qtyUnits": 8661,
-          "tons": 129.9,
-          "kgShare": 0.262,
+          "qtyUnits": 9173,
+          "tons": 137.6,
+          "kgShare": 0.273,
           "sang": {
             "date": "2026-09-14",
             "price": 59340,
@@ -1967,7 +1979,7 @@
           "isAnchor": false,
           "qtyUnits": 48324,
           "tons": 362.4,
-          "kgShare": 0.731,
+          "kgShare": 0.72,
           "sang": {
             "date": "2026-09-14",
             "price": 40064,
@@ -2463,7 +2475,7 @@
         {
           "code": "신화",
           "nameKo": "신화",
-          "share": 0.034,
+          "share": 0.033,
           "sang": null
         },
         {
@@ -2520,370 +2532,273 @@
         "local": null
       },
       "retail": {
-        "kindCode": "04",
-        "varietyCode": "wonhwang",
-        "varietyLabel": "원황",
-        "matchesWholesaleVariety": false,
+        "kindCode": "01",
+        "varietyCode": "shingo",
+        "varietyLabel": "신고",
+        "matchesWholesaleVariety": true,
         "unit": "10개",
         "unitKg": null,
         "gradeLabel": "상품",
-        "key": "RETAIL_EA#V_04@HIGH",
-        "date": "2026-09-11",
-        "lagDays": 3,
-        "price": 25833,
+        "key": "RETAIL_EA#V_01@HIGH",
+        "date": "2026-09-14",
+        "lagDays": 0,
+        "price": 25419,
         "vsPrev": {
-          "date": "2026-09-10",
-          "value": 26093,
-          "pct": -1
+          "date": "2026-08-31",
+          "value": 45389,
+          "pct": -44
         },
         "vsPrevMonth": {
           "date": "2026-08",
-          "value": 27850,
-          "pct": -7.2
+          "value": 44846,
+          "pct": -43.3
         },
         "vsYoy": {
           "date": "2025-09",
-          "value": 28896,
-          "pct": -10.6
+          "value": 27774,
+          "pct": -8.5
         },
         "vsNormal": {
           "date": null,
-          "value": 30215,
-          "pct": -14.5,
+          "value": 32705,
+          "pct": -22.3,
           "years": [
-            2025,
-            2022,
+            2024,
+            2023,
             2021
           ]
         },
         "spark": [
           {
-            "date": "2026-09-04",
-            "price": 24923
+            "date": "2026-08-25",
+            "price": 45992
           },
           {
-            "date": "2026-09-07",
-            "price": 24911
+            "date": "2026-08-26",
+            "price": 45992
           },
           {
-            "date": "2026-09-08",
-            "price": 24919
+            "date": "2026-08-27",
+            "price": 45673
           },
           {
-            "date": "2026-09-09",
-            "price": 25402
+            "date": "2026-08-28",
+            "price": 45910
           },
           {
-            "date": "2026-09-10",
-            "price": 26093
+            "date": "2026-08-31",
+            "price": 45389
           },
           {
-            "date": "2026-09-11",
-            "price": 25833
+            "date": "2026-09-14",
+            "price": 25419
           }
         ],
         "trend30": [
           {
             "date": "2026-08-18",
-            "price": 30084
+            "price": 41505
           },
           {
             "date": "2026-08-19",
-            "price": 29326
+            "price": 42017
           },
           {
             "date": "2026-08-20",
-            "price": 26526
+            "price": 41982
           },
           {
             "date": "2026-08-21",
-            "price": 26114
+            "price": 45914
           },
           {
             "date": "2026-08-24",
-            "price": 25981
+            "price": 45914
           },
           {
             "date": "2026-08-25",
-            "price": 26362
+            "price": 45992
           },
           {
             "date": "2026-08-26",
-            "price": 26540
+            "price": 45992
           },
           {
             "date": "2026-08-27",
-            "price": 25409
+            "price": 45673
           },
           {
             "date": "2026-08-28",
-            "price": 25757
+            "price": 45910
           },
           {
             "date": "2026-08-31",
-            "price": 25604
+            "price": 45389
           },
           {
-            "date": "2026-09-01",
-            "price": 25704
-          },
-          {
-            "date": "2026-09-02",
-            "price": 25448
-          },
-          {
-            "date": "2026-09-03",
-            "price": 24881
-          },
-          {
-            "date": "2026-09-04",
-            "price": 24923
-          },
-          {
-            "date": "2026-09-07",
-            "price": 24911
-          },
-          {
-            "date": "2026-09-08",
-            "price": 24919
-          },
-          {
-            "date": "2026-09-09",
-            "price": 25402
-          },
-          {
-            "date": "2026-09-10",
-            "price": 26093
-          },
-          {
-            "date": "2026-09-11",
-            "price": 25833
+            "date": "2026-09-14",
+            "price": 25419
           }
         ],
         "trend30Ref": {
           "yoy": [
             {
               "date": "2026-08-18",
-              "price": 31369
+              "price": 35129
             },
             {
               "date": "2026-08-19",
-              "price": 31369
+              "price": 38225
             },
             {
               "date": "2026-08-20",
-              "price": 31174
+              "price": 38225
             },
             {
               "date": "2026-08-21",
-              "price": 29985
+              "price": 38225
             },
             {
               "date": "2026-08-24",
-              "price": 29351
+              "price": null
             },
             {
               "date": "2026-08-25",
-              "price": 29351
+              "price": null
             },
             {
               "date": "2026-08-26",
-              "price": 29109
+              "price": null
             },
             {
               "date": "2026-08-27",
-              "price": 29076
+              "price": null
             },
             {
               "date": "2026-08-28",
-              "price": 28843
+              "price": null
             },
             {
               "date": "2026-08-31",
-              "price": 28402
+              "price": null
             },
             {
-              "date": "2026-09-01",
-              "price": 28402
-            },
-            {
-              "date": "2026-09-02",
-              "price": 28692
-            },
-            {
-              "date": "2026-09-03",
-              "price": 29210
-            },
-            {
-              "date": "2026-09-04",
-              "price": 28454
-            },
-            {
-              "date": "2026-09-07",
-              "price": 28157
-            },
-            {
-              "date": "2026-09-08",
-              "price": 28157
-            },
-            {
-              "date": "2026-09-09",
-              "price": 28083
-            },
-            {
-              "date": "2026-09-10",
-              "price": 28423
-            },
-            {
-              "date": "2026-09-11",
-              "price": 27049
+              "date": "2026-09-14",
+              "price": 22673
             }
           ],
           "normal": [
             {
               "date": "2026-08-18",
-              "price": 30491
+              "price": 39885
             },
             {
               "date": "2026-08-19",
-              "price": 30491
+              "price": 40816
             },
             {
               "date": "2026-08-20",
-              "price": 31413
+              "price": 40774
             },
             {
               "date": "2026-08-21",
-              "price": 30914
+              "price": 40774
             },
             {
               "date": "2026-08-24",
-              "price": 31083
+              "price": 41040
             },
             {
               "date": "2026-08-25",
-              "price": 30262
+              "price": 41040
             },
             {
               "date": "2026-08-26",
-              "price": 29979
+              "price": 41040
             },
             {
               "date": "2026-08-27",
-              "price": 30117
+              "price": 36197
             },
             {
               "date": "2026-08-28",
-              "price": 30096
+              "price": 31512
             },
             {
               "date": "2026-08-31",
-              "price": 29353
+              "price": 31833
             },
             {
-              "date": "2026-09-01",
-              "price": 29774
-            },
-            {
-              "date": "2026-09-02",
-              "price": 30146
-            },
-            {
-              "date": "2026-09-03",
-              "price": 30359
-            },
-            {
-              "date": "2026-09-04",
-              "price": 30107
-            },
-            {
-              "date": "2026-09-07",
-              "price": 30466
-            },
-            {
-              "date": "2026-09-08",
-              "price": 31201
-            },
-            {
-              "date": "2026-09-09",
-              "price": 31128
-            },
-            {
-              "date": "2026-09-10",
-              "price": 29349
-            },
-            {
-              "date": "2026-09-11",
-              "price": 28891
+              "date": "2026-09-14",
+              "price": 32041
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "상품",
-            "date": "2026-09-11",
-            "price": 25833,
+            "date": "2026-09-14",
+            "price": 25419,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 26093,
-              "pct": -1
+              "date": "2026-08-31",
+              "value": 45389,
+              "pct": -44
             },
             "vsPrevMonth": {
               "date": "2026-08",
-              "value": 27850,
-              "pct": -7.2
+              "value": 44846,
+              "pct": -43.3
             },
             "vsYoy": {
               "date": "2025-09",
-              "value": 28896,
-              "pct": -10.6
+              "value": 27774,
+              "pct": -8.5
             },
             "vsNormal": {
               "date": null,
-              "value": 30215,
-              "pct": -14.5,
+              "value": 32705,
+              "pct": -22.3,
               "years": [
-                2025,
-                2022,
+                2024,
+                2023,
                 2021
               ]
             }
           },
           "MID": {
             "label": "중품",
-            "date": "2026-09-09",
-            "price": 19347,
+            "date": "2026-09-14",
+            "price": 17013,
             "vsPrev": {
-              "date": "2026-09-08",
-              "value": 19418,
-              "pct": -0.4
+              "date": "2026-08-28",
+              "value": 31288,
+              "pct": -45.6
             },
             "vsPrevMonth": {
               "date": "2026-08",
-              "value": 22093,
-              "pct": -12.4
+              "value": 32812,
+              "pct": -48.2
             },
             "vsYoy": {
               "date": "2025-09",
-              "value": 21606,
-              "pct": -10.5
+              "value": 21208,
+              "pct": -19.8
             },
             "vsNormal": {
               "date": null,
-              "value": 23157,
-              "pct": -16.5,
+              "value": 26039,
+              "pct": -34.7,
               "years": [
-                2025,
                 2024,
                 2023,
-                2021
+                2022
               ]
             }
           }
         },
         "passThrough": {
-          "prevMonth": -0.47,
-          "yoy": -0.55,
+          "prevMonth": -2.83,
+          "yoy": -0.44,
           "wholesalePrevMonthPct": 15.3,
           "wholesaleYoyPct": 19.3,
           "wholesaleUnit": "15kg"
@@ -3969,12 +3884,7 @@
           "label": "경계 ↓",
           "price": 6848
         },
-        "reportStage": {
-          "stage": "UNKNOWN",
-          "label": "판정 보류",
-          "price": null,
-          "basisLabel": "공문 기준가 정체(전 거래일 값 반복) — 판정 보류"
-        },
+        "reportStage": null,
         "offSeason": false,
         "local": null
       },
@@ -3987,28 +3897,28 @@
         "unitKg": 2,
         "gradeLabel": "L과",
         "key": "RETAIL#V_12@HIGH",
-        "date": "2026-09-11",
-        "lagDays": 3,
-        "price": 13865,
+        "date": "2026-09-14",
+        "lagDays": 0,
+        "price": 13679,
         "vsPrev": {
-          "date": "2026-09-10",
-          "value": 14043,
+          "date": "2026-09-11",
+          "value": 13865,
           "pct": -1.3
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 19497,
-          "pct": -28.9
+          "pct": -29.8
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 18027,
-          "pct": -23.1
+          "pct": -24.1
         },
         "vsNormal": {
           "date": null,
           "value": 28214,
-          "pct": -50.9,
+          "pct": -51.5,
           "years": [
             2024,
             2023,
@@ -4016,10 +3926,6 @@
           ]
         },
         "spark": [
-          {
-            "date": "2026-09-04",
-            "price": 14662
-          },
           {
             "date": "2026-09-07",
             "price": 15025
@@ -4039,6 +3945,10 @@
           {
             "date": "2026-09-11",
             "price": 13865
+          },
+          {
+            "date": "2026-09-14",
+            "price": 13679
           }
         ],
         "trend30": [
@@ -4117,6 +4027,10 @@
           {
             "date": "2026-09-11",
             "price": 13865
+          },
+          {
+            "date": "2026-09-14",
+            "price": 13679
           }
         ],
         "trend30Ref": {
@@ -4196,6 +4110,10 @@
             {
               "date": "2026-09-11",
               "price": 19454
+            },
+            {
+              "date": "2026-09-14",
+              "price": 19226
             }
           ],
           "normal": [
@@ -4274,33 +4192,37 @@
             {
               "date": "2026-09-11",
               "price": 28276
+            },
+            {
+              "date": "2026-09-14",
+              "price": 27663
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "L과",
-            "date": "2026-09-11",
-            "price": 13865,
+            "date": "2026-09-14",
+            "price": 13679,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 14043,
+              "date": "2026-09-11",
+              "value": 13865,
               "pct": -1.3
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 19497,
-              "pct": -28.9
+              "pct": -29.8
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 18027,
-              "pct": -23.1
+              "pct": -24.1
             },
             "vsNormal": {
               "date": null,
               "value": 28214,
-              "pct": -50.9,
+              "pct": -51.5,
               "years": [
                 2024,
                 2023,
@@ -4341,15 +4263,15 @@
           }
         },
         "passThrough": {
-          "prevMonth": 0.74,
-          "yoy": 0.82,
+          "prevMonth": 0.76,
+          "yoy": 0.85,
           "wholesalePrevMonthPct": -39.2,
           "wholesaleYoyPct": -28.2,
           "wholesaleUnit": "2kg"
         },
         "ratioToWholesale": {
           "unit": "2kg",
-          "retail": 13865,
+          "retail": 13679,
           "wholesale": 6818,
           "ratio": 2
         }
@@ -5361,28 +5283,28 @@
         "unitKg": null,
         "gradeLabel": "상품",
         "key": "RETAIL_EA#V_01@HIGH",
-        "date": "2026-09-11",
-        "lagDays": 3,
-        "price": 19470,
+        "date": "2026-09-14",
+        "lagDays": 0,
+        "price": 19253,
         "vsPrev": {
-          "date": "2026-09-10",
-          "value": 19315,
-          "pct": 0.8
+          "date": "2026-09-11",
+          "value": 19470,
+          "pct": -1.1
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 18360,
-          "pct": 6
+          "pct": 4.9
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 23438,
-          "pct": -16.9
+          "pct": -17.9
         },
         "vsNormal": {
           "date": null,
           "value": 23806,
-          "pct": -18.2,
+          "pct": -19.1,
           "years": [
             2025,
             2024,
@@ -5390,10 +5312,6 @@
           ]
         },
         "spark": [
-          {
-            "date": "2026-09-04",
-            "price": 18994
-          },
           {
             "date": "2026-09-07",
             "price": 19011
@@ -5413,6 +5331,10 @@
           {
             "date": "2026-09-11",
             "price": 19470
+          },
+          {
+            "date": "2026-09-14",
+            "price": 19253
           }
         ],
         "trend30": [
@@ -5491,6 +5413,10 @@
           {
             "date": "2026-09-11",
             "price": 19470
+          },
+          {
+            "date": "2026-09-14",
+            "price": 19253
           }
         ],
         "trend30Ref": {
@@ -5570,6 +5496,10 @@
             {
               "date": "2026-09-11",
               "price": 24362
+            },
+            {
+              "date": "2026-09-14",
+              "price": 25064
             }
           ],
           "normal": [
@@ -5648,33 +5578,37 @@
             {
               "date": "2026-09-11",
               "price": 24339
+            },
+            {
+              "date": "2026-09-14",
+              "price": 24599
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "상품",
-            "date": "2026-09-11",
-            "price": 19470,
+            "date": "2026-09-14",
+            "price": 19253,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 19315,
-              "pct": 0.8
+              "date": "2026-09-11",
+              "value": 19470,
+              "pct": -1.1
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 18360,
-              "pct": 6
+              "pct": 4.9
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 23438,
-              "pct": -16.9
+              "pct": -17.9
             },
             "vsNormal": {
               "date": null,
               "value": 23806,
-              "pct": -18.2,
+              "pct": -19.1,
               "years": [
                 2025,
                 2024,
@@ -5684,22 +5618,22 @@
           },
           "MID": {
             "label": "중품",
-            "date": "2026-09-11",
-            "price": 16950,
+            "date": "2026-09-14",
+            "price": 16993,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 16706,
-              "pct": 1.5
+              "date": "2026-09-11",
+              "value": 16950,
+              "pct": 0.3
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 14598,
-              "pct": 16.1
+              "pct": 16.4
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 19833,
-              "pct": -14.5
+              "pct": -14.3
             },
             "vsNormal": {
               "date": null,
@@ -5710,8 +5644,8 @@
           }
         },
         "passThrough": {
-          "prevMonth": 0.39,
-          "yoy": 1.08,
+          "prevMonth": 0.32,
+          "yoy": 1.14,
           "wholesalePrevMonthPct": 15.2,
           "wholesaleYoyPct": -15.7,
           "wholesaleUnit": "4kg"
@@ -6453,12 +6387,7 @@
           "label": "안정",
           "price": 19710.144927536232
         },
-        "reportStage": {
-          "stage": "ALERT",
-          "label": "경계 ↓",
-          "price": 28436,
-          "basisLabel": "안정대(10kg) 기준"
-        },
+        "reportStage": null,
         "offSeason": true,
         "local": {
           "laneKey": "GARAK#U_5kg#V_태추",
@@ -8420,12 +8349,7 @@
           "criticalUp": 24952
         },
         "prevStage": null,
-        "reportStage": {
-          "stage": "CAUTION",
-          "label": "주의 ↓",
-          "price": 15383,
-          "basisLabel": "안정대(5kg) 기준"
-        },
+        "reportStage": null,
         "offSeason": true,
         "local": {
           "laneKey": "GARAK_SANG#V_house",
@@ -8476,28 +8400,28 @@
         "unitKg": null,
         "gradeLabel": "M과",
         "key": "RETAIL_EA#V_02@HIGH",
-        "date": "2026-09-11",
-        "lagDays": 3,
-        "price": 7573,
+        "date": "2026-09-14",
+        "lagDays": 0,
+        "price": 7520,
         "vsPrev": {
-          "date": "2026-09-10",
-          "value": 7583,
-          "pct": -0.1
+          "date": "2026-09-11",
+          "value": 7573,
+          "pct": -0.7
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 8425,
-          "pct": -10.1
+          "pct": -10.7
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 9980,
-          "pct": -24.1
+          "pct": -24.6
         },
         "vsNormal": {
           "date": null,
           "value": 9294,
-          "pct": -18.5,
+          "pct": -19.1,
           "years": [
             2025,
             2024,
@@ -8506,10 +8430,6 @@
           ]
         },
         "spark": [
-          {
-            "date": "2026-09-04",
-            "price": 7197
-          },
           {
             "date": "2026-09-07",
             "price": 7358
@@ -8529,6 +8449,10 @@
           {
             "date": "2026-09-11",
             "price": 7573
+          },
+          {
+            "date": "2026-09-14",
+            "price": 7520
           }
         ],
         "trend30": [
@@ -8607,6 +8531,10 @@
           {
             "date": "2026-09-11",
             "price": 7573
+          },
+          {
+            "date": "2026-09-14",
+            "price": 7520
           }
         ],
         "trend30Ref": {
@@ -8686,6 +8614,10 @@
             {
               "date": "2026-09-11",
               "price": 10014
+            },
+            {
+              "date": "2026-09-14",
+              "price": 10092
             }
           ],
           "normal": [
@@ -8764,33 +8696,37 @@
             {
               "date": "2026-09-11",
               "price": 9378
+            },
+            {
+              "date": "2026-09-14",
+              "price": 9306
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "M과",
-            "date": "2026-09-11",
-            "price": 7573,
+            "date": "2026-09-14",
+            "price": 7520,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 7583,
-              "pct": -0.1
+              "date": "2026-09-11",
+              "value": 7573,
+              "pct": -0.7
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 8425,
-              "pct": -10.1
+              "pct": -10.7
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 9980,
-              "pct": -24.1
+              "pct": -24.6
             },
             "vsNormal": {
               "date": null,
               "value": 9294,
-              "pct": -18.5,
+              "pct": -19.1,
               "years": [
                 2025,
                 2024,
@@ -8801,27 +8737,27 @@
           },
           "MID": {
             "label": "S과",
-            "date": "2026-09-11",
-            "price": 5754,
+            "date": "2026-09-14",
+            "price": 5730,
             "vsPrev": {
-              "date": "2026-09-10",
-              "value": 5771,
-              "pct": -0.3
+              "date": "2026-09-11",
+              "value": 5754,
+              "pct": -0.4
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 6363,
-              "pct": -9.6
+              "pct": -9.9
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 7848,
-              "pct": -26.7
+              "pct": -27
             },
             "vsNormal": {
               "date": null,
               "value": 7365,
-              "pct": -21.9,
+              "pct": -22.2,
               "years": [
                 2025,
                 2024,
@@ -8832,8 +8768,8 @@
           }
         },
         "passThrough": {
-          "prevMonth": 1.51,
-          "yoy": 1.65,
+          "prevMonth": 1.6,
+          "yoy": 1.68,
           "wholesalePrevMonthPct": -6.7,
           "wholesaleYoyPct": -14.6,
           "wholesaleUnit": "5kg"
@@ -8892,6 +8828,7 @@
     },
     "prevYear": null
   },
+  "edition": "AM",
   "footnotes": [
     "가격은 가락시장 가격백분위 '상'(상위 5~40% 구간 평균, 공문 '상품기준')이며 단위는 실물 포장규격당 원. '평균가' 표기는 상품기준가 미수신으로 경매원표 전등급 평균을 쓴 값.",
     "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
@@ -8931,6 +8868,7 @@
     "page": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-14-flw4ug5kql/index.html",
     "poster": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-14-flw4ug5kql/poster.png",
     "card": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-14-flw4ug5kql/card.png",
-    "prevPage": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-12-5ww6gtjnj6/index.html"
+    "prevPage": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-12-5ww6gtjnj6/index.html",
+    "prevDate": "2026-09-12"
   }
 }
