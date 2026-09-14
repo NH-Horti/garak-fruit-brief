@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T13:45:37.645Z",
+  "generatedAt": "2026-09-14T13:49:25.226Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-14",
@@ -3930,11 +3930,11 @@
           "prevTons": 26.5,
           "prevShare": 0.07,
           "tonsPct": 4.2,
-          "unitLabel": "4kg",
+          "unitLabel": "2kg",
           "source": "SANG",
-          "sang": 27392,
-          "prevSang": 26853,
-          "sangPct": 2
+          "sang": 13606,
+          "prevSang": 11433,
+          "sangPct": 19
         },
         {
           "code": "BK씨들리스",
