@@ -1,7 +1,8 @@
 {
-  "name": "NH MAF — 가락 과일 시세",
+  "name": "NH MAF",
   "short_name": "NH MAF",
   "lang": "ko",
+  "description": "가락시장 과일 경매 시세 브리프",
   "start_url": "/garak-fruit-brief/i/w2yjqth65tkh/index.html",
   "scope": "/garak-fruit-brief/",
   "display": "standalone",
