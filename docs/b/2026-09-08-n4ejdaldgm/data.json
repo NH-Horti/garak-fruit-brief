@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T13:59:22.478Z",
+  "generatedAt": "2026-09-15T01:04:59.259Z",
   "targetDate": "2026-09-08",
   "weekday": "화",
-  "sentOn": "2026-09-14",
+  "sentOn": "2026-09-15",
   "freshness": "FRESH",
   "items": [
     {
@@ -6826,8 +6826,8 @@
     "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
   ],
   "provenance": {
-    "sangLatest": "2026-09-14",
-    "garakLatest": "2026-09-14",
+    "sangLatest": "2026-09-15",
+    "garakLatest": "2026-09-15",
     "expectedDate": "2026-09-08",
     "queries": [
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-01..2026-09-08",
