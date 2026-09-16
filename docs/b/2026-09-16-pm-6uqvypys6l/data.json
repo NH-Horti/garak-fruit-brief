@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T07:14:31.444Z",
+  "generatedAt": "2026-09-16T07:25:50.497Z",
   "targetDate": "2026-09-16",
   "weekday": "수",
   "sentOn": "2026-09-16",
@@ -1609,7 +1609,7 @@
       "corps": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "total": {
           "tons": 400.6,
           "corps": [
@@ -1619,7 +1619,7 @@
               "tons": 120.2,
               "share": 0.3,
               "prevShare": 0.331,
-              "yoyShare": null
+              "yoyShare": 0.403
             },
             {
               "corpCode": "11000103",
@@ -1627,7 +1627,7 @@
               "tons": 115,
               "share": 0.287,
               "prevShare": 0.328,
-              "yoyShare": null
+              "yoyShare": 0.115
             },
             {
               "corpCode": "11000102",
@@ -1635,7 +1635,7 @@
               "tons": 69,
               "share": 0.172,
               "prevShare": 0.178,
-              "yoyShare": null
+              "yoyShare": 0.247
             },
             {
               "corpCode": "11000104",
@@ -1643,7 +1643,7 @@
               "tons": 56.3,
               "share": 0.141,
               "prevShare": 0.099,
-              "yoyShare": null
+              "yoyShare": 0.168
             },
             {
               "corpCode": "11000105",
@@ -1651,7 +1651,7 @@
               "tons": 40.1,
               "share": 0.1,
               "prevShare": 0.064,
-              "yoyShare": null
+              "yoyShare": 0.068
             }
           ]
         },
@@ -1666,7 +1666,7 @@
               "tons": 118.3,
               "share": 0.34,
               "prevShare": 0.373,
-              "yoyShare": null
+              "yoyShare": 0.424
             },
             {
               "corpCode": "11000103",
@@ -1674,7 +1674,7 @@
               "tons": 91.7,
               "share": 0.263,
               "prevShare": 0.304,
-              "yoyShare": null
+              "yoyShare": 0.133
             },
             {
               "corpCode": "11000102",
@@ -1682,7 +1682,7 @@
               "tons": 51.8,
               "share": 0.149,
               "prevShare": 0.179,
-              "yoyShare": null
+              "yoyShare": 0.241
             },
             {
               "corpCode": "11000104",
@@ -1690,7 +1690,7 @@
               "tons": 50,
               "share": 0.144,
               "prevShare": 0.096,
-              "yoyShare": null
+              "yoyShare": 0.14
             },
             {
               "corpCode": "11000105",
@@ -1698,7 +1698,7 @@
               "tons": 36.3,
               "share": 0.104,
               "prevShare": 0.048,
-              "yoyShare": null
+              "yoyShare": 0.062
             }
           ]
         },
@@ -1808,7 +1808,7 @@
       "origins": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "count": 30,
         "total": {
           "tons": 400.6,
@@ -1820,7 +1820,7 @@
               "tons": 183.6,
               "share": 0.458,
               "prevShare": 0.393,
-              "yoyShare": null
+              "yoyShare": 0.169
             },
             {
               "key": "충북",
@@ -1829,7 +1829,7 @@
               "tons": 105.3,
               "share": 0.263,
               "prevShare": 0.295,
-              "yoyShare": null
+              "yoyShare": 0.358
             },
             {
               "key": "경북",
@@ -1838,7 +1838,7 @@
               "tons": 66.3,
               "share": 0.165,
               "prevShare": 0.194,
-              "yoyShare": null
+              "yoyShare": 0.367
             },
             {
               "key": "강원",
@@ -1847,7 +1847,7 @@
               "tons": 33.5,
               "share": 0.084,
               "prevShare": 0.078,
-              "yoyShare": null
+              "yoyShare": 0.049
             },
             {
               "key": "충남",
@@ -1856,7 +1856,7 @@
               "tons": 10.2,
               "share": 0.026,
               "prevShare": 0.008,
-              "yoyShare": null
+              "yoyShare": 0.001
             },
             {
               "key": "경기",
@@ -1865,7 +1865,7 @@
               "tons": 1.7,
               "share": 0.004,
               "prevShare": 0.013,
-              "yoyShare": null
+              "yoyShare": 0
             }
           ]
         },
@@ -1881,7 +1881,7 @@
               "tons": 172.2,
               "share": 0.495,
               "prevShare": 0.452,
-              "yoyShare": null
+              "yoyShare": 0.203
             },
             {
               "key": "충북",
@@ -1890,7 +1890,7 @@
               "tons": 85.1,
               "share": 0.244,
               "prevShare": 0.281,
-              "yoyShare": null
+              "yoyShare": 0.302
             },
             {
               "key": "경북",
@@ -1899,7 +1899,7 @@
               "tons": 47.4,
               "share": 0.136,
               "prevShare": 0.135,
-              "yoyShare": null
+              "yoyShare": 0.366
             },
             {
               "key": "강원",
@@ -1908,7 +1908,7 @@
               "tons": 32.5,
               "share": 0.093,
               "prevShare": 0.087,
-              "yoyShare": null
+              "yoyShare": 0.061
             },
             {
               "key": "충남",
@@ -1917,7 +1917,7 @@
               "tons": 9.2,
               "share": 0.026,
               "prevShare": 0.008,
-              "yoyShare": null
+              "yoyShare": 0.001
             },
             {
               "key": "경기",
@@ -1926,7 +1926,7 @@
               "tons": 1.7,
               "share": 0.005,
               "prevShare": 0.016,
-              "yoyShare": null
+              "yoyShare": 0
             }
           ]
         },
@@ -1954,7 +1954,7 @@
               "tons": 145.1,
               "share": 0.417,
               "prevShare": 0.361,
-              "yoyShare": null,
+              "yoyShare": 0.112,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -1975,7 +1975,7 @@
               "tons": 48.8,
               "share": 0.14,
               "prevShare": 0.121,
-              "yoyShare": null,
+              "yoyShare": 0.212,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -1996,7 +1996,7 @@
               "tons": 23.8,
               "share": 0.068,
               "prevShare": 0.083,
-              "yoyShare": null,
+              "yoyShare": 0.058,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2017,7 +2017,7 @@
               "tons": 22.7,
               "share": 0.065,
               "prevShare": 0.065,
-              "yoyShare": null,
+              "yoyShare": 0.008,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2038,7 +2038,7 @@
               "tons": 21,
               "share": 0.06,
               "prevShare": 0.091,
-              "yoyShare": null,
+              "yoyShare": 0.091,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2059,7 +2059,7 @@
               "tons": 18.6,
               "share": 0.053,
               "prevShare": 0.08,
-              "yoyShare": null,
+              "yoyShare": 0.281,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2080,7 +2080,7 @@
               "tons": 15.8,
               "share": 0.046,
               "prevShare": 0,
-              "yoyShare": null,
+              "yoyShare": 0.033,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2101,7 +2101,7 @@
               "tons": 8.5,
               "share": 0.024,
               "prevShare": 0.032,
-              "yoyShare": null,
+              "yoyShare": 0.046,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2122,7 +2122,7 @@
               "tons": 43.8,
               "share": 0.126,
               "prevShare": 0.166,
-              "yoyShare": null,
+              "yoyShare": 0.159,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -3851,7 +3851,7 @@
       "corps": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "total": {
           "tons": 462.2,
           "corps": [
@@ -3861,7 +3861,7 @@
               "tons": 175.1,
               "share": 0.379,
               "prevShare": 0.304,
-              "yoyShare": null
+              "yoyShare": 0.288
             },
             {
               "corpCode": "11000103",
@@ -3869,7 +3869,7 @@
               "tons": 102.3,
               "share": 0.221,
               "prevShare": 0.255,
-              "yoyShare": null
+              "yoyShare": 0.226
             },
             {
               "corpCode": "11000102",
@@ -3877,7 +3877,7 @@
               "tons": 84.9,
               "share": 0.184,
               "prevShare": 0.214,
-              "yoyShare": null
+              "yoyShare": 0.302
             },
             {
               "corpCode": "11000105",
@@ -3885,7 +3885,7 @@
               "tons": 56.5,
               "share": 0.122,
               "prevShare": 0.094,
-              "yoyShare": null
+              "yoyShare": 0.041
             },
             {
               "corpCode": "11000104",
@@ -3893,7 +3893,7 @@
               "tons": 43.6,
               "share": 0.094,
               "prevShare": 0.134,
-              "yoyShare": null
+              "yoyShare": 0.143
             }
           ]
         },
@@ -3908,7 +3908,7 @@
               "tons": 167.4,
               "share": 0.388,
               "prevShare": 0.304,
-              "yoyShare": null
+              "yoyShare": 0.294
             },
             {
               "corpCode": "11000103",
@@ -3916,7 +3916,7 @@
               "tons": 95.2,
               "share": 0.221,
               "prevShare": 0.245,
-              "yoyShare": null
+              "yoyShare": 0.218
             },
             {
               "corpCode": "11000102",
@@ -3924,7 +3924,7 @@
               "tons": 77.8,
               "share": 0.18,
               "prevShare": 0.215,
-              "yoyShare": null
+              "yoyShare": 0.308
             },
             {
               "corpCode": "11000105",
@@ -3932,7 +3932,7 @@
               "tons": 56.1,
               "share": 0.13,
               "prevShare": 0.099,
-              "yoyShare": null
+              "yoyShare": 0.042
             },
             {
               "corpCode": "11000104",
@@ -3940,7 +3940,7 @@
               "tons": 34.5,
               "share": 0.08,
               "prevShare": 0.137,
-              "yoyShare": null
+              "yoyShare": 0.138
             }
           ]
         },
@@ -4050,7 +4050,7 @@
       "origins": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "count": 28,
         "total": {
           "tons": 462.2,
@@ -4062,7 +4062,7 @@
               "tons": 209.6,
               "share": 0.454,
               "prevShare": 0.468,
-              "yoyShare": null
+              "yoyShare": 0.726
             },
             {
               "key": "충남",
@@ -4071,7 +4071,7 @@
               "tons": 71.1,
               "share": 0.154,
               "prevShare": 0.142,
-              "yoyShare": null
+              "yoyShare": 0.109
             },
             {
               "key": "경기",
@@ -4080,7 +4080,7 @@
               "tons": 70,
               "share": 0.151,
               "prevShare": 0.156,
-              "yoyShare": null
+              "yoyShare": 0.062
             },
             {
               "key": "경북",
@@ -4089,7 +4089,7 @@
               "tons": 60.3,
               "share": 0.131,
               "prevShare": 0.145,
-              "yoyShare": null
+              "yoyShare": 0.067
             },
             {
               "key": "광주",
@@ -4098,7 +4098,7 @@
               "tons": 24.1,
               "share": 0.052,
               "prevShare": 0.036,
-              "yoyShare": null
+              "yoyShare": 0
             },
             {
               "key": "전북",
@@ -4107,7 +4107,7 @@
               "tons": 21.4,
               "share": 0.046,
               "prevShare": 0.045,
-              "yoyShare": null
+              "yoyShare": 0.023
             },
             {
               "key": "__etc__",
@@ -4116,7 +4116,7 @@
               "tons": 5.7,
               "share": 0.012,
               "prevShare": 0.008,
-              "yoyShare": null
+              "yoyShare": 0.013
             }
           ]
         },
@@ -4132,7 +4132,7 @@
               "tons": 207.1,
               "share": 0.48,
               "prevShare": 0.493,
-              "yoyShare": null
+              "yoyShare": 0.74
             },
             {
               "key": "충남",
@@ -4141,7 +4141,7 @@
               "tons": 68.6,
               "share": 0.159,
               "prevShare": 0.151,
-              "yoyShare": null
+              "yoyShare": 0.112
             },
             {
               "key": "경기",
@@ -4150,7 +4150,7 @@
               "tons": 54.7,
               "share": 0.127,
               "prevShare": 0.13,
-              "yoyShare": null
+              "yoyShare": 0.047
             },
             {
               "key": "경북",
@@ -4159,7 +4159,7 @@
               "tons": 52,
               "share": 0.121,
               "prevShare": 0.133,
-              "yoyShare": null
+              "yoyShare": 0.065
             },
             {
               "key": "광주",
@@ -4168,7 +4168,7 @@
               "tons": 24.1,
               "share": 0.056,
               "prevShare": 0.038,
-              "yoyShare": null
+              "yoyShare": 0
             },
             {
               "key": "전북",
@@ -4177,7 +4177,7 @@
               "tons": 20.3,
               "share": 0.047,
               "prevShare": 0.046,
-              "yoyShare": null
+              "yoyShare": 0.023
             },
             {
               "key": "__etc__",
@@ -4186,7 +4186,7 @@
               "tons": 4.3,
               "share": 0.01,
               "prevShare": 0.008,
-              "yoyShare": null
+              "yoyShare": 0.013
             }
           ]
         },
@@ -4214,7 +4214,7 @@
               "tons": 177.5,
               "share": 0.412,
               "prevShare": 0.448,
-              "yoyShare": null,
+              "yoyShare": 0.672,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4235,7 +4235,7 @@
               "tons": 51.5,
               "share": 0.12,
               "prevShare": 0.131,
-              "yoyShare": null,
+              "yoyShare": 0.063,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4256,7 +4256,7 @@
               "tons": 45.7,
               "share": 0.106,
               "prevShare": 0.087,
-              "yoyShare": null,
+              "yoyShare": 0.081,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4277,7 +4277,7 @@
               "tons": 22.7,
               "share": 0.053,
               "prevShare": 0.068,
-              "yoyShare": null,
+              "yoyShare": 0.005,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4298,7 +4298,7 @@
               "tons": 21.1,
               "share": 0.049,
               "prevShare": 0.038,
-              "yoyShare": null,
+              "yoyShare": 0.012,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4319,7 +4319,7 @@
               "tons": 20.1,
               "share": 0.047,
               "prevShare": 0.053,
-              "yoyShare": null,
+              "yoyShare": 0.022,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4340,7 +4340,7 @@
               "tons": 17.8,
               "share": 0.041,
               "prevShare": 0.033,
-              "yoyShare": null,
+              "yoyShare": 0,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4361,7 +4361,7 @@
               "tons": 12.9,
               "share": 0.03,
               "prevShare": 0.019,
-              "yoyShare": null,
+              "yoyShare": 0,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4382,7 +4382,7 @@
               "tons": 61.6,
               "share": 0.143,
               "prevShare": 0.123,
-              "yoyShare": null,
+              "yoyShare": 0.146,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -6238,7 +6238,7 @@
       "corps": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "total": {
           "tons": 408.2,
           "corps": [
@@ -6248,7 +6248,7 @@
               "tons": 127.1,
               "share": 0.311,
               "prevShare": 0.283,
-              "yoyShare": null
+              "yoyShare": 0.254
             },
             {
               "corpCode": "11000101",
@@ -6256,7 +6256,7 @@
               "tons": 95.9,
               "share": 0.235,
               "prevShare": 0.27,
-              "yoyShare": null
+              "yoyShare": 0.261
             },
             {
               "corpCode": "11000102",
@@ -6264,7 +6264,7 @@
               "tons": 88.6,
               "share": 0.217,
               "prevShare": 0.211,
-              "yoyShare": null
+              "yoyShare": 0.238
             },
             {
               "corpCode": "11000104",
@@ -6272,7 +6272,7 @@
               "tons": 63,
               "share": 0.154,
               "prevShare": 0.141,
-              "yoyShare": null
+              "yoyShare": 0.171
             },
             {
               "corpCode": "11000105",
@@ -6280,7 +6280,7 @@
               "tons": 33.5,
               "share": 0.082,
               "prevShare": 0.095,
-              "yoyShare": null
+              "yoyShare": 0.075
             }
           ]
         },
@@ -6295,7 +6295,7 @@
               "tons": 70.4,
               "share": 0.3,
               "prevShare": 0.255,
-              "yoyShare": null
+              "yoyShare": 0.23
             },
             {
               "corpCode": "11000101",
@@ -6303,7 +6303,7 @@
               "tons": 54.7,
               "share": 0.233,
               "prevShare": 0.301,
-              "yoyShare": null
+              "yoyShare": 0.275
             },
             {
               "corpCode": "11000102",
@@ -6311,7 +6311,7 @@
               "tons": 47.3,
               "share": 0.201,
               "prevShare": 0.19,
-              "yoyShare": null
+              "yoyShare": 0.247
             },
             {
               "corpCode": "11000104",
@@ -6319,7 +6319,7 @@
               "tons": 40.2,
               "share": 0.171,
               "prevShare": 0.147,
-              "yoyShare": null
+              "yoyShare": 0.164
             },
             {
               "corpCode": "11000105",
@@ -6327,7 +6327,7 @@
               "tons": 22.2,
               "share": 0.094,
               "prevShare": 0.107,
-              "yoyShare": null
+              "yoyShare": 0.084
             }
           ]
         },
@@ -6437,7 +6437,7 @@
       "origins": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "count": 19,
         "total": {
           "tons": 408.2,
@@ -6449,7 +6449,7 @@
               "tons": 326.1,
               "share": 0.799,
               "prevShare": 0.805,
-              "yoyShare": null
+              "yoyShare": 0.799
             },
             {
               "key": "충북",
@@ -6458,7 +6458,7 @@
               "tons": 47.7,
               "share": 0.117,
               "prevShare": 0.11,
-              "yoyShare": null
+              "yoyShare": 0.097
             },
             {
               "key": "충남",
@@ -6467,7 +6467,7 @@
               "tons": 8.8,
               "share": 0.021,
               "prevShare": 0.021,
-              "yoyShare": null
+              "yoyShare": 0.032
             },
             {
               "key": "경기",
@@ -6476,7 +6476,7 @@
               "tons": 8.7,
               "share": 0.021,
               "prevShare": 0.02,
-              "yoyShare": null
+              "yoyShare": 0.036
             },
             {
               "key": "경남",
@@ -6485,7 +6485,7 @@
               "tons": 5.6,
               "share": 0.014,
               "prevShare": 0.012,
-              "yoyShare": null
+              "yoyShare": 0.014
             },
             {
               "key": "전북",
@@ -6494,7 +6494,7 @@
               "tons": 5.1,
               "share": 0.013,
               "prevShare": 0.012,
-              "yoyShare": null
+              "yoyShare": 0
             },
             {
               "key": "__etc__",
@@ -6503,7 +6503,7 @@
               "tons": 6.2,
               "share": 0.015,
               "prevShare": 0.02,
-              "yoyShare": null
+              "yoyShare": 0.022
             }
           ]
         },
@@ -6519,7 +6519,7 @@
               "tons": 204.7,
               "share": 0.872,
               "prevShare": 0.878,
-              "yoyShare": null
+              "yoyShare": 0.857
             },
             {
               "key": "충북",
@@ -6528,7 +6528,7 @@
               "tons": 16,
               "share": 0.068,
               "prevShare": 0.058,
-              "yoyShare": null
+              "yoyShare": 0.06
             },
             {
               "key": "충남",
@@ -6537,7 +6537,7 @@
               "tons": 7.4,
               "share": 0.032,
               "prevShare": 0.03,
-              "yoyShare": null
+              "yoyShare": 0.04
             },
             {
               "key": "경남",
@@ -6546,7 +6546,7 @@
               "tons": 4.4,
               "share": 0.019,
               "prevShare": 0.02,
-              "yoyShare": null
+              "yoyShare": 0.022
             },
             {
               "key": "경기",
@@ -6555,7 +6555,7 @@
               "tons": 2.1,
               "share": 0.009,
               "prevShare": 0.012,
-              "yoyShare": null
+              "yoyShare": 0.021
             },
             {
               "key": "전북",
@@ -6564,7 +6564,7 @@
               "tons": 0.1,
               "share": 0,
               "prevShare": 0.001,
-              "yoyShare": null
+              "yoyShare": 0
             }
           ]
         },
@@ -6592,7 +6592,7 @@
               "tons": 92.5,
               "share": 0.394,
               "prevShare": 0.42,
-              "yoyShare": null,
+              "yoyShare": 0.402,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6613,7 +6613,7 @@
               "tons": 48,
               "share": 0.205,
               "prevShare": 0.191,
-              "yoyShare": null,
+              "yoyShare": 0.192,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6634,7 +6634,7 @@
               "tons": 37.4,
               "share": 0.159,
               "prevShare": 0.164,
-              "yoyShare": null,
+              "yoyShare": 0.183,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6655,7 +6655,7 @@
               "tons": 18,
               "share": 0.077,
               "prevShare": 0.073,
-              "yoyShare": null,
+              "yoyShare": 0.058,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6676,7 +6676,7 @@
               "tons": 16,
               "share": 0.068,
               "prevShare": 0.056,
-              "yoyShare": null,
+              "yoyShare": 0.052,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6697,7 +6697,7 @@
               "tons": 6.9,
               "share": 0.029,
               "prevShare": 0.02,
-              "yoyShare": null,
+              "yoyShare": 0.021,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6718,7 +6718,7 @@
               "tons": 6.4,
               "share": 0.027,
               "prevShare": 0.025,
-              "yoyShare": null,
+              "yoyShare": 0.033,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6739,7 +6739,7 @@
               "tons": 4.4,
               "share": 0.019,
               "prevShare": 0.02,
-              "yoyShare": null,
+              "yoyShare": 0.021,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6760,7 +6760,7 @@
               "tons": 5.1,
               "share": 0.022,
               "prevShare": 0.031,
-              "yoyShare": null,
+              "yoyShare": 0.038,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -8152,7 +8152,7 @@
       "corps": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "total": {
           "tons": 204.2,
           "corps": [
@@ -8162,7 +8162,7 @@
               "tons": 91.6,
               "share": 0.449,
               "prevShare": 0.401,
-              "yoyShare": null
+              "yoyShare": 0.36
             },
             {
               "corpCode": "11000101",
@@ -8170,7 +8170,7 @@
               "tons": 64.9,
               "share": 0.318,
               "prevShare": 0.316,
-              "yoyShare": null
+              "yoyShare": 0.327
             },
             {
               "corpCode": "11000102",
@@ -8178,7 +8178,7 @@
               "tons": 21.1,
               "share": 0.103,
               "prevShare": 0.122,
-              "yoyShare": null
+              "yoyShare": 0.213
             },
             {
               "corpCode": "11000105",
@@ -8186,7 +8186,7 @@
               "tons": 15.4,
               "share": 0.075,
               "prevShare": 0.08,
-              "yoyShare": null
+              "yoyShare": 0.055
             },
             {
               "corpCode": "11000104",
@@ -8194,7 +8194,7 @@
               "tons": 11.2,
               "share": 0.055,
               "prevShare": 0.08,
-              "yoyShare": null
+              "yoyShare": 0.045
             }
           ]
         },
@@ -8209,7 +8209,7 @@
               "tons": 25.6,
               "share": 0.518,
               "prevShare": 0.335,
-              "yoyShare": null
+              "yoyShare": 0.373
             },
             {
               "corpCode": "11000101",
@@ -8217,7 +8217,7 @@
               "tons": 15.6,
               "share": 0.315,
               "prevShare": 0.387,
-              "yoyShare": null
+              "yoyShare": 0.581
             },
             {
               "corpCode": "11000102",
@@ -8225,7 +8225,7 @@
               "tons": 3.3,
               "share": 0.067,
               "prevShare": 0.135,
-              "yoyShare": null
+              "yoyShare": 0.031
             },
             {
               "corpCode": "11000104",
@@ -8233,7 +8233,7 @@
               "tons": 3.2,
               "share": 0.064,
               "prevShare": 0.101,
-              "yoyShare": null
+              "yoyShare": 0.016
             },
             {
               "corpCode": "11000105",
@@ -8241,7 +8241,7 @@
               "tons": 1.8,
               "share": 0.037,
               "prevShare": 0.041,
-              "yoyShare": null
+              "yoyShare": 0
             }
           ]
         },
@@ -8301,7 +8301,7 @@
       "origins": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "count": 14,
         "total": {
           "tons": 204.2,
@@ -8313,7 +8313,7 @@
               "tons": 104.4,
               "share": 0.511,
               "prevShare": 0.564,
-              "yoyShare": null
+              "yoyShare": 0.151
             },
             {
               "key": "충북",
@@ -8322,7 +8322,7 @@
               "tons": 97.8,
               "share": 0.479,
               "prevShare": 0.403,
-              "yoyShare": null
+              "yoyShare": 0.827
             },
             {
               "key": "전북",
@@ -8331,7 +8331,7 @@
               "tons": 1,
               "share": 0.005,
               "prevShare": 0.007,
-              "yoyShare": null
+              "yoyShare": 0.002
             },
             {
               "key": "대구",
@@ -8340,7 +8340,7 @@
               "tons": 0.9,
               "share": 0.004,
               "prevShare": 0.004,
-              "yoyShare": null
+              "yoyShare": 0
             },
             {
               "key": "경기",
@@ -8349,7 +8349,7 @@
               "tons": 0.1,
               "share": 0,
               "prevShare": 0.018,
-              "yoyShare": null
+              "yoyShare": 0.02
             }
           ]
         },
@@ -8365,7 +8365,7 @@
               "tons": 47.7,
               "share": 0.964,
               "prevShare": 0.88,
-              "yoyShare": null
+              "yoyShare": 1
             },
             {
               "key": "대구",
@@ -8374,7 +8374,7 @@
               "tons": 0.9,
               "share": 0.018,
               "prevShare": 0.017,
-              "yoyShare": null
+              "yoyShare": 0
             },
             {
               "key": "경북",
@@ -8383,7 +8383,7 @@
               "tons": 0.6,
               "share": 0.012,
               "prevShare": 0.093,
-              "yoyShare": null
+              "yoyShare": 0
             },
             {
               "key": "전북",
@@ -8392,7 +8392,7 @@
               "tons": 0.3,
               "share": 0.005,
               "prevShare": 0.004,
-              "yoyShare": null
+              "yoyShare": 0
             }
           ]
         },
@@ -8415,7 +8415,7 @@
               "tons": 45.1,
               "share": 0.912,
               "prevShare": 0.847,
-              "yoyShare": null,
+              "yoyShare": 0.981,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8431,7 +8431,7 @@
               "tons": 2.6,
               "share": 0.052,
               "prevShare": 0.025,
-              "yoyShare": null,
+              "yoyShare": 0.019,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8447,7 +8447,7 @@
               "tons": 0.9,
               "share": 0.018,
               "prevShare": 0.017,
-              "yoyShare": null,
+              "yoyShare": 0,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8463,7 +8463,7 @@
               "tons": 0.4,
               "share": 0.007,
               "prevShare": 0.008,
-              "yoyShare": null,
+              "yoyShare": 0,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8479,7 +8479,7 @@
               "tons": 0.3,
               "share": 0.005,
               "prevShare": 0.004,
-              "yoyShare": null,
+              "yoyShare": 0,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8495,7 +8495,7 @@
               "tons": 0.2,
               "share": 0.005,
               "prevShare": 0,
-              "yoyShare": null,
+              "yoyShare": 0,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -9448,7 +9448,7 @@
       "corps": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "total": {
           "tons": 3.5,
           "corps": [
@@ -9458,7 +9458,7 @@
               "tons": 2.3,
               "share": 0.663,
               "prevShare": 0.679,
-              "yoyShare": null
+              "yoyShare": 0.87
             },
             {
               "corpCode": "11000105",
@@ -9466,7 +9466,7 @@
               "tons": 1.2,
               "share": 0.337,
               "prevShare": 0.321,
-              "yoyShare": null
+              "yoyShare": 0.13
             }
           ]
         },
@@ -9481,7 +9481,7 @@
               "tons": 0.9,
               "share": 0.596,
               "prevShare": 0.67,
-              "yoyShare": null
+              "yoyShare": 0.809
             },
             {
               "corpCode": "11000105",
@@ -9489,7 +9489,7 @@
               "tons": 0.6,
               "share": 0.404,
               "prevShare": 0.33,
-              "yoyShare": null
+              "yoyShare": 0.191
             }
           ]
         },
@@ -9551,7 +9551,7 @@
       "origins": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "count": 3,
         "total": {
           "tons": 3.5,
@@ -9563,7 +9563,7 @@
               "tons": 3.5,
               "share": 1,
               "prevShare": 1,
-              "yoyShare": null
+              "yoyShare": 0.989
             }
           ]
         },
@@ -9579,7 +9579,7 @@
               "tons": 1.6,
               "share": 1,
               "prevShare": 1,
-              "yoyShare": null
+              "yoyShare": 0.912
             }
           ]
         },
@@ -9607,7 +9607,7 @@
               "tons": 1.6,
               "share": 1,
               "prevShare": 0.998,
-              "yoyShare": null,
+              "yoyShare": 0.889,
               "prices": [
                 {
                   "unitTag": "4.5kg",
@@ -12199,7 +12199,7 @@
       "corps": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "total": {
           "tons": 43.7,
           "corps": [
@@ -12209,7 +12209,7 @@
               "tons": 16.5,
               "share": 0.377,
               "prevShare": 0.363,
-              "yoyShare": null
+              "yoyShare": 0.303
             },
             {
               "corpCode": "11000101",
@@ -12217,7 +12217,7 @@
               "tons": 12.5,
               "share": 0.286,
               "prevShare": 0.299,
-              "yoyShare": null
+              "yoyShare": 0.282
             },
             {
               "corpCode": "11000102",
@@ -12225,7 +12225,7 @@
               "tons": 10.6,
               "share": 0.243,
               "prevShare": 0.248,
-              "yoyShare": null
+              "yoyShare": 0.301
             },
             {
               "corpCode": "11000105",
@@ -12233,7 +12233,7 @@
               "tons": 4.1,
               "share": 0.094,
               "prevShare": 0.09,
-              "yoyShare": null
+              "yoyShare": 0.114
             }
           ]
         },
@@ -12248,7 +12248,7 @@
               "tons": 15.8,
               "share": 0.37,
               "prevShare": 0.339,
-              "yoyShare": null
+              "yoyShare": 0.331
             },
             {
               "corpCode": "11000101",
@@ -12256,7 +12256,7 @@
               "tons": 12.1,
               "share": 0.283,
               "prevShare": 0.305,
-              "yoyShare": null
+              "yoyShare": 0.31
             },
             {
               "corpCode": "11000102",
@@ -12264,7 +12264,7 @@
               "tons": 10.6,
               "share": 0.249,
               "prevShare": 0.261,
-              "yoyShare": null
+              "yoyShare": 0.286
             },
             {
               "corpCode": "11000105",
@@ -12272,7 +12272,7 @@
               "tons": 4.1,
               "share": 0.097,
               "prevShare": 0.095,
-              "yoyShare": null
+              "yoyShare": 0.073
             }
           ]
         },
@@ -12366,7 +12366,7 @@
       "origins": {
         "date": "2026-09-16",
         "prevDate": "2026-09-15",
-        "yoyDate": null,
+        "yoyDate": "2025-09-27",
         "count": 2,
         "total": {
           "tons": 43.7,
@@ -12378,7 +12378,7 @@
               "tons": 43.7,
               "share": 1,
               "prevShare": 1,
-              "yoyShare": null
+              "yoyShare": 0.991
             }
           ]
         },
@@ -12394,7 +12394,7 @@
               "tons": 42.6,
               "share": 1,
               "prevShare": 1,
-              "yoyShare": null
+              "yoyShare": 0.987
             }
           ]
         },
@@ -12422,7 +12422,7 @@
               "tons": 37.3,
               "share": 0.876,
               "prevShare": 0.982,
-              "yoyShare": null,
+              "yoyShare": 0.891,
               "prices": [
                 {
                   "unitTag": "3kg",
@@ -12443,7 +12443,7 @@
               "tons": 5.3,
               "share": 0.124,
               "prevShare": 0.018,
-              "yoyShare": null,
+              "yoyShare": 0.096,
               "prices": [
                 {
                   "unitTag": "3kg",
