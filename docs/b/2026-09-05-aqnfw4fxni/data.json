@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T02:22:20.393Z",
+  "generatedAt": "2026-09-16T08:15:14.972Z",
   "targetDate": "2026-09-05",
   "weekday": "토",
-  "sentOn": "2026-09-15",
+  "sentOn": "2026-09-16",
   "freshness": "FRESH",
   "items": [
     {
@@ -183,6 +183,44 @@
               2025,
               2024,
               2021
+            ]
+          },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 53681,
+            "pct": 4.1,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": {
+            "date": "2026-09-05",
+            "laneAvg": 43538,
+            "origins": [
+              {
+                "rank": 1,
+                "name": "전라북도 장수군",
+                "avg": 52207
+              },
+              {
+                "rank": 2,
+                "name": "전라북도 무주군",
+                "avg": 37367
+              },
+              {
+                "rank": 3,
+                "name": "충청북도 보은군",
+                "avg": 50000
+              },
+              {
+                "rank": 4,
+                "name": "충청북도 괴산군",
+                "avg": 31751
+              },
+              {
+                "rank": 5,
+                "name": "경상북도 영주시",
+                "avg": 39579
+              }
             ]
           },
           "spark": [
@@ -898,6 +936,642 @@
           "wholesaleUnit": "10kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "total": {
+          "tons": 218.5,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 98.9,
+              "share": 0.452,
+              "prevShare": 0.346,
+              "yoyShare": 0.247
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 61.3,
+              "share": 0.281,
+              "prevShare": 0.33,
+              "yoyShare": 0.306
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 40.7,
+              "share": 0.186,
+              "prevShare": 0.127,
+              "yoyShare": 0.249
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 9.2,
+              "share": 0.042,
+              "prevShare": 0.141,
+              "yoyShare": 0.125
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 8.4,
+              "share": 0.039,
+              "prevShare": 0.055,
+              "yoyShare": 0.072
+            }
+          ]
+        },
+        "variety": {
+          "code": "hongro",
+          "nameKo": "홍로",
+          "tons": 204.4,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 97.3,
+              "share": 0.476,
+              "prevShare": 0.362,
+              "yoyShare": 0.237
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 55.6,
+              "share": 0.272,
+              "prevShare": 0.329,
+              "yoyShare": 0.308
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 36.1,
+              "share": 0.176,
+              "prevShare": 0.122,
+              "yoyShare": 0.263
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 8.4,
+              "share": 0.041,
+              "prevShare": 0.145,
+              "yoyShare": 0.115
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 7.1,
+              "share": 0.035,
+              "prevShare": 0.042,
+              "yoyShare": 0.077
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "10kg",
+            "unitLabel": "10kg",
+            "varietyCode": "hongro",
+            "qty": 20390,
+            "tons": 203.9,
+            "marketAvg": 43436,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 9729,
+                "qtyShare": 0.477,
+                "avg": 40155,
+                "vsMarketPct": -7.6
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 5562,
+                "qtyShare": 0.273,
+                "avg": 48041,
+                "vsMarketPct": 10.6
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 3554,
+                "qtyShare": 0.174,
+                "avg": 44177,
+                "vsMarketPct": 1.7
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 836,
+                "qtyShare": 0.041,
+                "avg": 50184,
+                "vsMarketPct": 15.5
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 709,
+                "qtyShare": 0.035,
+                "avg": 40663,
+                "vsMarketPct": -6.4
+              }
+            ]
+          }
+        ]
+      },
+      "origins": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "count": 20,
+        "total": {
+          "tons": 218.5,
+          "sidos": [
+            {
+              "key": "전북",
+              "label": "전북",
+              "sido": "전북",
+              "tons": 118.7,
+              "share": 0.543,
+              "prevShare": 0.519,
+              "yoyShare": 0.365
+            },
+            {
+              "key": "충북",
+              "label": "충북",
+              "sido": "충북",
+              "tons": 66.7,
+              "share": 0.305,
+              "prevShare": 0.201,
+              "yoyShare": 0.339
+            },
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 32,
+              "share": 0.147,
+              "prevShare": 0.257,
+              "yoyShare": 0.265
+            },
+            {
+              "key": "강원",
+              "label": "강원",
+              "sido": "강원",
+              "tons": 0.6,
+              "share": 0.003,
+              "prevShare": 0.014,
+              "yoyShare": 0.009
+            },
+            {
+              "key": "광주",
+              "label": "광주",
+              "sido": "광주",
+              "tons": 0.5,
+              "share": 0.002,
+              "prevShare": 0.004,
+              "yoyShare": 0
+            }
+          ]
+        },
+        "variety": {
+          "code": "hongro",
+          "nameKo": "홍로",
+          "tons": 204.4,
+          "sidos": [
+            {
+              "key": "전북",
+              "label": "전북",
+              "sido": "전북",
+              "tons": 116.7,
+              "share": 0.571,
+              "prevShare": 0.534,
+              "yoyShare": 0.367
+            },
+            {
+              "key": "충북",
+              "label": "충북",
+              "sido": "충북",
+              "tons": 65.1,
+              "share": 0.318,
+              "prevShare": 0.199,
+              "yoyShare": 0.36
+            },
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 21.8,
+              "share": 0.107,
+              "prevShare": 0.243,
+              "yoyShare": 0.241
+            },
+            {
+              "key": "강원",
+              "label": "강원",
+              "sido": "강원",
+              "tons": 0.5,
+              "share": 0.002,
+              "prevShare": 0.015,
+              "yoyShare": 0.009
+            },
+            {
+              "key": "광주",
+              "label": "광주",
+              "sido": "광주",
+              "tons": 0.5,
+              "share": 0.002,
+              "prevShare": 0.004,
+              "yoyShare": 0
+            }
+          ]
+        },
+        "table": {
+          "scope": "variety",
+          "label": "홍로",
+          "tons": 204.4,
+          "lanes": [
+            {
+              "unitTag": "10kg",
+              "unitLabel": "10kg",
+              "marketAvg": 43436
+            }
+          ],
+          "rows": [
+            {
+              "key": "전북 장수군",
+              "label": "전북 장수군",
+              "sido": "전북",
+              "tons": 59.1,
+              "share": 0.289,
+              "prevShare": 0.234,
+              "yoyShare": 0.254,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 52207,
+                  "vsMarketPct": 20.2
+                }
+              ]
+            },
+            {
+              "key": "전북 무주군",
+              "label": "전북 무주군",
+              "sido": "전북",
+              "tons": 57.5,
+              "share": 0.281,
+              "prevShare": 0.296,
+              "yoyShare": 0.112,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 37277,
+                  "vsMarketPct": -14.2
+                }
+              ]
+            },
+            {
+              "key": "충북 보은군",
+              "label": "충북 보은군",
+              "sido": "충북",
+              "tons": 23,
+              "share": 0.113,
+              "prevShare": 0.097,
+              "yoyShare": 0.048,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 50000,
+                  "vsMarketPct": 15.1
+                }
+              ]
+            },
+            {
+              "key": "충북 괴산군",
+              "label": "충북 괴산군",
+              "sido": "충북",
+              "tons": 19.6,
+              "share": 0.096,
+              "prevShare": 0.062,
+              "yoyShare": 0.095,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 31439,
+                  "vsMarketPct": -27.6
+                }
+              ]
+            },
+            {
+              "key": "경북 영주시",
+              "label": "경북 영주시",
+              "sido": "경북",
+              "tons": 12.1,
+              "share": 0.059,
+              "prevShare": 0.137,
+              "yoyShare": 0.109,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 39923,
+                  "vsMarketPct": -8.1
+                }
+              ]
+            },
+            {
+              "key": "충북 청주시",
+              "label": "충북 청주시",
+              "sido": "충북",
+              "tons": 8.5,
+              "share": 0.041,
+              "prevShare": 0,
+              "yoyShare": 0,
+              "isNew": true,
+              "isNewVsYoy": true,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 32225,
+                  "vsMarketPct": -25.8
+                }
+              ]
+            },
+            {
+              "key": "충북 충주시",
+              "label": "충북 충주시",
+              "sido": "충북",
+              "tons": 5.8,
+              "share": 0.028,
+              "prevShare": 0.027,
+              "yoyShare": 0.179,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 39363,
+                  "vsMarketPct": -9.4
+                }
+              ]
+            },
+            {
+              "key": "충북 제천시",
+              "label": "충북 제천시",
+              "sido": "충북",
+              "tons": 5.1,
+              "share": 0.025,
+              "prevShare": 0.011,
+              "yoyShare": 0.017,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 72648,
+                  "vsMarketPct": 67.3
+                }
+              ]
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 7곳",
+              "sido": "기타",
+              "tons": 13.7,
+              "share": 0.067,
+              "prevShare": 0.137,
+              "yoyShare": 0.184,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "10kg",
+                  "avg": 39564,
+                  "vsMarketPct": -8.9
+                }
+              ]
+            }
+          ]
+        },
+        "corpMatrix": {
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 97.3
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 55.6
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 36.1
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 8.4
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 7.1
+            }
+          ],
+          "rows": [
+            {
+              "key": "전북 장수군",
+              "label": "전북 장수군",
+              "sido": "전북",
+              "tons": 59.1,
+              "cells": {
+                "11000101": 0.441,
+                "11000102": 0.03,
+                "11000103": 0.499,
+                "11000104": 0.03
+              },
+              "cellTons": {
+                "11000101": 26.1,
+                "11000102": 1.8,
+                "11000103": 29.5,
+                "11000104": 1.8
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.499
+              }
+            },
+            {
+              "key": "전북 무주군",
+              "label": "전북 무주군",
+              "sido": "전북",
+              "tons": 57.5,
+              "cells": {
+                "11000101": 0.308,
+                "11000102": 0.271,
+                "11000103": 0.345,
+                "11000104": 0.044,
+                "11000105": 0.032
+              },
+              "cellTons": {
+                "11000101": 17.7,
+                "11000102": 15.6,
+                "11000103": 19.8,
+                "11000104": 2.5,
+                "11000105": 1.9
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.345
+              }
+            },
+            {
+              "key": "충북 보은군",
+              "label": "충북 보은군",
+              "sido": "충북",
+              "tons": 23,
+              "cells": {
+                "11000101": 1
+              },
+              "cellTons": {
+                "11000101": 23
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 1
+              }
+            },
+            {
+              "key": "충북 괴산군",
+              "label": "충북 괴산군",
+              "sido": "충북",
+              "tons": 19.6,
+              "cells": {
+                "11000101": 1
+              },
+              "cellTons": {
+                "11000101": 19.6
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 1
+              }
+            },
+            {
+              "key": "경북 영주시",
+              "label": "경북 영주시",
+              "sido": "경북",
+              "tons": 12.1,
+              "cells": {
+                "11000102": 0.556,
+                "11000103": 0.316,
+                "11000104": 0.128
+              },
+              "cellTons": {
+                "11000102": 6.8,
+                "11000103": 3.8,
+                "11000104": 1.6
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.556
+              }
+            },
+            {
+              "key": "충북 청주시",
+              "label": "충북 청주시",
+              "sido": "충북",
+              "tons": 8.5,
+              "cells": {
+                "11000101": 1
+              },
+              "cellTons": {
+                "11000101": 8.5
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 1
+              }
+            },
+            {
+              "key": "충북 충주시",
+              "label": "충북 충주시",
+              "sido": "충북",
+              "tons": 5.8,
+              "cells": {
+                "11000102": 0.906,
+                "11000103": 0.094
+              },
+              "cellTons": {
+                "11000102": 5.2,
+                "11000103": 0.5
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.906
+              }
+            },
+            {
+              "key": "충북 제천시",
+              "label": "충북 제천시",
+              "sido": "충북",
+              "tons": 5.1,
+              "cells": {
+                "11000102": 1
+              },
+              "cellTons": {
+                "11000102": 5.1
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 1
+              }
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 7곳",
+              "sido": "기타",
+              "tons": 13.7,
+              "cells": {
+                "11000101": 0.175,
+                "11000102": 0.118,
+                "11000103": 0.14,
+                "11000104": 0.183,
+                "11000105": 0.383
+              },
+              "cellTons": {
+                "11000101": 2.4,
+                "11000102": 1.6,
+                "11000103": 1.9,
+                "11000104": 2.5,
+                "11000105": 5.2
+              },
+              "topCorp": {
+                "corpCode": "11000105",
+                "share": 0.383
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -1077,6 +1751,44 @@
               2025,
               2024,
               2023
+            ]
+          },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 48741,
+            "pct": 3.8,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": {
+            "date": "2026-09-05",
+            "laneAvg": 45159,
+            "origins": [
+              {
+                "rank": 1,
+                "name": "경상북도 상주시",
+                "avg": 45006
+              },
+              {
+                "rank": 2,
+                "name": "세종자치시 세종자치시",
+                "avg": 54708
+              },
+              {
+                "rank": 3,
+                "name": "경상북도 김천시",
+                "avg": 37637
+              },
+              {
+                "rank": 4,
+                "name": "충청남도 부여군",
+                "avg": 35000
+              },
+              {
+                "rank": 5,
+                "name": "충청남도 청양군",
+                "avg": 44333
+              }
             ]
           },
           "spark": [
@@ -1477,6 +2189,14 @@
               2021
             ]
           },
+          "vsChuseok": {
+            "date": "2025-09-15",
+            "value": 9083.333333333334,
+            "pct": -6.4,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": null,
           "spark": [
             {
               "date": "2026-08-31",
@@ -2319,6 +3039,466 @@
           "wholesaleUnit": "15kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "total": {
+          "tons": 68,
+          "corps": [
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 26.2,
+              "share": 0.385,
+              "prevShare": 0.306,
+              "yoyShare": 0.242
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 22.4,
+              "share": 0.33,
+              "prevShare": 0.327,
+              "yoyShare": 0.352
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 14.3,
+              "share": 0.211,
+              "prevShare": 0.115,
+              "yoyShare": 0.292
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 3.1,
+              "share": 0.046,
+              "prevShare": 0.208,
+              "yoyShare": 0.064
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 2,
+              "share": 0.029,
+              "prevShare": 0.043,
+              "yoyShare": 0.049
+            }
+          ]
+        },
+        "variety": {
+          "code": "hwasan",
+          "nameKo": "화산",
+          "tons": 22.1,
+          "corps": [
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 8.3,
+              "share": 0.376,
+              "prevShare": 0.252,
+              "yoyShare": 0.259
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 5.3,
+              "share": 0.238,
+              "prevShare": 0.056,
+              "yoyShare": 0.298
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 3.5,
+              "share": 0.156,
+              "prevShare": 0.136,
+              "yoyShare": 0.354
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 3.1,
+              "share": 0.141,
+              "prevShare": 0.455,
+              "yoyShare": 0
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 2,
+              "share": 0.089,
+              "prevShare": 0.101,
+              "yoyShare": 0.089
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "15kg",
+            "unitLabel": "15kg",
+            "varietyCode": "hwasan",
+            "qty": 1384,
+            "tons": 20.8,
+            "marketAvg": 45517,
+            "corps": [
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 466,
+                "qtyShare": 0.337,
+                "avg": 45268,
+                "vsMarketPct": -0.5
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 350,
+                "qtyShare": 0.253,
+                "avg": 41926,
+                "vsMarketPct": -7.9
+              },
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 230,
+                "qtyShare": 0.166,
+                "avg": 48504,
+                "vsMarketPct": 6.6
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 207,
+                "qtyShare": 0.15,
+                "avg": 41159,
+                "vsMarketPct": -9.6
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 131,
+                "qtyShare": 0.095,
+                "avg": 57634,
+                "vsMarketPct": 26.6
+              }
+            ]
+          }
+        ]
+      },
+      "origins": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "count": 11,
+        "total": {
+          "tons": 68,
+          "sidos": [
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 44.9,
+              "share": 0.66,
+              "prevShare": 0.411,
+              "yoyShare": 0.174
+            },
+            {
+              "key": "충남",
+              "label": "충남",
+              "sido": "충남",
+              "tons": 10.1,
+              "share": 0.148,
+              "prevShare": 0.13,
+              "yoyShare": 0.056
+            },
+            {
+              "key": "전남",
+              "label": "전남",
+              "sido": "전남",
+              "tons": 5.2,
+              "share": 0.076,
+              "prevShare": 0.236,
+              "yoyShare": 0.66
+            },
+            {
+              "key": "세종",
+              "label": "세종",
+              "sido": "세종",
+              "tons": 4.2,
+              "share": 0.062,
+              "prevShare": 0.008,
+              "yoyShare": 0.024
+            },
+            {
+              "key": "경기",
+              "label": "경기",
+              "sido": "경기",
+              "tons": 3.6,
+              "share": 0.053,
+              "prevShare": 0.134,
+              "yoyShare": 0.081
+            }
+          ]
+        },
+        "variety": {
+          "code": "hwasan",
+          "nameKo": "화산",
+          "tons": 22.1,
+          "sidos": [
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 19.8,
+              "share": 0.896,
+              "prevShare": 0.944,
+              "yoyShare": 0.636
+            },
+            {
+              "key": "세종",
+              "label": "세종",
+              "sido": "세종",
+              "tons": 2,
+              "share": 0.089,
+              "prevShare": 0.041,
+              "yoyShare": 0.228
+            },
+            {
+              "key": "충남",
+              "label": "충남",
+              "sido": "충남",
+              "tons": 0.3,
+              "share": 0.015,
+              "prevShare": 0,
+              "yoyShare": 0.002
+            }
+          ]
+        },
+        "table": {
+          "scope": "variety",
+          "label": "화산",
+          "tons": 22.1,
+          "lanes": [
+            {
+              "unitTag": "15kg",
+              "unitLabel": "15kg",
+              "marketAvg": 45517
+            }
+          ],
+          "rows": [
+            {
+              "key": "경북 상주시",
+              "label": "경북 상주시",
+              "sido": "경북",
+              "tons": 18.2,
+              "share": 0.827,
+              "prevShare": 0.67,
+              "yoyShare": 0.547,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "15kg",
+                  "avg": 44953,
+                  "vsMarketPct": -1.2
+                }
+              ]
+            },
+            {
+              "key": "세종 세종자치시",
+              "label": "세종 세종자치시",
+              "sido": "세종",
+              "tons": 2,
+              "share": 0.089,
+              "prevShare": 0,
+              "yoyShare": 0.228,
+              "isNew": true,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "15kg",
+                  "avg": 57634,
+                  "vsMarketPct": 26.6
+                }
+              ]
+            },
+            {
+              "key": "경북 김천시",
+              "label": "경북 김천시",
+              "sido": "경북",
+              "tons": 1.5,
+              "share": 0.069,
+              "prevShare": 0.009,
+              "yoyShare": 0.09,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "15kg",
+                  "avg": 37637,
+                  "vsMarketPct": -17.3
+                }
+              ]
+            },
+            {
+              "key": "충남 부여군",
+              "label": "충남 부여군",
+              "sido": "충남",
+              "tons": 0.2,
+              "share": 0.009,
+              "prevShare": 0,
+              "yoyShare": 0,
+              "isNew": true,
+              "isNewVsYoy": true,
+              "prices": [
+                {
+                  "unitTag": "15kg",
+                  "avg": 35000,
+                  "vsMarketPct": -23.1
+                }
+              ]
+            },
+            {
+              "key": "충남 청양군",
+              "label": "충남 청양군",
+              "sido": "충남",
+              "tons": 0.1,
+              "share": 0.006,
+              "prevShare": 0,
+              "yoyShare": 0.002,
+              "isNew": true,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "15kg",
+                  "avg": 44333,
+                  "vsMarketPct": -2.6
+                }
+              ]
+            }
+          ]
+        },
+        "corpMatrix": {
+          "corps": [
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 8.3
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 5.3
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 3.5
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 3.1
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 2
+            }
+          ],
+          "rows": [
+            {
+              "key": "경북 상주시",
+              "label": "경북 상주시",
+              "sido": "경북",
+              "tons": 18.2,
+              "cells": {
+                "11000101": 0.171,
+                "11000102": 0.288,
+                "11000103": 0.371,
+                "11000104": 0.17
+              },
+              "cellTons": {
+                "11000101": 3.1,
+                "11000102": 5.3,
+                "11000103": 6.8,
+                "11000104": 3.1
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.371
+              }
+            },
+            {
+              "key": "세종 세종자치시",
+              "label": "세종 세종자치시",
+              "sido": "세종",
+              "tons": 2,
+              "cells": {
+                "11000105": 1
+              },
+              "cellTons": {
+                "11000105": 2
+              },
+              "topCorp": {
+                "corpCode": "11000105",
+                "share": 1
+              }
+            },
+            {
+              "key": "경북 김천시",
+              "label": "경북 김천시",
+              "sido": "경북",
+              "tons": 1.5,
+              "cells": {
+                "11000103": 1
+              },
+              "cellTons": {
+                "11000103": 1.5
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 1
+              }
+            },
+            {
+              "key": "충남 부여군",
+              "label": "충남 부여군",
+              "sido": "충남",
+              "tons": 0.2,
+              "cells": {
+                "11000101": 1
+              },
+              "cellTons": {
+                "11000101": 0.2
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 1
+              }
+            },
+            {
+              "key": "충남 청양군",
+              "label": "충남 청양군",
+              "sido": "충남",
+              "tons": 0.1,
+              "cells": {
+                "11000101": 1
+              },
+              "cellTons": {
+                "11000101": 0.1
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 1
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -2498,6 +3678,44 @@
               2024,
               2023,
               2022
+            ]
+          },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 9871,
+            "pct": -16.6,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": {
+            "date": "2026-09-05",
+            "laneAvg": 6970,
+            "origins": [
+              {
+                "rank": 1,
+                "name": "경상북도 김천시",
+                "avg": 6385
+              },
+              {
+                "rank": 2,
+                "name": "경상북도 상주시",
+                "avg": 9626
+              },
+              {
+                "rank": 3,
+                "name": "경상북도 영천시",
+                "avg": 7141
+              },
+              {
+                "rank": 4,
+                "name": "경상남도 함안군",
+                "avg": 7900
+              },
+              {
+                "rank": 5,
+                "name": "충청북도 영동군",
+                "avg": 7422
+              }
             ]
           },
           "spark": [
@@ -3008,6 +4226,44 @@
               2024,
               2023,
               2022
+            ]
+          },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 15721,
+            "pct": -2.4,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": {
+            "date": "2026-09-05",
+            "laneAvg": 13418,
+            "origins": [
+              {
+                "rank": 1,
+                "name": "경상북도 김천시",
+                "avg": 12734
+              },
+              {
+                "rank": 2,
+                "name": "경상북도 영천시",
+                "avg": 12591
+              },
+              {
+                "rank": 3,
+                "name": "경상북도 경산시",
+                "avg": 12077
+              },
+              {
+                "rank": 4,
+                "name": "경상북도 상주시",
+                "avg": 19001
+              },
+              {
+                "rank": 5,
+                "name": "경상북도 성주군",
+                "avg": 14434
+              }
             ]
           },
           "spark": [
@@ -3841,6 +5097,808 @@
           "wholesale": 8237,
           "ratio": 1.8
         }
+      },
+      "corps": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "total": {
+          "tons": 327.2,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 85.2,
+              "share": 0.26,
+              "prevShare": 0.261,
+              "yoyShare": 0.24
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 84.4,
+              "share": 0.258,
+              "prevShare": 0.264,
+              "yoyShare": 0.298
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 76.5,
+              "share": 0.234,
+              "prevShare": 0.216,
+              "yoyShare": 0.217
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 55.2,
+              "share": 0.169,
+              "prevShare": 0.176,
+              "yoyShare": 0.172
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 25.9,
+              "share": 0.079,
+              "prevShare": 0.084,
+              "yoyShare": 0.073
+            }
+          ]
+        },
+        "variety": {
+          "code": "shine",
+          "nameKo": "샤인머스캣",
+          "tons": 160.9,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 48,
+              "share": 0.298,
+              "prevShare": 0.26,
+              "yoyShare": 0.276
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 36.6,
+              "share": 0.228,
+              "prevShare": 0.221,
+              "yoyShare": 0.256
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 34.3,
+              "share": 0.213,
+              "prevShare": 0.231,
+              "yoyShare": 0.219
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 27.6,
+              "share": 0.172,
+              "prevShare": 0.186,
+              "yoyShare": 0.182
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 14.3,
+              "share": 0.089,
+              "prevShare": 0.102,
+              "yoyShare": 0.067
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "2kg",
+            "unitLabel": "2kg",
+            "varietyCode": "shine",
+            "qty": 42952,
+            "tons": 85.9,
+            "marketAvg": 6971,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 12293,
+                "qtyShare": 0.286,
+                "avg": 7060,
+                "vsMarketPct": 1.3
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 10252,
+                "qtyShare": 0.239,
+                "avg": 7489,
+                "vsMarketPct": 7.4
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 9594,
+                "qtyShare": 0.223,
+                "avg": 7326,
+                "vsMarketPct": 5.1
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 6281,
+                "qtyShare": 0.146,
+                "avg": 6389,
+                "vsMarketPct": -8.3
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 4532,
+                "qtyShare": 0.106,
+                "avg": 5608,
+                "vsMarketPct": -19.5
+              }
+            ]
+          },
+          {
+            "unitTag": "4kg",
+            "unitLabel": "4kg",
+            "varietyCode": "shine",
+            "qty": 18645,
+            "tons": 74.6,
+            "marketAvg": 13469,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 5843,
+                "qtyShare": 0.313,
+                "avg": 13149,
+                "vsMarketPct": -2.4
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 4019,
+                "qtyShare": 0.216,
+                "avg": 15355,
+                "vsMarketPct": 14
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 3777,
+                "qtyShare": 0.203,
+                "avg": 12854,
+                "vsMarketPct": -4.6
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 3759,
+                "qtyShare": 0.202,
+                "avg": 12579,
+                "vsMarketPct": -6.6
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 1247,
+                "qtyShare": 0.067,
+                "avg": 13438,
+                "vsMarketPct": -0.2
+              }
+            ]
+          }
+        ]
+      },
+      "origins": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "count": 24,
+        "total": {
+          "tons": 327.2,
+          "sidos": [
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 236.3,
+              "share": 0.722,
+              "prevShare": 0.729,
+              "yoyShare": 0.809
+            },
+            {
+              "key": "충북",
+              "label": "충북",
+              "sido": "충북",
+              "tons": 42.6,
+              "share": 0.13,
+              "prevShare": 0.14,
+              "yoyShare": 0.074
+            },
+            {
+              "key": "전북",
+              "label": "전북",
+              "sido": "전북",
+              "tons": 13.5,
+              "share": 0.041,
+              "prevShare": 0.037,
+              "yoyShare": 0.005
+            },
+            {
+              "key": "경기",
+              "label": "경기",
+              "sido": "경기",
+              "tons": 13,
+              "share": 0.04,
+              "prevShare": 0.035,
+              "yoyShare": 0.049
+            },
+            {
+              "key": "경남",
+              "label": "경남",
+              "sido": "경남",
+              "tons": 7,
+              "share": 0.021,
+              "prevShare": 0.021,
+              "yoyShare": 0.017
+            },
+            {
+              "key": "충남",
+              "label": "충남",
+              "sido": "충남",
+              "tons": 5.4,
+              "share": 0.017,
+              "prevShare": 0.022,
+              "yoyShare": 0.025
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 3개 시도",
+              "sido": "기타",
+              "tons": 9.3,
+              "share": 0.029,
+              "prevShare": 0.016,
+              "yoyShare": 0.022
+            }
+          ]
+        },
+        "variety": {
+          "code": "shine",
+          "nameKo": "샤인머스캣",
+          "tons": 160.9,
+          "sidos": [
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 134.3,
+              "share": 0.835,
+              "prevShare": 0.86,
+              "yoyShare": 0.886
+            },
+            {
+              "key": "충북",
+              "label": "충북",
+              "sido": "충북",
+              "tons": 14.1,
+              "share": 0.087,
+              "prevShare": 0.073,
+              "yoyShare": 0.041
+            },
+            {
+              "key": "경남",
+              "label": "경남",
+              "sido": "경남",
+              "tons": 7,
+              "share": 0.044,
+              "prevShare": 0.043,
+              "yoyShare": 0.031
+            },
+            {
+              "key": "충남",
+              "label": "충남",
+              "sido": "충남",
+              "tons": 2.6,
+              "share": 0.016,
+              "prevShare": 0.015,
+              "yoyShare": 0.031
+            },
+            {
+              "key": "경기",
+              "label": "경기",
+              "sido": "경기",
+              "tons": 1.9,
+              "share": 0.012,
+              "prevShare": 0.01,
+              "yoyShare": 0.01
+            },
+            {
+              "key": "서울",
+              "label": "서울",
+              "sido": "서울",
+              "tons": 0.9,
+              "share": 0.006,
+              "prevShare": 0,
+              "yoyShare": 0
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 1개 시도",
+              "sido": "기타",
+              "tons": 0.1,
+              "share": 0,
+              "prevShare": 0,
+              "yoyShare": 0.001
+            }
+          ]
+        },
+        "table": {
+          "scope": "variety",
+          "label": "샤인머스캣",
+          "tons": 160.9,
+          "lanes": [
+            {
+              "unitTag": "2kg",
+              "unitLabel": "2kg",
+              "marketAvg": 6971
+            },
+            {
+              "unitTag": "4kg",
+              "unitLabel": "4kg",
+              "marketAvg": 13469
+            }
+          ],
+          "rows": [
+            {
+              "key": "경북 김천시",
+              "label": "경북 김천시",
+              "sido": "경북",
+              "tons": 77.4,
+              "share": 0.481,
+              "prevShare": 0.523,
+              "yoyShare": 0.504,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 6400,
+                  "vsMarketPct": -8.2
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 12835,
+                  "vsMarketPct": -4.7
+                }
+              ]
+            },
+            {
+              "key": "경북 영천시",
+              "label": "경북 영천시",
+              "sido": "경북",
+              "tons": 16.3,
+              "share": 0.101,
+              "prevShare": 0.092,
+              "yoyShare": 0.139,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 7141,
+                  "vsMarketPct": 2.4
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 12591,
+                  "vsMarketPct": -6.5
+                }
+              ]
+            },
+            {
+              "key": "경북 상주시",
+              "label": "경북 상주시",
+              "sido": "경북",
+              "tons": 15.5,
+              "share": 0.096,
+              "prevShare": 0.088,
+              "yoyShare": 0.14,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 9626,
+                  "vsMarketPct": 38.1
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 19001,
+                  "vsMarketPct": 41.1
+                }
+              ]
+            },
+            {
+              "key": "경북 경산시",
+              "label": "경북 경산시",
+              "sido": "경북",
+              "tons": 13.4,
+              "share": 0.083,
+              "prevShare": 0.105,
+              "yoyShare": 0.052,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 6538,
+                  "vsMarketPct": -6.2
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 12077,
+                  "vsMarketPct": -10.3
+                }
+              ]
+            },
+            {
+              "key": "경북 성주군",
+              "label": "경북 성주군",
+              "sido": "경북",
+              "tons": 9.4,
+              "share": 0.059,
+              "prevShare": 0.039,
+              "yoyShare": 0.051,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 6716,
+                  "vsMarketPct": -3.7
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 14434,
+                  "vsMarketPct": 7.2
+                }
+              ]
+            },
+            {
+              "key": "충북 영동군",
+              "label": "충북 영동군",
+              "sido": "충북",
+              "tons": 7.6,
+              "share": 0.047,
+              "prevShare": 0.048,
+              "yoyShare": 0.034,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 7422,
+                  "vsMarketPct": 6.5
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 15495,
+                  "vsMarketPct": 15
+                }
+              ]
+            },
+            {
+              "key": "경남 함안군",
+              "label": "경남 함안군",
+              "sido": "경남",
+              "tons": 6.2,
+              "share": 0.039,
+              "prevShare": 0.032,
+              "yoyShare": 0.029,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 7900,
+                  "vsMarketPct": 13.3
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 13050,
+                  "vsMarketPct": -3.1
+                }
+              ]
+            },
+            {
+              "key": "충북 옥천군",
+              "label": "충북 옥천군",
+              "sido": "충북",
+              "tons": 4.6,
+              "share": 0.029,
+              "prevShare": 0.025,
+              "yoyShare": 0.006,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 6097,
+                  "vsMarketPct": -12.5
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 9797,
+                  "vsMarketPct": -27.3
+                }
+              ]
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 10곳",
+              "sido": "기타",
+              "tons": 10.3,
+              "share": 0.064,
+              "prevShare": 0.048,
+              "yoyShare": 0.046,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "2kg",
+                  "avg": 6771,
+                  "vsMarketPct": -2.9
+                },
+                {
+                  "unitTag": "4kg",
+                  "avg": 13502,
+                  "vsMarketPct": 0.2
+                }
+              ]
+            }
+          ]
+        },
+        "corpMatrix": {
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 48
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 36.6
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 34.3
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 27.6
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 14.3
+            }
+          ],
+          "rows": [
+            {
+              "key": "경북 김천시",
+              "label": "경북 김천시",
+              "sido": "경북",
+              "tons": 77.4,
+              "cells": {
+                "11000101": 0.278,
+                "11000102": 0.092,
+                "11000103": 0.205,
+                "11000104": 0.279,
+                "11000105": 0.146
+              },
+              "cellTons": {
+                "11000101": 21.5,
+                "11000102": 7.1,
+                "11000103": 15.9,
+                "11000104": 21.6,
+                "11000105": 11.3
+              },
+              "topCorp": {
+                "corpCode": "11000104",
+                "share": 0.279
+              }
+            },
+            {
+              "key": "경북 영천시",
+              "label": "경북 영천시",
+              "sido": "경북",
+              "tons": 16.3,
+              "cells": {
+                "11000101": 0.655,
+                "11000102": 0.231,
+                "11000103": 0.065,
+                "11000104": 0.049
+              },
+              "cellTons": {
+                "11000101": 10.7,
+                "11000102": 3.8,
+                "11000103": 1.1,
+                "11000104": 0.8
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 0.655
+              }
+            },
+            {
+              "key": "경북 상주시",
+              "label": "경북 상주시",
+              "sido": "경북",
+              "tons": 15.5,
+              "cells": {
+                "11000101": 0.149,
+                "11000102": 0.308,
+                "11000103": 0.483,
+                "11000104": 0.043,
+                "11000105": 0.016
+              },
+              "cellTons": {
+                "11000101": 2.3,
+                "11000102": 4.8,
+                "11000103": 7.5,
+                "11000104": 0.7,
+                "11000105": 0.3
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.483
+              }
+            },
+            {
+              "key": "경북 경산시",
+              "label": "경북 경산시",
+              "sido": "경북",
+              "tons": 13.4,
+              "cells": {
+                "11000101": 0.169,
+                "11000102": 0.447,
+                "11000103": 0.293,
+                "11000104": 0.022,
+                "11000105": 0.069
+              },
+              "cellTons": {
+                "11000101": 2.3,
+                "11000102": 6,
+                "11000103": 3.9,
+                "11000104": 0.3,
+                "11000105": 0.9
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.447
+              }
+            },
+            {
+              "key": "경북 성주군",
+              "label": "경북 성주군",
+              "sido": "경북",
+              "tons": 9.4,
+              "cells": {
+                "11000101": 0.124,
+                "11000102": 0.563,
+                "11000103": 0.203,
+                "11000104": 0.11
+              },
+              "cellTons": {
+                "11000101": 1.2,
+                "11000102": 5.3,
+                "11000103": 1.9,
+                "11000104": 1
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.563
+              }
+            },
+            {
+              "key": "충북 영동군",
+              "label": "충북 영동군",
+              "sido": "충북",
+              "tons": 7.6,
+              "cells": {
+                "11000101": 0.31,
+                "11000103": 0.498,
+                "11000104": 0.17,
+                "11000105": 0.021
+              },
+              "cellTons": {
+                "11000101": 2.4,
+                "11000103": 3.8,
+                "11000104": 1.3,
+                "11000105": 0.2
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.498
+              }
+            },
+            {
+              "key": "경남 함안군",
+              "label": "경남 함안군",
+              "sido": "경남",
+              "tons": 6.2,
+              "cells": {
+                "11000101": 0.911,
+                "11000102": 0.043,
+                "11000103": 0.047
+              },
+              "cellTons": {
+                "11000101": 5.7,
+                "11000102": 0.3,
+                "11000103": 0.3
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 0.911
+              }
+            },
+            {
+              "key": "충북 옥천군",
+              "label": "충북 옥천군",
+              "sido": "충북",
+              "tons": 4.6,
+              "cells": {
+                "11000101": 0.196,
+                "11000102": 0.706,
+                "11000104": 0.097
+              },
+              "cellTons": {
+                "11000101": 0.9,
+                "11000102": 3.2,
+                "11000104": 0.4
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.706
+              }
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 10곳",
+              "sido": "기타",
+              "tons": 10.3,
+              "cells": {
+                "11000101": 0.101,
+                "11000102": 0.373,
+                "11000103": 0.22,
+                "11000104": 0.138,
+                "11000105": 0.168
+              },
+              "cellTons": {
+                "11000101": 1,
+                "11000102": 3.8,
+                "11000103": 2.3,
+                "11000104": 1.4,
+                "11000105": 1.7
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.373
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -3904,6 +5962,14 @@
               2021
             ]
           },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 21065.03754770405,
+            "pct": -8.4,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": null,
           "spark": [
             {
               "date": "2026-08-31",
@@ -4296,6 +6362,14 @@
               2022
             ]
           },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 42472.94117647059,
+            "pct": -9.3,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": null,
           "spark": [
             {
               "date": "2026-08-31",
@@ -5163,6 +7237,677 @@
           "wholesaleUnit": "4kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "total": {
+          "tons": 371.1,
+          "corps": [
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 136.4,
+              "share": 0.368,
+              "prevShare": 0.417,
+              "yoyShare": 0.341
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 118.4,
+              "share": 0.319,
+              "prevShare": 0.261,
+              "yoyShare": 0.349
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 66.5,
+              "share": 0.179,
+              "prevShare": 0.176,
+              "yoyShare": 0.199
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 27.3,
+              "share": 0.074,
+              "prevShare": 0.061,
+              "yoyShare": 0.042
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 22.4,
+              "share": 0.06,
+              "prevShare": 0.085,
+              "yoyShare": 0.069
+            }
+          ]
+        },
+        "variety": null,
+        "lanes": [
+          {
+            "unitTag": "4kg",
+            "unitLabel": "4kg",
+            "varietyCode": null,
+            "qty": 50636,
+            "tons": 202.5,
+            "marketAvg": 19293,
+            "corps": [
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 18563,
+                "qtyShare": 0.367,
+                "avg": 19508,
+                "vsMarketPct": 1.1
+              },
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 15608,
+                "qtyShare": 0.308,
+                "avg": 20519,
+                "vsMarketPct": 6.4
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 11206,
+                "qtyShare": 0.221,
+                "avg": 17417,
+                "vsMarketPct": -9.7
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 3552,
+                "qtyShare": 0.07,
+                "avg": 18903,
+                "vsMarketPct": -2
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 1707,
+                "qtyShare": 0.034,
+                "avg": 18883,
+                "vsMarketPct": -2.1
+              }
+            ]
+          },
+          {
+            "unitTag": "10kg",
+            "unitLabel": "10kg",
+            "varietyCode": null,
+            "qty": 13978,
+            "tons": 139.8,
+            "marketAvg": 38539,
+            "corps": [
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 5416,
+                "qtyShare": 0.387,
+                "avg": 40977,
+                "vsMarketPct": 6.3
+              },
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 4801,
+                "qtyShare": 0.343,
+                "avg": 39056,
+                "vsMarketPct": 1.3
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 1828,
+                "qtyShare": 0.131,
+                "avg": 32631,
+                "vsMarketPct": -15.3
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 1554,
+                "qtyShare": 0.111,
+                "avg": 36410,
+                "vsMarketPct": -5.5
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 379,
+                "qtyShare": 0.027,
+                "avg": 34380,
+                "vsMarketPct": -10.8
+              }
+            ]
+          }
+        ]
+      },
+      "origins": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "count": 25,
+        "total": {
+          "tons": 371.1,
+          "sidos": [
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 195.6,
+              "share": 0.527,
+              "prevShare": 0.498,
+              "yoyShare": 0.304
+            },
+            {
+              "key": "충북",
+              "label": "충북",
+              "sido": "충북",
+              "tons": 161.6,
+              "share": 0.435,
+              "prevShare": 0.471,
+              "yoyShare": 0.653
+            },
+            {
+              "key": "전북",
+              "label": "전북",
+              "sido": "전북",
+              "tons": 5.3,
+              "share": 0.014,
+              "prevShare": 0.01,
+              "yoyShare": 0.007
+            },
+            {
+              "key": "강원",
+              "label": "강원",
+              "sido": "강원",
+              "tons": 3.8,
+              "share": 0.01,
+              "prevShare": 0.013,
+              "yoyShare": 0.003
+            },
+            {
+              "key": "경기",
+              "label": "경기",
+              "sido": "경기",
+              "tons": 3.7,
+              "share": 0.01,
+              "prevShare": 0.008,
+              "yoyShare": 0.03
+            },
+            {
+              "key": "대구",
+              "label": "대구",
+              "sido": "대구",
+              "tons": 0.7,
+              "share": 0.002,
+              "prevShare": 0,
+              "yoyShare": 0.003
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 1개 시도",
+              "sido": "기타",
+              "tons": 0.5,
+              "share": 0.001,
+              "prevShare": 0,
+              "yoyShare": 0
+            }
+          ]
+        },
+        "variety": null,
+        "table": {
+          "scope": "item",
+          "label": "품목 전체",
+          "tons": 371.1,
+          "lanes": [
+            {
+              "unitTag": "4kg",
+              "unitLabel": "4kg",
+              "marketAvg": 19293
+            },
+            {
+              "unitTag": "10kg",
+              "unitLabel": "10kg",
+              "marketAvg": 38539
+            }
+          ],
+          "rows": [
+            {
+              "key": "충북 음성군",
+              "label": "충북 음성군",
+              "sido": "충북",
+              "tons": 133.1,
+              "share": 0.359,
+              "prevShare": 0.387,
+              "yoyShare": 0.573,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 20637,
+                  "vsMarketPct": 7
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": null,
+                  "vsMarketPct": null
+                }
+              ]
+            },
+            {
+              "key": "경북 영천시",
+              "label": "경북 영천시",
+              "sido": "경북",
+              "tons": 125.3,
+              "share": 0.338,
+              "prevShare": 0.261,
+              "yoyShare": 0.198,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 17868,
+                  "vsMarketPct": -7.4
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": 38070,
+                  "vsMarketPct": -1.2
+                }
+              ]
+            },
+            {
+              "key": "경북 영주시",
+              "label": "경북 영주시",
+              "sido": "경북",
+              "tons": 23.2,
+              "share": 0.063,
+              "prevShare": 0.067,
+              "yoyShare": 0.059,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 15243,
+                  "vsMarketPct": -21
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": null,
+                  "vsMarketPct": null
+                }
+              ]
+            },
+            {
+              "key": "충북 충주시",
+              "label": "충북 충주시",
+              "sido": "충북",
+              "tons": 22.4,
+              "share": 0.06,
+              "prevShare": 0.069,
+              "yoyShare": 0.077,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 16310,
+                  "vsMarketPct": -15.5
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": null,
+                  "vsMarketPct": null
+                }
+              ]
+            },
+            {
+              "key": "경북 청송군",
+              "label": "경북 청송군",
+              "sido": "경북",
+              "tons": 19.3,
+              "share": 0.052,
+              "prevShare": 0.065,
+              "yoyShare": 0.001,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 22652,
+                  "vsMarketPct": 17.4
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": 42708,
+                  "vsMarketPct": 10.8
+                }
+              ]
+            },
+            {
+              "key": "경북 상주시",
+              "label": "경북 상주시",
+              "sido": "경북",
+              "tons": 17.2,
+              "share": 0.046,
+              "prevShare": 0.055,
+              "yoyShare": 0.045,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 20034,
+                  "vsMarketPct": 3.8
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": null,
+                  "vsMarketPct": null
+                }
+              ]
+            },
+            {
+              "key": "경북 경산시",
+              "label": "경북 경산시",
+              "sido": "경북",
+              "tons": 6,
+              "share": 0.016,
+              "prevShare": 0.022,
+              "yoyShare": 0,
+              "isNew": false,
+              "isNewVsYoy": true,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 11983,
+                  "vsMarketPct": -37.9
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": null,
+                  "vsMarketPct": null
+                }
+              ]
+            },
+            {
+              "key": "경기 이천시",
+              "label": "경기 이천시",
+              "sido": "경기",
+              "tons": 3.5,
+              "share": 0.01,
+              "prevShare": 0.008,
+              "yoyShare": 0.03,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 18928,
+                  "vsMarketPct": -1.9
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": null,
+                  "vsMarketPct": null
+                }
+              ]
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 17곳",
+              "sido": "기타",
+              "tons": 20.9,
+              "share": 0.056,
+              "prevShare": 0.066,
+              "yoyShare": 0.016,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 15380,
+                  "vsMarketPct": -20.3
+                },
+                {
+                  "unitTag": "10kg",
+                  "avg": 8714,
+                  "vsMarketPct": -77.4
+                }
+              ]
+            }
+          ]
+        },
+        "corpMatrix": {
+          "corps": [
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 136.4
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 118.4
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 66.5
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 27.3
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 22.4
+            }
+          ],
+          "rows": [
+            {
+              "key": "충북 음성군",
+              "label": "충북 음성군",
+              "sido": "충북",
+              "tons": 133.1,
+              "cells": {
+                "11000101": 0.363,
+                "11000102": 0.02,
+                "11000103": 0.527,
+                "11000104": 0.075,
+                "11000105": 0.016
+              },
+              "cellTons": {
+                "11000101": 48.3,
+                "11000102": 2.6,
+                "11000103": 70.1,
+                "11000104": 10,
+                "11000105": 2.1
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.527
+              }
+            },
+            {
+              "key": "경북 영천시",
+              "label": "경북 영천시",
+              "sido": "경북",
+              "tons": 125.3,
+              "cells": {
+                "11000101": 0.353,
+                "11000102": 0.124,
+                "11000103": 0.347,
+                "11000104": 0.03,
+                "11000105": 0.146
+              },
+              "cellTons": {
+                "11000101": 44.3,
+                "11000102": 15.5,
+                "11000103": 43.5,
+                "11000104": 3.8,
+                "11000105": 18.3
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 0.353
+              }
+            },
+            {
+              "key": "경북 영주시",
+              "label": "경북 영주시",
+              "sido": "경북",
+              "tons": 23.2,
+              "cells": {
+                "11000101": 0.54,
+                "11000102": 0.28,
+                "11000103": 0.093,
+                "11000104": 0.087
+              },
+              "cellTons": {
+                "11000101": 12.5,
+                "11000102": 6.5,
+                "11000103": 2.2,
+                "11000104": 2
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 0.54
+              }
+            },
+            {
+              "key": "충북 충주시",
+              "label": "충북 충주시",
+              "sido": "충북",
+              "tons": 22.4,
+              "cells": {
+                "11000102": 0.773,
+                "11000103": 0.03,
+                "11000105": 0.197
+              },
+              "cellTons": {
+                "11000102": 17.3,
+                "11000103": 0.7,
+                "11000105": 4.4
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.773
+              }
+            },
+            {
+              "key": "경북 청송군",
+              "label": "경북 청송군",
+              "sido": "경북",
+              "tons": 19.3,
+              "cells": {
+                "11000101": 0.35,
+                "11000103": 0.65
+              },
+              "cellTons": {
+                "11000101": 6.8,
+                "11000103": 12.6
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.65
+              }
+            },
+            {
+              "key": "경북 상주시",
+              "label": "경북 상주시",
+              "sido": "경북",
+              "tons": 17.2,
+              "cells": {
+                "11000102": 1
+              },
+              "cellTons": {
+                "11000102": 17.2
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 1
+              }
+            },
+            {
+              "key": "경북 경산시",
+              "label": "경북 경산시",
+              "sido": "경북",
+              "tons": 6,
+              "cells": {
+                "11000101": 0.207,
+                "11000102": 0.08,
+                "11000103": 0.1,
+                "11000104": 0.614
+              },
+              "cellTons": {
+                "11000101": 1.2,
+                "11000102": 0.5,
+                "11000103": 0.6,
+                "11000104": 3.7
+              },
+              "topCorp": {
+                "corpCode": "11000104",
+                "share": 0.614
+              }
+            },
+            {
+              "key": "경기 이천시",
+              "label": "경기 이천시",
+              "sido": "경기",
+              "tons": 3.5,
+              "cells": {
+                "11000102": 1
+              },
+              "cellTons": {
+                "11000102": 3.5
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 1
+              }
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 17곳",
+              "sido": "기타",
+              "tons": 20.9,
+              "cells": {
+                "11000101": 0.252,
+                "11000102": 0.156,
+                "11000103": 0.326,
+                "11000104": 0.144,
+                "11000105": 0.122
+              },
+              "cellTons": {
+                "11000101": 5.3,
+                "11000102": 3.3,
+                "11000103": 6.8,
+                "11000104": 3,
+                "11000105": 2.5
+              },
+              "topCorp": {
+                "corpCode": "11000103",
+                "share": 0.326
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -5342,6 +8087,29 @@
               2025,
               2024,
               2022
+            ]
+          },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 22148,
+            "pct": -11.3,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": {
+            "date": "2026-09-05",
+            "laneAvg": 17410,
+            "origins": [
+              {
+                "rank": 1,
+                "name": "제주자치도 서귀포시",
+                "avg": 17462
+              },
+              {
+                "rank": 2,
+                "name": "제주자치도 제주시",
+                "avg": 12000
+              }
             ]
           },
           "spark": [
@@ -5736,6 +8504,14 @@
               2021
             ]
           },
+          "vsChuseok": {
+            "date": "2025-09-16",
+            "value": 31910.054347826088,
+            "pct": 4.2,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": null,
           "spark": [
             {
               "date": "2026-08-31",
@@ -6239,6 +9015,24 @@
               2025,
               2022,
               2021
+            ]
+          },
+          "vsChuseok": {
+            "date": null,
+            "value": null,
+            "pct": null,
+            "daysBefore": 20,
+            "prevChuseok": "2025-10-06"
+          },
+          "origins": {
+            "date": "2026-09-05",
+            "laneAvg": 15134,
+            "origins": [
+              {
+                "rank": 1,
+                "name": "제주자치도 서귀포시",
+                "avg": 15134
+              }
             ]
           },
           "spark": [
@@ -7074,6 +9868,338 @@
           "wholesaleUnit": "3kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "total": {
+          "tons": 20.4,
+          "corps": [
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 7.4,
+              "share": 0.365,
+              "prevShare": 0.297,
+              "yoyShare": 0.266
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 6.3,
+              "share": 0.307,
+              "prevShare": 0.296,
+              "yoyShare": 0.421
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 5.1,
+              "share": 0.249,
+              "prevShare": 0.313,
+              "yoyShare": 0.249
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 1.6,
+              "share": 0.079,
+              "prevShare": 0.094,
+              "yoyShare": 0.064
+            }
+          ]
+        },
+        "variety": {
+          "code": "house",
+          "nameKo": "하우스감귤",
+          "tons": 20.4,
+          "corps": [
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 7.4,
+              "share": 0.365,
+              "prevShare": 0.297,
+              "yoyShare": 0.271
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 6.3,
+              "share": 0.307,
+              "prevShare": 0.296,
+              "yoyShare": 0.409
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 5.1,
+              "share": 0.249,
+              "prevShare": 0.313,
+              "yoyShare": 0.254
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 1.6,
+              "share": 0.079,
+              "prevShare": 0.094,
+              "yoyShare": 0.066
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "3kg",
+            "unitLabel": "3kg",
+            "varietyCode": "house",
+            "qty": 3872,
+            "tons": 11.6,
+            "marketAvg": 17704,
+            "corps": [
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 1333,
+                "qtyShare": 0.344,
+                "avg": 16087,
+                "vsMarketPct": -9.1
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 1163,
+                "qtyShare": 0.3,
+                "avg": 19863,
+                "vsMarketPct": 12.2
+              },
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 933,
+                "qtyShare": 0.241,
+                "avg": 19065,
+                "vsMarketPct": 7.7
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 443,
+                "qtyShare": 0.114,
+                "avg": 14037,
+                "vsMarketPct": -20.7
+              }
+            ]
+          },
+          {
+            "unitTag": "6kg",
+            "unitLabel": "6kg",
+            "varietyCode": "house",
+            "qty": 1092,
+            "tons": 6.6,
+            "marketAvg": 33238,
+            "corps": [
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 387,
+                "qtyShare": 0.354,
+                "avg": 38429,
+                "vsMarketPct": 15.6
+              },
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 367,
+                "qtyShare": 0.336,
+                "avg": 30978,
+                "vsMarketPct": -6.8
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 290,
+                "qtyShare": 0.266,
+                "avg": 31018,
+                "vsMarketPct": -6.7
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 48,
+                "qtyShare": 0.044,
+                "avg": 22075,
+                "vsMarketPct": -33.6
+              }
+            ]
+          }
+        ]
+      },
+      "origins": {
+        "date": "2026-09-05",
+        "prevDate": "2026-09-04",
+        "yoyDate": "2025-09-16",
+        "count": 2,
+        "total": {
+          "tons": 20.4,
+          "sidos": [
+            {
+              "key": "제주",
+              "label": "제주",
+              "sido": "제주",
+              "tons": 20.4,
+              "share": 1,
+              "prevShare": 1,
+              "yoyShare": 1
+            }
+          ]
+        },
+        "variety": {
+          "code": "house",
+          "nameKo": "하우스감귤",
+          "tons": 20.4,
+          "sidos": [
+            {
+              "key": "제주",
+              "label": "제주",
+              "sido": "제주",
+              "tons": 20.4,
+              "share": 1,
+              "prevShare": 1,
+              "yoyShare": 1
+            }
+          ]
+        },
+        "table": {
+          "scope": "variety",
+          "label": "하우스감귤",
+          "tons": 20.4,
+          "lanes": [
+            {
+              "unitTag": "3kg",
+              "unitLabel": "3kg",
+              "marketAvg": 17704
+            },
+            {
+              "unitTag": "6kg",
+              "unitLabel": "6kg",
+              "marketAvg": 33238
+            }
+          ],
+          "rows": [
+            {
+              "key": "제주 서귀포시",
+              "label": "제주 서귀포시",
+              "sido": "제주",
+              "tons": 20.2,
+              "share": 0.994,
+              "prevShare": 0.942,
+              "yoyShare": 0.908,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "3kg",
+                  "avg": 17768,
+                  "vsMarketPct": 0.4
+                },
+                {
+                  "unitTag": "6kg",
+                  "avg": 33238,
+                  "vsMarketPct": 0
+                }
+              ]
+            },
+            {
+              "key": "제주 제주시",
+              "label": "제주 제주시",
+              "sido": "제주",
+              "tons": 0.1,
+              "share": 0.006,
+              "prevShare": 0.058,
+              "yoyShare": 0.092,
+              "isNew": false,
+              "isNewVsYoy": false,
+              "prices": [
+                {
+                  "unitTag": "3kg",
+                  "avg": 12000,
+                  "vsMarketPct": -32.2
+                },
+                {
+                  "unitTag": "6kg",
+                  "avg": null,
+                  "vsMarketPct": null
+                }
+              ]
+            }
+          ]
+        },
+        "corpMatrix": {
+          "corps": [
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 7.4
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 6.3
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 5.1
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 1.6
+            }
+          ],
+          "rows": [
+            {
+              "key": "제주 서귀포시",
+              "label": "제주 서귀포시",
+              "sido": "제주",
+              "tons": 20.2,
+              "cells": {
+                "11000101": 0.25,
+                "11000102": 0.36,
+                "11000103": 0.309,
+                "11000105": 0.08
+              },
+              "cellTons": {
+                "11000101": 5.1,
+                "11000102": 7.3,
+                "11000103": 6.3,
+                "11000105": 1.6
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 0.36
+              }
+            },
+            {
+              "key": "제주 제주시",
+              "label": "제주 제주시",
+              "sido": "제주",
+              "tons": 0.1,
+              "cells": {
+                "11000102": 1
+              },
+              "cellTons": {
+                "11000102": 0.1
+              },
+              "topCorp": {
+                "corpCode": "11000102",
+                "share": 1
+              }
+            }
+          ]
+        }
       }
     }
   ],
@@ -7126,27 +10252,31 @@
     "배 화산 15kg 50,610원 전일 ▲7.8%",
     "사과 홍로 10kg 55,908원 전일 ▼7.7%"
   ],
+  "structuralHeadline": "복숭아 산지 경북 30%→53% (전년 추석 D−20 대비)",
   "chuseok": {
     "thisYear": {
       "chuseok": "2026-09-25",
       "daysBefore": 20
     },
-    "prevYear": null
+    "prevYear": {
+      "chuseok": "2025-10-06",
+      "daysBefore": 20
+    }
   },
   "edition": "AM",
   "footnotes": [
     "가격은 가락시장 가격백분위 '상'(상위 5~40% 구간 평균, 공문 '상품기준')이며 단위는 실물 포장규격당 원. '평균가' 표기는 상품기준가 미수신으로 경매원표 전등급 평균을 쓴 값.",
     "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
     "전일비는 직전 거래일 대비. 전월·전년동월·평년동월은 일일 가격동향과 같은 정의 — 전월=직전 달력월 평균, 전년동월=전년 같은 달 평균, 평년동월=최근 5년 같은 달 중 최고·최저를 뺀 3년 평균. 같은 품종·규격·등급 lane 의 일별가 단순평균으로 산정.",
-    "명절(추석) 시기 차이는 보정하지 않음. 전년동월 대비 해석 시 추석 위치를 함께 볼 것.",
+    "전년동월 평균은 명절(추석) 시기 차이를 보정하지 않음. 명절권에서는 '추석 D−n 동시점'(전년 추석 기준 같은 날수 앞의 거래일 값) 비교를 함께 표기.",
     "가락 상품기준가는 거래가 적은 날 전 거래일 값이 그대로 반복(미갱신)되는 경우가 있어, 특·상·보통·하 전 등급이 전 거래일과 완전히 같은 날은 결측으로 처리(평균·추이에서 제외, 당일이면 평균가† 표시). 다른 등급이 바뀐 날의 '상' 동일값은 실제 값으로 본다.",
     "소비자가격은 KAMIS 전국 소매 평균(주 5일 조사·오후 발표)이며 낱개 단위(10개 등)라 도매 원/상자와 수준 비교는 하지 않음 — 같은 소매 lane 의 변화율끼리만. 전이율 = 소매 전월비 ÷ 도매(기준규격 상) 전월비(도매 변화 ±3% 미만이면 미산출). 소매·도매 단위가 같은 경우(포도 2kg)에만 소매/도매 배율 표기.",
     "부서 임계표에 지배품종·월 행이 없는 품목(복숭아 엘바트·감귤 하우스·단감 태추 등)은 '자체 산출' 임계로 판정 — 부서 산식(안정=직전 5개년 같은 달 올림픽 평균, σ 구간)을 가락 '상' lane 에 적용한 보조 지표이며 심각↓는 같은 품목 부서 비율 차용. 부서 임계와 구분해 읽을 것.",
     "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
   ],
   "provenance": {
-    "sangLatest": "2026-09-15",
-    "garakLatest": "2026-09-15",
+    "sangLatest": "2026-09-16",
+    "garakLatest": "2026-09-16",
     "expectedDate": "2026-09-05",
     "queries": [
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-01..2026-09-05",
@@ -7161,6 +10291,8 @@
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2022-08-05..2022-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-08-05..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2021-08-05..2021-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "GarakOriginPriceCache itemCode IN fruit dateKey 2026-09-01..2026-09-05 (당일 상위 산지, 상세 전용)",
+      "GarakCorpTradeCache itemCode IN fruit dateKey 2026-08-30..2026-09-05 + 전년 동기 2025-09-16±6 (법인·산지별 거래, 상세 전용)",
       "apple: BIX5 반복값 3737행 제외 (예 GARAK_SANG@SPECIAL 2021-08-12)",
       "pear: BIX5 반복값 1036행 제외 (예 GARAK_SANG#U_7.5kg@SPECIAL 2021-09-27)",
       "grape: BIX5 반복값 2040행 제외 (예 GARAK_SANG@SPECIAL 2022-08-06)",
