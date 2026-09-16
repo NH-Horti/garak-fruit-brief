@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T04:50:03.303Z",
+  "generatedAt": "2026-09-16T05:55:42.089Z",
   "targetDate": "2026-09-16",
   "weekday": "수",
   "sentOn": "2026-09-16",
@@ -12,7 +12,7 @@
       "iconDataUri": null,
       "rank": 1,
       "onPoster": true,
-      "tradeValue": 1991202144,
+      "tradeValue": 1992882130,
       "defaultBoxKg": 10,
       "offSeason": false,
       "variety": {
@@ -22,11 +22,11 @@
         "sangLaneFound": true
       },
       "volume": {
-        "tons": 400,
+        "tons": 401,
         "vsPrev": {
           "date": "2026-09-15",
           "value": 496,
-          "pct": -19.4
+          "pct": -19.2
         }
       },
       "units": [
@@ -38,7 +38,7 @@
           "isAnchor": true,
           "qtyUnits": 19641,
           "tons": 196.4,
-          "kgShare": 0.565,
+          "kgShare": 0.564,
           "sang": {
             "date": "2026-09-16",
             "price": 40851,
@@ -579,9 +579,9 @@
           "kg": 5,
           "isRep": false,
           "isAnchor": false,
-          "qtyUnits": 30285,
-          "tons": 151.4,
-          "kgShare": 0.435,
+          "qtyUnits": 30327,
+          "tons": 151.6,
+          "kgShare": 0.436,
           "sang": {
             "date": "2026-09-16",
             "price": 46466,
@@ -1126,11 +1126,11 @@
         {
           "code": "hongro",
           "nameKo": "홍로",
-          "tons": 347.9,
+          "tons": 348.1,
           "share": 0.869,
           "prevTons": 414,
           "prevShare": 0.835,
-          "tonsPct": -16,
+          "tonsPct": -15.9,
           "unitLabel": "10kg",
           "source": "SANG",
           "sang": 40851,
@@ -1605,6 +1605,192 @@
           "wholesaleUnit": "10kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-16",
+        "prevDate": "2026-09-15",
+        "total": {
+          "tons": 400.6,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 120.2,
+              "share": 0.3,
+              "prevShare": 0.331
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 69,
+              "share": 0.172,
+              "prevShare": 0.178
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 115,
+              "share": 0.287,
+              "prevShare": 0.328
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 56.3,
+              "share": 0.141,
+              "prevShare": 0.099
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 40.1,
+              "share": 0.1,
+              "prevShare": 0.064
+            }
+          ]
+        },
+        "variety": {
+          "code": "hongro",
+          "nameKo": "홍로",
+          "tons": 348.1,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 118.3,
+              "share": 0.34,
+              "prevShare": 0.373
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 51.8,
+              "share": 0.149,
+              "prevShare": 0.179
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 91.7,
+              "share": 0.263,
+              "prevShare": 0.304
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 50,
+              "share": 0.144,
+              "prevShare": 0.096
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 36.3,
+              "share": 0.104,
+              "prevShare": 0.048
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "10kg",
+            "unitLabel": "10kg",
+            "varietyCode": "hongro",
+            "qty": 19641,
+            "marketAvg": 32021,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 5654,
+                "qtyShare": 0.288,
+                "avg": 32787,
+                "vsMarketPct": 2.4
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 3409,
+                "qtyShare": 0.174,
+                "avg": 33268,
+                "vsMarketPct": 3.9
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 5398,
+                "qtyShare": 0.275,
+                "avg": 32160,
+                "vsMarketPct": 0.4
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 3145,
+                "qtyShare": 0.16,
+                "avg": 31145,
+                "vsMarketPct": -2.7
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 2035,
+                "qtyShare": 0.104,
+                "avg": 28787,
+                "vsMarketPct": -10.1
+              }
+            ]
+          },
+          {
+            "unitTag": "5kg",
+            "unitLabel": "5kg",
+            "varietyCode": "hongro",
+            "qty": 30327,
+            "marketAvg": 34140,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 12352,
+                "qtyShare": 0.407,
+                "avg": 30897,
+                "vsMarketPct": -9.5
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 3550,
+                "qtyShare": 0.117,
+                "avg": 38223,
+                "vsMarketPct": 12
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 7533,
+                "qtyShare": 0.248,
+                "avg": 38811,
+                "vsMarketPct": 13.7
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 3709,
+                "qtyShare": 0.122,
+                "avg": 39634,
+                "vsMarketPct": 16.1
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 3183,
+                "qtyShare": 0.105,
+                "avg": 24715,
+                "vsMarketPct": -27.6
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -1613,7 +1799,7 @@
       "iconDataUri": null,
       "rank": 2,
       "onPoster": true,
-      "tradeValue": 1678576073,
+      "tradeValue": 1706086208,
       "defaultBoxKg": 15,
       "offSeason": false,
       "variety": {
@@ -1623,11 +1809,11 @@
         "sangLaneFound": true
       },
       "volume": {
-        "tons": 453,
+        "tons": 462,
         "vsPrev": {
           "date": "2026-09-15",
           "value": 547,
-          "pct": -17.2
+          "pct": -15.5
         }
       },
       "units": [
@@ -1639,7 +1825,7 @@
           "isAnchor": true,
           "qtyUnits": 7184,
           "tons": 107.8,
-          "kgShare": 0.255,
+          "kgShare": 0.25,
           "sang": {
             "date": "2026-09-16",
             "price": 50073,
@@ -2189,9 +2375,9 @@
           "kg": 7.5,
           "isRep": false,
           "isAnchor": false,
-          "qtyUnits": 41009,
-          "tons": 307.6,
-          "kgShare": 0.729,
+          "qtyUnits": 42185,
+          "tons": 316.4,
+          "kgShare": 0.734,
           "sang": {
             "date": "2026-09-16",
             "price": 38278,
@@ -2733,11 +2919,11 @@
         {
           "code": "shingo",
           "nameKo": "신고",
-          "tons": 422.2,
-          "share": 0.931,
+          "tons": 431,
+          "share": 0.932,
           "prevTons": 511.8,
           "prevShare": 0.936,
-          "tonsPct": -17.5,
+          "tonsPct": -15.8,
           "unitLabel": "15kg",
           "source": "SANG",
           "sang": 50073,
@@ -2762,7 +2948,7 @@
           "code": "hwasan",
           "nameKo": "화산",
           "tons": 9.3,
-          "share": 0.021,
+          "share": 0.02,
           "prevTons": 12.5,
           "prevShare": 0.023,
           "tonsPct": -25.6,
@@ -3093,6 +3279,192 @@
           "wholesaleUnit": "15kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-16",
+        "prevDate": "2026-09-15",
+        "total": {
+          "tons": 462.2,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 175.1,
+              "share": 0.379,
+              "prevShare": 0.304
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 84.9,
+              "share": 0.184,
+              "prevShare": 0.214
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 102.3,
+              "share": 0.221,
+              "prevShare": 0.255
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 43.6,
+              "share": 0.094,
+              "prevShare": 0.134
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 56.5,
+              "share": 0.122,
+              "prevShare": 0.094
+            }
+          ]
+        },
+        "variety": {
+          "code": "shingo",
+          "nameKo": "신고",
+          "tons": 431,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 167.4,
+              "share": 0.388,
+              "prevShare": 0.304
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 77.8,
+              "share": 0.18,
+              "prevShare": 0.215
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 95.2,
+              "share": 0.221,
+              "prevShare": 0.245
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 34.5,
+              "share": 0.08,
+              "prevShare": 0.137
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 56.1,
+              "share": 0.13,
+              "prevShare": 0.099
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "15kg",
+            "unitLabel": "15kg",
+            "varietyCode": "shingo",
+            "qty": 7184,
+            "marketAvg": 40919,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 2094,
+                "qtyShare": 0.291,
+                "avg": 41240,
+                "vsMarketPct": 0.8
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 2080,
+                "qtyShare": 0.29,
+                "avg": 42211,
+                "vsMarketPct": 3.2
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 1582,
+                "qtyShare": 0.22,
+                "avg": 41107,
+                "vsMarketPct": 0.5
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 198,
+                "qtyShare": 0.028,
+                "avg": 38763,
+                "vsMarketPct": -5.3
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 1230,
+                "qtyShare": 0.171,
+                "avg": 38295,
+                "vsMarketPct": -6.4
+              }
+            ]
+          },
+          {
+            "unitTag": "7.5kg",
+            "unitLabel": "7.5kg",
+            "varietyCode": "shingo",
+            "qty": 42185,
+            "marketAvg": 30522,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 18128,
+                "qtyShare": 0.43,
+                "avg": 29839,
+                "vsMarketPct": -2.2
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 6208,
+                "qtyShare": 0.147,
+                "avg": 31496,
+                "vsMarketPct": 3.2
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 9343,
+                "qtyShare": 0.221,
+                "avg": 31443,
+                "vsMarketPct": 3
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 3486,
+                "qtyShare": 0.083,
+                "avg": 33596,
+                "vsMarketPct": 10.1
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 5020,
+                "qtyShare": 0.119,
+                "avg": 27930,
+                "vsMarketPct": -8.5
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -4712,6 +5084,192 @@
           "wholesale": 6440,
           "ratio": 2.1
         }
+      },
+      "corps": {
+        "date": "2026-09-16",
+        "prevDate": "2026-09-15",
+        "total": {
+          "tons": 408.2,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 95.9,
+              "share": 0.235,
+              "prevShare": 0.27
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 88.6,
+              "share": 0.217,
+              "prevShare": 0.211
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 127.1,
+              "share": 0.311,
+              "prevShare": 0.283
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 63,
+              "share": 0.154,
+              "prevShare": 0.141
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 33.5,
+              "share": 0.082,
+              "prevShare": 0.095
+            }
+          ]
+        },
+        "variety": {
+          "code": "shine",
+          "nameKo": "샤인머스캣",
+          "tons": 234.7,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 54.7,
+              "share": 0.233,
+              "prevShare": 0.301
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 47.3,
+              "share": 0.201,
+              "prevShare": 0.19
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 70.4,
+              "share": 0.3,
+              "prevShare": 0.255
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 40.2,
+              "share": 0.171,
+              "prevShare": 0.147
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 22.2,
+              "share": 0.094,
+              "prevShare": 0.107
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "2kg",
+            "unitLabel": "2kg",
+            "varietyCode": "shine",
+            "qty": 48632,
+            "marketAvg": 5001,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 10242,
+                "qtyShare": 0.211,
+                "avg": 4933,
+                "vsMarketPct": -1.4
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 8569,
+                "qtyShare": 0.176,
+                "avg": 5453,
+                "vsMarketPct": 9
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 16331,
+                "qtyShare": 0.336,
+                "avg": 5248,
+                "vsMarketPct": 4.9
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 8296,
+                "qtyShare": 0.171,
+                "avg": 4522,
+                "vsMarketPct": -9.6
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 5194,
+                "qtyShare": 0.107,
+                "avg": 4378,
+                "vsMarketPct": -12.5
+              }
+            ]
+          },
+          {
+            "unitTag": "4kg",
+            "unitLabel": "4kg",
+            "varietyCode": "shine",
+            "qty": 33857,
+            "marketAvg": 11918,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 8504,
+                "qtyShare": 0.251,
+                "avg": 11697,
+                "vsMarketPct": -1.9
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 7534,
+                "qtyShare": 0.223,
+                "avg": 11497,
+                "vsMarketPct": -3.5
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 9371,
+                "qtyShare": 0.277,
+                "avg": 13367,
+                "vsMarketPct": 12.2
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 5586,
+                "qtyShare": 0.165,
+                "avg": 11151,
+                "vsMarketPct": -6.4
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 2862,
+                "qtyShare": 0.085,
+                "avg": 10435,
+                "vsMarketPct": -12.4
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -5857,6 +6415,143 @@
           "wholesaleUnit": "4kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-16",
+        "prevDate": "2026-09-15",
+        "total": {
+          "tons": 204.2,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 64.9,
+              "share": 0.318,
+              "prevShare": 0.316
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 21.1,
+              "share": 0.103,
+              "prevShare": 0.122
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 91.6,
+              "share": 0.449,
+              "prevShare": 0.401
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 11.2,
+              "share": 0.055,
+              "prevShare": 0.08
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 15.4,
+              "share": 0.075,
+              "prevShare": 0.08
+            }
+          ]
+        },
+        "variety": {
+          "code": "elberta",
+          "nameKo": "엘바트",
+          "tons": 49.4,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 15.6,
+              "share": 0.315,
+              "prevShare": 0.387
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 3.3,
+              "share": 0.067,
+              "prevShare": 0.135
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 25.6,
+              "share": 0.518,
+              "prevShare": 0.335
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 3.2,
+              "share": 0.064,
+              "prevShare": 0.101
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 1.8,
+              "share": 0.037,
+              "prevShare": 0.041
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "4kg",
+            "unitLabel": "4kg",
+            "varietyCode": "elberta",
+            "qty": 11619,
+            "marketAvg": 15472,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 3864,
+                "qtyShare": 0.333,
+                "avg": 15378,
+                "vsMarketPct": -0.6
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 582,
+                "qtyShare": 0.05,
+                "avg": 13378,
+                "vsMarketPct": -13.5
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 6023,
+                "qtyShare": 0.518,
+                "avg": 15648,
+                "vsMarketPct": 1.1
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 738,
+                "qtyShare": 0.064,
+                "avg": 15802,
+                "vsMarketPct": 2.1
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 412,
+                "qtyShare": 0.035,
+                "avg": 16138,
+                "vsMarketPct": 4.3
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -6658,7 +7353,103 @@
           "ratioSource": "부서 최근접 월 대표 10월 12267/33183"
         }
       },
-      "retail": null
+      "retail": null,
+      "corps": {
+        "date": "2026-09-16",
+        "prevDate": "2026-09-15",
+        "total": {
+          "tons": 3.5,
+          "corps": [
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 2.3,
+              "share": 0.663,
+              "prevShare": 0.679
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 1.2,
+              "share": 0.337,
+              "prevShare": 0.321
+            }
+          ]
+        },
+        "variety": {
+          "code": "태추",
+          "nameKo": "태추",
+          "tons": 1.6,
+          "corps": [
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 0.9,
+              "share": 0.596,
+              "prevShare": 0.67
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 0.6,
+              "share": 0.404,
+              "prevShare": 0.33
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "4.5kg",
+            "unitLabel": "4.5kg",
+            "varietyCode": "태추",
+            "qty": 203,
+            "marketAvg": 32601,
+            "corps": [
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 100,
+                "qtyShare": 0.493,
+                "avg": 42660,
+                "vsMarketPct": 30.9
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 103,
+                "qtyShare": 0.507,
+                "avg": 22835,
+                "vsMarketPct": -30
+              }
+            ]
+          },
+          {
+            "unitTag": "5kg",
+            "unitLabel": "5kg",
+            "varietyCode": "태추",
+            "qty": 108,
+            "marketAvg": 29167,
+            "corps": [
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 99,
+                "qtyShare": 0.917,
+                "avg": 30646,
+                "vsMarketPct": 5.1
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 9,
+                "qtyShare": 0.083,
+                "avg": 12889,
+                "vsMarketPct": -55.8
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "itemCode": "citrus",
@@ -9196,6 +9987,162 @@
           "wholesaleUnit": "3kg"
         },
         "ratioToWholesale": null
+      },
+      "corps": {
+        "date": "2026-09-16",
+        "prevDate": "2026-09-15",
+        "total": {
+          "tons": 43.7,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 12.5,
+              "share": 0.286,
+              "prevShare": 0.299
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 10.6,
+              "share": 0.243,
+              "prevShare": 0.248
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 16.5,
+              "share": 0.377,
+              "prevShare": 0.363
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 4.1,
+              "share": 0.094,
+              "prevShare": 0.09
+            }
+          ]
+        },
+        "variety": {
+          "code": "house",
+          "nameKo": "하우스감귤",
+          "tons": 42.6,
+          "corps": [
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 12.1,
+              "share": 0.283,
+              "prevShare": 0.305
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 10.6,
+              "share": 0.249,
+              "prevShare": 0.261
+            },
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 15.8,
+              "share": 0.37,
+              "prevShare": 0.339
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 4.1,
+              "share": 0.097,
+              "prevShare": 0.095
+            }
+          ]
+        },
+        "lanes": [
+          {
+            "unitTag": "3kg",
+            "unitLabel": "3kg",
+            "varietyCode": "house",
+            "qty": 7002,
+            "marketAvg": 20990,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 1884,
+                "qtyShare": 0.269,
+                "avg": 20092,
+                "vsMarketPct": -4.3
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 1220,
+                "qtyShare": 0.174,
+                "avg": 21450,
+                "vsMarketPct": 2.2
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 3080,
+                "qtyShare": 0.44,
+                "avg": 22726,
+                "vsMarketPct": 8.3
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 818,
+                "qtyShare": 0.117,
+                "avg": 15835,
+                "vsMarketPct": -24.6
+              }
+            ]
+          },
+          {
+            "unitTag": "6kg",
+            "unitLabel": "6kg",
+            "varietyCode": "house",
+            "qty": 1954,
+            "marketAvg": 28434,
+            "corps": [
+              {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 530,
+                "qtyShare": 0.271,
+                "avg": 30743,
+                "vsMarketPct": 8.1
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 556,
+                "qtyShare": 0.285,
+                "avg": 23009,
+                "vsMarketPct": -19.1
+              },
+              {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 727,
+                "qtyShare": 0.372,
+                "avg": 32454,
+                "vsMarketPct": 14.1
+              },
+              {
+                "corpCode": "11000105",
+                "corpName": "한국청과",
+                "qty": 141,
+                "qtyShare": 0.072,
+                "avg": 20426,
+                "vsMarketPct": -28.2
+              }
+            ]
+          }
+        ]
       }
     }
   ],
@@ -9282,6 +10229,7 @@
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-08-16..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2021-08-16..2021-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
       "GarakOriginPriceCache itemCode IN fruit dateKey 2026-09-12..2026-09-16 (당일 상위 산지, 상세 전용)",
+      "GarakCorpTradeCache itemCode IN fruit dateKey 2026-09-10..2026-09-16 (법인별 거래, 상세 전용)",
       "apple: BIX5 반복값 3449행 제외 (예 GARAK_SANG@SPECIAL 2021-08-20)",
       "pear: BIX5 반복값 900행 제외 (예 GARAK_SANG#U_7.5kg@SPECIAL 2021-09-27)",
       "grape: BIX5 반복값 1776행 제외 (예 GARAK_SANG@SPECIAL 2023-08-17)",
