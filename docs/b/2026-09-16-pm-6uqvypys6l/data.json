@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T07:25:50.497Z",
+  "generatedAt": "2026-09-16T07:38:02.665Z",
   "targetDate": "2026-09-16",
   "weekday": "수",
   "sentOn": "2026-09-16",
@@ -1955,6 +1955,8 @@
               "share": 0.417,
               "prevShare": 0.361,
               "yoyShare": 0.112,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -1976,6 +1978,8 @@
               "share": 0.14,
               "prevShare": 0.121,
               "yoyShare": 0.212,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -1997,6 +2001,8 @@
               "share": 0.068,
               "prevShare": 0.083,
               "yoyShare": 0.058,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2018,6 +2024,8 @@
               "share": 0.065,
               "prevShare": 0.065,
               "yoyShare": 0.008,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2039,6 +2047,8 @@
               "share": 0.06,
               "prevShare": 0.091,
               "yoyShare": 0.091,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2060,6 +2070,8 @@
               "share": 0.053,
               "prevShare": 0.08,
               "yoyShare": 0.281,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2081,6 +2093,8 @@
               "share": 0.046,
               "prevShare": 0,
               "yoyShare": 0.033,
+              "isNew": true,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2102,6 +2116,8 @@
               "share": 0.024,
               "prevShare": 0.032,
               "yoyShare": 0.046,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -2123,6 +2139,8 @@
               "share": 0.126,
               "prevShare": 0.166,
               "yoyShare": 0.159,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "10kg",
@@ -4215,6 +4233,8 @@
               "share": 0.412,
               "prevShare": 0.448,
               "yoyShare": 0.672,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4236,6 +4256,8 @@
               "share": 0.12,
               "prevShare": 0.131,
               "yoyShare": 0.063,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4257,6 +4279,8 @@
               "share": 0.106,
               "prevShare": 0.087,
               "yoyShare": 0.081,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4278,6 +4302,8 @@
               "share": 0.053,
               "prevShare": 0.068,
               "yoyShare": 0.005,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4299,6 +4325,8 @@
               "share": 0.049,
               "prevShare": 0.038,
               "yoyShare": 0.012,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4320,6 +4348,8 @@
               "share": 0.047,
               "prevShare": 0.053,
               "yoyShare": 0.022,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4341,6 +4371,8 @@
               "share": 0.041,
               "prevShare": 0.033,
               "yoyShare": 0,
+              "isNew": false,
+              "isNewVsYoy": true,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4362,6 +4394,8 @@
               "share": 0.03,
               "prevShare": 0.019,
               "yoyShare": 0,
+              "isNew": false,
+              "isNewVsYoy": true,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -4383,6 +4417,8 @@
               "share": 0.143,
               "prevShare": 0.123,
               "yoyShare": 0.146,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "15kg",
@@ -6593,6 +6629,8 @@
               "share": 0.394,
               "prevShare": 0.42,
               "yoyShare": 0.402,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6614,6 +6652,8 @@
               "share": 0.205,
               "prevShare": 0.191,
               "yoyShare": 0.192,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6635,6 +6675,8 @@
               "share": 0.159,
               "prevShare": 0.164,
               "yoyShare": 0.183,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6656,6 +6698,8 @@
               "share": 0.077,
               "prevShare": 0.073,
               "yoyShare": 0.058,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6677,6 +6721,8 @@
               "share": 0.068,
               "prevShare": 0.056,
               "yoyShare": 0.052,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6698,6 +6744,8 @@
               "share": 0.029,
               "prevShare": 0.02,
               "yoyShare": 0.021,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6719,6 +6767,8 @@
               "share": 0.027,
               "prevShare": 0.025,
               "yoyShare": 0.033,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6740,6 +6790,8 @@
               "share": 0.019,
               "prevShare": 0.02,
               "yoyShare": 0.021,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -6761,6 +6813,8 @@
               "share": 0.022,
               "prevShare": 0.031,
               "yoyShare": 0.038,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "2kg",
@@ -8416,6 +8470,8 @@
               "share": 0.912,
               "prevShare": 0.847,
               "yoyShare": 0.981,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8432,6 +8488,8 @@
               "share": 0.052,
               "prevShare": 0.025,
               "yoyShare": 0.019,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8448,6 +8506,8 @@
               "share": 0.018,
               "prevShare": 0.017,
               "yoyShare": 0,
+              "isNew": false,
+              "isNewVsYoy": true,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8464,6 +8524,8 @@
               "share": 0.007,
               "prevShare": 0.008,
               "yoyShare": 0,
+              "isNew": false,
+              "isNewVsYoy": true,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8480,6 +8542,8 @@
               "share": 0.005,
               "prevShare": 0.004,
               "yoyShare": 0,
+              "isNew": false,
+              "isNewVsYoy": true,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -8496,6 +8560,8 @@
               "share": 0.005,
               "prevShare": 0,
               "yoyShare": 0,
+              "isNew": true,
+              "isNewVsYoy": true,
               "prices": [
                 {
                   "unitTag": "4kg",
@@ -9608,6 +9674,8 @@
               "share": 1,
               "prevShare": 0.998,
               "yoyShare": 0.889,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4.5kg",
@@ -12423,6 +12491,8 @@
               "share": 0.876,
               "prevShare": 0.982,
               "yoyShare": 0.891,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "3kg",
@@ -12444,6 +12514,8 @@
               "share": 0.124,
               "prevShare": 0.018,
               "yoyShare": 0.096,
+              "isNew": false,
+              "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "3kg",
@@ -12575,6 +12647,7 @@
     "감귤 하우스감귤 3kg 23,927원(▼5.0%) 안정 회복 · 전일 주의↑",
     "포도 샤인머스캣 2kg 6,440원(▼0.9%) 경계↓ 지속 · 안정 대비 ▼57.8%"
   ],
+  "structuralHeadline": "사과 산지 전북 17%→46% (전년 추석 D−9 대비)",
   "chuseok": {
     "thisYear": {
       "chuseok": "2026-09-25",
