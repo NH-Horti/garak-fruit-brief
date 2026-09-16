@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T09:12:20.799Z",
+  "generatedAt": "2026-09-16T09:33:36.228Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-16",
@@ -27,6 +27,13 @@
           "date": "2026-09-12",
           "value": 238,
           "pct": 138.2
+        },
+        "vsYoy": {
+          "date": "2025-09-25",
+          "tons": 269.6,
+          "pct": 110.2,
+          "basis": "chuseok",
+          "daysBefore": 11
         }
       },
       "units": [
@@ -38,6 +45,20 @@
           "isAnchor": true,
           "qtyUnits": 29705,
           "tons": 297.1,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 164.3,
+              "pct": 80.8
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 104.9,
+              "pct": 183.2,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.614,
           "sang": {
             "date": "2026-09-14",
@@ -569,6 +590,20 @@
           "isAnchor": false,
           "qtyUnits": 36775,
           "tons": 183.9,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 51.2,
+              "pct": 259.2
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 87.8,
+              "pct": 109.5,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.38,
           "sang": {
             "date": "2026-09-14",
@@ -2369,6 +2404,13 @@
           "date": "2026-09-12",
           "value": 325,
           "pct": 69.8
+        },
+        "vsYoy": {
+          "date": "2025-09-25",
+          "tons": 402,
+          "pct": 37.3,
+          "basis": "chuseok",
+          "daysBefore": 11
         }
       },
       "units": [
@@ -2380,6 +2422,20 @@
           "isAnchor": true,
           "qtyUnits": 9173,
           "tons": 137.6,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 90.3,
+              "pct": 52.4
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 99.9,
+              "pct": 37.7,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.273,
           "sang": {
             "date": "2026-09-14",
@@ -2921,6 +2977,20 @@
           "isAnchor": false,
           "qtyUnits": 48324,
           "tons": 362.4,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 198.2,
+              "pct": 82.8
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 290.1,
+              "pct": 24.9,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.72,
           "sang": {
             "date": "2026-09-14",
@@ -4616,6 +4686,13 @@
           "date": "2026-09-12",
           "value": 381,
           "pct": 19.9
+        },
+        "vsYoy": {
+          "date": "2025-09-25",
+          "tons": 424,
+          "pct": 7.9,
+          "basis": "chuseok",
+          "daysBefore": 11
         }
       },
       "units": [
@@ -4627,6 +4704,20 @@
           "isAnchor": true,
           "qtyUnits": 66810,
           "tons": 133.6,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 106.1,
+              "pct": 25.9
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 107.3,
+              "pct": 24.5,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.479,
           "sang": {
             "date": "2026-09-14",
@@ -5158,6 +5249,20 @@
           "isAnchor": false,
           "qtyUnits": 35566,
           "tons": 142.3,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 102.7,
+              "pct": 38.6
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 160.4,
+              "pct": -11.3,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.51,
           "sang": {
             "date": "2026-09-14",
@@ -6995,6 +7100,13 @@
           "date": "2026-09-12",
           "value": 277,
           "pct": -6.5
+        },
+        "vsYoy": {
+          "date": "2025-09-25",
+          "tons": 101.7,
+          "pct": 154.3,
+          "basis": "chuseok",
+          "daysBefore": 11
         }
       },
       "units": [
@@ -7006,6 +7118,20 @@
           "isAnchor": false,
           "qtyUnits": 20223,
           "tons": 80.9,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 79.4,
+              "pct": 1.9
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 14.8,
+              "pct": 446.6,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.942,
           "sang": {
             "date": "2026-09-14",
@@ -7546,6 +7672,20 @@
           "isAnchor": false,
           "qtyUnits": 1762,
           "tons": 4.4,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 5.3,
+              "pct": -17
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 1.3,
+              "pct": 238.5,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.051,
           "sang": {
             "date": "2026-09-14",
@@ -9174,6 +9314,13 @@
           "date": "2026-09-11",
           "value": 3,
           "pct": 100
+        },
+        "vsYoy": {
+          "date": "2025-09-25",
+          "tons": 10.7,
+          "pct": -40.2,
+          "basis": "chuseok",
+          "daysBefore": 11
         }
       },
       "units": [
@@ -9185,6 +9332,20 @@
           "isAnchor": false,
           "qtyUnits": 427,
           "tons": 2.1,
+          "vol": {
+            "prev": {
+              "date": "2026-09-11",
+              "tons": 0.3,
+              "pct": 600
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 1.1,
+              "pct": 90.9,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.467,
           "sang": {
             "date": "2026-09-14",
@@ -9387,6 +9548,20 @@
           "isAnchor": false,
           "qtyUnits": 278,
           "tons": 1.3,
+          "vol": {
+            "prev": {
+              "date": "2026-09-11",
+              "tons": 0.8,
+              "pct": 62.5
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 0.7,
+              "pct": 85.7,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.274,
           "sang": {
             "date": "2026-09-14",
@@ -9559,6 +9734,20 @@
           "isAnchor": false,
           "qtyUnits": 359,
           "tons": 0.9,
+          "vol": {
+            "prev": {
+              "date": "2026-09-11",
+              "tons": 0.6,
+              "pct": 50
+            },
+            "yoy": {
+              "date": "2025-09-24",
+              "tons": 0.1,
+              "pct": 800,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.196,
           "sang": {
             "date": "2026-09-14",
@@ -9761,6 +9950,14 @@
           "isAnchor": false,
           "qtyUnits": 96,
           "tons": 0.3,
+          "vol": {
+            "prev": {
+              "date": "2026-09-11",
+              "tons": 0,
+              "pct": null
+            },
+            "yoy": null
+          },
           "kgShare": 0.063,
           "sang": {
             "date": "2026-09-14",
@@ -10311,6 +10508,13 @@
           "date": "2026-09-12",
           "value": 30,
           "pct": 33.3
+        },
+        "vsYoy": {
+          "date": "2025-09-25",
+          "tons": 36.7,
+          "pct": 7.6,
+          "basis": "chuseok",
+          "daysBefore": 11
         }
       },
       "units": [
@@ -10322,6 +10526,20 @@
           "isAnchor": true,
           "qtyUnits": 7034,
           "tons": 21.1,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 14.7,
+              "pct": 43.5
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 19.3,
+              "pct": 9.3,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.556,
           "sang": {
             "date": "2026-09-14",
@@ -10838,6 +11056,20 @@
           "isAnchor": false,
           "qtyUnits": 1606,
           "tons": 9.6,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 9.5,
+              "pct": 1.1
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 6.5,
+              "pct": 47.7,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.254,
           "sang": {
             "date": "2026-09-14",
@@ -11226,6 +11458,20 @@
           "isAnchor": false,
           "qtyUnits": 345,
           "tons": 3.5,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 1.9,
+              "pct": 84.2
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 1.8,
+              "pct": 94.4,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.091,
           "sang": {
             "date": "2026-09-14",
@@ -11762,6 +12008,20 @@
           "isAnchor": false,
           "qtyUnits": 646,
           "tons": 3.2,
+          "vol": {
+            "prev": {
+              "date": "2026-09-12",
+              "tons": 0.8,
+              "pct": 300
+            },
+            "yoy": {
+              "date": "2025-09-25",
+              "tons": 3.9,
+              "pct": -17.9,
+              "basis": "chuseok",
+              "daysBefore": 11
+            }
+          },
           "kgShare": 0.085,
           "sang": {
             "date": "2026-09-14",
