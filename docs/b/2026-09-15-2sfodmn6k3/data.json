@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T06:16:00.541Z",
+  "generatedAt": "2026-09-16T06:19:27.882Z",
   "targetDate": "2026-09-15",
   "weekday": "화",
   "sentOn": "2026-09-16",
@@ -1697,6 +1697,7 @@
             "unitLabel": "10kg",
             "varietyCode": "hongro",
             "qty": 24825,
+            "tons": 248.3,
             "marketAvg": 39202,
             "corps": [
               {
@@ -1746,6 +1747,7 @@
             "unitLabel": "5kg",
             "varietyCode": "hongro",
             "qty": 32370,
+            "tons": 161.9,
             "marketAvg": 38563,
             "corps": [
               {
@@ -3372,6 +3374,7 @@
             "unitLabel": "15kg",
             "varietyCode": "shingo",
             "qty": 8118,
+            "tons": 121.8,
             "marketAvg": 42689,
             "corps": [
               {
@@ -3421,6 +3424,7 @@
             "unitLabel": "7.5kg",
             "varietyCode": "shingo",
             "qty": 51202,
+            "tons": 384,
             "marketAvg": 32611,
             "corps": [
               {
@@ -5177,6 +5181,7 @@
             "unitLabel": "2kg",
             "varietyCode": "shine",
             "qty": 55370,
+            "tons": 110.7,
             "marketAvg": 4970,
             "corps": [
               {
@@ -5226,6 +5231,7 @@
             "unitLabel": "4kg",
             "varietyCode": "shine",
             "qty": 34743,
+            "tons": 139,
             "marketAvg": 11847,
             "corps": [
               {
@@ -6928,6 +6934,7 @@
             "unitLabel": "4kg",
             "varietyCode": "elberta",
             "qty": 12685,
+            "tons": 50.7,
             "marketAvg": 15597,
             "corps": [
               {
@@ -7788,6 +7795,7 @@
             "unitLabel": "4.5kg",
             "varietyCode": "태추",
             "qty": 216,
+            "tons": 1,
             "marketAvg": 31000,
             "corps": [
               {
@@ -7813,6 +7821,7 @@
             "unitLabel": "2.5kg",
             "varietyCode": "태추",
             "qty": 364,
+            "tons": 0.9,
             "marketAvg": 17574,
             "corps": [
               {
@@ -9903,6 +9912,7 @@
             "unitLabel": "3kg",
             "varietyCode": "house",
             "qty": 6872,
+            "tons": 20.6,
             "marketAvg": 21318,
             "corps": [
               {
@@ -9944,6 +9954,7 @@
             "unitLabel": "6kg",
             "varietyCode": "house",
             "qty": 1718,
+            "tons": 10.3,
             "marketAvg": 31072,
             "corps": [
               {
