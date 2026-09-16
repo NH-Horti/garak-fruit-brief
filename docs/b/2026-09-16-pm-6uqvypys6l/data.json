@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T06:03:04.387Z",
+  "generatedAt": "2026-09-16T06:09:34.258Z",
   "targetDate": "2026-09-16",
   "weekday": "수",
   "sentOn": "2026-09-16",
@@ -1620,18 +1620,18 @@
               "prevShare": 0.331
             },
             {
-              "corpCode": "11000102",
-              "corpName": "농협(공)",
-              "tons": 69,
-              "share": 0.172,
-              "prevShare": 0.178
-            },
-            {
               "corpCode": "11000103",
               "corpName": "중앙청과",
               "tons": 115,
               "share": 0.287,
               "prevShare": 0.328
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 69,
+              "share": 0.172,
+              "prevShare": 0.178
             },
             {
               "corpCode": "11000104",
@@ -1662,18 +1662,18 @@
               "prevShare": 0.373
             },
             {
-              "corpCode": "11000102",
-              "corpName": "농협(공)",
-              "tons": 51.8,
-              "share": 0.149,
-              "prevShare": 0.179
-            },
-            {
               "corpCode": "11000103",
               "corpName": "중앙청과",
               "tons": 91.7,
               "share": 0.263,
               "prevShare": 0.304
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 51.8,
+              "share": 0.149,
+              "prevShare": 0.179
             },
             {
               "corpCode": "11000104",
@@ -1708,20 +1708,20 @@
                 "vsMarketPct": 2.4
               },
               {
-                "corpCode": "11000102",
-                "corpName": "농협(공)",
-                "qty": 3409,
-                "qtyShare": 0.174,
-                "avg": 33268,
-                "vsMarketPct": 3.9
-              },
-              {
                 "corpCode": "11000103",
                 "corpName": "중앙청과",
                 "qty": 5398,
                 "qtyShare": 0.275,
                 "avg": 32160,
                 "vsMarketPct": 0.4
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 3409,
+                "qtyShare": 0.174,
+                "avg": 33268,
+                "vsMarketPct": 3.9
               },
               {
                 "corpCode": "11000104",
@@ -1757,14 +1757,6 @@
                 "vsMarketPct": -9.5
               },
               {
-                "corpCode": "11000102",
-                "corpName": "농협(공)",
-                "qty": 3550,
-                "qtyShare": 0.117,
-                "avg": 38223,
-                "vsMarketPct": 12
-              },
-              {
                 "corpCode": "11000103",
                 "corpName": "중앙청과",
                 "qty": 7533,
@@ -1779,6 +1771,14 @@
                 "qtyShare": 0.122,
                 "avg": 39634,
                 "vsMarketPct": 16.1
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 3550,
+                "qtyShare": 0.117,
+                "avg": 38223,
+                "vsMarketPct": 12
               },
               {
                 "corpCode": "11000105",
@@ -3294,13 +3294,6 @@
               "prevShare": 0.304
             },
             {
-              "corpCode": "11000102",
-              "corpName": "농협(공)",
-              "tons": 84.9,
-              "share": 0.184,
-              "prevShare": 0.214
-            },
-            {
               "corpCode": "11000103",
               "corpName": "중앙청과",
               "tons": 102.3,
@@ -3308,11 +3301,11 @@
               "prevShare": 0.255
             },
             {
-              "corpCode": "11000104",
-              "corpName": "동부팜청과",
-              "tons": 43.6,
-              "share": 0.094,
-              "prevShare": 0.134
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 84.9,
+              "share": 0.184,
+              "prevShare": 0.214
             },
             {
               "corpCode": "11000105",
@@ -3320,6 +3313,13 @@
               "tons": 56.5,
               "share": 0.122,
               "prevShare": 0.094
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 43.6,
+              "share": 0.094,
+              "prevShare": 0.134
             }
           ]
         },
@@ -3336,13 +3336,6 @@
               "prevShare": 0.304
             },
             {
-              "corpCode": "11000102",
-              "corpName": "농협(공)",
-              "tons": 77.8,
-              "share": 0.18,
-              "prevShare": 0.215
-            },
-            {
               "corpCode": "11000103",
               "corpName": "중앙청과",
               "tons": 95.2,
@@ -3350,11 +3343,11 @@
               "prevShare": 0.245
             },
             {
-              "corpCode": "11000104",
-              "corpName": "동부팜청과",
-              "tons": 34.5,
-              "share": 0.08,
-              "prevShare": 0.137
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 77.8,
+              "share": 0.18,
+              "prevShare": 0.215
             },
             {
               "corpCode": "11000105",
@@ -3362,6 +3355,13 @@
               "tons": 56.1,
               "share": 0.13,
               "prevShare": 0.099
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 34.5,
+              "share": 0.08,
+              "prevShare": 0.137
             }
           ]
         },
@@ -3398,20 +3398,20 @@
                 "vsMarketPct": 0.5
               },
               {
-                "corpCode": "11000104",
-                "corpName": "동부팜청과",
-                "qty": 198,
-                "qtyShare": 0.028,
-                "avg": 38763,
-                "vsMarketPct": -5.3
-              },
-              {
                 "corpCode": "11000105",
                 "corpName": "한국청과",
                 "qty": 1230,
                 "qtyShare": 0.171,
                 "avg": 38295,
                 "vsMarketPct": -6.4
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 198,
+                "qtyShare": 0.028,
+                "avg": 38763,
+                "vsMarketPct": -5.3
               }
             ]
           },
@@ -3431,14 +3431,6 @@
                 "vsMarketPct": -2.2
               },
               {
-                "corpCode": "11000102",
-                "corpName": "농협(공)",
-                "qty": 6208,
-                "qtyShare": 0.147,
-                "avg": 31496,
-                "vsMarketPct": 3.2
-              },
-              {
                 "corpCode": "11000103",
                 "corpName": "중앙청과",
                 "qty": 9343,
@@ -3447,12 +3439,12 @@
                 "vsMarketPct": 3
               },
               {
-                "corpCode": "11000104",
-                "corpName": "동부팜청과",
-                "qty": 3486,
-                "qtyShare": 0.083,
-                "avg": 33596,
-                "vsMarketPct": 10.1
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 6208,
+                "qtyShare": 0.147,
+                "avg": 31496,
+                "vsMarketPct": 3.2
               },
               {
                 "corpCode": "11000105",
@@ -3461,6 +3453,14 @@
                 "qtyShare": 0.119,
                 "avg": 27930,
                 "vsMarketPct": -8.5
+              },
+              {
+                "corpCode": "11000104",
+                "corpName": "동부팜청과",
+                "qty": 3486,
+                "qtyShare": 0.083,
+                "avg": 33596,
+                "vsMarketPct": 10.1
               }
             ]
           }
@@ -5092,6 +5092,13 @@
           "tons": 408.2,
           "corps": [
             {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 127.1,
+              "share": 0.311,
+              "prevShare": 0.283
+            },
+            {
               "corpCode": "11000101",
               "corpName": "서울청과",
               "tons": 95.9,
@@ -5104,13 +5111,6 @@
               "tons": 88.6,
               "share": 0.217,
               "prevShare": 0.211
-            },
-            {
-              "corpCode": "11000103",
-              "corpName": "중앙청과",
-              "tons": 127.1,
-              "share": 0.311,
-              "prevShare": 0.283
             },
             {
               "corpCode": "11000104",
@@ -5134,6 +5134,13 @@
           "tons": 234.7,
           "corps": [
             {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 70.4,
+              "share": 0.3,
+              "prevShare": 0.255
+            },
+            {
               "corpCode": "11000101",
               "corpName": "서울청과",
               "tons": 54.7,
@@ -5146,13 +5153,6 @@
               "tons": 47.3,
               "share": 0.201,
               "prevShare": 0.19
-            },
-            {
-              "corpCode": "11000103",
-              "corpName": "중앙청과",
-              "tons": 70.4,
-              "share": 0.3,
-              "prevShare": 0.255
             },
             {
               "corpCode": "11000104",
@@ -5179,6 +5179,14 @@
             "marketAvg": 5001,
             "corps": [
               {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 16331,
+                "qtyShare": 0.336,
+                "avg": 5248,
+                "vsMarketPct": 4.9
+              },
+              {
                 "corpCode": "11000101",
                 "corpName": "서울청과",
                 "qty": 10242,
@@ -5193,14 +5201,6 @@
                 "qtyShare": 0.176,
                 "avg": 5453,
                 "vsMarketPct": 9
-              },
-              {
-                "corpCode": "11000103",
-                "corpName": "중앙청과",
-                "qty": 16331,
-                "qtyShare": 0.336,
-                "avg": 5248,
-                "vsMarketPct": 4.9
               },
               {
                 "corpCode": "11000104",
@@ -5228,6 +5228,14 @@
             "marketAvg": 11918,
             "corps": [
               {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 9371,
+                "qtyShare": 0.277,
+                "avg": 13367,
+                "vsMarketPct": 12.2
+              },
+              {
                 "corpCode": "11000101",
                 "corpName": "서울청과",
                 "qty": 8504,
@@ -5242,14 +5250,6 @@
                 "qtyShare": 0.223,
                 "avg": 11497,
                 "vsMarketPct": -3.5
-              },
-              {
-                "corpCode": "11000103",
-                "corpName": "중앙청과",
-                "qty": 9371,
-                "qtyShare": 0.277,
-                "avg": 13367,
-                "vsMarketPct": 12.2
               },
               {
                 "corpCode": "11000104",
@@ -6423,6 +6423,13 @@
           "tons": 204.2,
           "corps": [
             {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 91.6,
+              "share": 0.449,
+              "prevShare": 0.401
+            },
+            {
               "corpCode": "11000101",
               "corpName": "서울청과",
               "tons": 64.9,
@@ -6437,24 +6444,17 @@
               "prevShare": 0.122
             },
             {
-              "corpCode": "11000103",
-              "corpName": "중앙청과",
-              "tons": 91.6,
-              "share": 0.449,
-              "prevShare": 0.401
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 15.4,
+              "share": 0.075,
+              "prevShare": 0.08
             },
             {
               "corpCode": "11000104",
               "corpName": "동부팜청과",
               "tons": 11.2,
               "share": 0.055,
-              "prevShare": 0.08
-            },
-            {
-              "corpCode": "11000105",
-              "corpName": "한국청과",
-              "tons": 15.4,
-              "share": 0.075,
               "prevShare": 0.08
             }
           ]
@@ -6464,6 +6464,13 @@
           "nameKo": "엘바트",
           "tons": 49.4,
           "corps": [
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 25.6,
+              "share": 0.518,
+              "prevShare": 0.335
+            },
             {
               "corpCode": "11000101",
               "corpName": "서울청과",
@@ -6477,13 +6484,6 @@
               "tons": 3.3,
               "share": 0.067,
               "prevShare": 0.135
-            },
-            {
-              "corpCode": "11000103",
-              "corpName": "중앙청과",
-              "tons": 25.6,
-              "share": 0.518,
-              "prevShare": 0.335
             },
             {
               "corpCode": "11000104",
@@ -6510,22 +6510,6 @@
             "marketAvg": 15472,
             "corps": [
               {
-                "corpCode": "11000101",
-                "corpName": "서울청과",
-                "qty": 3864,
-                "qtyShare": 0.333,
-                "avg": 15378,
-                "vsMarketPct": -0.6
-              },
-              {
-                "corpCode": "11000102",
-                "corpName": "농협(공)",
-                "qty": 582,
-                "qtyShare": 0.05,
-                "avg": 13378,
-                "vsMarketPct": -13.5
-              },
-              {
                 "corpCode": "11000103",
                 "corpName": "중앙청과",
                 "qty": 6023,
@@ -6534,12 +6518,28 @@
                 "vsMarketPct": 1.1
               },
               {
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 3864,
+                "qtyShare": 0.333,
+                "avg": 15378,
+                "vsMarketPct": -0.6
+              },
+              {
                 "corpCode": "11000104",
                 "corpName": "동부팜청과",
                 "qty": 738,
                 "qtyShare": 0.064,
                 "avg": 15802,
                 "vsMarketPct": 2.1
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 582,
+                "qtyShare": 0.05,
+                "avg": 13378,
+                "vsMarketPct": -13.5
               },
               {
                 "corpCode": "11000105",
@@ -7406,20 +7406,20 @@
             "marketAvg": 32601,
             "corps": [
               {
-                "corpCode": "11000102",
-                "corpName": "농협(공)",
-                "qty": 100,
-                "qtyShare": 0.493,
-                "avg": 42660,
-                "vsMarketPct": 30.9
-              },
-              {
                 "corpCode": "11000105",
                 "corpName": "한국청과",
                 "qty": 103,
                 "qtyShare": 0.507,
                 "avg": 22835,
                 "vsMarketPct": -30
+              },
+              {
+                "corpCode": "11000102",
+                "corpName": "농협(공)",
+                "qty": 100,
+                "qtyShare": 0.493,
+                "avg": 42660,
+                "vsMarketPct": 30.9
               }
             ]
           },
@@ -9995,6 +9995,13 @@
           "tons": 43.7,
           "corps": [
             {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 16.5,
+              "share": 0.377,
+              "prevShare": 0.363
+            },
+            {
               "corpCode": "11000101",
               "corpName": "서울청과",
               "tons": 12.5,
@@ -10007,13 +10014,6 @@
               "tons": 10.6,
               "share": 0.243,
               "prevShare": 0.248
-            },
-            {
-              "corpCode": "11000103",
-              "corpName": "중앙청과",
-              "tons": 16.5,
-              "share": 0.377,
-              "prevShare": 0.363
             },
             {
               "corpCode": "11000105",
@@ -10030,6 +10030,13 @@
           "tons": 42.6,
           "corps": [
             {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 15.8,
+              "share": 0.37,
+              "prevShare": 0.339
+            },
+            {
               "corpCode": "11000101",
               "corpName": "서울청과",
               "tons": 12.1,
@@ -10042,13 +10049,6 @@
               "tons": 10.6,
               "share": 0.249,
               "prevShare": 0.261
-            },
-            {
-              "corpCode": "11000103",
-              "corpName": "중앙청과",
-              "tons": 15.8,
-              "share": 0.37,
-              "prevShare": 0.339
             },
             {
               "corpCode": "11000105",
@@ -10068,6 +10068,14 @@
             "marketAvg": 20990,
             "corps": [
               {
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 3080,
+                "qtyShare": 0.44,
+                "avg": 22726,
+                "vsMarketPct": 8.3
+              },
+              {
                 "corpCode": "11000101",
                 "corpName": "서울청과",
                 "qty": 1884,
@@ -10082,14 +10090,6 @@
                 "qtyShare": 0.174,
                 "avg": 21450,
                 "vsMarketPct": 2.2
-              },
-              {
-                "corpCode": "11000103",
-                "corpName": "중앙청과",
-                "qty": 3080,
-                "qtyShare": 0.44,
-                "avg": 22726,
-                "vsMarketPct": 8.3
               },
               {
                 "corpCode": "11000105",
@@ -10109,12 +10109,12 @@
             "marketAvg": 28434,
             "corps": [
               {
-                "corpCode": "11000101",
-                "corpName": "서울청과",
-                "qty": 530,
-                "qtyShare": 0.271,
-                "avg": 30743,
-                "vsMarketPct": 8.1
+                "corpCode": "11000103",
+                "corpName": "중앙청과",
+                "qty": 727,
+                "qtyShare": 0.372,
+                "avg": 32454,
+                "vsMarketPct": 14.1
               },
               {
                 "corpCode": "11000102",
@@ -10125,12 +10125,12 @@
                 "vsMarketPct": -19.1
               },
               {
-                "corpCode": "11000103",
-                "corpName": "중앙청과",
-                "qty": 727,
-                "qtyShare": 0.372,
-                "avg": 32454,
-                "vsMarketPct": 14.1
+                "corpCode": "11000101",
+                "corpName": "서울청과",
+                "qty": 530,
+                "qtyShare": 0.271,
+                "avg": 30743,
+                "vsMarketPct": 8.1
               },
               {
                 "corpCode": "11000105",
