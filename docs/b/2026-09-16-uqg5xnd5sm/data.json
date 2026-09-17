@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T20:07:49.671Z",
+  "generatedAt": "2026-09-17T05:02:01.067Z",
   "targetDate": "2026-09-16",
   "weekday": "수",
   "sentOn": "2026-09-17",
@@ -29,6 +29,13 @@
           "pct": -19.2
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 231.1,
+          "pct": 73.3,
+          "basis": "date",
+          "daysBefore": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 126.3,
           "pct": 217.2,
@@ -52,6 +59,13 @@
               "pct": -20.9
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 177.1,
+              "pct": 10.9,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 61.6,
               "pct": 218.8,
@@ -609,6 +623,13 @@
               "pct": -6.4
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 35.1,
+              "pct": 331.9,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 33.9,
               "pct": 347.2,
@@ -2449,6 +2470,13 @@
           "pct": -15.5
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 211.8,
+          "pct": 118.2,
+          "basis": "date",
+          "daysBefore": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 362,
           "pct": 27.7,
@@ -2472,6 +2500,13 @@
               "pct": -11.5
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 40.5,
+              "pct": 166.2,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 87.5,
               "pct": 23.2,
@@ -3038,6 +3073,13 @@
               "pct": -17.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 129.4,
+              "pct": 144.5,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 265.7,
               "pct": 19.1,
@@ -4770,6 +4812,13 @@
           "pct": -4.2
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 383.9,
+          "pct": 6.3,
+          "basis": "date",
+          "daysBefore": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 414.2,
           "pct": -1.4,
@@ -4793,6 +4842,13 @@
               "pct": -12.1
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 110.9,
+              "pct": -12.3,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 112.4,
               "pct": -13.4,
@@ -5350,6 +5406,13 @@
               "pct": -2.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 101.9,
+              "pct": 32.9,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 158.7,
               "pct": -14.7,
@@ -7223,6 +7286,13 @@
           "pct": -4.2
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 213.8,
+          "pct": -4.5,
+          "basis": "date",
+          "daysBefore": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 103.4,
           "pct": 97.5,
@@ -7246,6 +7316,13 @@
               "pct": -8.3
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 84.6,
+              "pct": -45,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 12.2,
               "pct": 281.1,
@@ -8908,6 +8985,13 @@
           "pct": -25
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 1.8,
+          "pct": 94.4,
+          "basis": "date",
+          "daysBefore": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 10,
           "pct": -65,
@@ -8931,6 +9015,13 @@
               "pct": -10
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.5,
+              "pct": 80,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 0.3,
               "pct": 200,
@@ -9141,6 +9232,13 @@
               "pct": -28.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.5,
+              "pct": 0,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 1,
               "pct": -50,
@@ -9381,6 +9479,13 @@
               "pct": -88.9
             },
             "yoy": {
+              "date": "2025-09-15",
+              "tons": 0.2,
+              "pct": -50,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-29",
               "tons": 0.1,
               "pct": 0,
@@ -9973,6 +10078,13 @@
           "pct": 15.8
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 25.7,
+          "pct": 70,
+          "basis": "date",
+          "daysBefore": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 56.5,
           "pct": -22.7,
@@ -9996,6 +10108,13 @@
               "pct": 1.9
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 15.5,
+              "pct": 35.5,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 19.3,
               "pct": 8.8,
@@ -10538,6 +10657,13 @@
               "pct": 13.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 8.8,
+              "pct": 33,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 8,
               "pct": 46.2,
@@ -10952,6 +11078,13 @@
               "pct": 300
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.2,
+              "pct": 2300,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 1.3,
               "pct": 269.2,
@@ -11514,6 +11647,13 @@
               "pct": 35.7
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.4,
+              "pct": 850,
+              "basis": "date",
+              "daysBefore": null
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 9.6,
               "pct": -60.4,
