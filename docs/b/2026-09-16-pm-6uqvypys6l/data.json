@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T09:31:29.600Z",
+  "generatedAt": "2026-09-18T14:19:36.471Z",
   "targetDate": "2026-09-16",
   "weekday": "수",
   "sentOn": "2026-09-16",
@@ -29,11 +29,20 @@
           "pct": -19.2
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 231.1,
+          "pct": 73.3,
+          "basis": "date",
+          "daysBefore": null,
+          "share": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 126.3,
           "pct": 217.2,
           "basis": "chuseok",
-          "daysBefore": 9
+          "daysBefore": 9,
+          "share": null
         }
       },
       "units": [
@@ -52,12 +61,143 @@
               "pct": -20.9
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 177.1,
+              "pct": 10.9,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.817
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 61.6,
               "pct": 218.8,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.614
+            },
+            "avg5": {
+              "tons": 258,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 69.6
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 117.4
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 191.4
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 265.1
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 203.9
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 348.6
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 241.6
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 224.4
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 261
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 319.4
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 164.3
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 297.1
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 248.3
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 196.4
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 166.8
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 125.2
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 105.4
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 110.9
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 134.2
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 87.9
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 169.5
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 113.8
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 161.8
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 130.6
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 229.5
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 130.7
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 238.5
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 177.1
+              }
+            ]
           },
           "kgShare": 0.564,
           "sang": {
@@ -94,6 +234,21 @@
                   2024,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 112637,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 5.7,
+                "vsYoyPct": 3.4,
+                "vsNormalPct": 31.1,
+                "yoyToDate": {
+                  "value": 98831,
+                  "days": 14,
+                  "pct": 14
+                }
               }
             },
             "HIGH": {
@@ -122,6 +277,21 @@
                   2024,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 55111,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -22.8,
+                "vsYoyPct": -15,
+                "vsNormalPct": 14.1,
+                "yoyToDate": {
+                  "value": 64815,
+                  "days": 14,
+                  "pct": -15
+                }
               }
             },
             "MID": {
@@ -150,6 +320,21 @@
                   2024,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 36827,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -24.6,
+                "vsYoyPct": -15.5,
+                "vsNormalPct": 16.9,
+                "yoyToDate": {
+                  "value": 45115,
+                  "days": 14,
+                  "pct": -18.4
+                }
               }
             },
             "LOW": {
@@ -178,6 +363,21 @@
                   2024,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 21972,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -25.8,
+                "vsYoyPct": -13.1,
+                "vsNormalPct": 22.9,
+                "yoyToDate": {
+                  "value": 26834,
+                  "days": 14,
+                  "pct": -18.1
+                }
               }
             }
           },
@@ -206,6 +406,21 @@
               2021
             ]
           },
+          "mtd": {
+            "avg": 55111,
+            "days": 14,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": -22.8,
+            "vsYoyPct": -15,
+            "vsNormalPct": 14.1,
+            "yoyToDate": {
+              "value": 64815,
+              "days": 14,
+              "pct": -15
+            }
+          },
           "vsChuseok": {
             "date": "2025-09-27",
             "value": 69328,
@@ -215,32 +430,32 @@
           },
           "origins": {
             "date": "2026-09-16",
-            "laneAvg": 30079,
+            "laneAvg": 32346,
             "origins": [
               {
                 "rank": 1,
-                "name": "충청북도 충주시",
-                "avg": 29140
+                "name": "전라북도 장수군",
+                "avg": 34445
               },
               {
                 "rank": 2,
-                "name": "전라북도 장수군",
-                "avg": 32117
+                "name": "충청북도 충주시",
+                "avg": 30184
               },
               {
                 "rank": 3,
-                "name": "경상북도 의성군",
-                "avg": 24313
+                "name": "충청북도 괴산군",
+                "avg": 25884
               },
               {
                 "rank": 4,
-                "name": "강원도 삼척시",
-                "avg": 21793
+                "name": "전라북도 무주군",
+                "avg": 31264
               },
               {
                 "rank": 5,
-                "name": "충청남도 서산시",
-                "avg": 27460
+                "name": "강원도 양구군",
+                "avg": 41273
               }
             ]
           },
@@ -609,12 +824,139 @@
               "pct": -6.4
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 35.1,
+              "pct": 331.9,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.162
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 33.9,
               "pct": 347.2,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.338
+            },
+            "avg5": {
+              "tons": 118.1,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 0.2
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 0.5
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 21.8
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 6.6
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 36.1
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 77.4
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 115.9
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 51.2
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 183.9
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 161.9
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 151.6
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 0
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 0
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 0
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 2.5
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 0.9
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 0.3
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 4.7
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 5.2
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 7
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 21.5
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 35.1
+              }
+            ]
           },
           "kgShare": 0.436,
           "sang": {
@@ -651,6 +993,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 70465,
+                "days": 10,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": -17.1,
+                "vsNormalPct": 4,
+                "yoyToDate": {
+                  "value": 63315,
+                  "days": 6,
+                  "pct": 11.3
+                }
               }
             },
             "HIGH": {
@@ -679,6 +1036,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 51872,
+                "days": 10,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": -16.2,
+                "vsNormalPct": 2.6,
+                "yoyToDate": {
+                  "value": 51332,
+                  "days": 6,
+                  "pct": 1.1
+                }
               }
             },
             "MID": {
@@ -707,6 +1079,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 33773,
+                "days": 10,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": -15.8,
+                "vsNormalPct": -1.2,
+                "yoyToDate": {
+                  "value": 36728,
+                  "days": 6,
+                  "pct": -8
+                }
               }
             },
             "LOW": {
@@ -735,6 +1122,21 @@
                   2024,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 18498,
+                "days": 10,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": -22.3,
+                "vsNormalPct": -10.1,
+                "yoyToDate": {
+                  "value": 23515,
+                  "days": 6,
+                  "pct": -21.3
+                }
               }
             }
           },
@@ -763,6 +1165,21 @@
               2021
             ]
           },
+          "mtd": {
+            "avg": 51872,
+            "days": 10,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": null,
+            "vsYoyPct": -16.2,
+            "vsNormalPct": 2.6,
+            "yoyToDate": {
+              "value": 51332,
+              "days": 6,
+              "pct": 1.1
+            }
+          },
           "vsChuseok": {
             "date": "2025-09-27",
             "value": 75980,
@@ -772,32 +1189,32 @@
           },
           "origins": {
             "date": "2026-09-16",
-            "laneAvg": 30732,
+            "laneAvg": 33817,
             "origins": [
               {
                 "rank": 1,
                 "name": "전라북도 장수군",
-                "avg": 37572
+                "avg": 33374
               },
               {
                 "rank": 2,
+                "name": "충청북도 충주시",
+                "avg": 40108
+              },
+              {
+                "rank": 3,
+                "name": "강원도 양구군",
+                "avg": 44832
+              },
+              {
+                "rank": 4,
                 "name": "경상북도 의성군",
                 "avg": 10000
               },
               {
-                "rank": 3,
-                "name": "충청북도 충주시",
-                "avg": 44505
-              },
-              {
-                "rank": 4,
-                "name": "충청북도 음성군",
-                "avg": 41795
-              },
-              {
                 "rank": 5,
-                "name": "충청남도 예산군",
-                "avg": 21750
+                "name": "전라북도 남원시",
+                "avg": 33703
               }
             ]
           },
@@ -1268,39 +1685,50 @@
         "unitKg": null,
         "gradeLabel": "상품",
         "key": "RETAIL_EA#V_07@HIGH",
-        "date": "2026-09-15",
-        "lagDays": 1,
-        "price": 22465,
+        "date": "2026-09-16",
+        "lagDays": 0,
+        "price": 22322,
         "vsPrev": {
-          "date": "2026-09-14",
-          "value": 22583,
-          "pct": -0.5
+          "date": "2026-09-15",
+          "value": 22465,
+          "pct": -0.6
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 27989,
-          "pct": -19.7
+          "pct": -20.2
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 27868,
-          "pct": -19.4
+          "pct": -19.9
         },
         "vsNormal": {
           "date": null,
           "value": 27049,
-          "pct": -16.9,
+          "pct": -17.5,
           "years": [
             2025,
             2022,
             2021
           ]
         },
+        "mtd": {
+          "avg": 23171,
+          "days": 12,
+          "from": "2026-09-01",
+          "to": "2026-09-16",
+          "thin": false,
+          "vsPrevMonthPct": -17.2,
+          "vsYoyPct": -16.9,
+          "vsNormalPct": -14.3,
+          "yoyToDate": {
+            "value": 29459,
+            "days": 12,
+            "pct": -21.3
+          }
+        },
         "spark": [
-          {
-            "date": "2026-09-08",
-            "price": 23495
-          },
           {
             "date": "2026-09-09",
             "price": 23009
@@ -1320,6 +1748,10 @@
           {
             "date": "2026-09-15",
             "price": 22465
+          },
+          {
+            "date": "2026-09-16",
+            "price": 22322
           }
         ],
         "trend30": [
@@ -1402,6 +1834,10 @@
           {
             "date": "2026-09-15",
             "price": 22465
+          },
+          {
+            "date": "2026-09-16",
+            "price": 22322
           }
         ],
         "trend30Ref": {
@@ -1485,6 +1921,10 @@
             {
               "date": "2026-09-15",
               "price": 26220
+            },
+            {
+              "date": "2026-09-16",
+              "price": 25629
             }
           ],
           "normal": [
@@ -1567,74 +2007,108 @@
             {
               "date": "2026-09-15",
               "price": 27436
+            },
+            {
+              "date": "2026-09-16",
+              "price": 27211
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "상품",
-            "date": "2026-09-15",
-            "price": 22465,
+            "date": "2026-09-16",
+            "price": 22322,
             "vsPrev": {
-              "date": "2026-09-14",
-              "value": 22583,
-              "pct": -0.5
+              "date": "2026-09-15",
+              "value": 22465,
+              "pct": -0.6
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 27989,
-              "pct": -19.7
+              "pct": -20.2
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 27868,
-              "pct": -19.4
+              "pct": -19.9
             },
             "vsNormal": {
               "date": null,
               "value": 27049,
-              "pct": -16.9,
+              "pct": -17.5,
               "years": [
                 2025,
                 2022,
                 2021
               ]
+            },
+            "mtd": {
+              "avg": 23171,
+              "days": 12,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": -17.2,
+              "vsYoyPct": -16.9,
+              "vsNormalPct": -14.3,
+              "yoyToDate": {
+                "value": 29459,
+                "days": 12,
+                "pct": -21.3
+              }
             }
           },
           "MID": {
             "label": "중품",
-            "date": "2026-09-15",
-            "price": 16759,
+            "date": "2026-09-16",
+            "price": 16678,
             "vsPrev": {
-              "date": "2026-09-14",
-              "value": 16756,
-              "pct": 0
+              "date": "2026-09-15",
+              "value": 16759,
+              "pct": -0.5
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 21964,
-              "pct": -23.7
+              "pct": -24.1
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 20174,
-              "pct": -16.9
+              "pct": -17.3
             },
             "vsNormal": {
               "date": null,
               "value": 19066,
-              "pct": -12.1,
+              "pct": -12.5,
               "years": [
                 2025,
                 2024,
                 2022
               ]
+            },
+            "mtd": {
+              "avg": 16894,
+              "days": 12,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": -23.1,
+              "vsYoyPct": -16.3,
+              "vsNormalPct": -11.4,
+              "yoyToDate": {
+                "value": 21414,
+                "days": 12,
+                "pct": -21.1
+              }
             }
           }
         },
         "passThrough": {
-          "prevMonth": 0.46,
-          "yoy": 0.52,
+          "prevMonth": 0.47,
+          "yoy": 0.54,
           "wholesalePrevMonthPct": -42.8,
           "wholesaleYoyPct": -37,
           "wholesaleUnit": "10kg"
@@ -1845,6 +2319,224 @@
         "prevDate": "2026-09-15",
         "yoyDate": "2025-09-27",
         "count": 30,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-07-01",
+          "asOfDate": "2026-09-16",
+          "seasonDay": 78,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 7141.9,
+            "normalTonsToDate": 6652.1,
+            "vsNormalPct": 7.4,
+            "seasonEarly": false
+          },
+          "rows": {
+            "경북 영주시": {
+              "normalOnset": "7/25",
+              "currentOnset": "7/24",
+              "deltaDays": -1,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 20.9
+            },
+            "충북 충주시": {
+              "normalOnset": "7/22",
+              "currentOnset": "7/24",
+              "deltaDays": 2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": -11.5
+            },
+            "전북 무주군": {
+              "normalOnset": "8/11",
+              "currentOnset": "8/17",
+              "deltaDays": 6,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 24.1
+            },
+            "전북 장수군": {
+              "normalOnset": "8/24",
+              "currentOnset": "8/25",
+              "deltaDays": 1,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 6.4
+            },
+            "경북 의성군": {
+              "normalOnset": "9/16",
+              "currentOnset": "9/7",
+              "deltaDays": -9,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 143.9
+            },
+            "강원 양구군": {
+              "normalOnset": "8/25",
+              "currentOnset": "9/12",
+              "deltaDays": 18,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 76.1
+            },
+            "충북 괴산군": {
+              "normalOnset": "8/31",
+              "currentOnset": "8/31",
+              "deltaDays": 0,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 27.7
+            }
+          },
+          "notes": [
+            "전북 무주군 출하 시작 8/17 — 평년(8/11)보다 6일 늦음"
+          ],
+          "cropStarts": [
+            {
+              "variety": "fuji",
+              "label": "부사",
+              "startDate": "2026-10-04",
+              "sharePct": 27.9
+            },
+            {
+              "variety": "mishima",
+              "label": "미시마",
+              "startDate": "2026-10-07",
+              "sharePct": 22.7
+            },
+            {
+              "variety": "myanma",
+              "label": "미얀마",
+              "startDate": "2026-10-06",
+              "sharePct": 9.9
+            },
+            {
+              "variety": "miyabi",
+              "label": "미야비",
+              "startDate": "2026-09-24",
+              "sharePct": 3
+            }
+          ],
+          "season": {
+            "lengthDays": 365,
+            "asOfDoy": 77,
+            "monthStarts": [
+              0,
+              31,
+              62,
+              92,
+              123,
+              153,
+              184,
+              215,
+              243,
+              274,
+              304,
+              335
+            ],
+            "months": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "bars": {
+            "경북 영주시": {
+              "normal": {
+                "onset": 24,
+                "peak": 177,
+                "end": 356
+              },
+              "current": {
+                "onset": 23,
+                "to": 77
+              }
+            },
+            "충북 충주시": {
+              "normal": {
+                "onset": 21,
+                "peak": 173,
+                "end": 305
+              },
+              "current": {
+                "onset": 23,
+                "to": 77
+              }
+            },
+            "전북 무주군": {
+              "normal": {
+                "onset": 41,
+                "peak": 50,
+                "end": 221
+              },
+              "current": {
+                "onset": 47,
+                "to": 77
+              }
+            },
+            "전북 장수군": {
+              "normal": {
+                "onset": 54,
+                "peak": 70,
+                "end": 187
+              },
+              "current": {
+                "onset": 55,
+                "to": 77
+              }
+            },
+            "경북 의성군": {
+              "normal": {
+                "onset": 77,
+                "peak": 262,
+                "end": 363
+              },
+              "current": {
+                "onset": 68,
+                "to": 77
+              }
+            },
+            "강원 양구군": {
+              "normal": {
+                "onset": 55,
+                "peak": 105,
+                "end": 337
+              },
+              "current": {
+                "onset": 73,
+                "to": 77
+              }
+            },
+            "충북 괴산군": {
+              "normal": {
+                "onset": 61,
+                "peak": 72,
+                "end": 198
+              },
+              "current": {
+                "onset": 61,
+                "to": 77
+              }
+            }
+          }
+        },
         "total": {
           "tons": 400.6,
           "sidos": [
@@ -2412,6 +3104,21 @@
             }
           ]
         }
+      },
+      "cert": {
+        "window": {
+          "from": "2026-08-18",
+          "to": "2026-09-16"
+        },
+        "gapSharePct": 14.1,
+        "gapPrevSharePct": 11.5,
+        "ecoSharePct": 0,
+        "gapPremiumPct": 0.3,
+        "gapPremiumLane": "10kg",
+        "topCorp": {
+          "corpName": "중앙청과",
+          "gapSharePct": 24
+        }
       }
     },
     {
@@ -2437,11 +3144,20 @@
           "pct": -15.5
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 211.8,
+          "pct": 118.2,
+          "basis": "date",
+          "daysBefore": null,
+          "share": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 362,
           "pct": 27.7,
           "basis": "chuseok",
-          "daysBefore": 9
+          "daysBefore": 9,
+          "share": null
         }
       },
       "units": [
@@ -2460,12 +3176,143 @@
               "pct": -11.5
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 40.5,
+              "pct": 166.2,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.238
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 87.5,
               "pct": 23.2,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.246
+            },
+            "avg5": {
+              "tons": 101.3,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 4.3
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 3.8
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 15.7
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 5.7
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 17.2
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 64.1
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 46.9
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 91.7
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 66
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 90.9
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 90.3
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 137.6
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 121.8
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 107.8
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 3.3
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 2.5
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 4
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 3.3
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 9.9
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 1.5
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 26.9
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 11.6
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 20.3
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 19.5
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 42.2
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 4.5
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 75
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 40.5
+              }
+            ]
           },
           "kgShare": 0.25,
           "sang": {
@@ -2502,6 +3349,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 66464,
+                "days": 13,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -8,
+                "vsYoyPct": 5.4,
+                "vsNormalPct": 8.6,
+                "yoyToDate": {
+                  "value": 65843,
+                  "days": 11,
+                  "pct": 0.9
+                }
               }
             },
             "HIGH": {
@@ -2530,6 +3392,21 @@
                   2024,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 53168,
+                "days": 13,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 3.3,
+                "vsYoyPct": 6.9,
+                "vsNormalPct": 8.6,
+                "yoyToDate": {
+                  "value": 50586,
+                  "days": 11,
+                  "pct": 5.1
+                }
               }
             },
             "MID": {
@@ -2558,6 +3435,21 @@
                   2024,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 39969,
+                "days": 13,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 17.4,
+                "vsYoyPct": 15.3,
+                "vsNormalPct": 14,
+                "yoyToDate": {
+                  "value": 34796,
+                  "days": 11,
+                  "pct": 14.9
+                }
               }
             },
             "LOW": {
@@ -2586,6 +3478,21 @@
                   2024,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 30133,
+                "days": 13,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 18.4,
+                "vsYoyPct": 31.3,
+                "vsNormalPct": 31.1,
+                "yoyToDate": {
+                  "value": 21300,
+                  "days": 11,
+                  "pct": 41.5
+                }
               }
             }
           },
@@ -2614,6 +3521,21 @@
               2021
             ]
           },
+          "mtd": {
+            "avg": 53168,
+            "days": 13,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": 3.3,
+            "vsYoyPct": 6.9,
+            "vsNormalPct": 8.6,
+            "yoyToDate": {
+              "value": 50586,
+              "days": 11,
+              "pct": 5.1
+            }
+          },
           "vsChuseok": {
             "date": "2025-09-27",
             "value": 46080,
@@ -2623,32 +3545,32 @@
           },
           "origins": {
             "date": "2026-09-16",
-            "laneAvg": 39135,
+            "laneAvg": 41246,
             "origins": [
               {
                 "rank": 1,
-                "name": "전라남도 나주시",
-                "avg": 35074
+                "name": "경상북도 상주시",
+                "avg": 45442
               },
               {
                 "rank": 2,
-                "name": "충청남도 천안시",
-                "avg": 52224
+                "name": "전라남도 나주시",
+                "avg": 37488
               },
               {
                 "rank": 3,
-                "name": "전라북도 완주군",
-                "avg": 39072
+                "name": "충청남도 천안시",
+                "avg": 41933
               },
               {
                 "rank": 4,
-                "name": "경기도 화성시",
-                "avg": 41563
+                "name": "세종자치시 세종자치시",
+                "avg": 24852
               },
               {
                 "rank": 5,
-                "name": "전라남도 보성군",
-                "avg": 45000
+                "name": "경기도 화성시",
+                "avg": 39888
               }
             ]
           },
@@ -3026,12 +3948,123 @@
               "pct": -17.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 129.4,
+              "pct": 144.5,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.762
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 265.7,
               "pct": 19.1,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.748
+            },
+            "avg5": {
+              "tons": 316.9,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 11.6
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 6.2
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 18.2
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 6
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 79.2
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 102.1
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 175
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 291.9
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 348
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 198.2
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 362.4
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 384
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 316.4
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 1.2
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 4.8
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 6
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 14.5
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 12
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 32
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 11.5
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 121.9
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 129.4
+              }
+            ]
           },
           "kgShare": 0.734,
           "sang": {
@@ -3068,6 +4101,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 50136,
+                "days": 12,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": 19.4,
+                "vsNormalPct": 21.2,
+                "yoyToDate": {
+                  "value": 42604,
+                  "days": 8,
+                  "pct": 17.7
+                }
               }
             },
             "HIGH": {
@@ -3096,6 +4144,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 41738,
+                "days": 12,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": 17.3,
+                "vsNormalPct": 20.6,
+                "yoyToDate": {
+                  "value": 36013,
+                  "days": 8,
+                  "pct": 15.9
+                }
               }
             },
             "MID": {
@@ -3124,6 +4187,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 31758,
+                "days": 12,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": 11.2,
+                "vsNormalPct": 14.6,
+                "yoyToDate": {
+                  "value": 28930,
+                  "days": 8,
+                  "pct": 9.8
+                }
               }
             },
             "LOW": {
@@ -3152,6 +4230,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 21973,
+                "days": 12,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": 2,
+                "vsNormalPct": 8,
+                "yoyToDate": {
+                  "value": 22845,
+                  "days": 8,
+                  "pct": -3.8
+                }
               }
             }
           },
@@ -3180,6 +4273,21 @@
               2021
             ]
           },
+          "mtd": {
+            "avg": 41738,
+            "days": 12,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": null,
+            "vsYoyPct": 17.3,
+            "vsNormalPct": 20.6,
+            "yoyToDate": {
+              "value": 36013,
+              "days": 8,
+              "pct": 15.9
+            }
+          },
           "vsChuseok": {
             "date": "2025-09-27",
             "value": 35646,
@@ -3189,32 +4297,32 @@
           },
           "origins": {
             "date": "2026-09-16",
-            "laneAvg": 31141,
+            "laneAvg": 30793,
             "origins": [
               {
                 "rank": 1,
                 "name": "전라남도 나주시",
-                "avg": 33421
+                "avg": 32160
               },
               {
                 "rank": 2,
-                "name": "전라북도 완주군",
-                "avg": 31435
+                "name": "충청남도 천안시",
+                "avg": 31313
               },
               {
                 "rank": 3,
-                "name": "충청남도 천안시",
-                "avg": 31823
+                "name": "경기도 평택시",
+                "avg": 27834
               },
               {
                 "rank": 4,
-                "name": "경기도 평택시",
-                "avg": 23605
+                "name": "경기도 안성시",
+                "avg": 30845
               },
               {
                 "rank": 5,
                 "name": "충청남도 아산시",
-                "avg": 28250
+                "avg": 28699
               }
             ]
           },
@@ -3659,39 +4767,50 @@
         "unitKg": null,
         "gradeLabel": "상품",
         "key": "RETAIL_EA#V_01@HIGH",
-        "date": "2026-09-15",
-        "lagDays": 1,
-        "price": 27377,
+        "date": "2026-09-16",
+        "lagDays": 0,
+        "price": 27111,
         "vsPrev": {
-          "date": "2026-09-14",
-          "value": 25419,
-          "pct": 7.7
+          "date": "2026-09-15",
+          "value": 27377,
+          "pct": -1
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 44846,
-          "pct": -39
+          "pct": -39.5
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 27774,
-          "pct": -1.4
+          "pct": -2.4
         },
         "vsNormal": {
           "date": null,
           "value": 32705,
-          "pct": -16.3,
+          "pct": -17.1,
           "years": [
             2024,
             2023,
             2021
           ]
         },
+        "mtd": {
+          "avg": 26636,
+          "days": 3,
+          "from": "2026-09-01",
+          "to": "2026-09-16",
+          "thin": false,
+          "vsPrevMonthPct": -40.6,
+          "vsYoyPct": -4.1,
+          "vsNormalPct": -18.6,
+          "yoyToDate": {
+            "value": 23156,
+            "days": 2,
+            "pct": 15
+          }
+        },
         "spark": [
-          {
-            "date": "2026-08-26",
-            "price": 45992
-          },
           {
             "date": "2026-08-27",
             "price": 45673
@@ -3711,6 +4830,10 @@
           {
             "date": "2026-09-15",
             "price": 27377
+          },
+          {
+            "date": "2026-09-16",
+            "price": 27111
           }
         ],
         "trend30": [
@@ -3761,6 +4884,10 @@
           {
             "date": "2026-09-15",
             "price": 27377
+          },
+          {
+            "date": "2026-09-16",
+            "price": 27111
           }
         ],
         "trend30Ref": {
@@ -3812,6 +4939,10 @@
             {
               "date": "2026-09-15",
               "price": 22673
+            },
+            {
+              "date": "2026-09-16",
+              "price": 23638
             }
           ],
           "normal": [
@@ -3862,68 +4993,102 @@
             {
               "date": "2026-09-15",
               "price": 32000
+            },
+            {
+              "date": "2026-09-16",
+              "price": 32087
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "상품",
-            "date": "2026-09-15",
-            "price": 27377,
+            "date": "2026-09-16",
+            "price": 27111,
             "vsPrev": {
-              "date": "2026-09-14",
-              "value": 25419,
-              "pct": 7.7
+              "date": "2026-09-15",
+              "value": 27377,
+              "pct": -1
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 44846,
-              "pct": -39
+              "pct": -39.5
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 27774,
-              "pct": -1.4
+              "pct": -2.4
             },
             "vsNormal": {
               "date": null,
               "value": 32705,
-              "pct": -16.3,
+              "pct": -17.1,
               "years": [
                 2024,
                 2023,
                 2021
               ]
+            },
+            "mtd": {
+              "avg": 26636,
+              "days": 3,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": -40.6,
+              "vsYoyPct": -4.1,
+              "vsNormalPct": -18.6,
+              "yoyToDate": {
+                "value": 23156,
+                "days": 2,
+                "pct": 15
+              }
             }
           },
           "MID": {
             "label": "중품",
-            "date": "2026-09-15",
-            "price": 17013,
+            "date": "2026-09-16",
+            "price": 16932,
             "vsPrev": {
-              "date": "2026-09-14",
+              "date": "2026-09-15",
               "value": 17013,
-              "pct": 0
+              "pct": -0.5
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 32812,
-              "pct": -48.2
+              "pct": -48.4
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 21208,
-              "pct": -19.8
+              "pct": -20.2
             },
             "vsNormal": {
               "date": null,
               "value": 26039,
-              "pct": -34.7,
+              "pct": -35,
               "years": [
                 2024,
                 2023,
                 2022
               ]
+            },
+            "mtd": {
+              "avg": 16986,
+              "days": 3,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": -48.2,
+              "vsYoyPct": -19.9,
+              "vsNormalPct": -34.8,
+              "yoyToDate": {
+                "value": 18990,
+                "days": 2,
+                "pct": -10.6
+              }
             }
           }
         },
@@ -4140,6 +5305,184 @@
         "prevDate": "2026-09-15",
         "yoyDate": "2025-09-27",
         "count": 28,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-07-01",
+          "asOfDate": "2026-09-16",
+          "seasonDay": 78,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 4865.7,
+            "normalTonsToDate": 4796.7,
+            "vsNormalPct": 1.4,
+            "seasonEarly": false
+          },
+          "rows": {
+            "전남 나주시": {
+              "normalOnset": "9/6",
+              "currentOnset": "9/8",
+              "deltaDays": 2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -17
+            },
+            "경기 안성시": {
+              "normalOnset": "9/8",
+              "currentOnset": "9/12",
+              "deltaDays": 4,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -33.4
+            },
+            "충남 천안시": {
+              "normalOnset": "9/5",
+              "currentOnset": "9/8",
+              "deltaDays": 3,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 16.7
+            },
+            "경북 상주시": {
+              "normalOnset": "8/11",
+              "currentOnset": "8/13",
+              "deltaDays": 2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": -3.4
+            },
+            "충남 아산시": {
+              "normalOnset": "9/5",
+              "currentOnset": "9/3",
+              "deltaDays": -2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 8.7
+            },
+            "경기 평택시": {
+              "normalOnset": "8/20",
+              "currentOnset": "8/18",
+              "deltaDays": -2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 40.8
+            }
+          },
+          "notes": [],
+          "cropStarts": [
+            {
+              "variety": "shingo",
+              "label": "신고",
+              "startDate": "2026-08-28",
+              "sharePct": 91.2
+            }
+          ],
+          "season": {
+            "lengthDays": 365,
+            "asOfDoy": 77,
+            "monthStarts": [
+              0,
+              31,
+              62,
+              92,
+              123,
+              153,
+              184,
+              215,
+              243,
+              274,
+              304,
+              335
+            ],
+            "months": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "bars": {
+            "전남 나주시": {
+              "normal": {
+                "onset": 67,
+                "peak": 74,
+                "end": 215
+              },
+              "current": {
+                "onset": 69,
+                "to": 77
+              }
+            },
+            "경기 안성시": {
+              "normal": {
+                "onset": 69,
+                "peak": 205,
+                "end": 322
+              },
+              "current": {
+                "onset": 73,
+                "to": 77
+              }
+            },
+            "충남 천안시": {
+              "normal": {
+                "onset": 66,
+                "peak": 208,
+                "end": 323
+              },
+              "current": {
+                "onset": 69,
+                "to": 77
+              }
+            },
+            "경북 상주시": {
+              "normal": {
+                "onset": 41,
+                "peak": 71,
+                "end": 129
+              },
+              "current": {
+                "onset": 43,
+                "to": 77
+              }
+            },
+            "충남 아산시": {
+              "normal": {
+                "onset": 66,
+                "peak": 206,
+                "end": 346
+              },
+              "current": {
+                "onset": 64,
+                "to": 77
+              }
+            },
+            "경기 평택시": {
+              "normal": {
+                "onset": 50,
+                "peak": 127,
+                "end": 360
+              },
+              "current": {
+                "onset": 48,
+                "to": 77
+              }
+            }
+          }
+        },
         "total": {
           "tons": 462.2,
           "sidos": [
@@ -4721,6 +6064,21 @@
             }
           ]
         }
+      },
+      "cert": {
+        "window": {
+          "from": "2026-08-18",
+          "to": "2026-09-16"
+        },
+        "gapSharePct": 31.4,
+        "gapPrevSharePct": 30.9,
+        "ecoSharePct": 0,
+        "gapPremiumPct": -1.3,
+        "gapPremiumLane": "7.5kg",
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 69.7
+        }
       }
     },
     {
@@ -4746,11 +6104,20 @@
           "pct": -4.2
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 383.9,
+          "pct": 6.3,
+          "basis": "date",
+          "daysBefore": null,
+          "share": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 414.2,
           "pct": -1.4,
           "basis": "chuseok",
-          "daysBefore": 9
+          "daysBefore": 9,
+          "share": null
         }
       },
       "units": [
@@ -4769,12 +6136,143 @@
               "pct": -12.1
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 110.9,
+              "pct": -12.3,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.52
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 112.4,
               "pct": -13.4,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.412
+            },
+            "avg5": {
+              "tons": 114,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 63.7
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 73.6
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 76.7
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 82.5
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 85.9
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 105.5
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 101.7
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 111.1
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 110.1
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 109.3
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 106.1
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 133.6
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 110.7
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 97.3
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 69.7
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 62.5
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 52.1
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 74.1
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 79.8
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 89.9
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 76.2
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 71.5
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 77.4
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 83
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 101.4
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 107.9
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 96.3
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 110.9
+              }
+            ]
           },
           "kgShare": 0.414,
           "sang": {
@@ -4811,6 +6309,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 12311,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -23.1,
+                "vsYoyPct": -26.6,
+                "vsNormalPct": -47.8,
+                "yoyToDate": {
+                  "value": 17236,
+                  "days": 14,
+                  "pct": -28.6
+                }
               }
             },
             "HIGH": {
@@ -4839,6 +6352,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 7618,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -32.1,
+                "vsYoyPct": -19.8,
+                "vsNormalPct": -50.1,
+                "yoyToDate": {
+                  "value": 10756,
+                  "days": 14,
+                  "pct": -29.2
+                }
               }
             },
             "MID": {
@@ -4867,6 +6395,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 5593,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -35.3,
+                "vsYoyPct": -21.5,
+                "vsNormalPct": -51.7,
+                "yoyToDate": {
+                  "value": 8356,
+                  "days": 14,
+                  "pct": -33.1
+                }
               }
             },
             "LOW": {
@@ -4895,6 +6438,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 3810,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -38.5,
+                "vsYoyPct": -24.2,
+                "vsNormalPct": -54.7,
+                "yoyToDate": {
+                  "value": 6083,
+                  "days": 14,
+                  "pct": -37.4
+                }
               }
             }
           },
@@ -4922,6 +6480,21 @@
               2023,
               2022
             ]
+          },
+          "mtd": {
+            "avg": 7618,
+            "days": 14,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": -32.1,
+            "vsYoyPct": -19.8,
+            "vsNormalPct": -50.1,
+            "yoyToDate": {
+              "value": 10756,
+              "days": 14,
+              "pct": -29.2
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -5326,12 +6899,143 @@
               "pct": -2.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 101.9,
+              "pct": 32.9,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.478
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 158.7,
               "pct": -14.7,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.582
+            },
+            "avg5": {
+              "tons": 114.7,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 50.2
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 61.2
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 61
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 63.4
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 74.6
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 80
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 81.3
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 95.9
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 95.1
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 94.2
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 102.7
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 142.3
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 139
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 135.4
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 44.1
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 35.1
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 40.2
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 51.1
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 58.2
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 66.1
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 56.7
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 50.4
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 47.3
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 61.2
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 76.4
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 84.8
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 84.9
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 101.9
+              }
+            ]
           },
           "kgShare": 0.577,
           "sang": {
@@ -5369,6 +7073,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 27458,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -13.5,
+                "vsYoyPct": -17.8,
+                "vsNormalPct": -37.5,
+                "yoyToDate": {
+                  "value": 33744,
+                  "days": 14,
+                  "pct": -18.6
+                }
               }
             },
             "HIGH": {
@@ -5398,6 +7117,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 15649,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -29.9,
+                "vsYoyPct": -12.4,
+                "vsNormalPct": -46.9,
+                "yoyToDate": {
+                  "value": 20049,
+                  "days": 14,
+                  "pct": -21.9
+                }
               }
             },
             "MID": {
@@ -5427,6 +7161,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 11848,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -34.8,
+                "vsYoyPct": -14.3,
+                "vsNormalPct": -49.1,
+                "yoyToDate": {
+                  "value": 15999,
+                  "days": 14,
+                  "pct": -25.9
+                }
               }
             },
             "LOW": {
@@ -5456,6 +7205,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 9048,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -36.7,
+                "vsYoyPct": -18.4,
+                "vsNormalPct": -50.1,
+                "yoyToDate": {
+                  "value": 13141,
+                  "days": 14,
+                  "pct": -31.1
+                }
               }
             }
           },
@@ -5484,6 +7248,21 @@
               2023,
               2022
             ]
+          },
+          "mtd": {
+            "avg": 15649,
+            "days": 14,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": -29.9,
+            "vsYoyPct": -12.4,
+            "vsNormalPct": -46.9,
+            "yoyToDate": {
+              "value": 20049,
+              "days": 14,
+              "pct": -21.9
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -5985,39 +7764,50 @@
         "unitKg": 2,
         "gradeLabel": "L과",
         "key": "RETAIL#V_12@HIGH",
-        "date": "2026-09-15",
-        "lagDays": 1,
-        "price": 13457,
+        "date": "2026-09-16",
+        "lagDays": 0,
+        "price": 13435,
         "vsPrev": {
-          "date": "2026-09-14",
-          "value": 13679,
-          "pct": -1.6
+          "date": "2026-09-15",
+          "value": 13457,
+          "pct": -0.2
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 19497,
-          "pct": -31
+          "pct": -31.1
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 18027,
-          "pct": -25.4
+          "pct": -25.5
         },
         "vsNormal": {
           "date": null,
           "value": 28214,
-          "pct": -52.3,
+          "pct": -52.4,
           "years": [
             2024,
             2023,
             2022
           ]
         },
+        "mtd": {
+          "avg": 14604,
+          "days": 12,
+          "from": "2026-09-01",
+          "to": "2026-09-16",
+          "thin": false,
+          "vsPrevMonthPct": -25.1,
+          "vsYoyPct": -19,
+          "vsNormalPct": -48.2,
+          "yoyToDate": {
+            "value": 19435,
+            "days": 12,
+            "pct": -24.9
+          }
+        },
         "spark": [
-          {
-            "date": "2026-09-08",
-            "price": 14919
-          },
           {
             "date": "2026-09-09",
             "price": 14564
@@ -6037,6 +7827,10 @@
           {
             "date": "2026-09-15",
             "price": 13457
+          },
+          {
+            "date": "2026-09-16",
+            "price": 13435
           }
         ],
         "trend30": [
@@ -6123,6 +7917,10 @@
           {
             "date": "2026-09-15",
             "price": 13457
+          },
+          {
+            "date": "2026-09-16",
+            "price": 13435
           }
         ],
         "trend30Ref": {
@@ -6210,6 +8008,10 @@
             {
               "date": "2026-09-15",
               "price": 19226
+            },
+            {
+              "date": "2026-09-16",
+              "price": 18882
             }
           ],
           "normal": [
@@ -6296,38 +8098,57 @@
             {
               "date": "2026-09-15",
               "price": 27644
+            },
+            {
+              "date": "2026-09-16",
+              "price": 27593
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "L과",
-            "date": "2026-09-15",
-            "price": 13457,
+            "date": "2026-09-16",
+            "price": 13435,
             "vsPrev": {
-              "date": "2026-09-14",
-              "value": 13679,
-              "pct": -1.6
+              "date": "2026-09-15",
+              "value": 13457,
+              "pct": -0.2
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 19497,
-              "pct": -31
+              "pct": -31.1
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 18027,
-              "pct": -25.4
+              "pct": -25.5
             },
             "vsNormal": {
               "date": null,
               "value": 28214,
-              "pct": -52.3,
+              "pct": -52.4,
               "years": [
                 2024,
                 2023,
                 2022
               ]
+            },
+            "mtd": {
+              "avg": 14604,
+              "days": 12,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": -25.1,
+              "vsYoyPct": -19,
+              "vsNormalPct": -48.2,
+              "yoyToDate": {
+                "value": 19435,
+                "days": 12,
+                "pct": -24.9
+              }
             }
           },
           "MID": {
@@ -6359,6 +8180,21 @@
                 2022,
                 2021
               ]
+            },
+            "mtd": {
+              "avg": null,
+              "days": 0,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": true,
+              "vsPrevMonthPct": null,
+              "vsYoyPct": null,
+              "vsNormalPct": null,
+              "yoyToDate": {
+                "value": 13113,
+                "days": 1,
+                "pct": null
+              }
             }
           }
         },
@@ -6371,7 +8207,7 @@
         },
         "ratioToWholesale": {
           "unit": "2kg",
-          "retail": 13457,
+          "retail": 13435,
           "wholesale": 6440,
           "ratio": 2.1
         }
@@ -6580,6 +8416,217 @@
         "prevDate": "2026-09-15",
         "yoyDate": "2025-09-27",
         "count": 19,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-06-01",
+          "asOfDate": "2026-09-16",
+          "seasonDay": 108,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 11493.3,
+            "normalTonsToDate": 10003.3,
+            "vsNormalPct": 14.9,
+            "seasonEarly": false
+          },
+          "rows": {
+            "경북 상주시": {
+              "normalOnset": "8/20",
+              "currentOnset": "8/15",
+              "deltaDays": -5,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 15
+            },
+            "경북 김천시": {
+              "normalOnset": "7/14",
+              "currentOnset": "7/1",
+              "deltaDays": -12,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 24.2
+            },
+            "경북 영천시": {
+              "normalOnset": "8/23",
+              "currentOnset": "8/25",
+              "deltaDays": 2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 11.5
+            },
+            "충북 영동군": {
+              "normalOnset": "7/16",
+              "currentOnset": "7/7",
+              "deltaDays": -9,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 43.9
+            },
+            "경북 경산시": {
+              "normalOnset": "8/17",
+              "currentOnset": "8/15",
+              "deltaDays": -1,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 45.1
+            },
+            "충남 천안시": {
+              "normalOnset": "8/3",
+              "currentOnset": "7/31",
+              "deltaDays": -2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": -42.2
+            }
+          },
+          "notes": [
+            "경북 김천시 출하 시작 7/1 — 평년(7/14)보다 12일 빠름",
+            "충북 영동군 출하 시작 7/7 — 평년(7/16)보다 9일 빠름"
+          ],
+          "cropStarts": [
+            {
+              "variety": "imported",
+              "label": "수입포도",
+              "startDate": "2026-08-09",
+              "sharePct": 9
+            },
+            {
+              "variety": "cheong",
+              "label": "청포도",
+              "startDate": "2026-08-07",
+              "sharePct": 6
+            },
+            {
+              "variety": "redglobe",
+              "label": "레드글로브",
+              "startDate": "2026-09-02",
+              "sharePct": 2.3
+            },
+            {
+              "variety": "jeok-imported",
+              "label": "수입적포도",
+              "startDate": "2026-08-16",
+              "sharePct": 1.5
+            },
+            {
+              "variety": "crimson",
+              "label": "크림슨",
+              "startDate": "2026-08-12",
+              "sharePct": 1.1
+            },
+            {
+              "variety": "black-imported",
+              "label": "수입흑포도",
+              "startDate": "2026-08-17",
+              "sharePct": 0.8
+            }
+          ],
+          "season": {
+            "lengthDays": 365,
+            "asOfDoy": 107,
+            "monthStarts": [
+              0,
+              30,
+              61,
+              92,
+              122,
+              153,
+              183,
+              214,
+              245,
+              273,
+              304,
+              334
+            ],
+            "months": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "bars": {
+            "경북 상주시": {
+              "normal": {
+                "onset": 80,
+                "peak": 109,
+                "end": 303
+              },
+              "current": {
+                "onset": 75,
+                "to": 107
+              }
+            },
+            "경북 김천시": {
+              "normal": {
+                "onset": 43,
+                "peak": 107,
+                "end": 169
+              },
+              "current": {
+                "onset": 30,
+                "to": 107
+              }
+            },
+            "경북 영천시": {
+              "normal": {
+                "onset": 83,
+                "peak": 109,
+                "end": 261
+              },
+              "current": {
+                "onset": 85,
+                "to": 107
+              }
+            },
+            "충북 영동군": {
+              "normal": {
+                "onset": 45,
+                "peak": 91,
+                "end": 282
+              },
+              "current": {
+                "onset": 36,
+                "to": 107
+              }
+            },
+            "경북 경산시": {
+              "normal": {
+                "onset": 77,
+                "peak": 101,
+                "end": 154
+              },
+              "current": {
+                "onset": 75,
+                "to": 107
+              }
+            },
+            "충남 천안시": {
+              "normal": {
+                "onset": 63,
+                "peak": 113,
+                "end": 187
+              },
+              "current": {
+                "onset": 60,
+                "to": 107
+              }
+            }
+          }
+        },
         "total": {
           "tons": 408.2,
           "sidos": [
@@ -7162,6 +9209,21 @@
             }
           ]
         }
+      },
+      "cert": {
+        "window": {
+          "from": "2026-08-18",
+          "to": "2026-09-16"
+        },
+        "gapSharePct": 11.4,
+        "gapPrevSharePct": 10.8,
+        "ecoSharePct": 0,
+        "gapPremiumPct": 8,
+        "gapPremiumLane": "2kg",
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 30.1
+        }
       }
     },
     {
@@ -7187,11 +9249,20 @@
           "pct": -4.2
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 213.8,
+          "pct": -4.5,
+          "basis": "date",
+          "daysBefore": null,
+          "share": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 103.4,
           "pct": 97.5,
           "basis": "chuseok",
-          "daysBefore": 9
+          "daysBefore": 9,
+          "share": null
         }
       },
       "units": [
@@ -7210,12 +9281,143 @@
               "pct": -8.3
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 84.6,
+              "pct": -45,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.97
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 12.2,
               "pct": 281.1,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.988
+            },
+            "avg5": {
+              "tons": 71.5,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 19.5
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 15.1
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 32.6
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 25.8
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 46.5
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 62.6
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 61
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 61.2
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 64.1
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 82.3
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 79.4
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 80.9
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 50.7
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 46.5
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 32.6
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 23.9
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 21.9
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 27.2
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 36.3
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 53.9
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 65.4
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 61.9
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 67.6
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 73.4
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 78.7
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 81.2
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 66.7
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 84.6
+              }
+            ]
           },
           "kgShare": 0.94,
           "sang": {
@@ -7253,6 +9455,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 31936,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 56.2,
+                "vsYoyPct": 5.1,
+                "vsNormalPct": -0.1,
+                "yoyToDate": {
+                  "value": 31984,
+                  "days": 14,
+                  "pct": -0.2
+                }
               }
             },
             "HIGH": {
@@ -7282,6 +9499,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 24661,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 36,
+                "vsYoyPct": -0.5,
+                "vsNormalPct": -1.4,
+                "yoyToDate": {
+                  "value": 25937,
+                  "days": 14,
+                  "pct": -4.9
+                }
               }
             },
             "MID": {
@@ -7311,6 +9543,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 17850,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 27.6,
+                "vsYoyPct": -8.1,
+                "vsNormalPct": -0.4,
+                "yoyToDate": {
+                  "value": 20830,
+                  "days": 14,
+                  "pct": -14.3
+                }
               }
             },
             "LOW": {
@@ -7340,6 +9587,21 @@
                   2023,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 10563,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 24.8,
+                "vsYoyPct": -4.1,
+                "vsNormalPct": 9.9,
+                "yoyToDate": {
+                  "value": 12047,
+                  "days": 14,
+                  "pct": -12.3
+                }
               }
             }
           },
@@ -7368,6 +9630,21 @@
               2023,
               2022
             ]
+          },
+          "mtd": {
+            "avg": 24661,
+            "days": 14,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": 36,
+            "vsYoyPct": -0.5,
+            "vsNormalPct": -1.4,
+            "yoyToDate": {
+              "value": 25937,
+              "days": 14,
+              "pct": -4.9
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -7948,39 +10225,50 @@
         "unitKg": null,
         "gradeLabel": "상품",
         "key": "RETAIL_EA#V_01@HIGH",
-        "date": "2026-09-15",
-        "lagDays": 1,
-        "price": 19086,
+        "date": "2026-09-16",
+        "lagDays": 0,
+        "price": 19525,
         "vsPrev": {
-          "date": "2026-09-14",
-          "value": 19253,
-          "pct": -0.9
+          "date": "2026-09-15",
+          "value": 19086,
+          "pct": 2.3
         },
         "vsPrevMonth": {
           "date": "2026-08",
           "value": 18360,
-          "pct": 4
+          "pct": 6.3
         },
         "vsYoy": {
           "date": "2025-09",
           "value": 23438,
-          "pct": -18.6
+          "pct": -16.7
         },
         "vsNormal": {
           "date": null,
           "value": 23806,
-          "pct": -19.8,
+          "pct": -18,
           "years": [
             2025,
             2024,
             2021
           ]
         },
+        "mtd": {
+          "avg": 18962,
+          "days": 12,
+          "from": "2026-09-01",
+          "to": "2026-09-16",
+          "thin": false,
+          "vsPrevMonthPct": 3.3,
+          "vsYoyPct": -19.1,
+          "vsNormalPct": -20.3,
+          "yoyToDate": {
+            "value": 23227,
+            "days": 12,
+            "pct": -18.4
+          }
+        },
         "spark": [
-          {
-            "date": "2026-09-08",
-            "price": 18958
-          },
           {
             "date": "2026-09-09",
             "price": 18767
@@ -8000,6 +10288,10 @@
           {
             "date": "2026-09-15",
             "price": 19086
+          },
+          {
+            "date": "2026-09-16",
+            "price": 19525
           }
         ],
         "trend30": [
@@ -8086,6 +10378,10 @@
           {
             "date": "2026-09-15",
             "price": 19086
+          },
+          {
+            "date": "2026-09-16",
+            "price": 19525
           }
         ],
         "trend30Ref": {
@@ -8173,6 +10469,10 @@
             {
               "date": "2026-09-15",
               "price": 25064
+            },
+            {
+              "date": "2026-09-16",
+              "price": 24821
             }
           ],
           "normal": [
@@ -8259,46 +10559,65 @@
             {
               "date": "2026-09-15",
               "price": 24599
+            },
+            {
+              "date": "2026-09-16",
+              "price": 24518
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "상품",
-            "date": "2026-09-15",
-            "price": 19086,
+            "date": "2026-09-16",
+            "price": 19525,
             "vsPrev": {
-              "date": "2026-09-14",
-              "value": 19253,
-              "pct": -0.9
+              "date": "2026-09-15",
+              "value": 19086,
+              "pct": 2.3
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 18360,
-              "pct": 4
+              "pct": 6.3
             },
             "vsYoy": {
               "date": "2025-09",
               "value": 23438,
-              "pct": -18.6
+              "pct": -16.7
             },
             "vsNormal": {
               "date": null,
               "value": 23806,
-              "pct": -19.8,
+              "pct": -18,
               "years": [
                 2025,
                 2024,
                 2021
               ]
+            },
+            "mtd": {
+              "avg": 18962,
+              "days": 12,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": 3.3,
+              "vsYoyPct": -19.1,
+              "vsNormalPct": -20.3,
+              "yoyToDate": {
+                "value": 23227,
+                "days": 12,
+                "pct": -18.4
+              }
             }
           },
           "MID": {
             "label": "중품",
-            "date": "2026-09-15",
+            "date": "2026-09-16",
             "price": 16993,
             "vsPrev": {
-              "date": "2026-09-14",
+              "date": "2026-09-15",
               "value": 16993,
               "pct": 0
             },
@@ -8317,12 +10636,27 @@
               "value": null,
               "pct": null,
               "years": []
+            },
+            "mtd": {
+              "avg": 16217,
+              "days": 12,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": 11.1,
+              "vsYoyPct": -18.2,
+              "vsNormalPct": null,
+              "yoyToDate": {
+                "value": 19369,
+                "days": 12,
+                "pct": -16.3
+              }
             }
           }
         },
         "passThrough": {
-          "prevMonth": 0.39,
-          "yoy": 0.96,
+          "prevMonth": 0.61,
+          "yoy": 0.87,
           "wholesalePrevMonthPct": 10.3,
           "wholesaleYoyPct": -19.3,
           "wholesaleUnit": "4kg"
@@ -8483,6 +10817,157 @@
         "prevDate": "2026-09-15",
         "yoyDate": "2025-09-27",
         "count": 14,
+        "calendar": {
+          "seasonLabel": "2026년",
+          "seasonStart": "2026-01-01",
+          "asOfDate": "2026-09-16",
+          "seasonDay": 259,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 27050.2,
+            "normalTonsToDate": 25068.5,
+            "vsNormalPct": 7.9,
+            "seasonEarly": false
+          },
+          "rows": {
+            "충북 음성군": {
+              "normalOnset": "7/3",
+              "currentOnset": "7/3",
+              "deltaDays": 0,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 11.4
+            },
+            "경북 영천시": {
+              "normalOnset": "6/24",
+              "currentOnset": "6/20",
+              "deltaDays": -4,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 16.7
+            },
+            "충북 충주시": {
+              "normalOnset": "7/4",
+              "currentOnset": "7/4",
+              "deltaDays": 0,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 18.2
+            },
+            "경북 영주시": {
+              "normalOnset": "8/9",
+              "currentOnset": "8/5",
+              "deltaDays": -4,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 18.7
+            },
+            "전북 임실군": {
+              "normalOnset": "6/25",
+              "currentOnset": "6/24",
+              "deltaDays": -1,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -14.7
+            }
+          },
+          "notes": [],
+          "cropStarts": [],
+          "season": {
+            "lengthDays": 365,
+            "asOfDoy": 258,
+            "monthStarts": [
+              0,
+              31,
+              59,
+              90,
+              120,
+              151,
+              181,
+              212,
+              243,
+              273,
+              304,
+              334
+            ],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          "bars": {
+            "충북 음성군": {
+              "normal": {
+                "onset": 183,
+                "peak": 217,
+                "end": 284
+              },
+              "current": {
+                "onset": 183,
+                "to": 258
+              }
+            },
+            "경북 영천시": {
+              "normal": {
+                "onset": 174,
+                "peak": 216,
+                "end": 262
+              },
+              "current": {
+                "onset": 170,
+                "to": 258
+              }
+            },
+            "충북 충주시": {
+              "normal": {
+                "onset": 184,
+                "peak": 230,
+                "end": 278
+              },
+              "current": {
+                "onset": 184,
+                "to": 258
+              }
+            },
+            "경북 영주시": {
+              "normal": {
+                "onset": 220,
+                "peak": 242,
+                "end": 273
+              },
+              "current": {
+                "onset": 216,
+                "to": 258
+              }
+            },
+            "전북 임실군": {
+              "normal": {
+                "onset": 175,
+                "peak": 206,
+                "end": 248
+              },
+              "current": {
+                "onset": 174,
+                "to": 258
+              }
+            }
+          }
+        },
         "total": {
           "tons": 204.2,
           "sidos": [
@@ -8835,6 +11320,21 @@
             }
           ]
         }
+      },
+      "cert": {
+        "window": {
+          "from": "2026-08-18",
+          "to": "2026-09-16"
+        },
+        "gapSharePct": 6.2,
+        "gapPrevSharePct": 6.9,
+        "ecoSharePct": 0,
+        "gapPremiumPct": 8.8,
+        "gapPremiumLane": "4kg",
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 11.2
+        }
       }
     },
     {
@@ -8860,11 +11360,20 @@
           "pct": -25
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 1.8,
+          "pct": 94.4,
+          "basis": "date",
+          "daysBefore": null,
+          "share": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 10,
           "pct": -65,
           "basis": "chuseok",
-          "daysBefore": 9
+          "daysBefore": 9,
+          "share": null
         }
       },
       "units": [
@@ -8883,12 +11392,83 @@
               "pct": -10
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.5,
+              "pct": 80,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.387
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 0.3,
               "pct": 200,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.2
+            },
+            "avg5": {
+              "tons": 0.7,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-03",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 0.3
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 0.2
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 0.8
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 1.3
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 1
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 0.9
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-12",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 0.1
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 0.5
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 0.5
+              }
+            ]
           },
           "kgShare": 0.576,
           "sang": {
@@ -8923,6 +11503,21 @@
               2023,
               2021
             ]
+          },
+          "mtd": {
+            "avg": 29313,
+            "days": 6,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": null,
+            "vsYoyPct": 36.1,
+            "vsNormalPct": 26.5,
+            "yoyToDate": {
+              "value": 28202,
+              "days": 4,
+              "pct": 3.9
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -9093,12 +11688,91 @@
               "pct": -28.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.5,
+              "pct": 0,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.379
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 1,
               "pct": -50,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.8
+            },
+            "avg5": {
+              "tons": 0.7,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-03",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 0.7
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 0.5
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 0.3
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 2.1
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 0.7
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 0.5
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-08",
+                "tons": 1
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 0.1
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 0.3
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 1.4
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 1.3
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 0.5
+              }
+            ]
           },
           "kgShare": 0.34,
           "sang": {
@@ -9133,6 +11807,21 @@
               2023,
               2021
             ]
+          },
+          "mtd": {
+            "avg": 24086,
+            "days": 6,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": null,
+            "vsYoyPct": 10.7,
+            "vsNormalPct": 12.6,
+            "yoyToDate": {
+              "value": 25862,
+              "days": 6,
+              "pct": -6.9
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -9333,12 +12022,79 @@
               "pct": -88.9
             },
             "yoy": {
+              "date": "2025-09-15",
+              "tons": 0.2,
+              "pct": -50,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.121
+            },
+            "yoyChuseok": {
               "date": "2025-09-29",
               "tons": 0.1,
               "pct": 0,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.019
+            },
+            "avg5": {
+              "tons": 0.5,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-03",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 0.1
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 0.1
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 0.1
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 0
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 0.6
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 0.9
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 0.9
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 0.1
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-08",
+                "tons": 0
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 0
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 0.2
+              }
+            ]
           },
           "kgShare": 0.084,
           "sang": {
@@ -9373,6 +12129,21 @@
               2022,
               2021
             ]
+          },
+          "mtd": {
+            "avg": 17075,
+            "days": 7,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": null,
+            "vsYoyPct": -9.1,
+            "vsNormalPct": -32.9,
+            "yoyToDate": {
+              "value": 19518,
+              "days": 3,
+              "pct": -12.5
+            }
           },
           "vsChuseok": {
             "date": "2025-09-29",
@@ -9794,6 +12565,74 @@
         "prevDate": "2026-09-15",
         "yoyDate": "2025-09-27",
         "count": 3,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-07-01",
+          "asOfDate": "2026-09-16",
+          "seasonDay": 78,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 19.8,
+            "normalTonsToDate": 36.7,
+            "vsNormalPct": -46.1,
+            "seasonEarly": true
+          },
+          "rows": {
+            "경남 창원시": {
+              "normalOnset": "9/24",
+              "currentOnset": null,
+              "deltaDays": null,
+              "status": "before",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -14.9
+            }
+          },
+          "notes": [],
+          "cropStarts": [],
+          "season": {
+            "lengthDays": 365,
+            "asOfDoy": 77,
+            "monthStarts": [
+              0,
+              31,
+              62,
+              92,
+              123,
+              153,
+              184,
+              215,
+              243,
+              274,
+              304,
+              335
+            ],
+            "months": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "bars": {
+            "경남 창원시": {
+              "normal": {
+                "onset": 85,
+                "peak": 125,
+                "end": 247
+              },
+              "current": null
+            }
+          }
+        },
         "total": {
           "tons": 3.5,
           "sidos": [
@@ -9900,6 +12739,18 @@
             }
           ]
         }
+      },
+      "cert": {
+        "window": {
+          "from": "2026-08-18",
+          "to": "2026-09-16"
+        },
+        "gapSharePct": 0,
+        "gapPrevSharePct": null,
+        "ecoSharePct": 0,
+        "gapPremiumPct": null,
+        "gapPremiumLane": null,
+        "topCorp": null
       }
     },
     {
@@ -9925,11 +12776,20 @@
           "pct": 15.8
         },
         "vsYoy": {
+          "date": "2025-09-16",
+          "tons": 25.7,
+          "pct": 70,
+          "basis": "date",
+          "daysBefore": null,
+          "share": null
+        },
+        "vsYoyChuseok": {
           "date": "2025-09-27",
           "tons": 56.5,
           "pct": -22.7,
           "basis": "chuseok",
-          "daysBefore": 9
+          "daysBefore": 9,
+          "share": null
         }
       },
       "units": [
@@ -9948,12 +12808,143 @@
               "pct": 1.9
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 15.5,
+              "pct": 35.5,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.614
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 19.3,
               "pct": 8.8,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.496
+            },
+            "avg5": {
+              "tons": 17.3,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 13
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 11.2
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 13.9
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 15.6
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 11.6
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 17.6
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 18.9
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 15.8
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 15.8
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 14.3
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 14.7
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 21.1
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 20.6
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 21
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 17
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 11.6
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 13.6
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 11.3
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 12.6
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 12.1
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 14.3
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 13.8
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 12.9
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 11.7
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 16.3
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 8.5
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 16.9
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 15.5
+              }
+            ]
           },
           "kgShare": 0.493,
           "sang": {
@@ -9990,6 +12981,21 @@
                   2024,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 28350,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 4.8,
+                "vsYoyPct": -6.9,
+                "vsNormalPct": -3.6,
+                "yoyToDate": {
+                  "value": 30382,
+                  "days": 14,
+                  "pct": -6.7
+                }
               }
             },
             "HIGH": {
@@ -10018,6 +13024,21 @@
                   2024,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 21419,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -1.8,
+                "vsYoyPct": -6.8,
+                "vsNormalPct": -4.9,
+                "yoyToDate": {
+                  "value": 23089,
+                  "days": 14,
+                  "pct": -7.2
+                }
               }
             },
             "MID": {
@@ -10046,6 +13067,21 @@
                   2024,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 17224,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -6.1,
+                "vsYoyPct": -7.2,
+                "vsNormalPct": -0.9,
+                "yoyToDate": {
+                  "value": 19342,
+                  "days": 14,
+                  "pct": -11
+                }
               }
             },
             "LOW": {
@@ -10074,6 +13110,21 @@
                   2024,
                   2022
                 ]
+              },
+              "mtd": {
+                "avg": 14542,
+                "days": 14,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": -3.8,
+                "vsYoyPct": 0.5,
+                "vsNormalPct": 13.2,
+                "yoyToDate": {
+                  "value": 15676,
+                  "days": 14,
+                  "pct": -7.2
+                }
               }
             }
           },
@@ -10101,6 +13152,21 @@
               2024,
               2022
             ]
+          },
+          "mtd": {
+            "avg": 21419,
+            "days": 14,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": -1.8,
+            "vsYoyPct": -6.8,
+            "vsNormalPct": -4.9,
+            "yoyToDate": {
+              "value": 23089,
+              "days": 14,
+              "pct": -7.2
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -10490,12 +13556,143 @@
               "pct": 13.6
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 8.8,
+              "pct": 33,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.351
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 8,
               "pct": 46.2,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.206
+            },
+            "avg5": {
+              "tons": 9.5,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 6.1
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 6.2
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 8.2
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 8.5
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 6.6
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 8.2
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 6.9
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 8.2
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 9.5
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 8.6
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 9.5
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 9.6
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 10.3
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 11.7
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 5.7
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 5.7
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 7.1
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 6.2
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 6.9
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 6.8
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 8.9
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 6.3
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 6.3
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 6.5
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 5.8
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 5.4
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 8.9
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 8.8
+              }
+            ]
           },
           "kgShare": 0.275,
           "sang": {
@@ -10530,6 +13727,21 @@
               2022,
               2021
             ]
+          },
+          "mtd": {
+            "avg": 31873,
+            "days": 14,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": -15.2,
+            "vsYoyPct": -0.4,
+            "vsNormalPct": 12,
+            "yoyToDate": {
+              "value": 33984,
+              "days": 14,
+              "pct": -6.2
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -10904,12 +14116,127 @@
               "pct": 300
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.2,
+              "pct": 2300,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.008
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 1.3,
               "pct": 269.2,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.033
+            },
+            "avg5": {
+              "tons": 2.5,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 0.8
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 0.5
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 1.1
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 0.3
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 0.2
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 0.3
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 0.8
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 1.3
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 1.1
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 4.8
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 1.9
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 3.5
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 1.2
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 4.8
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 0.1
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 0.5
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 0.7
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 0.7
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 0.4
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 1.4
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 0.1
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 0.2
+              }
+            ]
           },
           "kgShare": 0.113,
           "sang": {
@@ -10946,6 +14273,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 59021,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": -19.2,
+                "vsNormalPct": -11.1,
+                "yoyToDate": {
+                  "value": 93000,
+                  "days": 1,
+                  "pct": -36.5
+                }
               }
             },
             "HIGH": {
@@ -10974,6 +14316,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 54051,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": -13.3,
+                "vsNormalPct": 5.2,
+                "yoyToDate": {
+                  "value": 79433,
+                  "days": 1,
+                  "pct": -32
+                }
               }
             },
             "MID": {
@@ -11002,6 +14359,21 @@
                   2022,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 38114,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": 5.1,
+                "vsNormalPct": 9.5,
+                "yoyToDate": {
+                  "value": 45409,
+                  "days": 1,
+                  "pct": -16.1
+                }
               }
             },
             "LOW": {
@@ -11030,6 +14402,21 @@
                   2022,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 27520,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": null,
+                "vsYoyPct": 9.1,
+                "vsNormalPct": 9.1,
+                "yoyToDate": {
+                  "value": 33300,
+                  "days": 1,
+                  "pct": -17.4
+                }
               }
             }
           },
@@ -11057,6 +14444,21 @@
               2023,
               2021
             ]
+          },
+          "mtd": {
+            "avg": 54051,
+            "days": 4,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": null,
+            "vsYoyPct": -13.3,
+            "vsNormalPct": 5.2,
+            "yoyToDate": {
+              "value": 79433,
+              "days": 1,
+              "pct": -32
+            }
           },
           "vsChuseok": {
             "date": "2025-09-29",
@@ -11466,12 +14868,143 @@
               "pct": 35.7
             },
             "yoy": {
+              "date": "2025-09-16",
+              "tons": 0.4,
+              "pct": 850,
+              "basis": "date",
+              "daysBefore": null,
+              "share": 0.017
+            },
+            "yoyChuseok": {
               "date": "2025-09-27",
               "tons": 9.6,
               "pct": -60.4,
               "basis": "chuseok",
-              "daysBefore": 9
+              "daysBefore": 9,
+              "share": 0.246
+            },
+            "avg5": {
+              "tons": 1.8,
+              "days": 5
             }
+          },
+          "volMonth": {
+            "cur": [
+              {
+                "date": "2026-09-01",
+                "tons": 0.9
+              },
+              {
+                "date": "2026-09-02",
+                "tons": 1.8
+              },
+              {
+                "date": "2026-09-03",
+                "tons": 0.8
+              },
+              {
+                "date": "2026-09-04",
+                "tons": 1.5
+              },
+              {
+                "date": "2026-09-05",
+                "tons": 1.5
+              },
+              {
+                "date": "2026-09-07",
+                "tons": 1.7
+              },
+              {
+                "date": "2026-09-08",
+                "tons": 1.2
+              },
+              {
+                "date": "2026-09-09",
+                "tons": 2.3
+              },
+              {
+                "date": "2026-09-10",
+                "tons": 1.4
+              },
+              {
+                "date": "2026-09-11",
+                "tons": 0.7
+              },
+              {
+                "date": "2026-09-12",
+                "tons": 0.8
+              },
+              {
+                "date": "2026-09-14",
+                "tons": 3.2
+              },
+              {
+                "date": "2026-09-15",
+                "tons": 2.8
+              },
+              {
+                "date": "2026-09-16",
+                "tons": 3.8
+              }
+            ],
+            "yoy": [
+              {
+                "date": "2025-09-01",
+                "tons": 0.1
+              },
+              {
+                "date": "2025-09-02",
+                "tons": 0.1
+              },
+              {
+                "date": "2025-09-03",
+                "tons": 0
+              },
+              {
+                "date": "2025-09-04",
+                "tons": 0.8
+              },
+              {
+                "date": "2025-09-05",
+                "tons": 0
+              },
+              {
+                "date": "2025-09-06",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-08",
+                "tons": 0.5
+              },
+              {
+                "date": "2025-09-09",
+                "tons": 1.2
+              },
+              {
+                "date": "2025-09-10",
+                "tons": 1.3
+              },
+              {
+                "date": "2025-09-11",
+                "tons": 0.4
+              },
+              {
+                "date": "2025-09-12",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-13",
+                "tons": 0.2
+              },
+              {
+                "date": "2025-09-15",
+                "tons": 0.6
+              },
+              {
+                "date": "2025-09-16",
+                "tons": 0.4
+              }
+            ]
           },
           "kgShare": 0.089,
           "sang": {
@@ -11508,6 +15041,21 @@
                   2022,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 24798,
+                "days": 11,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 33.3,
+                "vsYoyPct": 3,
+                "vsNormalPct": 1.4,
+                "yoyToDate": {
+                  "value": null,
+                  "days": 0,
+                  "pct": null
+                }
               }
             },
             "HIGH": {
@@ -11536,6 +15084,21 @@
                   2022,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 20044,
+                "days": 11,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 21.6,
+                "vsYoyPct": 11.3,
+                "vsNormalPct": 6.4,
+                "yoyToDate": {
+                  "value": null,
+                  "days": 0,
+                  "pct": null
+                }
               }
             },
             "MID": {
@@ -11564,6 +15127,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 14463,
+                "days": 11,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 7.9,
+                "vsYoyPct": 19.5,
+                "vsNormalPct": 9,
+                "yoyToDate": {
+                  "value": null,
+                  "days": 0,
+                  "pct": null
+                }
               }
             },
             "LOW": {
@@ -11592,6 +15170,21 @@
                   2023,
                   2021
                 ]
+              },
+              "mtd": {
+                "avg": 10743,
+                "days": 11,
+                "from": "2026-09-01",
+                "to": "2026-09-16",
+                "thin": false,
+                "vsPrevMonthPct": 3.5,
+                "vsYoyPct": 35.8,
+                "vsNormalPct": 18.4,
+                "yoyToDate": {
+                  "value": null,
+                  "days": 0,
+                  "pct": null
+                }
               }
             }
           },
@@ -11619,6 +15212,21 @@
               2022,
               2021
             ]
+          },
+          "mtd": {
+            "avg": 20044,
+            "days": 11,
+            "from": "2026-09-01",
+            "to": "2026-09-16",
+            "thin": false,
+            "vsPrevMonthPct": 21.6,
+            "vsYoyPct": 11.3,
+            "vsNormalPct": 6.4,
+            "yoyToDate": {
+              "value": null,
+              "days": 0,
+              "pct": null
+            }
           },
           "vsChuseok": {
             "date": "2025-09-27",
@@ -12114,13 +15722,13 @@
         "unitKg": null,
         "gradeLabel": "M과",
         "key": "RETAIL_EA#V_02@HIGH",
-        "date": "2026-09-15",
-        "lagDays": 1,
-        "price": 7384,
+        "date": "2026-09-16",
+        "lagDays": 0,
+        "price": 7380,
         "vsPrev": {
-          "date": "2026-09-14",
-          "value": 7520,
-          "pct": -1.8
+          "date": "2026-09-15",
+          "value": 7384,
+          "pct": -0.1
         },
         "vsPrevMonth": {
           "date": "2026-08",
@@ -12130,7 +15738,7 @@
         "vsYoy": {
           "date": "2025-09",
           "value": 9980,
-          "pct": -26
+          "pct": -26.1
         },
         "vsNormal": {
           "date": null,
@@ -12143,11 +15751,22 @@
             2021
           ]
         },
+        "mtd": {
+          "avg": 7491,
+          "days": 12,
+          "from": "2026-09-01",
+          "to": "2026-09-16",
+          "thin": false,
+          "vsPrevMonthPct": -11.1,
+          "vsYoyPct": -24.9,
+          "vsNormalPct": -19.4,
+          "yoyToDate": {
+            "value": 10202,
+            "days": 12,
+            "pct": -26.6
+          }
+        },
         "spark": [
-          {
-            "date": "2026-09-08",
-            "price": 7378
-          },
           {
             "date": "2026-09-09",
             "price": 7381
@@ -12167,6 +15786,10 @@
           {
             "date": "2026-09-15",
             "price": 7384
+          },
+          {
+            "date": "2026-09-16",
+            "price": 7380
           }
         ],
         "trend30": [
@@ -12253,6 +15876,10 @@
           {
             "date": "2026-09-15",
             "price": 7384
+          },
+          {
+            "date": "2026-09-16",
+            "price": 7380
           }
         ],
         "trend30Ref": {
@@ -12340,6 +15967,10 @@
             {
               "date": "2026-09-15",
               "price": 10092
+            },
+            {
+              "date": "2026-09-16",
+              "price": 10088
             }
           ],
           "normal": [
@@ -12426,18 +16057,22 @@
             {
               "date": "2026-09-15",
               "price": 9294
+            },
+            {
+              "date": "2026-09-16",
+              "price": 9315
             }
           ]
         },
         "grades": {
           "HIGH": {
             "label": "M과",
-            "date": "2026-09-15",
-            "price": 7384,
+            "date": "2026-09-16",
+            "price": 7380,
             "vsPrev": {
-              "date": "2026-09-14",
-              "value": 7520,
-              "pct": -1.8
+              "date": "2026-09-15",
+              "value": 7384,
+              "pct": -0.1
             },
             "vsPrevMonth": {
               "date": "2026-08",
@@ -12447,7 +16082,7 @@
             "vsYoy": {
               "date": "2025-09",
               "value": 9980,
-              "pct": -26
+              "pct": -26.1
             },
             "vsNormal": {
               "date": null,
@@ -12459,21 +16094,36 @@
                 2023,
                 2021
               ]
+            },
+            "mtd": {
+              "avg": 7491,
+              "days": 12,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": -11.1,
+              "vsYoyPct": -24.9,
+              "vsNormalPct": -19.4,
+              "yoyToDate": {
+                "value": 10202,
+                "days": 12,
+                "pct": -26.6
+              }
             }
           },
           "MID": {
             "label": "S과",
-            "date": "2026-09-15",
-            "price": 5593,
+            "date": "2026-09-16",
+            "price": 5598,
             "vsPrev": {
-              "date": "2026-09-14",
-              "value": 5730,
-              "pct": -2.4
+              "date": "2026-09-15",
+              "value": 5593,
+              "pct": 0.1
             },
             "vsPrevMonth": {
               "date": "2026-08",
               "value": 6363,
-              "pct": -12.1
+              "pct": -12
             },
             "vsYoy": {
               "date": "2025-09",
@@ -12483,19 +16133,34 @@
             "vsNormal": {
               "date": null,
               "value": 7365,
-              "pct": -24.1,
+              "pct": -24,
               "years": [
                 2025,
                 2024,
                 2023,
                 2021
               ]
+            },
+            "mtd": {
+              "avg": 5667,
+              "days": 12,
+              "from": "2026-09-01",
+              "to": "2026-09-16",
+              "thin": false,
+              "vsPrevMonthPct": -10.9,
+              "vsYoyPct": -27.8,
+              "vsNormalPct": -23.1,
+              "yoyToDate": {
+                "value": 8057,
+                "days": 12,
+                "pct": -29.7
+              }
             }
           }
         },
         "passThrough": {
           "prevMonth": -1.29,
-          "yoy": -6.34,
+          "yoy": -6.37,
           "wholesalePrevMonthPct": 9.6,
           "wholesaleYoyPct": 4.1,
           "wholesaleUnit": "3kg"
@@ -12674,6 +16339,104 @@
         "prevDate": "2026-09-15",
         "yoyDate": "2025-09-27",
         "count": 2,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-05-01",
+          "asOfDate": "2026-09-16",
+          "seasonDay": 139,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 1629.9,
+            "normalTonsToDate": 1840.9,
+            "vsNormalPct": -11.5,
+            "seasonEarly": false
+          },
+          "rows": {
+            "제주 서귀포시": {
+              "normalOnset": "9/24",
+              "currentOnset": null,
+              "deltaDays": null,
+              "status": "before",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -2.6
+            },
+            "제주 제주시": {
+              "normalOnset": "10/9",
+              "currentOnset": null,
+              "deltaDays": null,
+              "status": "before",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -60.8
+            }
+          },
+          "notes": [],
+          "cropStarts": [
+            {
+              "variety": "cheonhyehyang",
+              "label": "천혜향",
+              "startDate": "2026-07-09",
+              "sharePct": 8.9
+            },
+            {
+              "variety": "karahyang",
+              "label": "카라향",
+              "startDate": "2026-07-13",
+              "sharePct": 0.7
+            }
+          ],
+          "season": {
+            "lengthDays": 365,
+            "asOfDoy": 138,
+            "monthStarts": [
+              0,
+              31,
+              61,
+              92,
+              123,
+              153,
+              184,
+              214,
+              245,
+              276,
+              304,
+              335
+            ],
+            "months": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          "bars": {
+            "제주 서귀포시": {
+              "normal": {
+                "onset": 146,
+                "peak": 262,
+                "end": 346
+              },
+              "current": null
+            },
+            "제주 제주시": {
+              "normal": {
+                "onset": 161,
+                "peak": 241,
+                "end": 302
+              },
+              "current": null
+            }
+          }
+        },
         "total": {
           "tons": 43.7,
           "sidos": [
@@ -12839,6 +16602,21 @@
             }
           ]
         }
+      },
+      "cert": {
+        "window": {
+          "from": "2026-08-18",
+          "to": "2026-09-16"
+        },
+        "gapSharePct": 0.5,
+        "gapPrevSharePct": 5,
+        "ecoSharePct": 0,
+        "gapPremiumPct": null,
+        "gapPremiumLane": null,
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 1.6
+        }
       }
     }
   ],
@@ -12898,10 +16676,11 @@
   },
   "edition": "PM",
   "footnotes": [
-    "오후 잠정판 — 당일 오전 경매 자료가 전산에 반영된 16시 기준 산출(확정 전). 정산 보정이 반영된 확정본은 다음 날 06:30 아침판으로 발송.",
+    "오후 잠정판 — 당일 오전 경매 자료가 전산에 반영된 14시 기준 산출(확정 전). 정산 보정이 반영된 확정본은 다음 날 06:30 아침판으로 발송.",
     "가격은 가락시장 가격백분위 '상'(상위 5~40% 구간 평균, 공문 '상품기준')이며 단위는 실물 포장규격당 원. '평균가' 표기는 상품기준가 미수신으로 경매원표 전등급 평균을 쓴 값.",
     "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
-    "전일비는 직전 거래일 대비. 전월·전년동월·평년동월은 일일 가격동향과 같은 정의 — 전월=직전 달력월 평균, 전년동월=전년 같은 달 평균, 평년동월=최근 5년 같은 달 중 최고·최저를 뺀 3년 평균. 같은 품종·규격·등급 lane 의 일별가 단순평균으로 산정.",
+    "전일비는 직전 거래일 대비. 전월·전년동월·평년동월은 일일 가격동향과 같은 정의 — 전월=직전 달력월 평균, 전년동월=전년 같은 달 평균, 평년동월=최근 5년 같은 달 중 최고·최저를 뺀 3년 평균. 같은 품종·규격·등급 lane 의 일별가 단순평균으로 산정. 규격표의 전월비·전년동월비·평년비는 당일가 대 그 평균이며, 포스터 등락 아래 작은 숫자가 그 비교 기준값(전일가·전월 평균·전년동월 평균·평년동월 평균).",
+    "「월평균 비교」 표는 당월 1일~기준일 거래일 '상' 단순평균(월누계)을 전월·전년동월·평년동월의 달력월 평균과 평균 대 평균으로 견준 것(부서 관행). 월초(거래일 3일 미만)는 일수 병기. 위기단계·헤드라인·규격표는 당일가 기준.",
     "전년동월 평균은 명절(추석) 시기 차이를 보정하지 않음. 명절권에서는 '추석 D−n 동시점'(전년 추석 기준 같은 날수 앞의 거래일 값) 비교를 함께 표기.",
     "가락 상품기준가는 거래가 적은 날 전 거래일 값이 그대로 반복(미갱신)되는 경우가 있어, 특·상·보통·하 전 등급이 전 거래일과 완전히 같은 날은 결측으로 처리(평균·추이에서 제외, 당일이면 평균가† 표시). 다른 등급이 바뀐 날의 '상' 동일값은 실제 값으로 본다.",
     "소비자가격은 KAMIS 전국 소매 평균(주 5일 조사·오후 발표)이며 낱개 단위(10개 등)라 도매 원/상자와 수준 비교는 하지 않음 — 같은 소매 lane 의 변화율끼리만. 전이율 = 소매 전월비 ÷ 도매(기준규격 상) 전월비(도매 변화 ±3% 미만이면 미산출). 소매·도매 단위가 같은 경우(포도 2kg)에만 소매/도매 배율 표기.",
@@ -12909,8 +16688,8 @@
     "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
   ],
   "provenance": {
-    "sangLatest": "2026-09-16",
-    "garakLatest": "2026-09-16",
+    "sangLatest": "2026-09-18",
+    "garakLatest": "2026-09-18",
     "expectedDate": "2026-09-16",
     "queries": [
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-01..2026-09-16",
@@ -12925,6 +16704,8 @@
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2022-08-16..2022-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-08-16..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2021-08-16..2021-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "GarakCorpTradeCache 일자×산지 Σkg 2021-01-01..2026-09-16 (상위 12 시군 원문 + 나머지 합 — 출하 시기·진도, §12.4g)",
+      "GarakCorpTradeCache (인증구분, 규격, 법인) Σ 2026-08-18..2026-09-16 + 전년 같은 창 (인증 프리미엄, §12.8)",
       "GarakOriginPriceCache itemCode IN fruit dateKey 2026-09-12..2026-09-16 (당일 상위 산지, 상세 전용)",
       "GarakCorpTradeCache itemCode IN fruit dateKey 2026-09-10..2026-09-16 + 전년 동기 2025-09-27±6 (법인·산지별 거래, 상세 전용)",
       "apple: BIX5 반복값 3449행 제외 (예 GARAK_SANG@SPECIAL 2021-08-20)",
