@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T06:20:11.216Z",
+  "generatedAt": "2026-09-18T07:24:28.977Z",
   "targetDate": "2026-09-18",
   "weekday": "금",
   "sentOn": "2026-09-18",
@@ -2575,7 +2575,21 @@
           ]
         }
       },
-      "cert": null
+      "cert": {
+        "window": {
+          "from": "2026-08-20",
+          "to": "2026-09-18"
+        },
+        "gapSharePct": 14.8,
+        "gapPrevSharePct": 12.1,
+        "ecoSharePct": 1.1,
+        "gapPremiumPct": 0.5,
+        "gapPremiumLane": "10kg",
+        "topCorp": {
+          "corpName": "중앙청과",
+          "gapSharePct": 25.6
+        }
+      }
     },
     {
       "itemCode": "pear",
@@ -4961,7 +4975,21 @@
           ]
         }
       },
-      "cert": null
+      "cert": {
+        "window": {
+          "from": "2026-08-20",
+          "to": "2026-09-18"
+        },
+        "gapSharePct": 31.2,
+        "gapPrevSharePct": 33.6,
+        "ecoSharePct": 0.2,
+        "gapPremiumPct": 0.1,
+        "gapPremiumLane": "7.5kg",
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 68.7
+        }
+      }
     },
     {
       "itemCode": "grape",
@@ -7528,7 +7556,21 @@
           ]
         }
       },
-      "cert": null
+      "cert": {
+        "window": {
+          "from": "2026-08-20",
+          "to": "2026-09-18"
+        },
+        "gapSharePct": 11.9,
+        "gapPrevSharePct": 11.1,
+        "ecoSharePct": 0.3,
+        "gapPremiumPct": 9.4,
+        "gapPremiumLane": "2kg",
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 32.1
+        }
+      }
     },
     {
       "itemCode": "peach",
@@ -9762,7 +9804,21 @@
           ]
         }
       },
-      "cert": null
+      "cert": {
+        "window": {
+          "from": "2026-08-20",
+          "to": "2026-09-18"
+        },
+        "gapSharePct": 6.1,
+        "gapPrevSharePct": 7.1,
+        "ecoSharePct": 0,
+        "gapPremiumPct": 9.1,
+        "gapPremiumLane": "4kg",
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 11
+        }
+      }
     },
     {
       "itemCode": "sweet-persimmon",
@@ -11235,7 +11291,18 @@
           ]
         }
       },
-      "cert": null
+      "cert": {
+        "window": {
+          "from": "2026-08-20",
+          "to": "2026-09-18"
+        },
+        "gapSharePct": 0,
+        "gapPrevSharePct": null,
+        "ecoSharePct": 0,
+        "gapPremiumPct": null,
+        "gapPremiumLane": null,
+        "topCorp": null
+      }
     },
     {
       "itemCode": "citrus",
@@ -14268,7 +14335,21 @@
           ]
         }
       },
-      "cert": null
+      "cert": {
+        "window": {
+          "from": "2026-08-20",
+          "to": "2026-09-18"
+        },
+        "gapSharePct": 0.4,
+        "gapPrevSharePct": 4.9,
+        "ecoSharePct": 1.4,
+        "gapPremiumPct": null,
+        "gapPremiumLane": null,
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 1.5
+        }
+      }
     },
     {
       "itemCode": "persimmon",
@@ -15265,7 +15346,21 @@
           ]
         }
       },
-      "cert": null
+      "cert": {
+        "window": {
+          "from": "2026-08-20",
+          "to": "2026-09-18"
+        },
+        "gapSharePct": 8.8,
+        "gapPrevSharePct": 2.3,
+        "ecoSharePct": 0,
+        "gapPremiumPct": 25.4,
+        "gapPremiumLane": "2.5kg",
+        "topCorp": {
+          "corpName": "서울청과",
+          "gapSharePct": 13.2
+        }
+      }
     }
   ],
   "omitted": [
