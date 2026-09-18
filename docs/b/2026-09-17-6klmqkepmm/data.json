@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T12:29:10.689Z",
+  "generatedAt": "2026-09-18T12:59:16.715Z",
   "targetDate": "2026-09-17",
   "weekday": "목",
   "sentOn": "2026-09-18",
@@ -2120,29 +2120,29 @@
           "seasonDay": 79,
           "normalSeasons": 5,
           "progress": {
-            "currentTons": 9318.7,
-            "normalTonsToDate": 7928.7,
-            "vsNormalPct": 17.5,
+            "currentTons": 7491,
+            "normalTonsToDate": 6750.8,
+            "vsNormalPct": 11,
             "seasonEarly": false
           },
           "rows": {
             "경북 영주시": {
-              "normalOnset": "7/31",
-              "currentOnset": "6/30",
-              "deltaDays": -31,
+              "normalOnset": "7/25",
+              "currentOnset": "7/24",
+              "deltaDays": -1,
               "status": "active",
               "yearRound": false,
               "seasons": 4,
-              "vsNormalToDatePct": 56.6
+              "vsNormalToDatePct": 23.6
             },
             "충북 충주시": {
-              "normalOnset": "7/24",
-              "currentOnset": "7/2",
-              "deltaDays": -22,
+              "normalOnset": "7/22",
+              "currentOnset": "7/24",
+              "deltaDays": 2,
               "status": "active",
               "yearRound": false,
               "seasons": 4,
-              "vsNormalToDatePct": 10.3
+              "vsNormalToDatePct": -8.2
             },
             "전북 무주군": {
               "normalOnset": "8/11",
@@ -2151,7 +2151,7 @@
               "status": "active",
               "yearRound": false,
               "seasons": 4,
-              "vsNormalToDatePct": 24.3
+              "vsNormalToDatePct": 24.9
             },
             "전북 장수군": {
               "normalOnset": "8/24",
@@ -2160,25 +2160,25 @@
               "status": "active",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": 14
+              "vsNormalToDatePct": 13.7
             },
             "경북 의성군": {
-              "normalOnset": "9/28",
-              "currentOnset": "8/19",
-              "deltaDays": -40,
+              "normalOnset": "9/16",
+              "currentOnset": "9/7",
+              "deltaDays": -9,
               "status": "active",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": 34
+              "vsNormalToDatePct": 157.2
             },
             "강원 양구군": {
-              "normalOnset": "8/28",
+              "normalOnset": "8/25",
               "currentOnset": "9/12",
-              "deltaDays": 15,
+              "deltaDays": 18,
               "status": "active",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": 67.8
+              "vsNormalToDatePct": 99.3
             },
             "충북 괴산군": {
               "normalOnset": "8/31",
@@ -2191,8 +2191,33 @@
             }
           },
           "notes": [
-            "경북 영주시 출하 시작 6/30 — 평년(7/31)보다 31일 빠름",
-            "충북 충주시 출하 시작 7/2 — 평년(7/24)보다 22일 빠름"
+            "전북 무주군 출하 시작 8/17 — 평년(8/11)보다 6일 늦음"
+          ],
+          "cropStarts": [
+            {
+              "variety": "fuji",
+              "label": "부사",
+              "startDate": "2026-10-04",
+              "sharePct": 27.9
+            },
+            {
+              "variety": "mishima",
+              "label": "미시마",
+              "startDate": "2026-10-07",
+              "sharePct": 22.6
+            },
+            {
+              "variety": "myanma",
+              "label": "미얀마",
+              "startDate": "2026-10-06",
+              "sharePct": 9.8
+            },
+            {
+              "variety": "miyabi",
+              "label": "미야비",
+              "startDate": "2026-09-24",
+              "sharePct": 3
+            }
           ]
         },
         "total": {
@@ -4764,20 +4789,20 @@
           "seasonDay": 79,
           "normalSeasons": 5,
           "progress": {
-            "currentTons": 6039.1,
-            "normalTonsToDate": 5792.5,
-            "vsNormalPct": 4.3,
+            "currentTons": 5395.6,
+            "normalTonsToDate": 4918.6,
+            "vsNormalPct": 9.7,
             "seasonEarly": false
           },
           "rows": {
             "전남 나주시": {
-              "normalOnset": "9/5",
+              "normalOnset": "9/6",
               "currentOnset": "9/8",
-              "deltaDays": 3,
+              "deltaDays": 2,
               "status": "active",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": -9.7
+              "vsNormalToDatePct": -6.5
             },
             "경기 안성시": {
               "normalOnset": "9/8",
@@ -4786,48 +4811,53 @@
               "status": "active",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": -24.5
+              "vsNormalToDatePct": -23.5
             },
             "충남 천안시": {
-              "normalOnset": "8/20",
-              "currentOnset": "9/10",
-              "deltaDays": 21,
+              "normalOnset": "9/5",
+              "currentOnset": "9/8",
+              "deltaDays": 3,
               "status": "active",
               "yearRound": false,
-              "seasons": 4,
-              "vsNormalToDatePct": -2.2
+              "seasons": 5,
+              "vsNormalToDatePct": 22.6
             },
             "경북 상주시": {
               "normalOnset": "8/11",
-              "currentOnset": "8/8",
-              "deltaDays": -3,
+              "currentOnset": "8/13",
+              "deltaDays": 2,
               "status": "active",
               "yearRound": false,
               "seasons": 4,
-              "vsNormalToDatePct": 1.3
+              "vsNormalToDatePct": 1.4
             },
             "충남 아산시": {
-              "normalOnset": "8/28",
+              "normalOnset": "9/5",
               "currentOnset": "9/3",
-              "deltaDays": 6,
+              "deltaDays": -2,
               "status": "active",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": 52.6
+              "vsNormalToDatePct": 19.8
             },
             "경기 평택시": {
-              "normalOnset": "9/9",
-              "currentOnset": "9/9",
-              "deltaDays": 0,
+              "normalOnset": "8/20",
+              "currentOnset": "8/18",
+              "deltaDays": -2,
               "status": "active",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": 19.6
+              "vsNormalToDatePct": 53.6
             }
           },
-          "notes": [
-            "충남 천안시 출하 시작 9/10 — 평년(8/20)보다 21일 늦음",
-            "충남 아산시 출하 시작 9/3 — 평년(8/28)보다 6일 늦음"
+          "notes": [],
+          "cropStarts": [
+            {
+              "variety": "shingo",
+              "label": "신고",
+              "startDate": "2026-08-28",
+              "sharePct": 91.2
+            }
           ]
         },
         "total": {
@@ -7548,9 +7578,9 @@
           "seasonDay": 109,
           "normalSeasons": 5,
           "progress": {
-            "currentTons": 12145.2,
-            "normalTonsToDate": 10928.5,
-            "vsNormalPct": 11.1,
+            "currentTons": 11893.8,
+            "normalTonsToDate": 10220.2,
+            "vsNormalPct": 16.4,
             "seasonEarly": false
           },
           "rows": {
@@ -7606,12 +7636,50 @@
               "status": "active",
               "yearRound": false,
               "seasons": 4,
-              "vsNormalToDatePct": -40.6
+              "vsNormalToDatePct": -40.3
             }
           },
           "notes": [
             "경북 김천시 출하 시작 7/1 — 평년(7/14)보다 12일 빠름",
             "충북 영동군 출하 시작 7/7 — 평년(7/16)보다 9일 빠름"
+          ],
+          "cropStarts": [
+            {
+              "variety": "imported",
+              "label": "수입포도",
+              "startDate": "2026-08-09",
+              "sharePct": 8.9
+            },
+            {
+              "variety": "cheong",
+              "label": "청포도",
+              "startDate": "2026-08-07",
+              "sharePct": 6
+            },
+            {
+              "variety": "redglobe",
+              "label": "레드글로브",
+              "startDate": "2026-09-02",
+              "sharePct": 2.3
+            },
+            {
+              "variety": "jeok-imported",
+              "label": "수입적포도",
+              "startDate": "2026-08-16",
+              "sharePct": 1.5
+            },
+            {
+              "variety": "crimson",
+              "label": "크림슨",
+              "startDate": "2026-08-12",
+              "sharePct": 1.1
+            },
+            {
+              "variety": "black-imported",
+              "label": "수입흑포도",
+              "startDate": "2026-08-17",
+              "sharePct": 0.8
+            }
           ]
         },
         "total": {
@@ -9746,7 +9814,8 @@
               "vsNormalToDatePct": -14.8
             }
           },
-          "notes": []
+          "notes": [],
+          "cropStarts": []
         },
         "total": {
           "tons": 178.4,
@@ -11708,7 +11777,8 @@
               "vsNormalToDatePct": -34.8
             }
           },
-          "notes": []
+          "notes": [],
+          "cropStarts": []
         },
         "total": {
           "tons": 4.2,
@@ -15013,9 +15083,9 @@
           "seasonDay": 140,
           "normalSeasons": 5,
           "progress": {
-            "currentTons": 1820.6,
-            "normalTonsToDate": 1974.7,
-            "vsNormalPct": -7.8,
+            "currentTons": 1679,
+            "normalTonsToDate": 1864.7,
+            "vsNormalPct": -10,
             "seasonEarly": false
           },
           "rows": {
@@ -15026,7 +15096,7 @@
               "status": "before",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": 0.5
+              "vsNormalToDatePct": -0.8
             },
             "제주 제주시": {
               "normalOnset": "10/9",
@@ -15035,10 +15105,24 @@
               "status": "before",
               "yearRound": false,
               "seasons": 5,
-              "vsNormalToDatePct": -50
+              "vsNormalToDatePct": -59.5
             }
           },
-          "notes": []
+          "notes": [],
+          "cropStarts": [
+            {
+              "variety": "cheonhyehyang",
+              "label": "천혜향",
+              "startDate": "2026-07-09",
+              "sharePct": 8.9
+            },
+            {
+              "variety": "karahyang",
+              "label": "카라향",
+              "startDate": "2026-07-13",
+              "sharePct": 0.7
+            }
+          ]
         },
         "total": {
           "tons": 49.1,
