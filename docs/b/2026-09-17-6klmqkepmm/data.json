@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T20:08:01.631Z",
+  "generatedAt": "2026-09-18T06:13:58.084Z",
   "targetDate": "2026-09-17",
   "weekday": "목",
   "sentOn": "2026-09-18",
@@ -1918,6 +1918,88 @@
         "prevDate": "2026-09-16",
         "yoyDate": "2025-09-27",
         "count": 26,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-07-01",
+          "asOfDate": "2026-09-17",
+          "seasonDay": 79,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 9318.7,
+            "normalTonsToDate": 7928.7,
+            "vsNormalPct": 17.5,
+            "seasonEarly": false
+          },
+          "rows": {
+            "경북 영주시": {
+              "normalOnset": "7/11",
+              "currentOnset": "6/29",
+              "deltaDays": -12,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 56.6
+            },
+            "충북 충주시": {
+              "normalOnset": "7/21",
+              "currentOnset": "7/1",
+              "deltaDays": -20,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 10.3
+            },
+            "전북 무주군": {
+              "normalOnset": "8/11",
+              "currentOnset": "8/17",
+              "deltaDays": 6,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 24.3
+            },
+            "전북 장수군": {
+              "normalOnset": "8/24",
+              "currentOnset": "8/25",
+              "deltaDays": 1,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 14
+            },
+            "경북 의성군": {
+              "normalOnset": "9/7",
+              "currentOnset": "8/18",
+              "deltaDays": -20,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 34
+            },
+            "강원 양구군": {
+              "normalOnset": "8/25",
+              "currentOnset": "8/21",
+              "deltaDays": -4,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 67.8
+            },
+            "충북 괴산군": {
+              "normalOnset": "8/31",
+              "currentOnset": "7/31",
+              "deltaDays": -31,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 34.1
+            }
+          },
+          "notes": [
+            "충북 충주시 출하 시작 7/1 — 평년(7/21)보다 20일 빠름",
+            "경북 영주시 출하 시작 6/29 — 평년(7/11)보다 12일 빠름"
+          ]
+        },
         "total": {
           "tons": 352.8,
           "sidos": [
@@ -2495,7 +2577,8 @@
             }
           ]
         }
-      }
+      },
+      "cert": null
     },
     {
       "itemCode": "pear",
@@ -4270,6 +4353,79 @@
         "prevDate": "2026-09-16",
         "yoyDate": "2025-09-27",
         "count": 24,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-07-01",
+          "asOfDate": "2026-09-17",
+          "seasonDay": 79,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 6039.1,
+            "normalTonsToDate": 5792.5,
+            "vsNormalPct": 4.3,
+            "seasonEarly": false
+          },
+          "rows": {
+            "전남 나주시": {
+              "normalOnset": "9/5",
+              "currentOnset": "9/8",
+              "deltaDays": 3,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -9.7
+            },
+            "경기 안성시": {
+              "normalOnset": "12/15",
+              "currentOnset": "1/28",
+              "deltaDays": 44,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": -24.5
+            },
+            "충남 천안시": {
+              "normalOnset": "7/12",
+              "currentOnset": "8/5",
+              "deltaDays": 24,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": -2.2
+            },
+            "경북 상주시": {
+              "normalOnset": "8/11",
+              "currentOnset": "8/8",
+              "deltaDays": -3,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 1.3
+            },
+            "충남 아산시": {
+              "normalOnset": "12/28",
+              "currentOnset": "11/14 '25",
+              "deltaDays": -44,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 52.6
+            },
+            "경기 평택시": {
+              "normalOnset": "10/21",
+              "currentOnset": "10/31 '25",
+              "deltaDays": 10,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 19.6
+            }
+          },
+          "notes": [
+            "경기 안성시 출하 시작 1/28 — 평년(12/15)보다 44일 늦음",
+            "충남 아산시 출하 시작 11/14 — 평년(12/28)보다 44일 빠름"
+          ]
+        },
         "total": {
           "tons": 529.9,
           "sidos": [
@@ -4851,7 +5007,8 @@
             }
           ]
         }
-      }
+      },
+      "cert": null
     },
     {
       "itemCode": "grape",
@@ -6771,6 +6928,79 @@
         "prevDate": "2026-09-16",
         "yoyDate": "2025-09-27",
         "count": 21,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-06-01",
+          "asOfDate": "2026-09-17",
+          "seasonDay": 109,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 12145.2,
+            "normalTonsToDate": 10928.5,
+            "vsNormalPct": 11.1,
+            "seasonEarly": false
+          },
+          "rows": {
+            "경북 상주시": {
+              "normalOnset": "8/20",
+              "currentOnset": "8/15",
+              "deltaDays": -5,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 18.9
+            },
+            "경북 김천시": {
+              "normalOnset": "7/14",
+              "currentOnset": "7/1",
+              "deltaDays": -12,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 24.9
+            },
+            "경북 영천시": {
+              "normalOnset": "8/23",
+              "currentOnset": "8/25",
+              "deltaDays": 2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 14.2
+            },
+            "충북 영동군": {
+              "normalOnset": "7/16",
+              "currentOnset": "7/7",
+              "deltaDays": -9,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 45.9
+            },
+            "경북 경산시": {
+              "normalOnset": "8/17",
+              "currentOnset": "8/15",
+              "deltaDays": -1,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 46.8
+            },
+            "충남 천안시": {
+              "normalOnset": "8/3",
+              "currentOnset": "7/31",
+              "deltaDays": -2,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": -40.6
+            }
+          },
+          "notes": [
+            "경북 김천시 출하 시작 7/1 — 평년(7/14)보다 12일 빠름",
+            "충북 영동군 출하 시작 7/7 — 평년(7/16)보다 9일 빠름"
+          ]
+        },
         "total": {
           "tons": 400.5,
           "sidos": [
@@ -7355,7 +7585,8 @@
             }
           ]
         }
-      }
+      },
+      "cert": null
     },
     {
       "itemCode": "peach",
@@ -8709,6 +8940,67 @@
         "prevDate": "2026-09-16",
         "yoyDate": "2025-09-27",
         "count": 15,
+        "calendar": {
+          "seasonLabel": "2026년",
+          "seasonStart": "2026-01-01",
+          "asOfDate": "2026-09-17",
+          "seasonDay": 260,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 27228.6,
+            "normalTonsToDate": 25208.7,
+            "vsNormalPct": 8,
+            "seasonEarly": false
+          },
+          "rows": {
+            "충북 음성군": {
+              "normalOnset": "7/3",
+              "currentOnset": "7/3",
+              "deltaDays": 0,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 11.1
+            },
+            "경북 영천시": {
+              "normalOnset": "6/24",
+              "currentOnset": "6/20",
+              "deltaDays": -4,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 17.5
+            },
+            "충북 충주시": {
+              "normalOnset": "7/4",
+              "currentOnset": "7/4",
+              "deltaDays": 0,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 17.8
+            },
+            "경북 상주시": {
+              "normalOnset": "7/6",
+              "currentOnset": "6/20",
+              "deltaDays": -16,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": 92
+            },
+            "전북 임실군": {
+              "normalOnset": "6/25",
+              "currentOnset": "6/24",
+              "deltaDays": -1,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -14.8
+            }
+          },
+          "notes": []
+        },
         "total": {
           "tons": 178.4,
           "sidos": [
@@ -9138,7 +9430,8 @@
             }
           ]
         }
-      }
+      },
+      "cert": null
     },
     {
       "itemCode": "sweet-persimmon",
@@ -10502,6 +10795,40 @@
         "prevDate": "2026-09-16",
         "yoyDate": "2025-09-27",
         "count": 4,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-07-01",
+          "asOfDate": "2026-09-17",
+          "seasonDay": 79,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 23.9,
+            "normalTonsToDate": 44.3,
+            "vsNormalPct": -46,
+            "seasonEarly": true
+          },
+          "rows": {
+            "경남 창원시": {
+              "normalOnset": "9/24",
+              "currentOnset": null,
+              "deltaDays": null,
+              "status": "before",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -22.4
+            },
+            "경남 진주시": {
+              "normalOnset": "10/11",
+              "currentOnset": null,
+              "deltaDays": null,
+              "status": "before",
+              "yearRound": false,
+              "seasons": 4,
+              "vsNormalToDatePct": -34.8
+            }
+          },
+          "notes": []
+        },
         "total": {
           "tons": 4.2,
           "sidos": [
@@ -10656,7 +10983,8 @@
             }
           ]
         }
-      }
+      },
+      "cert": null
     },
     {
       "itemCode": "citrus",
@@ -13501,6 +13829,42 @@
         "prevDate": "2026-09-16",
         "yoyDate": "2025-09-27",
         "count": 2,
+        "calendar": {
+          "seasonLabel": "2026/27",
+          "seasonStart": "2026-05-01",
+          "asOfDate": "2026-09-17",
+          "seasonDay": 140,
+          "normalSeasons": 5,
+          "progress": {
+            "currentTons": 1820.6,
+            "normalTonsToDate": 1974.7,
+            "vsNormalPct": -7.8,
+            "seasonEarly": false
+          },
+          "rows": {
+            "제주 서귀포시": {
+              "normalOnset": "9/6",
+              "currentOnset": "9/17",
+              "deltaDays": 11,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 0.5
+            },
+            "제주 제주시": {
+              "normalOnset": "10/9",
+              "currentOnset": null,
+              "deltaDays": null,
+              "status": "before",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": -50
+            }
+          },
+          "notes": [
+            "제주 서귀포시 출하 시작 9/17 — 평년(9/6)보다 11일 늦음"
+          ]
+        },
         "total": {
           "tons": 49.1,
           "sidos": [
@@ -13664,7 +14028,8 @@
             }
           ]
         }
-      }
+      },
+      "cert": null
     }
   ],
   "omitted": [
@@ -13749,6 +14114,8 @@
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2022-08-17..2022-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-08-17..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2021-08-17..2021-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "GarakCorpTradeCache 일자×산지 Σkg 2021-01-01..2026-09-17 (상위 12 시군 원문 + 나머지 합 — 출하 시기·진도, §12.4g)",
+      "GarakCorpTradeCache (인증구분, 규격, 법인) Σ 2026-08-19..2026-09-17 + 전년 같은 창 (인증 프리미엄, §12.8)",
       "GarakOriginPriceCache itemCode IN fruit dateKey 2026-09-13..2026-09-17 (당일 상위 산지, 상세 전용)",
       "GarakCorpTradeCache itemCode IN fruit dateKey 2026-09-11..2026-09-17 + 전년 동기 2025-09-28±6 (법인·산지별 거래, 상세 전용)",
       "apple: BIX5 반복값 3417행 제외 (예 GARAK_SANG@SPECIAL 2021-08-20)",
