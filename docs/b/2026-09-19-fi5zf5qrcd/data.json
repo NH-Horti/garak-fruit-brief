@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T12:47:09.900Z",
+  "generatedAt": "2026-09-20T13:01:49.290Z",
   "targetDate": "2026-09-19",
   "weekday": "토",
   "sentOn": "2026-09-20",
@@ -1704,7 +1704,144 @@
             "date": "2026-09-18"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-05",
+              "to": "2026-08-07",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-08",
+              "to": "2026-08-08",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-10",
+              "to": "2026-08-10",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-11",
+              "to": "2026-08-11",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-12",
+              "to": "2026-08-14",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-15",
+              "to": "2026-08-15",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-17",
+              "to": "2026-08-18",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-19",
+              "to": "2026-08-19",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-20",
+              "to": "2026-08-20",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-21",
+              "to": "2026-08-21",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-22",
+              "to": "2026-09-01",
+              "days": 9,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-02",
+              "to": "2026-09-02",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-03",
+              "to": "2026-09-16",
+              "days": 12,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-09-17",
+              "to": "2026-09-18",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-19",
+              "to": "2026-09-19",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -6490,7 +6627,171 @@
             "date": "2026-09-14"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-06-22",
+              "to": "2026-07-10",
+              "days": 15,
+              "truncated": true
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-07-11",
+              "to": "2026-07-11",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-07-13",
+              "to": "2026-08-05",
+              "days": 18,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-06",
+              "to": "2026-08-06",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-07",
+              "to": "2026-08-11",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-12",
+              "to": "2026-08-13",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-08-14",
+              "to": "2026-08-14",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-28",
+              "to": "2026-08-28",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-29",
+              "to": "2026-08-31",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-02",
+              "to": "2026-09-02",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "UP",
+              "label": "경계 ↑",
+              "from": "2026-09-03",
+              "to": "2026-09-05",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-07",
+              "to": "2026-09-07",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-08",
+              "to": "2026-09-09",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-10",
+              "to": "2026-09-10",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-11",
+              "to": "2026-09-11",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-12",
+              "to": "2026-09-12",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "UP",
+              "label": "경계 ↑",
+              "from": "2026-09-14",
+              "to": "2026-09-14",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-15",
+              "to": "2026-09-19",
+              "days": 5,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -11255,7 +11556,81 @@
             "date": "2026-08-31"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-06-22",
+              "to": "2026-06-26",
+              "days": 5,
+              "truncated": true
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-06-27",
+              "to": "2026-06-30",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-07-01",
+              "to": "2026-07-10",
+              "days": 8,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-07-11",
+              "to": "2026-08-21",
+              "days": 35,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "DOWN",
+              "label": "심각 ↓",
+              "from": "2026-08-22",
+              "to": "2026-08-24",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-08-25",
+              "to": "2026-08-26",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "DOWN",
+              "label": "심각 ↓",
+              "from": "2026-08-27",
+              "to": "2026-08-31",
+              "days": 4,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-09-01",
+              "to": "2026-09-19",
+              "days": 17,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -15472,7 +15847,72 @@
             "date": "2026-09-18"
           },
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-09-01",
+              "to": "2026-09-03",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-04",
+              "to": "2026-09-09",
+              "days": 5,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-09-10",
+              "to": "2026-09-12",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-14",
+              "to": "2026-09-14",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-09-15",
+              "to": "2026-09-16",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-09-17",
+              "to": "2026-09-18",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-09-19",
+              "to": "2026-09-19",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -20028,7 +20468,45 @@
             "date": "2026-09-18"
           },
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "CRITICAL",
+              "direction": "UP",
+              "label": "심각 ↑",
+              "from": "2026-09-09",
+              "to": "2026-09-09",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-17",
+              "to": "2026-09-17",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-09-18",
+              "to": "2026-09-18",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "UP",
+              "label": "심각 ↑",
+              "from": "2026-09-19",
+              "to": "2026-09-19",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": null,
@@ -24394,7 +24872,36 @@
             "date": "2026-09-15"
           },
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-01",
+              "to": "2026-09-14",
+              "days": 12,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-15",
+              "to": "2026-09-15",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-16",
+              "to": "2026-09-19",
+              "days": 4,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -28075,7 +28582,27 @@
             "date": "2026-09-18"
           },
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-15",
+              "to": "2026-09-18",
+              "days": 4,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-09-19",
+              "to": "2026-09-19",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": null,
