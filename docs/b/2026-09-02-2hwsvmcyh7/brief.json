@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-09-02",
   "weekday": "수",
-  "sent_on": "2026-09-18",
+  "sent_on": "2026-09-20",
   "freshness": "FRESH",
   "edition": "am",
   "title": "가락 과일 시세 09-02(수)",
@@ -13,5 +13,5 @@
   "card_width": 800,
   "card_height": 1000,
   "item_count": 5,
-  "generated_at_kst": "2026-09-18T23:02:14.957+09:00"
+  "generated_at_kst": "2026-09-20T18:23:54.533+09:00"
 }
