@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T12:12:15.159Z",
+  "generatedAt": "2026-09-20T16:39:14.454Z",
   "targetDate": "2026-09-10",
   "weekday": "목",
-  "sentOn": "2026-09-20",
+  "sentOn": "2026-09-21",
   "freshness": "FRESH",
   "items": [
     {
@@ -43,6 +43,29 @@
           "basis": "chuseok",
           "daysBefore": 15,
           "share": null
+        },
+        "variety": {
+          "code": "hongro",
+          "nameKo": "홍로",
+          "tons": 339.6,
+          "prevTons": 265.3,
+          "vsPrevPct": 28,
+          "vsYoy": {
+            "date": "2025-09-10",
+            "tons": 167,
+            "pct": 103.4,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-20",
+            "tons": 136.6,
+            "pct": 148.6,
+            "basis": "chuseok",
+            "daysBefore": 15,
+            "share": null
+          }
         }
       },
       "units": [
@@ -1563,7 +1586,126 @@
             "date": "2026-09-02"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-05",
+              "to": "2026-08-07",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-08",
+              "to": "2026-08-08",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-10",
+              "to": "2026-08-10",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-11",
+              "to": "2026-08-11",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-12",
+              "to": "2026-08-14",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-15",
+              "to": "2026-08-15",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-17",
+              "to": "2026-08-18",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-19",
+              "to": "2026-08-19",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-20",
+              "to": "2026-08-20",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-21",
+              "to": "2026-08-21",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-22",
+              "to": "2026-09-01",
+              "days": 9,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-02",
+              "to": "2026-09-02",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-03",
+              "to": "2026-09-10",
+              "days": 7,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -4694,6 +4836,29 @@
           "basis": "chuseok",
           "daysBefore": 15,
           "share": null
+        },
+        "variety": {
+          "code": "shingo",
+          "nameKo": "신고",
+          "tons": 361.2,
+          "prevTons": 267.5,
+          "vsPrevPct": 35,
+          "vsYoy": {
+            "date": "2025-09-10",
+            "tons": 34.8,
+            "pct": 938.2,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-20",
+            "tons": 191.5,
+            "pct": 88.7,
+            "basis": "chuseok",
+            "daysBefore": 15,
+            "share": null
+          }
         }
       },
       "units": [
@@ -6253,7 +6418,153 @@
             "date": "2026-09-09"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-06-12",
+              "to": "2026-06-12",
+              "days": 1,
+              "truncated": true
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-06-13",
+              "to": "2026-06-13",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-06-15",
+              "to": "2026-07-10",
+              "days": 20,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-07-11",
+              "to": "2026-07-11",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-07-13",
+              "to": "2026-08-05",
+              "days": 18,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-06",
+              "to": "2026-08-06",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-07",
+              "to": "2026-08-11",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-12",
+              "to": "2026-08-13",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-08-14",
+              "to": "2026-08-14",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-28",
+              "to": "2026-08-28",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-29",
+              "to": "2026-08-31",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-02",
+              "to": "2026-09-02",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "UP",
+              "label": "경계 ↑",
+              "from": "2026-09-03",
+              "to": "2026-09-05",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-07",
+              "to": "2026-09-07",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-08",
+              "to": "2026-09-09",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-10",
+              "to": "2026-09-10",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -9377,6 +9688,29 @@
           "basis": "chuseok",
           "daysBefore": 15,
           "share": null
+        },
+        "variety": {
+          "code": "shine",
+          "nameKo": "샤인머스캣",
+          "tons": 207.6,
+          "prevTons": 208.9,
+          "vsPrevPct": -0.6,
+          "vsYoy": {
+            "date": "2025-09-10",
+            "tons": 124.8,
+            "pct": 66.3,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-20",
+            "tons": 193.7,
+            "pct": 7.2,
+            "basis": "chuseok",
+            "daysBefore": 15,
+            "share": null
+          }
         }
       },
       "units": [
@@ -10933,7 +11267,90 @@
             "date": "2026-08-31"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-06-15",
+              "to": "2026-06-18",
+              "days": 4,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-06-19",
+              "to": "2026-06-26",
+              "days": 7,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-06-27",
+              "to": "2026-06-30",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-07-01",
+              "to": "2026-07-10",
+              "days": 8,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-07-11",
+              "to": "2026-08-21",
+              "days": 35,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "DOWN",
+              "label": "심각 ↓",
+              "from": "2026-08-22",
+              "to": "2026-08-24",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-08-25",
+              "to": "2026-08-26",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "DOWN",
+              "label": "심각 ↓",
+              "from": "2026-08-27",
+              "to": "2026-08-31",
+              "days": 4,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-09-01",
+              "to": "2026-09-10",
+              "days": 9,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -14154,6 +14571,29 @@
           "basis": "chuseok",
           "daysBefore": 15,
           "share": null
+        },
+        "variety": {
+          "code": "elberta",
+          "nameKo": "엘바트",
+          "tons": 69.5,
+          "prevTons": 65.9,
+          "vsPrevPct": 5.5,
+          "vsYoy": {
+            "date": "2025-09-10",
+            "tons": 70.9,
+            "pct": -2,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-20",
+            "tons": 54.6,
+            "pct": 27.3,
+            "basis": "chuseok",
+            "daysBefore": 15,
+            "share": null
+          }
         }
       },
       "units": [
@@ -15617,7 +16057,36 @@
             "date": "2026-09-04"
           },
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-01",
+              "to": "2026-09-03",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-09-04",
+              "to": "2026-09-04",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-05",
+              "to": "2026-09-10",
+              "days": 5,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -18743,6 +19212,29 @@
           "basis": "chuseok",
           "daysBefore": 15,
           "share": null
+        },
+        "variety": {
+          "code": "house",
+          "nameKo": "하우스감귤",
+          "tons": 28.3,
+          "prevTons": 27.9,
+          "vsPrevPct": 1.4,
+          "vsYoy": {
+            "date": "2025-09-10",
+            "tons": 25.4,
+            "pct": 11.4,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-20",
+            "tons": 28.3,
+            "pct": 0,
+            "basis": "chuseok",
+            "daysBefore": 15,
+            "share": null
+          }
         }
       },
       "units": [
@@ -20077,7 +20569,18 @@
           "since": "2026-09-01",
           "from": null,
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-01",
+              "to": "2026-09-10",
+              "days": 9,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -22753,7 +23256,7 @@
     "포도 샤인머스캣 2kg 7,196원(▼7.3%) 경계↓ 지속 · 안정 대비 ▼52.8%",
     "사과 홍로 10kg 50,351원 전일 ▼6.8%"
   ],
-  "structuralHeadline": "복숭아 산지 충북 74%→39% (전년 추석 D−15 대비)",
+  "structuralHeadline": "복숭아 산지 구성 변화 — 당일 반입 중 충북 비중 39%, 전년 추석 D−15엔 74%(-35%p) · 충북 음성군 54t가 이끔",
   "chuseok": {
     "thisYear": {
       "chuseok": "2026-09-25",
