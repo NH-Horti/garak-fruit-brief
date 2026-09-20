@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T11:54:08.386Z",
+  "generatedAt": "2026-09-20T15:18:12.892Z",
   "targetDate": "2026-09-01",
   "weekday": "화",
-  "sentOn": "2026-09-20",
+  "sentOn": "2026-09-21",
   "freshness": "FRESH",
   "items": [
     {
@@ -817,7 +817,108 @@
             "date": "2026-08-21"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-05",
+              "to": "2026-08-07",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-08",
+              "to": "2026-08-08",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-10",
+              "to": "2026-08-10",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-11",
+              "to": "2026-08-11",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-12",
+              "to": "2026-08-14",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-15",
+              "to": "2026-08-15",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-17",
+              "to": "2026-08-18",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-19",
+              "to": "2026-08-19",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-20",
+              "to": "2026-08-20",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-21",
+              "to": "2026-08-21",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-22",
+              "to": "2026-09-01",
+              "days": 9,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -4408,7 +4509,153 @@
             "date": "2026-08-31"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-07-29",
+              "to": "2026-07-29",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-07-30",
+              "to": "2026-07-30",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-07-31",
+              "to": "2026-07-31",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "UP",
+              "label": "심각 ↑",
+              "from": "2026-08-03",
+              "to": "2026-08-03",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-04",
+              "to": "2026-08-04",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "UP",
+              "label": "심각 ↑",
+              "from": "2026-08-05",
+              "to": "2026-08-08",
+              "days": 4,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "UP",
+              "label": "경계 ↑",
+              "from": "2026-08-10",
+              "to": "2026-08-10",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-11",
+              "to": "2026-08-11",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "UP",
+              "label": "경계 ↑",
+              "from": "2026-08-12",
+              "to": "2026-08-12",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "UP",
+              "label": "주의 ↑",
+              "from": "2026-08-13",
+              "to": "2026-08-13",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-08-14",
+              "to": "2026-08-24",
+              "days": 9,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-25",
+              "to": "2026-08-26",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-08-27",
+              "to": "2026-08-28",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-08-29",
+              "to": "2026-08-29",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-08-31",
+              "to": "2026-08-31",
+              "days": 1,
+              "truncated": false
+            },
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-01",
+              "to": "2026-09-01",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -8738,7 +8985,90 @@
             "date": "2026-08-31"
           },
           "capped": false,
-          "scope": "ALL"
+          "scope": "ALL",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-06-15",
+              "to": "2026-06-18",
+              "days": 4,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-06-19",
+              "to": "2026-06-26",
+              "days": 7,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-06-27",
+              "to": "2026-06-30",
+              "days": 3,
+              "truncated": false
+            },
+            {
+              "stage": "CAUTION",
+              "direction": "DOWN",
+              "label": "주의 ↓",
+              "from": "2026-07-01",
+              "to": "2026-07-10",
+              "days": 8,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-07-11",
+              "to": "2026-08-21",
+              "days": 35,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "DOWN",
+              "label": "심각 ↓",
+              "from": "2026-08-22",
+              "to": "2026-08-24",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-08-25",
+              "to": "2026-08-26",
+              "days": 2,
+              "truncated": false
+            },
+            {
+              "stage": "CRITICAL",
+              "direction": "DOWN",
+              "label": "심각 ↓",
+              "from": "2026-08-27",
+              "to": "2026-08-31",
+              "days": 4,
+              "truncated": false
+            },
+            {
+              "stage": "ALERT",
+              "direction": "DOWN",
+              "label": "경계 ↓",
+              "from": "2026-09-01",
+              "to": "2026-09-01",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -13686,7 +14016,18 @@
           "since": "2026-09-01",
           "from": null,
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-01",
+              "to": "2026-09-01",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -18057,7 +18398,18 @@
           "since": "2026-09-01",
           "from": null,
           "capped": false,
-          "scope": "MONTH"
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-01",
+              "to": "2026-09-01",
+              "days": 1,
+              "truncated": false
+            }
+          ]
         }
       },
       "retail": {
@@ -20724,7 +21076,7 @@
     "감귤 하우스감귤 3kg 20,317원 전일 ▼7.7%",
     "복숭아 황도 4kg 21,077원 전일 ▲6.9%"
   ],
-  "structuralHeadline": "사과 산지 전북 39%→62% (전년 추석 D−24 대비)",
+  "structuralHeadline": "사과 산지 구성 변화 — 당일 반입 중 전북 비중 62%, 전년 추석 D−24엔 39%(+23%p) · 전북 무주군 25t가 이끔",
   "chuseok": {
     "thisYear": {
       "chuseok": "2026-09-25",
