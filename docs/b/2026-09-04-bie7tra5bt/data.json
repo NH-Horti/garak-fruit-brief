@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T09:25:34.276Z",
+  "generatedAt": "2026-09-20T12:05:54.694Z",
   "targetDate": "2026-09-04",
   "weekday": "금",
   "sentOn": "2026-09-20",
@@ -807,7 +807,18 @@
           "basisLabel": "공문 대표(부사 10kg) 기준"
         },
         "offSeason": false,
-        "local": null
+        "local": null,
+        "streak": {
+          "days": 2,
+          "since": "2026-09-03",
+          "from": {
+            "stage": "CAUTION",
+            "label": "주의 ↑",
+            "date": "2026-09-02"
+          },
+          "capped": false,
+          "scope": "ALL"
+        }
       },
       "retail": {
         "kindCode": "07",
@@ -4551,7 +4562,18 @@
           "basisLabel": "공문 대표(신고 15kg) 기준"
         },
         "offSeason": false,
-        "local": null
+        "local": null,
+        "streak": {
+          "days": 4,
+          "since": "2026-09-01",
+          "from": {
+            "stage": "ALERT",
+            "label": "경계 ↓",
+            "date": "2026-08-31"
+          },
+          "capped": false,
+          "scope": "ALL"
+        }
       },
       "retail": {
         "kindCode": "04",
@@ -8916,7 +8938,18 @@
           "basisLabel": "공문 대표(5kg → 임계 캠벨얼리 3kg 환산) 기준"
         },
         "offSeason": false,
-        "local": null
+        "local": null,
+        "streak": {
+          "days": 4,
+          "since": "2026-09-01",
+          "from": {
+            "stage": "CRITICAL",
+            "label": "심각 ↓",
+            "date": "2026-08-31"
+          },
+          "capped": false,
+          "scope": "ALL"
+        }
       },
       "retail": {
         "kindCode": "12",
@@ -13191,7 +13224,8 @@
         "prevStage": null,
         "reportStage": null,
         "offSeason": false,
-        "local": null
+        "local": null,
+        "streak": null
       },
       "retail": {
         "kindCode": "01",
@@ -18271,6 +18305,13 @@
           "sigma": 1750,
           "criticalDownRatio": 0.543,
           "ratioSource": "부서 최근접 월 대표 10월 5694/10489"
+        },
+        "streak": {
+          "days": 4,
+          "since": "2026-09-01",
+          "from": null,
+          "capped": false,
+          "scope": "MONTH"
         }
       },
       "retail": {
