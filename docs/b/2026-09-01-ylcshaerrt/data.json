@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T15:18:12.892Z",
+  "generatedAt": "2026-09-20T16:29:40.141Z",
   "targetDate": "2026-09-01",
   "weekday": "화",
   "sentOn": "2026-09-21",
@@ -43,6 +43,29 @@
           "basis": "chuseok",
           "daysBefore": 24,
           "share": null
+        },
+        "variety": {
+          "code": "hongro",
+          "nameKo": "홍로",
+          "tons": 71.6,
+          "prevTons": 130.6,
+          "vsPrevPct": -45.2,
+          "vsYoy": {
+            "date": "2025-09-01",
+            "tons": 169.4,
+            "pct": -57.7,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-12",
+            "tons": 244.1,
+            "pct": -70.7,
+            "basis": "chuseok",
+            "daysBefore": 24,
+            "share": null
+          }
         }
       },
       "units": [
@@ -3750,6 +3773,29 @@
           "basis": "chuseok",
           "daysBefore": 24,
           "share": null
+        },
+        "variety": {
+          "code": "wonhwang",
+          "nameKo": "원황",
+          "tons": 26.3,
+          "prevTons": 43.2,
+          "vsPrevPct": -39.1,
+          "vsYoy": {
+            "date": "2025-09-01",
+            "tons": 77.8,
+            "pct": -66.2,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-12",
+            "tons": 15.1,
+            "pct": 74.2,
+            "basis": "chuseok",
+            "daysBefore": 24,
+            "share": null
+          }
         }
       },
       "units": [
@@ -7562,6 +7608,29 @@
           "basis": "chuseok",
           "daysBefore": 24,
           "share": null
+        },
+        "variety": {
+          "code": "shine",
+          "nameKo": "샤인머스캣",
+          "tons": 114.4,
+          "prevTons": 126.9,
+          "vsPrevPct": -9.9,
+          "vsYoy": {
+            "date": "2025-09-01",
+            "tons": 113.9,
+            "pct": 0.4,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-12",
+            "tons": 178.1,
+            "pct": -35.8,
+            "basis": "chuseok",
+            "daysBefore": 24,
+            "share": null
+          }
         }
       },
       "units": [
@@ -12254,6 +12323,29 @@
           "basis": "chuseok",
           "daysBefore": 24,
           "share": null
+        },
+        "variety": {
+          "code": "hwangdo",
+          "nameKo": "황도",
+          "tons": 90,
+          "prevTons": 81,
+          "vsPrevPct": 11.1,
+          "vsYoy": {
+            "date": "2025-09-01",
+            "tons": 141.2,
+            "pct": -36.2,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-12",
+            "tons": 13.1,
+            "pct": 587.8,
+            "basis": "chuseok",
+            "daysBefore": 24,
+            "share": null
+          }
         }
       },
       "units": [
@@ -17206,6 +17298,29 @@
           "basis": "chuseok",
           "daysBefore": 24,
           "share": null
+        },
+        "variety": {
+          "code": "house",
+          "nameKo": "하우스감귤",
+          "tons": 22.1,
+          "prevTons": 27.4,
+          "vsPrevPct": -19.3,
+          "vsYoy": {
+            "date": "2025-09-01",
+            "tons": 24.3,
+            "pct": -9.1,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-12",
+            "tons": 25.7,
+            "pct": -14,
+            "basis": "chuseok",
+            "daysBefore": 24,
+            "share": null
+          }
         }
       },
       "units": [
