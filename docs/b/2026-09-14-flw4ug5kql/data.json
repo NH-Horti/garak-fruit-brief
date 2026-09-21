@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T01:51:33.787Z",
+  "generatedAt": "2026-09-21T03:11:06.433Z",
   "targetDate": "2026-09-14",
   "weekday": "월",
   "sentOn": "2026-09-21",
@@ -4897,8 +4897,8 @@
         "nameKo": "신고",
         "share": 0.904,
         "sangLaneFound": true,
-        "since": "2026-09-09",
-        "reason": "COLLAPSE",
+        "since": "2026-09-08",
+        "reason": "FAST",
         "truncated": false,
         "basisKg": 15,
         "basisSource": "ITEM_BOX",
