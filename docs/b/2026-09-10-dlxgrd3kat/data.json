@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T08:21:52.013Z",
+  "generatedAt": "2026-09-21T14:12:22.702Z",
   "targetDate": "2026-09-10",
   "weekday": "목",
   "sentOn": "2026-09-21",
@@ -4817,6 +4817,419 @@
           "corpName": "중앙청과",
           "gapSharePct": 16.4
         }
+      },
+      "national": {
+        "date": "2026-09-10",
+        "marketCount": 32,
+        "nationalTons": 2930.6,
+        "garakTons": 362.1,
+        "mafraGarakTons": 326,
+        "garakShare": 0.124,
+        "yoy": {
+          "date": "2025-09-20",
+          "garakShare": 0.133,
+          "leaderShare": 0.234
+        },
+        "leader": {
+          "code": "370401",
+          "nameKo": "안동",
+          "tons": 1509.3,
+          "share": 0.515,
+          "vsGarakRatio": 4.2
+        },
+        "bars": [
+          {
+            "code": "370401",
+            "nameKo": "안동",
+            "tons": 1509.3,
+            "share": 0.515,
+            "yoyShare": 0.234,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "110001",
+            "nameKo": "서울가락(원표)",
+            "tons": 362.1,
+            "share": 0.124,
+            "yoyShare": 0.133,
+            "isGarak": true,
+            "partial": false
+          },
+          {
+            "code": "240004",
+            "nameKo": "광주서부",
+            "tons": 117.1,
+            "share": 0.04,
+            "yoyShare": 0.09,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "311201",
+            "nameKo": "구리",
+            "tons": 81.7,
+            "share": 0.028,
+            "yoyShare": 0.049,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "220001",
+            "nameKo": "대구북부",
+            "tons": 81.2,
+            "share": 0.028,
+            "yoyShare": 0.034,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "110008",
+            "nameKo": "서울강서",
+            "tons": 73.6,
+            "share": 0.025,
+            "yoyShare": 0.026,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "__etc__",
+            "nameKo": "기타 26시장",
+            "tons": 705.5,
+            "share": 0.241,
+            "yoyShare": null,
+            "isGarak": false,
+            "partial": false
+          }
+        ],
+        "table": {
+          "variety": {
+            "code": "hongro",
+            "nameKo": "홍로"
+          },
+          "columns": [
+            "홍로 전등급",
+            "홍로 특·상",
+            "품목 전등급",
+            "품목 특·상"
+          ],
+          "rows": [
+            {
+              "code": "110001",
+              "nameKo": "서울가락(원표)",
+              "kind": "garak",
+              "tons": 362.1,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4828,
+                  "vsGarakPct": null,
+                  "kg": 339560
+                },
+                {
+                  "perKg": 4829,
+                  "vsGarakPct": null,
+                  "kg": 339500
+                },
+                {
+                  "perKg": 4909,
+                  "vsGarakPct": null,
+                  "kg": 362090
+                },
+                {
+                  "perKg": 4913,
+                  "vsGarakPct": null,
+                  "kg": 361499
+                }
+              ]
+            },
+            {
+              "code": "370401",
+              "nameKo": "안동",
+              "kind": "market",
+              "tons": 1509.3,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 3796,
+                  "vsGarakPct": -21.4,
+                  "kg": 1187400
+                },
+                {
+                  "perKg": 4030,
+                  "vsGarakPct": -16.5,
+                  "kg": 1084840
+                },
+                {
+                  "perKg": 3988,
+                  "vsGarakPct": -18.8,
+                  "kg": 1509345
+                },
+                {
+                  "perKg": 4244,
+                  "vsGarakPct": -13.6,
+                  "kg": 1376665
+                }
+              ]
+            },
+            {
+              "code": "240004",
+              "nameKo": "광주서부",
+              "kind": "market",
+              "tons": 117.1,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 5778,
+                  "vsGarakPct": 19.7,
+                  "kg": 112220
+                },
+                {
+                  "perKg": 5759,
+                  "vsGarakPct": 19.3,
+                  "kg": 110960
+                },
+                {
+                  "perKg": 5847,
+                  "vsGarakPct": 19.1,
+                  "kg": 117081
+                },
+                {
+                  "perKg": 5749,
+                  "vsGarakPct": 17,
+                  "kg": 113571
+                }
+              ]
+            },
+            {
+              "code": "311201",
+              "nameKo": "구리",
+              "kind": "market",
+              "tons": 81.7,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4400,
+                  "vsGarakPct": -8.9,
+                  "kg": 67881
+                },
+                {
+                  "perKg": 4635,
+                  "vsGarakPct": -4,
+                  "kg": 41341
+                },
+                {
+                  "perKg": 4561,
+                  "vsGarakPct": -7.1,
+                  "kg": 81666
+                },
+                {
+                  "perKg": 4632,
+                  "vsGarakPct": -5.7,
+                  "kg": 46571
+                }
+              ]
+            },
+            {
+              "code": "__national__",
+              "nameKo": "전국 가중",
+              "kind": "national",
+              "tons": 2930.6,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4168,
+                  "vsGarakPct": -13.7,
+                  "kg": 2369703
+                },
+                {
+                  "perKg": 4316,
+                  "vsGarakPct": -10.6,
+                  "kg": 2084911
+                },
+                {
+                  "perKg": 4293,
+                  "vsGarakPct": -12.5,
+                  "kg": 2930596
+                },
+                {
+                  "perKg": 4458,
+                  "vsGarakPct": -9.3,
+                  "kg": 2548676
+                }
+              ]
+            }
+          ]
+        },
+        "gap": {
+          "market": {
+            "code": "370401",
+            "nameKo": "안동"
+          },
+          "variety": {
+            "code": "hongro",
+            "nameKo": "홍로"
+          },
+          "points": [
+            {
+              "date": "2026-08-12",
+              "garak": 6426,
+              "market": 5488,
+              "gapPct": -14.6
+            },
+            {
+              "date": "2026-08-13",
+              "garak": 6732,
+              "market": 6100,
+              "gapPct": -9.4
+            },
+            {
+              "date": "2026-08-14",
+              "garak": 5759,
+              "market": 6372,
+              "gapPct": 10.6
+            },
+            {
+              "date": "2026-08-15",
+              "garak": 7029,
+              "market": 5552,
+              "gapPct": -21
+            },
+            {
+              "date": "2026-08-17",
+              "garak": 5503,
+              "market": 6176,
+              "gapPct": 12.2
+            },
+            {
+              "date": "2026-08-18",
+              "garak": 5776,
+              "market": 6051,
+              "gapPct": 4.8
+            },
+            {
+              "date": "2026-08-19",
+              "garak": 6782,
+              "market": 5480,
+              "gapPct": -19.2
+            },
+            {
+              "date": "2026-08-20",
+              "garak": 6513,
+              "market": 5322,
+              "gapPct": -18.3
+            },
+            {
+              "date": "2026-08-21",
+              "garak": 6911,
+              "market": 5119,
+              "gapPct": -25.9
+            },
+            {
+              "date": "2026-08-22",
+              "garak": 6127,
+              "market": 4660,
+              "gapPct": -23.9
+            },
+            {
+              "date": "2026-08-24",
+              "garak": 5525,
+              "market": 4592,
+              "gapPct": -16.9
+            },
+            {
+              "date": "2026-08-25",
+              "garak": 5366,
+              "market": 4741,
+              "gapPct": -11.6
+            },
+            {
+              "date": "2026-08-26",
+              "garak": 5251,
+              "market": 4754,
+              "gapPct": -9.5
+            },
+            {
+              "date": "2026-08-27",
+              "garak": 4850,
+              "market": 4601,
+              "gapPct": -5.1
+            },
+            {
+              "date": "2026-08-28",
+              "garak": 4797,
+              "market": 4441,
+              "gapPct": -7.4
+            },
+            {
+              "date": "2026-08-29",
+              "garak": 4553,
+              "market": 4318,
+              "gapPct": -5.2
+            },
+            {
+              "date": "2026-08-31",
+              "garak": 4932,
+              "market": 4691,
+              "gapPct": -4.9
+            },
+            {
+              "date": "2026-09-01",
+              "garak": 5419,
+              "market": 5264,
+              "gapPct": -2.9
+            },
+            {
+              "date": "2026-09-02",
+              "garak": 6123,
+              "market": 4970,
+              "gapPct": -18.8
+            },
+            {
+              "date": "2026-09-03",
+              "garak": 5375,
+              "market": 4905,
+              "gapPct": -8.7
+            },
+            {
+              "date": "2026-09-04",
+              "garak": 4988,
+              "market": 4719,
+              "gapPct": -5.4
+            },
+            {
+              "date": "2026-09-05",
+              "garak": 4291,
+              "market": 4091,
+              "gapPct": -4.7
+            },
+            {
+              "date": "2026-09-07",
+              "garak": 4518,
+              "market": 4488,
+              "gapPct": -0.7
+            },
+            {
+              "date": "2026-09-08",
+              "garak": 4445,
+              "market": 4339,
+              "gapPct": -2.4
+            },
+            {
+              "date": "2026-09-09",
+              "garak": 4553,
+              "market": 4146,
+              "gapPct": -8.9
+            },
+            {
+              "date": "2026-09-10",
+              "garak": 4829,
+              "market": 4030,
+              "gapPct": -16.5
+            }
+          ]
+        },
+        "partialMarkets": []
       }
     },
     {
@@ -10198,6 +10611,413 @@
           "corpName": "서울청과",
           "gapSharePct": 66.4
         }
+      },
+      "national": {
+        "date": "2026-09-10",
+        "marketCount": 32,
+        "nationalTons": 1724.4,
+        "garakTons": 405.1,
+        "mafraGarakTons": 388.8,
+        "garakShare": 0.235,
+        "yoy": {
+          "date": "2025-09-20",
+          "garakShare": 0.134,
+          "leaderShare": 0.072
+        },
+        "leader": {
+          "code": "220001",
+          "nameKo": "대구북부",
+          "tons": 136.3,
+          "share": 0.079,
+          "vsGarakRatio": 0.3
+        },
+        "bars": [
+          {
+            "code": "110001",
+            "nameKo": "서울가락(원표)",
+            "tons": 405.1,
+            "share": 0.235,
+            "yoyShare": 0.134,
+            "isGarak": true,
+            "partial": false
+          },
+          {
+            "code": "220001",
+            "nameKo": "대구북부",
+            "tons": 136.3,
+            "share": 0.079,
+            "yoyShare": 0.072,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "240004",
+            "nameKo": "광주서부",
+            "tons": 102.6,
+            "share": 0.059,
+            "yoyShare": 0.094,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "110008",
+            "nameKo": "서울강서",
+            "tons": 97.3,
+            "share": 0.056,
+            "yoyShare": 0.052,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "311201",
+            "nameKo": "구리",
+            "tons": 94.4,
+            "share": 0.055,
+            "yoyShare": 0.063,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "230001",
+            "nameKo": "인천남촌",
+            "tons": 92.6,
+            "share": 0.054,
+            "yoyShare": 0.049,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "__etc__",
+            "nameKo": "기타 26시장",
+            "tons": 796.3,
+            "share": 0.462,
+            "yoyShare": null,
+            "isGarak": false,
+            "partial": false
+          }
+        ],
+        "table": {
+          "variety": {
+            "code": "shingo",
+            "nameKo": "신고"
+          },
+          "columns": [
+            "신고 전등급",
+            "신고 특·상",
+            "품목 전등급",
+            "품목 특·상"
+          ],
+          "rows": [
+            {
+              "code": "110001",
+              "nameKo": "서울가락(원표)",
+              "kind": "garak",
+              "tons": 405.1,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4309,
+                  "vsGarakPct": null,
+                  "kg": 361259
+                },
+                {
+                  "perKg": 4328,
+                  "vsGarakPct": null,
+                  "kg": 356459
+                },
+                {
+                  "perKg": 4324,
+                  "vsGarakPct": null,
+                  "kg": 405102
+                },
+                {
+                  "perKg": 4349,
+                  "vsGarakPct": null,
+                  "kg": 399102
+                }
+              ]
+            },
+            {
+              "code": "220001",
+              "nameKo": "대구북부",
+              "kind": "market",
+              "tons": 136.3,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4489,
+                  "vsGarakPct": 4.2,
+                  "kg": 113700
+                },
+                {
+                  "perKg": 4704,
+                  "vsGarakPct": 8.7,
+                  "kg": 66008
+                },
+                {
+                  "perKg": 4165,
+                  "vsGarakPct": -3.7,
+                  "kg": 136290
+                },
+                {
+                  "perKg": 4297,
+                  "vsGarakPct": -1.2,
+                  "kg": 82253
+                }
+              ]
+            },
+            {
+              "code": "240004",
+              "nameKo": "광주서부",
+              "kind": "market",
+              "tons": 102.6,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 3659,
+                  "vsGarakPct": -15.1,
+                  "kg": 98355
+                },
+                {
+                  "perKg": 3668,
+                  "vsGarakPct": -15.2,
+                  "kg": 97845
+                },
+                {
+                  "perKg": 3627,
+                  "vsGarakPct": -16.1,
+                  "kg": 102570
+                },
+                {
+                  "perKg": 3635,
+                  "vsGarakPct": -16.4,
+                  "kg": 102060
+                }
+              ]
+            },
+            {
+              "code": "110008",
+              "nameKo": "서울강서",
+              "kind": "market",
+              "tons": 97.3,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4038,
+                  "vsGarakPct": -6.3,
+                  "kg": 91140
+                },
+                {
+                  "perKg": 4128,
+                  "vsGarakPct": -4.6,
+                  "kg": 84285
+                },
+                {
+                  "perKg": 3953,
+                  "vsGarakPct": -8.6,
+                  "kg": 97260
+                },
+                {
+                  "perKg": 4029,
+                  "vsGarakPct": -7.4,
+                  "kg": 90405
+                }
+              ]
+            },
+            {
+              "code": "__national__",
+              "nameKo": "전국 가중",
+              "kind": "national",
+              "tons": 1724.4,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4198,
+                  "vsGarakPct": -2.6,
+                  "kg": 1529106
+                },
+                {
+                  "perKg": 4204,
+                  "vsGarakPct": -2.9,
+                  "kg": 1300581
+                },
+                {
+                  "perKg": 4072,
+                  "vsGarakPct": -5.8,
+                  "kg": 1724430
+                },
+                {
+                  "perKg": 4091,
+                  "vsGarakPct": -5.9,
+                  "kg": 1465200
+                }
+              ]
+            }
+          ]
+        },
+        "gap": {
+          "market": {
+            "code": "220001",
+            "nameKo": "대구북부"
+          },
+          "variety": {
+            "code": "shingo",
+            "nameKo": "신고"
+          },
+          "points": [
+            {
+              "date": "2026-08-12",
+              "garak": 2315,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-13",
+              "garak": 2574,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-14",
+              "garak": 1784,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-15",
+              "garak": 2933,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-17",
+              "garak": 2867,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-19",
+              "garak": 1733,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-20",
+              "garak": 2933,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-21",
+              "garak": 8000,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-22",
+              "garak": 6897,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-24",
+              "garak": 10027,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-25",
+              "garak": 2881,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-26",
+              "garak": 3176,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-27",
+              "garak": 2486,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-28",
+              "garak": 3373,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-29",
+              "garak": 2998,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-31",
+              "garak": 3788,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-09-01",
+              "garak": 3176,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-09-02",
+              "garak": 4429,
+              "market": 3092,
+              "gapPct": -30.2
+            },
+            {
+              "date": "2026-09-03",
+              "garak": 3673,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-09-04",
+              "garak": 4408,
+              "market": 4254,
+              "gapPct": -3.5
+            },
+            {
+              "date": "2026-09-05",
+              "garak": 3675,
+              "market": 3119,
+              "gapPct": -15.1
+            },
+            {
+              "date": "2026-09-07",
+              "garak": 3941,
+              "market": 3671,
+              "gapPct": -6.9
+            },
+            {
+              "date": "2026-09-08",
+              "garak": 4058,
+              "market": 4520,
+              "gapPct": 11.4
+            },
+            {
+              "date": "2026-09-09",
+              "garak": 3870,
+              "market": 4396,
+              "gapPct": 13.6
+            },
+            {
+              "date": "2026-09-10",
+              "garak": 4328,
+              "market": 4704,
+              "gapPct": 8.7
+            }
+          ]
+        },
+        "partialMarkets": []
       }
     },
     {
@@ -15101,6 +15921,419 @@
           "corpName": "서울청과",
           "gapSharePct": 23.8
         }
+      },
+      "national": {
+        "date": "2026-09-10",
+        "marketCount": 32,
+        "nationalTons": 1589.2,
+        "garakTons": 373.7,
+        "mafraGarakTons": 357.4,
+        "garakShare": 0.235,
+        "yoy": {
+          "date": "2025-09-20",
+          "garakShare": 0.223,
+          "leaderShare": 0.061
+        },
+        "leader": {
+          "code": "220001",
+          "nameKo": "대구북부",
+          "tons": 109.1,
+          "share": 0.069,
+          "vsGarakRatio": 0.3
+        },
+        "bars": [
+          {
+            "code": "110001",
+            "nameKo": "서울가락(원표)",
+            "tons": 373.7,
+            "share": 0.235,
+            "yoyShare": 0.223,
+            "isGarak": true,
+            "partial": false
+          },
+          {
+            "code": "220001",
+            "nameKo": "대구북부",
+            "tons": 109.1,
+            "share": 0.069,
+            "yoyShare": 0.061,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "311201",
+            "nameKo": "구리",
+            "tons": 108.7,
+            "share": 0.068,
+            "yoyShare": 0.068,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "240004",
+            "nameKo": "광주서부",
+            "tons": 83.6,
+            "share": 0.053,
+            "yoyShare": 0.052,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "210009",
+            "nameKo": "부산반여",
+            "tons": 83.5,
+            "share": 0.053,
+            "yoyShare": 0.052,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "210001",
+            "nameKo": "부산엄궁",
+            "tons": 75.6,
+            "share": 0.048,
+            "yoyShare": 0.052,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "__etc__",
+            "nameKo": "기타 26시장",
+            "tons": 754.8,
+            "share": 0.475,
+            "yoyShare": null,
+            "isGarak": false,
+            "partial": false
+          }
+        ],
+        "table": {
+          "variety": {
+            "code": "shine",
+            "nameKo": "샤인머스캣"
+          },
+          "columns": [
+            "샤인머스캣 전등급",
+            "샤인머스캣 특·상",
+            "품목 전등급",
+            "품목 특·상"
+          ],
+          "rows": [
+            {
+              "code": "110001",
+              "nameKo": "서울가락(원표)",
+              "kind": "garak",
+              "tons": 373.7,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 3044,
+                  "vsGarakPct": null,
+                  "kg": 207559
+                },
+                {
+                  "perKg": 3045,
+                  "vsGarakPct": null,
+                  "kg": 207437
+                },
+                {
+                  "perKg": 3301,
+                  "vsGarakPct": null,
+                  "kg": 373740
+                },
+                {
+                  "perKg": 3329,
+                  "vsGarakPct": null,
+                  "kg": 364090
+                }
+              ]
+            },
+            {
+              "code": "220001",
+              "nameKo": "대구북부",
+              "kind": "market",
+              "tons": 109.1,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 2921,
+                  "vsGarakPct": -4,
+                  "kg": 52577
+                },
+                {
+                  "perKg": 2942,
+                  "vsGarakPct": -3.4,
+                  "kg": 37399
+                },
+                {
+                  "perKg": 3430,
+                  "vsGarakPct": 3.9,
+                  "kg": 109106
+                },
+                {
+                  "perKg": 3521,
+                  "vsGarakPct": 5.8,
+                  "kg": 86156
+                }
+              ]
+            },
+            {
+              "code": "311201",
+              "nameKo": "구리",
+              "kind": "market",
+              "tons": 108.7,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 3044,
+                  "vsGarakPct": 0,
+                  "kg": 63444
+                },
+                {
+                  "perKg": 3153,
+                  "vsGarakPct": 3.5,
+                  "kg": 41846
+                },
+                {
+                  "perKg": 3296,
+                  "vsGarakPct": -0.2,
+                  "kg": 108710
+                },
+                {
+                  "perKg": 3399,
+                  "vsGarakPct": 2.1,
+                  "kg": 82639
+                }
+              ]
+            },
+            {
+              "code": "240004",
+              "nameKo": "광주서부",
+              "kind": "market",
+              "tons": 83.6,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 3195,
+                  "vsGarakPct": 5,
+                  "kg": 42106
+                },
+                {
+                  "perKg": 3201,
+                  "vsGarakPct": 5.1,
+                  "kg": 41968
+                },
+                {
+                  "perKg": 4264,
+                  "vsGarakPct": 29.2,
+                  "kg": 83610
+                },
+                {
+                  "perKg": 4258,
+                  "vsGarakPct": 27.9,
+                  "kg": 72324
+                }
+              ]
+            },
+            {
+              "code": "__national__",
+              "nameKo": "전국 가중",
+              "kind": "national",
+              "tons": 1589.2,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 2956,
+                  "vsGarakPct": -2.9,
+                  "kg": 866453
+                },
+                {
+                  "perKg": 2980,
+                  "vsGarakPct": -2.1,
+                  "kg": 751515
+                },
+                {
+                  "perKg": 3334,
+                  "vsGarakPct": 1,
+                  "kg": 1589195
+                },
+                {
+                  "perKg": 3385,
+                  "vsGarakPct": 1.7,
+                  "kg": 1355932
+                }
+              ]
+            }
+          ]
+        },
+        "gap": {
+          "market": {
+            "code": "220001",
+            "nameKo": "대구북부"
+          },
+          "variety": {
+            "code": "shine",
+            "nameKo": "샤인머스캣"
+          },
+          "points": [
+            {
+              "date": "2026-08-12",
+              "garak": 5143,
+              "market": 4856,
+              "gapPct": -5.6
+            },
+            {
+              "date": "2026-08-13",
+              "garak": 5018,
+              "market": 4847,
+              "gapPct": -3.4
+            },
+            {
+              "date": "2026-08-14",
+              "garak": 4945,
+              "market": 5101,
+              "gapPct": 3.2
+            },
+            {
+              "date": "2026-08-15",
+              "garak": 5456,
+              "market": 5057,
+              "gapPct": -7.3
+            },
+            {
+              "date": "2026-08-17",
+              "garak": 5118,
+              "market": 5313,
+              "gapPct": 3.8
+            },
+            {
+              "date": "2026-08-18",
+              "garak": 4995,
+              "market": 4840,
+              "gapPct": -3.1
+            },
+            {
+              "date": "2026-08-19",
+              "garak": 4902,
+              "market": 4636,
+              "gapPct": -5.4
+            },
+            {
+              "date": "2026-08-20",
+              "garak": 4525,
+              "market": 4556,
+              "gapPct": 0.7
+            },
+            {
+              "date": "2026-08-21",
+              "garak": 4078,
+              "market": 4137,
+              "gapPct": 1.4
+            },
+            {
+              "date": "2026-08-22",
+              "garak": 3902,
+              "market": 3968,
+              "gapPct": 1.7
+            },
+            {
+              "date": "2026-08-24",
+              "garak": 3956,
+              "market": 4200,
+              "gapPct": 6.2
+            },
+            {
+              "date": "2026-08-25",
+              "garak": 3841,
+              "market": 3970,
+              "gapPct": 3.4
+            },
+            {
+              "date": "2026-08-26",
+              "garak": 3845,
+              "market": 3817,
+              "gapPct": -0.7
+            },
+            {
+              "date": "2026-08-27",
+              "garak": 3707,
+              "market": 3496,
+              "gapPct": -5.7
+            },
+            {
+              "date": "2026-08-28",
+              "garak": 3641,
+              "market": 3374,
+              "gapPct": -7.3
+            },
+            {
+              "date": "2026-08-29",
+              "garak": 3787,
+              "market": 3351,
+              "gapPct": -11.5
+            },
+            {
+              "date": "2026-08-31",
+              "garak": 3733,
+              "market": 3448,
+              "gapPct": -7.6
+            },
+            {
+              "date": "2026-09-01",
+              "garak": 3662,
+              "market": 3294,
+              "gapPct": -10
+            },
+            {
+              "date": "2026-09-02",
+              "garak": 3515,
+              "market": 3132,
+              "gapPct": -10.9
+            },
+            {
+              "date": "2026-09-03",
+              "garak": 3401,
+              "market": 3065,
+              "gapPct": -9.9
+            },
+            {
+              "date": "2026-09-04",
+              "garak": 3336,
+              "market": 2969,
+              "gapPct": -11
+            },
+            {
+              "date": "2026-09-05",
+              "garak": 3424,
+              "market": 2922,
+              "gapPct": -14.7
+            },
+            {
+              "date": "2026-09-07",
+              "garak": 3478,
+              "market": 3107,
+              "gapPct": -10.7
+            },
+            {
+              "date": "2026-09-08",
+              "garak": 3556,
+              "market": 3285,
+              "gapPct": -7.6
+            },
+            {
+              "date": "2026-09-09",
+              "garak": 3261,
+              "market": 3318,
+              "gapPct": 1.7
+            },
+            {
+              "date": "2026-09-10",
+              "garak": 3045,
+              "market": 2942,
+              "gapPct": -3.4
+            }
+          ]
+        },
+        "partialMarkets": []
       }
     },
     {
@@ -20479,6 +21712,413 @@
           "corpName": "서울청과",
           "gapSharePct": 11.7
         }
+      },
+      "national": {
+        "date": "2026-09-10",
+        "marketCount": 32,
+        "nationalTons": 686.8,
+        "garakTons": 254.1,
+        "mafraGarakTons": 210.2,
+        "garakShare": 0.37,
+        "yoy": {
+          "date": "2025-09-20",
+          "garakShare": 0.409,
+          "leaderShare": 0.066
+        },
+        "leader": {
+          "code": "110008",
+          "nameKo": "서울강서",
+          "tons": 48.4,
+          "share": 0.07,
+          "vsGarakRatio": 0.2
+        },
+        "bars": [
+          {
+            "code": "110001",
+            "nameKo": "서울가락(원표)",
+            "tons": 254.1,
+            "share": 0.37,
+            "yoyShare": 0.409,
+            "isGarak": true,
+            "partial": false
+          },
+          {
+            "code": "110008",
+            "nameKo": "서울강서",
+            "tons": 48.4,
+            "share": 0.07,
+            "yoyShare": 0.066,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "311201",
+            "nameKo": "구리",
+            "tons": 47.4,
+            "share": 0.069,
+            "yoyShare": 0.072,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "210009",
+            "nameKo": "부산반여",
+            "tons": 31.6,
+            "share": 0.046,
+            "yoyShare": 0.028,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "220001",
+            "nameKo": "대구북부",
+            "tons": 27.8,
+            "share": 0.04,
+            "yoyShare": 0.031,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "240004",
+            "nameKo": "광주서부",
+            "tons": 26.7,
+            "share": 0.039,
+            "yoyShare": 0.039,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "__etc__",
+            "nameKo": "기타 26시장",
+            "tons": 250.6,
+            "share": 0.365,
+            "yoyShare": null,
+            "isGarak": false,
+            "partial": false
+          }
+        ],
+        "table": {
+          "variety": {
+            "code": "elberta",
+            "nameKo": "엘바트"
+          },
+          "columns": [
+            "엘바트 전등급",
+            "엘바트 특·상",
+            "품목 전등급",
+            "품목 특·상"
+          ],
+          "rows": [
+            {
+              "code": "110001",
+              "nameKo": "서울가락(원표)",
+              "kind": "garak",
+              "tons": 254.1,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4793,
+                  "vsGarakPct": null,
+                  "kg": 69469
+                },
+                {
+                  "perKg": 4810,
+                  "vsGarakPct": null,
+                  "kg": 68999
+                },
+                {
+                  "perKg": 3983,
+                  "vsGarakPct": null,
+                  "kg": 254089
+                },
+                {
+                  "perKg": 4016,
+                  "vsGarakPct": null,
+                  "kg": 250207
+                }
+              ]
+            },
+            {
+              "code": "110008",
+              "nameKo": "서울강서",
+              "kind": "market",
+              "tons": 48.4,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4743,
+                  "vsGarakPct": -1,
+                  "kg": 604
+                },
+                {
+                  "perKg": 4743,
+                  "vsGarakPct": -1.4,
+                  "kg": 604
+                },
+                {
+                  "perKg": 3980,
+                  "vsGarakPct": -0.1,
+                  "kg": 48370
+                },
+                {
+                  "perKg": 3890,
+                  "vsGarakPct": -3.1,
+                  "kg": 40350
+                }
+              ]
+            },
+            {
+              "code": "311201",
+              "nameKo": "구리",
+              "kind": "market",
+              "tons": 47.4,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": null,
+                  "vsGarakPct": null,
+                  "kg": 0
+                },
+                {
+                  "perKg": null,
+                  "vsGarakPct": null,
+                  "kg": 0
+                },
+                {
+                  "perKg": 4068,
+                  "vsGarakPct": 2.1,
+                  "kg": 47450
+                },
+                {
+                  "perKg": 4206,
+                  "vsGarakPct": 4.7,
+                  "kg": 25990
+                }
+              ]
+            },
+            {
+              "code": "210009",
+              "nameKo": "부산반여",
+              "kind": "market",
+              "tons": 31.6,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 3374,
+                  "vsGarakPct": -29.6,
+                  "kg": 496
+                },
+                {
+                  "perKg": 3374,
+                  "vsGarakPct": -29.9,
+                  "kg": 496
+                },
+                {
+                  "perKg": 4204,
+                  "vsGarakPct": 5.5,
+                  "kg": 31648
+                },
+                {
+                  "perKg": 4270,
+                  "vsGarakPct": 6.3,
+                  "kg": 30680
+                }
+              ]
+            },
+            {
+              "code": "__national__",
+              "nameKo": "전국 가중",
+              "kind": "national",
+              "tons": 686.8,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4729,
+                  "vsGarakPct": -1.3,
+                  "kg": 76280
+                },
+                {
+                  "perKg": 4746,
+                  "vsGarakPct": -1.3,
+                  "kg": 75514
+                },
+                {
+                  "perKg": 4143,
+                  "vsGarakPct": 4,
+                  "kg": 686759
+                },
+                {
+                  "perKg": 4215,
+                  "vsGarakPct": 5,
+                  "kg": 596332
+                }
+              ]
+            }
+          ]
+        },
+        "gap": {
+          "market": {
+            "code": "110008",
+            "nameKo": "서울강서"
+          },
+          "variety": {
+            "code": "elberta",
+            "nameKo": "엘바트"
+          },
+          "points": [
+            {
+              "date": "2026-08-13",
+              "garak": 9797,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-14",
+              "garak": 7917,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-15",
+              "garak": 4411,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-17",
+              "garak": 5074,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-18",
+              "garak": 6580,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-19",
+              "garak": 6858,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-20",
+              "garak": 5700,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-21",
+              "garak": 4994,
+              "market": 2886,
+              "gapPct": -42.2
+            },
+            {
+              "date": "2026-08-22",
+              "garak": 5185,
+              "market": 2156,
+              "gapPct": -58.4
+            },
+            {
+              "date": "2026-08-24",
+              "garak": 5717,
+              "market": null,
+              "gapPct": null
+            },
+            {
+              "date": "2026-08-25",
+              "garak": 5225,
+              "market": 1750,
+              "gapPct": -66.5
+            },
+            {
+              "date": "2026-08-26",
+              "garak": 5956,
+              "market": 2833,
+              "gapPct": -52.4
+            },
+            {
+              "date": "2026-08-27",
+              "garak": 5604,
+              "market": 5097,
+              "gapPct": -9
+            },
+            {
+              "date": "2026-08-28",
+              "garak": 5558,
+              "market": 4737,
+              "gapPct": -14.8
+            },
+            {
+              "date": "2026-08-29",
+              "garak": 5088,
+              "market": 4689,
+              "gapPct": -7.8
+            },
+            {
+              "date": "2026-08-31",
+              "garak": 5520,
+              "market": 5837,
+              "gapPct": 5.7
+            },
+            {
+              "date": "2026-09-01",
+              "garak": 5796,
+              "market": 4677,
+              "gapPct": -19.3
+            },
+            {
+              "date": "2026-09-02",
+              "garak": 6231,
+              "market": 5364,
+              "gapPct": -13.9
+            },
+            {
+              "date": "2026-09-03",
+              "garak": 6233,
+              "market": 4948,
+              "gapPct": -20.6
+            },
+            {
+              "date": "2026-09-04",
+              "garak": 5447,
+              "market": 4425,
+              "gapPct": -18.8
+            },
+            {
+              "date": "2026-09-05",
+              "garak": 5636,
+              "market": 4374,
+              "gapPct": -22.4
+            },
+            {
+              "date": "2026-09-07",
+              "garak": 2775,
+              "market": 4133,
+              "gapPct": 48.9
+            },
+            {
+              "date": "2026-09-08",
+              "garak": 5033,
+              "market": 4233,
+              "gapPct": -15.9
+            },
+            {
+              "date": "2026-09-09",
+              "garak": 4878,
+              "market": 3069,
+              "gapPct": -37.1
+            },
+            {
+              "date": "2026-09-10",
+              "garak": 4810,
+              "market": 4743,
+              "gapPct": -1.4
+            }
+          ]
+        },
+        "partialMarkets": []
       }
     },
     {
@@ -24530,6 +26170,419 @@
           "corpName": "서울청과",
           "gapSharePct": 1.1
         }
+      },
+      "national": {
+        "date": "2026-09-10",
+        "marketCount": 32,
+        "nationalTons": 143.9,
+        "garakTons": 28.9,
+        "mafraGarakTons": 32.7,
+        "garakShare": 0.201,
+        "yoy": {
+          "date": "2025-09-20",
+          "garakShare": 0.188,
+          "leaderShare": 0.119
+        },
+        "leader": {
+          "code": "220001",
+          "nameKo": "대구북부",
+          "tons": 14.2,
+          "share": 0.099,
+          "vsGarakRatio": 0.5
+        },
+        "bars": [
+          {
+            "code": "110001",
+            "nameKo": "서울가락(원표)",
+            "tons": 28.9,
+            "share": 0.201,
+            "yoyShare": 0.188,
+            "isGarak": true,
+            "partial": false
+          },
+          {
+            "code": "220001",
+            "nameKo": "대구북부",
+            "tons": 14.2,
+            "share": 0.099,
+            "yoyShare": 0.119,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "210009",
+            "nameKo": "부산반여",
+            "tons": 10.9,
+            "share": 0.076,
+            "yoyShare": 0.042,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "210001",
+            "nameKo": "부산엄궁",
+            "tons": 9.6,
+            "share": 0.066,
+            "yoyShare": 0.054,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "240004",
+            "nameKo": "광주서부",
+            "tons": 8.6,
+            "share": 0.06,
+            "yoyShare": 0.084,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "311201",
+            "nameKo": "구리",
+            "tons": 7.4,
+            "share": 0.051,
+            "yoyShare": 0.061,
+            "isGarak": false,
+            "partial": false
+          },
+          {
+            "code": "__etc__",
+            "nameKo": "기타 26시장",
+            "tons": 64.1,
+            "share": 0.446,
+            "yoyShare": null,
+            "isGarak": false,
+            "partial": false
+          }
+        ],
+        "table": {
+          "variety": {
+            "code": "house",
+            "nameKo": "하우스감귤"
+          },
+          "columns": [
+            "하우스감귤 전등급",
+            "하우스감귤 특·상",
+            "품목 전등급",
+            "품목 특·상"
+          ],
+          "rows": [
+            {
+              "code": "110001",
+              "nameKo": "서울가락(원표)",
+              "kind": "garak",
+              "tons": 28.9,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 5601,
+                  "vsGarakPct": null,
+                  "kg": 28342
+                },
+                {
+                  "perKg": 5602,
+                  "vsGarakPct": null,
+                  "kg": 26534
+                },
+                {
+                  "perKg": 5748,
+                  "vsGarakPct": null,
+                  "kg": 28942
+                },
+                {
+                  "perKg": 5758,
+                  "vsGarakPct": null,
+                  "kg": 27134
+                }
+              ]
+            },
+            {
+              "code": "220001",
+              "nameKo": "대구북부",
+              "kind": "market",
+              "tons": 14.2,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4852,
+                  "vsGarakPct": -13.4,
+                  "kg": 14241
+                },
+                {
+                  "perKg": 5190,
+                  "vsGarakPct": -7.4,
+                  "kg": 8750
+                },
+                {
+                  "perKg": 4852,
+                  "vsGarakPct": -15.6,
+                  "kg": 14241
+                },
+                {
+                  "perKg": 5190,
+                  "vsGarakPct": -9.9,
+                  "kg": 8750
+                }
+              ]
+            },
+            {
+              "code": "210009",
+              "nameKo": "부산반여",
+              "kind": "market",
+              "tons": 10.9,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4453,
+                  "vsGarakPct": -20.5,
+                  "kg": 10879
+                },
+                {
+                  "perKg": 4517,
+                  "vsGarakPct": -19.4,
+                  "kg": 10269
+                },
+                {
+                  "perKg": 4453,
+                  "vsGarakPct": -22.5,
+                  "kg": 10879
+                },
+                {
+                  "perKg": 4517,
+                  "vsGarakPct": -21.6,
+                  "kg": 10269
+                }
+              ]
+            },
+            {
+              "code": "210001",
+              "nameKo": "부산엄궁",
+              "kind": "market",
+              "tons": 9.6,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 4210,
+                  "vsGarakPct": -24.8,
+                  "kg": 9561
+                },
+                {
+                  "perKg": 4123,
+                  "vsGarakPct": -26.4,
+                  "kg": 6732
+                },
+                {
+                  "perKg": 4210,
+                  "vsGarakPct": -26.8,
+                  "kg": 9561
+                },
+                {
+                  "perKg": 4123,
+                  "vsGarakPct": -28.4,
+                  "kg": 6732
+                }
+              ]
+            },
+            {
+              "code": "__national__",
+              "nameKo": "전국 가중",
+              "kind": "national",
+              "tons": 143.9,
+              "partial": false,
+              "cells": [
+                {
+                  "perKg": 5209,
+                  "vsGarakPct": -7,
+                  "kg": 136436
+                },
+                {
+                  "perKg": 5321,
+                  "vsGarakPct": -5,
+                  "kg": 107670
+                },
+                {
+                  "perKg": 5220,
+                  "vsGarakPct": -9.2,
+                  "kg": 143879
+                },
+                {
+                  "perKg": 5335,
+                  "vsGarakPct": -7.3,
+                  "kg": 113716
+                }
+              ]
+            }
+          ]
+        },
+        "gap": {
+          "market": {
+            "code": "220001",
+            "nameKo": "대구북부"
+          },
+          "variety": {
+            "code": "house",
+            "nameKo": "하우스감귤"
+          },
+          "points": [
+            {
+              "date": "2026-08-12",
+              "garak": 6456,
+              "market": 6184,
+              "gapPct": -4.2
+            },
+            {
+              "date": "2026-08-13",
+              "garak": 6419,
+              "market": 5741,
+              "gapPct": -10.6
+            },
+            {
+              "date": "2026-08-14",
+              "garak": 5731,
+              "market": 5996,
+              "gapPct": 4.6
+            },
+            {
+              "date": "2026-08-15",
+              "garak": 6162,
+              "market": 5345,
+              "gapPct": -13.3
+            },
+            {
+              "date": "2026-08-17",
+              "garak": 6872,
+              "market": 5241,
+              "gapPct": -23.7
+            },
+            {
+              "date": "2026-08-18",
+              "garak": 6490,
+              "market": 5509,
+              "gapPct": -15.1
+            },
+            {
+              "date": "2026-08-19",
+              "garak": 6452,
+              "market": 5264,
+              "gapPct": -18.4
+            },
+            {
+              "date": "2026-08-20",
+              "garak": 6714,
+              "market": 5444,
+              "gapPct": -18.9
+            },
+            {
+              "date": "2026-08-21",
+              "garak": 6636,
+              "market": 5249,
+              "gapPct": -20.9
+            },
+            {
+              "date": "2026-08-22",
+              "garak": 6231,
+              "market": 5054,
+              "gapPct": -18.9
+            },
+            {
+              "date": "2026-08-24",
+              "garak": 6658,
+              "market": 6406,
+              "gapPct": -3.8
+            },
+            {
+              "date": "2026-08-25",
+              "garak": 6646,
+              "market": 5567,
+              "gapPct": -16.2
+            },
+            {
+              "date": "2026-08-26",
+              "garak": 6493,
+              "market": 5324,
+              "gapPct": -18
+            },
+            {
+              "date": "2026-08-27",
+              "garak": 5967,
+              "market": 5468,
+              "gapPct": -8.4
+            },
+            {
+              "date": "2026-08-28",
+              "garak": 6414,
+              "market": 5410,
+              "gapPct": -15.7
+            },
+            {
+              "date": "2026-08-29",
+              "garak": 5979,
+              "market": 5181,
+              "gapPct": -13.3
+            },
+            {
+              "date": "2026-08-31",
+              "garak": 6378,
+              "market": 4859,
+              "gapPct": -23.8
+            },
+            {
+              "date": "2026-09-01",
+              "garak": 6143,
+              "market": 5273,
+              "gapPct": -14.2
+            },
+            {
+              "date": "2026-09-02",
+              "garak": 5914,
+              "market": 4802,
+              "gapPct": -18.8
+            },
+            {
+              "date": "2026-09-03",
+              "garak": 5560,
+              "market": 4591,
+              "gapPct": -17.4
+            },
+            {
+              "date": "2026-09-04",
+              "garak": 5626,
+              "market": 4571,
+              "gapPct": -18.8
+            },
+            {
+              "date": "2026-09-05",
+              "garak": 5743,
+              "market": 4833,
+              "gapPct": -15.8
+            },
+            {
+              "date": "2026-09-07",
+              "garak": 5911,
+              "market": 5196,
+              "gapPct": -12.1
+            },
+            {
+              "date": "2026-09-08",
+              "garak": 5662,
+              "market": 5765,
+              "gapPct": 1.8
+            },
+            {
+              "date": "2026-09-09",
+              "garak": 5531,
+              "market": 5394,
+              "gapPct": -2.5
+            },
+            {
+              "date": "2026-09-10",
+              "garak": 5602,
+              "market": 5190,
+              "gapPct": -7.4
+            }
+          ]
+        },
+        "partialMarkets": []
       }
     }
   ],
@@ -24604,6 +26657,7 @@
     "소비자가격은 KAMIS 전국 소매 평균(주 5일 조사·오후 발표)이며 낱개 단위(10개 등)라 도매 원/상자와 수준 비교는 하지 않음 — 같은 소매 lane 의 변화율끼리만. 전이율 = 소매 전월비 ÷ 도매(기준규격 상) 전월비(도매 변화 ±3% 미만이면 미산출). 소매·도매 단위가 같은 경우(포도 2kg)에만 소매/도매 배율 표기.",
     "부서 임계표에 지배품종·월 행이 없는 품목(복숭아 엘바트·감귤 하우스·단감 태추 등)은 '자체 산출' 임계로 판정 — 부서 산식(안정=직전 5개년 같은 달 올림픽 평균, σ 구간)을 가락 '상' lane 에 적용한 보조 지표이며 심각↓는 같은 품목 부서 비율 차용. 부서 임계와 구분해 읽을 것.",
     "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한.",
+    "「전국 시장」은 농식품부 공영도매시장 정산자료(32시장)와 가락 경매원표를 견준 것 — 시장 합산·표·추이의 가락 값은 경매원표(data12)이고 정산자료의 가락(110001)분은 교차검증에만 쓴다. 단위는 원/kg(시장마다 규격이 달라 원/상자 비교 불가)이며 같은 품종·같은 등급대(특·상)끼리만 견준다. 등급 표기는 시장마다 달라 특·상 밖의 등급은 '전등급'에만 포함. 정산은 법인 마감 지연 시 부분 수신(⚠)될 수 있어 7일 뒤 확정치로 갱신.",
     "기준 품종(헤더 pill)은 최근 5거래일 물량 1위 품종으로 정하되, 이미 정한 기준 품종보다 5%p 이상 앞선 날이 3거래일 연속일 때만 바뀐다(당일 최다 품종 ★과 다를 수 있음 — 기준 품종·규격이 날마다 흔들리면 가격·위기단계·연속일수를 이어 읽을 수 없기 때문). 바뀐 날은 「기준 전환」으로 표시하고 이전 기준 규격 행을 3거래일 병기하며 위기단계 연속일수는 전환일부터 다시 센다. '기준' chip = 그 품종의 기준 포장규격(부서 기준규격 → 실물 대표 규격)."
   ],
   "provenance": {
@@ -24624,6 +26678,9 @@
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2022-08-10..2022-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2021-08-10..2021-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2021-08-10..2021-09-30 (§13 소매, kg kind lane 은 단위당 환산)",
+      "MafraSettleCache itemCode IN fruit dateKey=2026-09-10 (시장·품종·등급 Σkg·Σgross, §12.17 전국 시장)",
+      "MafraSettleCoverage dateKey=2026-09-10 (시장별 부분 수신) · MafraSettleCache 2025-09-18..2025-09-24 시장 Σkg (전년 비교일) · 2026-08-12..2026-09-10 특·상 일별(최다 시장 370401,220001,240004,210001,110008,250003)",
+      "GarakCorpTradeCache dateKey=2026-09-10 품종·등급 Σ + 2026-08-12..2026-09-10 특·상 일별 (가락 원표 치환, §12.17)",
       "GarakCorpTradeCache 일자×산지 Σkg 2021-01-01..2026-09-10 (상위 12 시군 원문 + 나머지 합 — 출하 시기·진도, §12.4g)",
       "GarakCorpTradeCache (인증구분, 규격, 법인) Σ 2026-08-12..2026-09-10 + 전년 같은 창 (인증 프리미엄, §12.8)",
       "GarakOriginPriceCache itemCode IN fruit dateKey 2026-09-06..2026-09-10 (당일 상위 산지, 상세 전용)",
