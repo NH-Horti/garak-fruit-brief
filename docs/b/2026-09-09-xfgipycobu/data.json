@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T02:01:26.266Z",
+  "generatedAt": "2026-09-21T03:19:37.498Z",
   "targetDate": "2026-09-09",
   "weekday": "수",
   "sentOn": "2026-09-21",
@@ -4689,8 +4689,8 @@
         "nameKo": "신고",
         "share": 0.717,
         "sangLaneFound": true,
-        "since": "2026-09-09",
-        "reason": "COLLAPSE",
+        "since": "2026-09-08",
+        "reason": "FAST",
         "truncated": false,
         "basisKg": 15,
         "basisSource": "ITEM_BOX",
@@ -4699,12 +4699,12 @@
             "code": "wonhwang",
             "nameKo": "원황",
             "basisKg": 15,
-            "until": "2026-09-08"
+            "until": "2026-09-07"
           },
-          "switchedOn": "2026-09-09",
-          "switchedToday": true,
-          "reason": "COLLAPSE",
-          "handoverDaysLeft": 3
+          "switchedOn": "2026-09-08",
+          "switchedToday": false,
+          "reason": "FAST",
+          "handoverDaysLeft": 2
         },
         "pending": null
       },
@@ -6992,7 +6992,12 @@
           "alertUp": 56782,
           "criticalUp": 61342
         },
-        "prevStage": null,
+        "prevStage": {
+          "date": "2026-09-08",
+          "stage": "STABLE",
+          "label": "안정",
+          "price": 51875
+        },
         "reportStage": {
           "stage": "STABLE",
           "label": "안정",
@@ -7002,8 +7007,8 @@
         "offSeason": false,
         "local": null,
         "streak": {
-          "days": 1,
-          "since": "2026-09-09",
+          "days": 2,
+          "since": "2026-09-08",
           "from": null,
           "capped": false,
           "scope": "ALL",
@@ -7012,9 +7017,9 @@
               "stage": "STABLE",
               "direction": "FLAT",
               "label": "안정",
-              "from": "2026-09-09",
+              "from": "2026-09-08",
               "to": "2026-09-09",
-              "days": 1,
+              "days": 2,
               "truncated": false
             }
           ],
@@ -20226,7 +20231,8 @@
           "code": "태추",
           "nameKo": "태추",
           "days": 2,
-          "needDays": 3
+          "needDays": 3,
+          "rule": "CONFIRM"
         }
       },
       "iconDataUri": null,
@@ -26955,20 +26961,11 @@
     }
   ],
   "headlines": {
-    "supply": "사과 반입 전일 274t → 286t(▲4%), 전년 같은 날比 ▲103% · 전년 추석 D−16比 ▲97% — 홍로 265t(전일 ▲5%)",
-    "price": "배 기준 품종 전환 원황 15kg → 신고 15kg(이전 기준 품종 물량 급감) · 신고 48,840원 안정"
+    "supply": "배 반입 전일 191t → 302t(▲58%), 전년 같은 날比 ▲375% · 전년 추석 D−16比 ▲51% — 신고 268t(전일 ▲80%)",
+    "price": "복숭아 기준 품종 전환 황도 4kg → 엘바트 4kg(이전 기준 품종 물량 급감) · 엘바트 24,797원 안정"
   },
-  "structuralHeadline": "사과 반입 전일 274t → 286t(▲4%), 전년 같은 날比 ▲103% · 전년 추석 D−16比 ▲97% — 홍로 265t(전일 ▲5%)",
+  "structuralHeadline": "배 반입 전일 191t → 302t(▲58%), 전년 같은 날比 ▲375% · 전년 추석 D−16比 ▲51% — 신고 268t(전일 ▲80%)",
   "anchorEvents": [
-    {
-      "itemCode": "pear",
-      "nameKo": "배",
-      "from": "원황",
-      "to": "신고",
-      "fromKg": 15,
-      "toKg": 15,
-      "reason": "COLLAPSE"
-    },
     {
       "itemCode": "peach",
       "nameKo": "복숭아",
