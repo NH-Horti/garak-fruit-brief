@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T16:33:15.041Z",
+  "generatedAt": "2026-09-21T02:07:18.714Z",
   "targetDate": "2026-09-04",
   "weekday": "금",
   "sentOn": "2026-09-21",
@@ -9,6 +9,24 @@
     {
       "itemCode": "apple",
       "nameKo": "사과",
+      "leader": {
+        "code": "hongro",
+        "nameKo": "홍로",
+        "share": 0.941
+      },
+      "anchor": {
+        "code": "hongro",
+        "nameKo": "홍로",
+        "share": 0.933,
+        "sangLaneFound": true,
+        "since": "2026-08-22",
+        "reason": "CONFIRMED",
+        "truncated": false,
+        "basisKg": 10,
+        "basisSource": "ITEM_BOX",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 1,
       "onPoster": true,
@@ -72,6 +90,7 @@
         {
           "unitTag": "10kg",
           "unitLabel": "10kg",
+          "handover": null,
           "kg": 10,
           "isRep": true,
           "isAnchor": true,
@@ -3892,6 +3911,24 @@
     {
       "itemCode": "pear",
       "nameKo": "배",
+      "leader": {
+        "code": "shingo",
+        "nameKo": "신고",
+        "share": 0.375
+      },
+      "anchor": {
+        "code": "wonhwang",
+        "nameKo": "원황",
+        "share": 0.327,
+        "sangLaneFound": true,
+        "since": "2026-08-08",
+        "reason": "CONFIRMED",
+        "truncated": false,
+        "basisKg": 15,
+        "basisSource": "ITEM_BOX",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 2,
       "onPoster": true,
@@ -3955,6 +3992,7 @@
         {
           "unitTag": "15kg",
           "unitLabel": "15kg",
+          "handover": null,
           "kg": 15,
           "isRep": true,
           "isAnchor": true,
@@ -7749,6 +7787,24 @@
     {
       "itemCode": "grape",
       "nameKo": "포도",
+      "leader": {
+        "code": "shine",
+        "nameKo": "샤인머스캣",
+        "share": 0.497
+      },
+      "anchor": {
+        "code": "shine",
+        "nameKo": "샤인머스캣",
+        "share": 0.519,
+        "sangLaneFound": true,
+        "since": "2026-07-02",
+        "reason": "CONFIRMED",
+        "truncated": false,
+        "basisKg": 2,
+        "basisSource": "THRESHOLD",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 3,
       "onPoster": true,
@@ -7812,6 +7868,7 @@
         {
           "unitTag": "2kg",
           "unitLabel": "2kg",
+          "handover": null,
           "kg": 2,
           "isRep": false,
           "isAnchor": true,
@@ -8495,6 +8552,7 @@
         {
           "unitTag": "4kg",
           "unitLabel": "4kg",
+          "handover": null,
           "kg": 4,
           "isRep": false,
           "isAnchor": false,
@@ -12511,13 +12569,36 @@
     {
       "itemCode": "peach",
       "nameKo": "복숭아",
+      "leader": {
+        "code": "hwangdo",
+        "nameKo": "황도",
+        "share": 0.143
+      },
+      "anchor": {
+        "code": "hwangdo",
+        "nameKo": "황도",
+        "share": 0.17,
+        "sangLaneFound": true,
+        "since": "2026-08-20",
+        "reason": "CONFIRMED",
+        "truncated": false,
+        "basisKg": 10,
+        "basisSource": "SANG_UNIT",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 4,
       "onPoster": true,
       "tradeValue": 1594184921,
       "defaultBoxKg": 4.5,
       "offSeason": false,
-      "variety": null,
+      "variety": {
+        "code": "hwangdo",
+        "nameKo": "황도",
+        "share": 0.17,
+        "sangLaneFound": true
+      },
       "volume": {
         "tons": 355,
         "vsPrev": {
@@ -12541,41 +12622,64 @@
           "daysBefore": 21,
           "share": null
         },
-        "variety": null
+        "variety": {
+          "code": "hwangdo",
+          "nameKo": "황도",
+          "tons": 50.8,
+          "prevTons": 45.2,
+          "vsPrevPct": 12.4,
+          "vsYoy": {
+            "date": "2025-09-04",
+            "tons": 62.9,
+            "pct": -19.2,
+            "basis": "date",
+            "daysBefore": null,
+            "share": null
+          },
+          "vsYoyChuseok": {
+            "date": "2025-09-15",
+            "tons": 9.3,
+            "pct": 446.2,
+            "basis": "chuseok",
+            "daysBefore": 21,
+            "share": null
+          }
+        }
       },
       "units": [
         {
           "unitTag": "4kg",
           "unitLabel": "4kg",
+          "handover": null,
           "kg": 4,
           "isRep": false,
           "isAnchor": false,
-          "qtyUnits": 51315,
-          "tons": 205.3,
+          "qtyUnits": 11515,
+          "tons": 46.1,
           "vol": {
             "prev": {
               "date": "2026-09-03",
-              "tons": 169.8,
-              "pct": 20.9
+              "tons": 41.8,
+              "pct": 10.3
             },
             "yoy": {
               "date": "2025-09-04",
-              "tons": 176.3,
-              "pct": 16.4,
+              "tons": 55.6,
+              "pct": -17.1,
               "basis": "date",
               "daysBefore": null,
-              "share": 0.579
+              "share": 0.884
             },
             "yoyChuseok": {
               "date": "2025-09-15",
-              "tons": 132.9,
-              "pct": 54.5,
+              "tons": 8.5,
+              "pct": 442.4,
               "basis": "chuseok",
               "daysBefore": 21,
-              "share": 0.711
+              "share": 0.913
             },
             "avg5": {
-              "tons": 182.8,
+              "tons": 57,
               "days": 5
             }
           },
@@ -12583,68 +12687,241 @@
             "cur": [
               {
                 "date": "2026-09-01",
-                "tons": 153.1
+                "tons": 43.9
               },
               {
                 "date": "2026-09-02",
-                "tons": 120.1
+                "tons": 37
               },
               {
                 "date": "2026-09-03",
-                "tons": 169.8
+                "tons": 41.8
               },
               {
                 "date": "2026-09-04",
-                "tons": 205.3
+                "tons": 46.1
               }
             ],
             "yoy": [
               {
                 "date": "2025-09-01",
-                "tons": 292.4
+                "tons": 111.9
               },
               {
                 "date": "2025-09-02",
-                "tons": 210.5
+                "tons": 72.7
               },
               {
                 "date": "2025-09-03",
-                "tons": 170
+                "tons": 56.7
               },
               {
                 "date": "2025-09-04",
-                "tons": 176.3
+                "tons": 55.6
               }
             ]
           },
-          "kgShare": 0.579,
+          "kgShare": 0.907,
           "sang": {
             "date": "2026-09-04",
-            "price": 19760.128617363345,
-            "key": "GARAK#U_4kg",
-            "source": "DATA12_AVG"
+            "price": 23640,
+            "key": "GARAK_SANG#U_4kg#V_hwangdo",
+            "source": "SANG"
           },
-          "perKg": 4940,
-          "grades": {},
+          "perKg": 5910,
+          "grades": {
+            "SPECIAL": {
+              "price": 28170,
+              "vsPrev": {
+                "date": "2026-09-03",
+                "value": 30184,
+                "pct": -6.7
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 28820,
+                "pct": -2.3
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 31007,
+                "pct": -9.1
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 28823,
+                "pct": -2.3,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              },
+              "mtd": {
+                "avg": 27702,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-04",
+                "thin": false,
+                "vsPrevMonthPct": -3.9,
+                "vsYoyPct": -10.7,
+                "vsNormalPct": -3.9,
+                "yoyToDate": {
+                  "value": 25456,
+                  "days": 4,
+                  "pct": 8.8
+                }
+              }
+            },
+            "HIGH": {
+              "price": 23640,
+              "vsPrev": {
+                "date": "2026-09-03",
+                "value": 26403,
+                "pct": -10.5
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 22804,
+                "pct": 3.7
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 24556,
+                "pct": -3.7
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 23009,
+                "pct": 2.7,
+                "years": [
+                  2025,
+                  2024,
+                  2021
+                ]
+              },
+              "mtd": {
+                "avg": 24221,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-04",
+                "thin": false,
+                "vsPrevMonthPct": 6.2,
+                "vsYoyPct": -1.4,
+                "vsNormalPct": 5.3,
+                "yoyToDate": {
+                  "value": 22499,
+                  "days": 4,
+                  "pct": 7.7
+                }
+              }
+            },
+            "MID": {
+              "price": 18754,
+              "vsPrev": {
+                "date": "2026-09-03",
+                "value": 19065,
+                "pct": -1.6
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 17561,
+                "pct": 6.8
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 19196,
+                "pct": -2.3
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 16190,
+                "pct": 15.8,
+                "years": [
+                  2024,
+                  2023,
+                  2021
+                ]
+              },
+              "mtd": {
+                "avg": 18258,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-04",
+                "thin": false,
+                "vsPrevMonthPct": 4,
+                "vsYoyPct": -4.9,
+                "vsNormalPct": 12.8,
+                "yoyToDate": {
+                  "value": 19039,
+                  "days": 4,
+                  "pct": -4.1
+                }
+              }
+            },
+            "LOW": {
+              "price": 10776,
+              "vsPrev": {
+                "date": "2026-09-03",
+                "value": 10949,
+                "pct": -1.6
+              },
+              "vsPrevMonth": {
+                "date": "2026-08",
+                "value": 11289,
+                "pct": -4.5
+              },
+              "vsYoy": {
+                "date": "2025-09",
+                "value": 10864,
+                "pct": -0.8
+              },
+              "vsNormal": {
+                "date": null,
+                "value": 8168,
+                "pct": 31.9,
+                "years": [
+                  2024,
+                  2023,
+                  2021
+                ]
+              },
+              "mtd": {
+                "avg": 10742,
+                "days": 4,
+                "from": "2026-09-01",
+                "to": "2026-09-04",
+                "thin": false,
+                "vsPrevMonthPct": -4.8,
+                "vsYoyPct": -1.1,
+                "vsNormalPct": 31.5,
+                "yoyToDate": {
+                  "value": 11341,
+                  "days": 4,
+                  "pct": -5.3
+                }
+              }
+            }
+          },
           "vsPrev": {
             "date": "2026-09-03",
-            "value": 20966.515858428767,
-            "pct": -5.8
+            "value": 26403,
+            "pct": -10.5
           },
           "vsPrevMonth": {
             "date": "2026-08",
-            "value": 18789,
-            "pct": 5.2
+            "value": 22804,
+            "pct": 3.7
           },
           "vsYoy": {
             "date": "2025-09",
-            "value": 20537,
-            "pct": -3.8
+            "value": 24556,
+            "pct": -3.7
           },
           "vsNormal": {
             "date": null,
-            "value": 19447,
-            "pct": 1.6,
+            "value": 23009,
+            "pct": 2.7,
             "years": [
               2025,
               2024,
@@ -12652,852 +12929,402 @@
             ]
           },
           "mtd": {
-            "avg": 19840,
+            "avg": 24221,
             "days": 4,
             "from": "2026-09-01",
             "to": "2026-09-04",
             "thin": false,
-            "vsPrevMonthPct": 5.6,
-            "vsYoyPct": -3.4,
-            "vsNormalPct": 2,
+            "vsPrevMonthPct": 6.2,
+            "vsYoyPct": -1.4,
+            "vsNormalPct": 5.3,
             "yoyToDate": {
-              "value": 20355,
+              "value": 22499,
               "days": 4,
-              "pct": -2.5
+              "pct": 7.7
             }
           },
           "vsChuseok": {
             "date": "2025-09-15",
-            "value": 22111.184705705255,
-            "pct": -10.6,
+            "value": 26905,
+            "pct": -12.1,
             "daysBefore": 21,
             "prevChuseok": "2025-10-06"
           },
-          "origins": null,
-          "spark": [
-            {
-              "date": "2026-08-29",
-              "price": 16103.917069573055
-            },
-            {
-              "date": "2026-08-31",
-              "price": 17474.281685175392
-            },
-            {
-              "date": "2026-09-01",
-              "price": 18187.439588286004
-            },
-            {
-              "date": "2026-09-02",
-              "price": 20447.234340137868
-            },
-            {
-              "date": "2026-09-03",
-              "price": 20966.515858428767
-            },
-            {
-              "date": "2026-09-04",
-              "price": 19760.128617363345
-            }
-          ],
-          "sparkPct": 22.7,
-          "trend30": [
-            {
-              "date": "2026-08-06",
-              "price": 19457.880518204704
-            },
-            {
-              "date": "2026-08-07",
-              "price": 22652.771151957346
-            },
-            {
-              "date": "2026-08-08",
-              "price": 24329.05290858025
-            },
-            {
-              "date": "2026-08-10",
-              "price": 22276.40608034745
-            },
-            {
-              "date": "2026-08-11",
-              "price": 23537.562153715015
-            },
-            {
-              "date": "2026-08-12",
-              "price": 23314.045981730473
-            },
-            {
-              "date": "2026-08-13",
-              "price": 23394.12950026867
-            },
-            {
-              "date": "2026-08-14",
-              "price": 22066.249843430338
-            },
-            {
-              "date": "2026-08-15",
-              "price": 18122.179073856976
-            },
-            {
-              "date": "2026-08-17",
-              "price": 19575.84644356389
-            },
-            {
-              "date": "2026-08-18",
-              "price": 20050.61980955164
-            },
-            {
-              "date": "2026-08-19",
-              "price": 17884.926880451178
-            },
-            {
-              "date": "2026-08-20",
-              "price": 16754.621240374323
-            },
-            {
-              "date": "2026-08-21",
-              "price": 15027.696185088484
-            },
-            {
-              "date": "2026-08-22",
-              "price": 15025.269286754003
-            },
-            {
-              "date": "2026-08-24",
-              "price": 15377.889007824631
-            },
-            {
-              "date": "2026-08-25",
-              "price": 14692.895592585108
-            },
-            {
-              "date": "2026-08-26",
-              "price": 15572.814278323849
-            },
-            {
-              "date": "2026-08-27",
-              "price": 16724.731925341926
-            },
-            {
-              "date": "2026-08-28",
-              "price": 17608.97393544977
-            },
-            {
-              "date": "2026-08-29",
-              "price": 16103.917069573055
-            },
-            {
-              "date": "2026-08-31",
-              "price": 17474.281685175392
-            },
-            {
-              "date": "2026-09-01",
-              "price": 18187.439588286004
-            },
-            {
-              "date": "2026-09-02",
-              "price": 20447.234340137868
-            },
-            {
-              "date": "2026-09-03",
-              "price": 20966.515858428767
-            },
-            {
-              "date": "2026-09-04",
-              "price": 19760.128617363345
-            }
-          ],
-          "trend30Ref": {
-            "yoy": [
-              {
-                "date": "2026-08-06",
-                "price": 19518.455471387635
-              },
-              {
-                "date": "2026-08-07",
-                "price": 19688.290530312748
-              },
-              {
-                "date": "2026-08-08",
-                "price": 21280.43950081389
-              },
-              {
-                "date": "2026-08-10",
-                "price": 21642.701525054465
-              },
-              {
-                "date": "2026-08-11",
-                "price": 21453.272770082014
-              },
-              {
-                "date": "2026-08-12",
-                "price": 21605.348437846224
-              },
-              {
-                "date": "2026-08-13",
-                "price": 23814.489455317856
-              },
-              {
-                "date": "2026-08-14",
-                "price": 24316.811123149153
-              },
-              {
-                "date": "2026-08-15",
-                "price": 26813.08203231991
-              },
-              {
-                "date": "2026-08-17",
-                "price": 25697.006811491436
-              },
-              {
-                "date": "2026-08-18",
-                "price": 21091.050996108497
-              },
-              {
-                "date": "2026-08-19",
-                "price": 19076.063254702465
-              },
-              {
-                "date": "2026-08-20",
-                "price": 18105.349794238682
-              },
-              {
-                "date": "2026-08-21",
-                "price": 17974.354103343467
-              },
-              {
-                "date": "2026-08-22",
-                "price": 18365.78738527362
-              },
-              {
-                "date": "2026-08-24",
-                "price": 17076.878514490516
-              },
-              {
-                "date": "2026-08-25",
-                "price": 17375.77660723933
-              },
-              {
-                "date": "2026-08-26",
-                "price": 16765.961153869463
-              },
-              {
-                "date": "2026-08-27",
-                "price": 17868.4690048351
-              },
-              {
-                "date": "2026-08-28",
-                "price": 19049.97756841633
-              },
-              {
-                "date": "2026-08-29",
-                "price": 19993.193774489144
-              },
-              {
-                "date": "2026-08-31",
-                "price": 18378.84181712454
-              },
-              {
-                "date": "2026-09-01",
-                "price": 19121.263322069146
-              },
-              {
-                "date": "2026-09-02",
-                "price": 19511.11406641842
-              },
-              {
-                "date": "2026-09-03",
-                "price": 20909.24387546184
-              },
-              {
-                "date": "2026-09-04",
-                "price": 21877.187629053118
-              }
-            ],
-            "normal": [
-              {
-                "date": "2026-08-06",
-                "price": 18605
-              },
-              {
-                "date": "2026-08-07",
-                "price": 19150
-              },
-              {
-                "date": "2026-08-08",
-                "price": 19419
-              },
-              {
-                "date": "2026-08-10",
-                "price": 19994
-              },
-              {
-                "date": "2026-08-11",
-                "price": 21566
-              },
-              {
-                "date": "2026-08-12",
-                "price": 22496
-              },
-              {
-                "date": "2026-08-13",
-                "price": 22994
-              },
-              {
-                "date": "2026-08-14",
-                "price": 21296
-              },
-              {
-                "date": "2026-08-15",
-                "price": 20350
-              },
-              {
-                "date": "2026-08-17",
-                "price": 21715
-              },
-              {
-                "date": "2026-08-18",
-                "price": 19959
-              },
-              {
-                "date": "2026-08-19",
-                "price": 18409
-              },
-              {
-                "date": "2026-08-20",
-                "price": 17983
-              },
-              {
-                "date": "2026-08-21",
-                "price": 17409
-              },
-              {
-                "date": "2026-08-22",
-                "price": 17965
-              },
-              {
-                "date": "2026-08-24",
-                "price": 18286
-              },
-              {
-                "date": "2026-08-25",
-                "price": 18944
-              },
-              {
-                "date": "2026-08-26",
-                "price": 18726
-              },
-              {
-                "date": "2026-08-27",
-                "price": 18670
-              },
-              {
-                "date": "2026-08-28",
-                "price": 19534
-              },
-              {
-                "date": "2026-08-29",
-                "price": 19820
-              },
-              {
-                "date": "2026-08-31",
-                "price": 20288
-              },
-              {
-                "date": "2026-09-01",
-                "price": 21197
-              },
-              {
-                "date": "2026-09-02",
-                "price": 21081
-              },
-              {
-                "date": "2026-09-03",
-                "price": 22254
-              },
-              {
-                "date": "2026-09-04",
-                "price": 22713
-              }
-            ]
-          },
-          "onPoster": true,
-          "forThreshold": false
-        },
-        {
-          "unitTag": "10kg",
-          "unitLabel": "10kg",
-          "kg": 10,
-          "isRep": false,
-          "isAnchor": false,
-          "qtyUnits": 11846,
-          "tons": 118.5,
-          "vol": {
-            "prev": {
-              "date": "2026-09-03",
-              "tons": 132.8,
-              "pct": -10.8
-            },
-            "yoy": {
-              "date": "2025-09-04",
-              "tons": 99.7,
-              "pct": 18.9,
-              "basis": "date",
-              "daysBefore": null,
-              "share": 0.327
-            },
-            "yoyChuseok": {
-              "date": "2025-09-15",
-              "tons": 47.2,
-              "pct": 151.1,
-              "basis": "chuseok",
-              "daysBefore": 21,
-              "share": 0.253
-            },
-            "avg5": {
-              "tons": 144.6,
-              "days": 5
-            }
-          },
-          "volMonth": {
-            "cur": [
-              {
-                "date": "2026-09-01",
-                "tons": 156.1
-              },
-              {
-                "date": "2026-09-02",
-                "tons": 146.8
-              },
-              {
-                "date": "2026-09-03",
-                "tons": 132.8
-              },
-              {
-                "date": "2026-09-04",
-                "tons": 118.5
-              }
-            ],
-            "yoy": [
-              {
-                "date": "2025-09-01",
-                "tons": 97.8
-              },
-              {
-                "date": "2025-09-02",
-                "tons": 94.3
-              },
-              {
-                "date": "2025-09-03",
-                "tons": 95.8
-              },
-              {
-                "date": "2025-09-04",
-                "tons": 99.7
-              }
-            ]
-          },
-          "kgShare": 0.334,
-          "sang": {
+          "origins": {
             "date": "2026-09-04",
-            "price": 36813.439135573186,
-            "key": "GARAK#U_10kg",
-            "source": "DATA12_AVG"
-          },
-          "perKg": 3681,
-          "grades": {},
-          "vsPrev": {
-            "date": "2026-09-03",
-            "value": 31092.726451321436,
-            "pct": 18.4
-          },
-          "vsPrevMonth": {
-            "date": "2026-08",
-            "value": 34970,
-            "pct": 5.3
-          },
-          "vsYoy": {
-            "date": "2025-09",
-            "value": 43929,
-            "pct": -16.2
-          },
-          "vsNormal": {
-            "date": null,
-            "value": 36191,
-            "pct": 1.7,
-            "years": [
-              2024,
-              2023,
-              2022
+            "laneAvg": 19122,
+            "origins": [
+              {
+                "rank": 1,
+                "name": "충청북도 음성군",
+                "avg": 20343
+              },
+              {
+                "rank": 2,
+                "name": "경상북도 영주시",
+                "avg": 16079
+              },
+              {
+                "rank": 3,
+                "name": "충청북도 충주시",
+                "avg": 16750
+              },
+              {
+                "rank": 4,
+                "name": "경상북도 봉화군",
+                "avg": 15937
+              },
+              {
+                "rank": 5,
+                "name": "충청북도 영동군",
+                "avg": 18916
+              }
             ]
           },
-          "mtd": {
-            "avg": 31723,
-            "days": 4,
-            "from": "2026-09-01",
-            "to": "2026-09-04",
-            "thin": false,
-            "vsPrevMonthPct": -9.3,
-            "vsYoyPct": -27.8,
-            "vsNormalPct": -12.3,
-            "yoyToDate": {
-              "value": 44144,
-              "days": 4,
-              "pct": -28.1
-            }
-          },
-          "vsChuseok": {
-            "date": "2025-09-15",
-            "value": 43381.74888841838,
-            "pct": -15.1,
-            "daysBefore": 21,
-            "prevChuseok": "2025-10-06"
-          },
-          "origins": null,
           "spark": [
             {
               "date": "2026-08-29",
-              "price": 35819.07657837881
+              "price": 18367
             },
             {
               "date": "2026-08-31",
-              "price": 32423.411206312026
+              "price": 19711
             },
             {
               "date": "2026-09-01",
-              "price": 28511.018577834722
+              "price": 21077
             },
             {
               "date": "2026-09-02",
-              "price": 30473.76669392205
+              "price": 25763
             },
             {
               "date": "2026-09-03",
-              "price": 31092.726451321436
+              "price": 26403
             },
             {
               "date": "2026-09-04",
-              "price": 36813.439135573186
+              "price": 23640
             }
           ],
-          "sparkPct": 2.8,
+          "sparkPct": 28.7,
           "trend30": [
             {
               "date": "2026-08-06",
-              "price": 37984.54567521644
+              "price": 25059
             },
             {
               "date": "2026-08-07",
-              "price": 39719.848601488324
+              "price": 27103
             },
             {
               "date": "2026-08-08",
-              "price": 38013.85944456222
+              "price": 31320
             },
             {
               "date": "2026-08-10",
-              "price": 39470.935369856095
+              "price": 28636
             },
             {
               "date": "2026-08-11",
-              "price": 38146.99536910924
+              "price": 31625
             },
             {
               "date": "2026-08-12",
-              "price": 37548.92021754052
+              "price": 29414
             },
             {
               "date": "2026-08-13",
-              "price": 35272.86790758022
+              "price": 29936
             },
             {
               "date": "2026-08-14",
-              "price": 33560.468962833234
+              "price": 28291
             },
             {
               "date": "2026-08-15",
-              "price": 33306.22673998778
+              "price": 22735
             },
             {
               "date": "2026-08-17",
-              "price": 37076.23465600913
+              "price": 22955
             },
             {
               "date": "2026-08-18",
-              "price": 40501.0348583878
+              "price": 22918
             },
             {
               "date": "2026-08-19",
-              "price": 37039.58742111683
+              "price": 20028
             },
             {
               "date": "2026-08-20",
-              "price": 33437.983542163885
+              "price": 18545
             },
             {
               "date": "2026-08-21",
-              "price": 29709.129281887548
+              "price": 17484
             },
             {
               "date": "2026-08-22",
-              "price": 29833.7174383686
+              "price": 17749
             },
             {
               "date": "2026-08-24",
-              "price": 33125.88365243004
+              "price": 17161
             },
             {
               "date": "2026-08-25",
-              "price": 34023.784205302705
+              "price": 16040
             },
             {
               "date": "2026-08-26",
-              "price": 32362.137926585383
+              "price": 17103
             },
             {
               "date": "2026-08-27",
-              "price": 32429.46518668012
+              "price": 18406
             },
             {
               "date": "2026-08-28",
-              "price": 32319.010600706715
+              "price": 19937
             },
             {
               "date": "2026-08-29",
-              "price": 35819.07657837881
+              "price": 18367
             },
             {
               "date": "2026-08-31",
-              "price": 32423.411206312026
+              "price": 19711
             },
             {
               "date": "2026-09-01",
-              "price": 28511.018577834722
+              "price": 21077
             },
             {
               "date": "2026-09-02",
-              "price": 30473.76669392205
+              "price": 25763
             },
             {
               "date": "2026-09-03",
-              "price": 31092.726451321436
+              "price": 26403
             },
             {
               "date": "2026-09-04",
-              "price": 36813.439135573186
+              "price": 23640
             }
           ],
           "trend30Ref": {
             "yoy": [
               {
                 "date": "2026-08-06",
-                "price": 36622.16404886562
+                "price": 25721
               },
               {
                 "date": "2026-08-07",
-                "price": 42407.72186437646
+                "price": 25503
               },
               {
                 "date": "2026-08-08",
-                "price": 42346.70762142446
+                "price": 26181
               },
               {
                 "date": "2026-08-10",
-                "price": 38866.64953751284
+                "price": 27254
               },
               {
                 "date": "2026-08-11",
-                "price": 35961.19642068051
+                "price": 27020
               },
               {
                 "date": "2026-08-12",
-                "price": 35111.06143488323
+                "price": 26815
               },
               {
                 "date": "2026-08-13",
-                "price": 35201.94693643825
+                "price": 30279
               },
               {
                 "date": "2026-08-14",
-                "price": 34039.37308868502
+                "price": 30199
               },
               {
                 "date": "2026-08-15",
-                "price": 38755.52592800505
+                "price": 32029
               },
               {
                 "date": "2026-08-17",
-                "price": 42969.05978695893
+                "price": 29894
               },
               {
                 "date": "2026-08-18",
-                "price": 42132.934562332484
+                "price": 24085
               },
               {
                 "date": "2026-08-19",
-                "price": 40630.37634408602
+                "price": 21335
               },
               {
                 "date": "2026-08-20",
-                "price": 38430.38779402416
+                "price": 19641
               },
               {
                 "date": "2026-08-21",
-                "price": 39712.70327598397
+                "price": 19243
               },
               {
                 "date": "2026-08-22",
-                "price": 42013.80389164441
+                "price": 19516
               },
               {
                 "date": "2026-08-24",
-                "price": 42237.4974974975
+                "price": 18567
               },
               {
                 "date": "2026-08-25",
-                "price": 42362.21385105766
+                "price": 18519
               },
               {
                 "date": "2026-08-26",
-                "price": 41449.34557198708
+                "price": 18585
               },
               {
                 "date": "2026-08-27",
-                "price": 41604.24872203134
+                "price": 18796
               },
               {
                 "date": "2026-08-28",
-                "price": 42583.552014995315
+                "price": 20716
               },
               {
                 "date": "2026-08-29",
-                "price": 46381.15330520394
+                "price": 21978
               },
               {
                 "date": "2026-08-31",
-                "price": 44359.38335412582
+                "price": 20866
               },
               {
                 "date": "2026-09-01",
-                "price": 46424.0441627479
+                "price": 20975
               },
               {
                 "date": "2026-09-02",
-                "price": 43968.19001166366
+                "price": 21306
               },
               {
                 "date": "2026-09-03",
-                "price": 44363.5225375626
+                "price": 23255
               },
               {
                 "date": "2026-09-04",
-                "price": 41820.128372279614
+                "price": 24461
               }
             ],
             "normal": [
               {
                 "date": "2026-08-06",
-                "price": 29833
+                "price": 25430
               },
               {
                 "date": "2026-08-07",
-                "price": 29450
+                "price": 25270
               },
               {
                 "date": "2026-08-08",
-                "price": 28680
+                "price": 25511
               },
               {
                 "date": "2026-08-10",
-                "price": 32812
+                "price": 24991
               },
               {
                 "date": "2026-08-11",
-                "price": 34203
+                "price": 27427
               },
               {
                 "date": "2026-08-12",
-                "price": 33329
+                "price": 26898
               },
               {
                 "date": "2026-08-13",
-                "price": 32504
+                "price": 27522
               },
               {
                 "date": "2026-08-14",
-                "price": 32644
+                "price": 25453
               },
               {
                 "date": "2026-08-15",
-                "price": 34882
+                "price": 24087
               },
               {
                 "date": "2026-08-17",
-                "price": 37389
+                "price": 25512
               },
               {
                 "date": "2026-08-18",
-                "price": 36843
+                "price": 23045
               },
               {
                 "date": "2026-08-19",
-                "price": 35512
+                "price": 20517
               },
               {
                 "date": "2026-08-20",
-                "price": 34466
+                "price": 20072
               },
               {
                 "date": "2026-08-21",
-                "price": 34590
+                "price": 19505
               },
               {
                 "date": "2026-08-22",
-                "price": 36881
+                "price": 20125
               },
               {
                 "date": "2026-08-24",
-                "price": 38293
+                "price": 20869
               },
               {
                 "date": "2026-08-25",
-                "price": 39408
+                "price": 21649
               },
               {
                 "date": "2026-08-26",
-                "price": 37428
+                "price": 21873
               },
               {
                 "date": "2026-08-27",
-                "price": 36846
+                "price": 21545
               },
               {
                 "date": "2026-08-28",
-                "price": 36819
+                "price": 22218
               },
               {
                 "date": "2026-08-29",
-                "price": 38947
+                "price": 22948
               },
               {
                 "date": "2026-08-31",
-                "price": 38686
+                "price": 24184
               },
               {
                 "date": "2026-09-01",
-                "price": 39774
+                "price": 25884
               },
               {
                 "date": "2026-09-02",
-                "price": 39742
+                "price": 25285
               },
               {
                 "date": "2026-09-03",
-                "price": 40775
+                "price": 26728
               },
               {
                 "date": "2026-09-04",
-                "price": 39215
+                "price": 26113
               }
             ]
           },
@@ -13620,30 +13447,90 @@
         }
       ],
       "crisis": {
-        "stage": "UNKNOWN",
-        "direction": null,
-        "label": "판정 보류",
-        "deviationPct": null,
-        "basis": "NONE",
-        "basisLabel": "공문 기준가 정체(전 거래일 값 반복) — 판정 보류",
-        "thresholdId": 767,
+        "stage": "STABLE",
+        "direction": "FLAT",
+        "label": "안정",
+        "deviationPct": 2.7,
+        "basis": "LOCAL",
+        "basisLabel": "황도 4kg 상 · 자체 산출",
+        "thresholdId": null,
         "unit": "원/4kg",
-        "price": null,
-        "priceKey": null,
+        "price": 23640,
+        "priceKey": "GARAK_SANG#U_4kg#V_hwangdo",
         "band": {
-          "criticalDown": 10563,
-          "alertDown": 14134,
-          "cautionDown": 17704,
-          "stable": 22130,
-          "cautionUp": 25630,
-          "alertUp": 29129,
-          "criticalUp": 32629
+          "criticalDown": 10975,
+          "alertDown": 14691,
+          "cautionDown": 18407,
+          "stable": 23009,
+          "cautionUp": 26501,
+          "alertUp": 29994,
+          "criticalUp": 33486
         },
-        "prevStage": null,
+        "prevStage": {
+          "date": "2026-09-03",
+          "stage": "STABLE",
+          "label": "안정",
+          "price": 26403
+        },
         "reportStage": null,
         "offSeason": false,
-        "local": null,
-        "streak": null
+        "local": {
+          "laneKey": "GARAK_SANG#U_4kg#V_hwangdo",
+          "laneLabel": "황도 4kg 상",
+          "scope": "VARIETY",
+          "laneName": null,
+          "source": "SANG",
+          "unit": "원/4kg",
+          "yearly": [
+            {
+              "year": 2021,
+              "avg": 21181,
+              "days": 22
+            },
+            {
+              "year": 2022,
+              "avg": 16555,
+              "days": 24
+            },
+            {
+              "year": 2023,
+              "avg": 26865,
+              "days": 24
+            },
+            {
+              "year": 2024,
+              "avg": 23289,
+              "days": 22
+            },
+            {
+              "year": 2025,
+              "avg": 24556,
+              "days": 26
+            }
+          ],
+          "method": "OLYMPIC",
+          "sigma": 3492,
+          "criticalDownRatio": 0.477,
+          "ratioSource": "부서 같은 월 baekdo 9월 10563/22130"
+        },
+        "streak": {
+          "days": 4,
+          "since": "2026-09-01",
+          "from": null,
+          "capped": false,
+          "scope": "MONTH",
+          "history": [
+            {
+              "stage": "STABLE",
+              "direction": "FLAT",
+              "label": "안정",
+              "from": "2026-09-01",
+              "to": "2026-09-04",
+              "days": 4,
+              "truncated": false
+            }
+          ]
+        }
       },
       "retail": {
         "kindCode": "01",
@@ -14072,10 +13959,10 @@
           }
         },
         "passThrough": {
-          "prevMonth": 0.67,
-          "yoy": 5,
-          "wholesalePrevMonthPct": 5.2,
-          "wholesaleYoyPct": -3.8,
+          "prevMonth": 0.95,
+          "yoy": 5.14,
+          "wholesalePrevMonthPct": 3.7,
+          "wholesaleYoyPct": -3.7,
           "wholesaleUnit": "4kg"
         },
         "ratioToWholesale": null
@@ -14129,105 +14016,101 @@
             }
           ]
         },
-        "variety": null,
+        "variety": {
+          "code": "hwangdo",
+          "nameKo": "황도",
+          "tons": 50.8,
+          "corps": [
+            {
+              "corpCode": "11000103",
+              "corpName": "중앙청과",
+              "tons": 17,
+              "share": 0.335,
+              "prevShare": 0.325,
+              "yoyShare": 0.029
+            },
+            {
+              "corpCode": "11000101",
+              "corpName": "서울청과",
+              "tons": 12.8,
+              "share": 0.252,
+              "prevShare": 0.243,
+              "yoyShare": 0.329
+            },
+            {
+              "corpCode": "11000104",
+              "corpName": "동부팜청과",
+              "tons": 8.8,
+              "share": 0.173,
+              "prevShare": 0.087,
+              "yoyShare": 0.056
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 6.9,
+              "share": 0.136,
+              "prevShare": 0.221,
+              "yoyShare": 0.173
+            },
+            {
+              "corpCode": "11000105",
+              "corpName": "한국청과",
+              "tons": 5.3,
+              "share": 0.104,
+              "prevShare": 0.124,
+              "yoyShare": 0.413
+            }
+          ]
+        },
         "lanes": [
           {
             "unitTag": "4kg",
             "unitLabel": "4kg",
-            "varietyCode": null,
-            "qty": 51315,
-            "tons": 205.3,
-            "marketAvg": 19760,
+            "varietyCode": "hwangdo",
+            "qty": 11515,
+            "tons": 46.1,
+            "marketAvg": 18805,
             "corps": [
               {
                 "corpCode": "11000103",
                 "corpName": "중앙청과",
-                "qty": 22263,
-                "qtyShare": 0.434,
-                "avg": 19794,
-                "vsMarketPct": 0.2
+                "qty": 4184,
+                "qtyShare": 0.363,
+                "avg": 19512,
+                "vsMarketPct": 3.8
               },
               {
                 "corpCode": "11000101",
                 "corpName": "서울청과",
-                "qty": 13114,
-                "qtyShare": 0.256,
-                "avg": 21807,
-                "vsMarketPct": 10.4
-              },
-              {
-                "corpCode": "11000102",
-                "corpName": "농협(공)",
-                "qty": 9264,
-                "qtyShare": 0.181,
-                "avg": 17238,
-                "vsMarketPct": -12.8
+                "qty": 2771,
+                "qtyShare": 0.241,
+                "avg": 19532,
+                "vsMarketPct": 3.9
               },
               {
                 "corpCode": "11000104",
                 "corpName": "동부팜청과",
-                "qty": 4586,
-                "qtyShare": 0.089,
-                "avg": 18773,
-                "vsMarketPct": -5
-              },
-              {
-                "corpCode": "11000105",
-                "corpName": "한국청과",
-                "qty": 2088,
-                "qtyShare": 0.041,
-                "avg": 19903,
-                "vsMarketPct": 0.7
-              }
-            ]
-          },
-          {
-            "unitTag": "10kg",
-            "unitLabel": "10kg",
-            "varietyCode": null,
-            "qty": 11846,
-            "tons": 118.5,
-            "marketAvg": 36813,
-            "corps": [
-              {
-                "corpCode": "11000103",
-                "corpName": "중앙청과",
-                "qty": 5143,
-                "qtyShare": 0.434,
-                "avg": 37333,
-                "vsMarketPct": 1.4
-              },
-              {
-                "corpCode": "11000101",
-                "corpName": "서울청과",
-                "qty": 3009,
-                "qtyShare": 0.254,
-                "avg": 37413,
-                "vsMarketPct": 1.6
+                "qty": 2114,
+                "qtyShare": 0.184,
+                "avg": 18252,
+                "vsMarketPct": -2.9
               },
               {
                 "corpCode": "11000102",
                 "corpName": "농협(공)",
-                "qty": 1832,
-                "qtyShare": 0.155,
-                "avg": 32222,
-                "vsMarketPct": -12.5
+                "qty": 1470,
+                "qtyShare": 0.128,
+                "avg": 15115,
+                "vsMarketPct": -19.6
               },
               {
                 "corpCode": "11000105",
                 "corpName": "한국청과",
-                "qty": 1199,
-                "qtyShare": 0.101,
-                "avg": 40791,
-                "vsMarketPct": 10.8
-              },
-              {
-                "corpCode": "11000104",
-                "corpName": "동부팜청과",
-                "qty": 663,
-                "qtyShare": 0.056,
-                "avg": 35554,
-                "vsMarketPct": -3.4
+                "qty": 976,
+                "qtyShare": 0.085,
+                "avg": 20467,
+                "vsMarketPct": 8.8
               }
             ]
           }
@@ -14287,17 +14170,6 @@
               "vsLastToDatePct": 11.9,
               "vsLastAlignedPct": 2.5
             },
-            "경북 경산시": {
-              "normalOnset": "6/8",
-              "currentOnset": "6/6",
-              "deltaDays": -2,
-              "status": "active",
-              "yearRound": false,
-              "seasons": 4,
-              "vsNormalToDatePct": -9.3,
-              "vsLastToDatePct": 8.6,
-              "vsLastAlignedPct": 8.3
-            },
             "충북 충주시": {
               "normalOnset": "7/4",
               "currentOnset": "7/4",
@@ -14320,16 +14192,27 @@
               "vsLastToDatePct": 10.1,
               "vsLastAlignedPct": -29
             },
-            "경북 상주시": {
-              "normalOnset": "7/6",
-              "currentOnset": "6/20",
-              "deltaDays": -16,
+            "충북 영동군": {
+              "normalOnset": "6/1",
+              "currentOnset": "6/5",
+              "deltaDays": 4,
               "status": "active",
               "yearRound": false,
-              "seasons": 4,
-              "vsNormalToDatePct": 75.2,
-              "vsLastToDatePct": 11.5,
-              "vsLastAlignedPct": -8.3
+              "seasons": 5,
+              "vsNormalToDatePct": 82,
+              "vsLastToDatePct": 57.7,
+              "vsLastAlignedPct": 53.4
+            },
+            "경기 이천시": {
+              "normalOnset": "7/7",
+              "currentOnset": "7/1",
+              "deltaDays": -6,
+              "status": "active",
+              "yearRound": false,
+              "seasons": 5,
+              "vsNormalToDatePct": 53.4,
+              "vsLastToDatePct": -14,
+              "vsLastAlignedPct": -22.2
             }
           },
           "notes": [],
@@ -16218,17 +16101,6 @@
                 "to": 246
               }
             },
-            "경북 경산시": {
-              "normal": {
-                "onset": 158,
-                "peak": 180,
-                "end": 250
-              },
-              "current": {
-                "onset": 156,
-                "to": 246
-              }
-            },
             "충북 충주시": {
               "normal": {
                 "onset": 184,
@@ -16251,14 +16123,25 @@
                 "to": 246
               }
             },
-            "경북 상주시": {
+            "충북 영동군": {
               "normal": {
-                "onset": 186,
-                "peak": 234,
-                "end": 277
+                "onset": 151,
+                "peak": 202,
+                "end": 269
               },
               "current": {
-                "onset": 170,
+                "onset": 155,
+                "to": 246
+              }
+            },
+            "경기 이천시": {
+              "normal": {
+                "onset": 187,
+                "peak": 220,
+                "end": 281
+              },
+              "current": {
+                "onset": 181,
                 "to": 246
               }
             }
@@ -16314,21 +16197,58 @@
             }
           ]
         },
-        "variety": null,
+        "variety": {
+          "code": "hwangdo",
+          "nameKo": "황도",
+          "tons": 50.8,
+          "sidos": [
+            {
+              "key": "충북",
+              "label": "충북",
+              "sido": "충북",
+              "tons": 41,
+              "share": 0.807,
+              "prevShare": 0.75,
+              "yoyShare": 0.95
+            },
+            {
+              "key": "경북",
+              "label": "경북",
+              "sido": "경북",
+              "tons": 8.4,
+              "share": 0.165,
+              "prevShare": 0.222,
+              "yoyShare": 0.006
+            },
+            {
+              "key": "경기",
+              "label": "경기",
+              "sido": "경기",
+              "tons": 0.7,
+              "share": 0.014,
+              "prevShare": 0.028,
+              "yoyShare": 0.015
+            },
+            {
+              "key": "강원",
+              "label": "강원",
+              "sido": "강원",
+              "tons": 0.7,
+              "share": 0.014,
+              "prevShare": 0,
+              "yoyShare": 0.03
+            }
+          ]
+        },
         "table": {
-          "scope": "item",
-          "label": "품목 전체",
-          "tons": 354.7,
+          "scope": "variety",
+          "label": "황도",
+          "tons": 50.8,
           "lanes": [
             {
               "unitTag": "4kg",
               "unitLabel": "4kg",
-              "marketAvg": 19760
-            },
-            {
-              "unitTag": "10kg",
-              "unitLabel": "10kg",
-              "marketAvg": 36813
+              "marketAvg": 18805
             }
           ],
           "rows": [
@@ -16336,45 +16256,17 @@
               "key": "충북 음성군",
               "label": "충북 음성군",
               "sido": "충북",
-              "tons": 137.3,
-              "share": 0.387,
-              "prevShare": 0.314,
-              "yoyShare": 0.513,
+              "tons": 31.6,
+              "share": 0.622,
+              "prevShare": 0.618,
+              "yoyShare": 0.71,
               "isNew": false,
               "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
-                  "avg": 20993,
+                  "avg": 19975,
                   "vsMarketPct": 6.2
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": null,
-                  "vsMarketPct": null
-                }
-              ]
-            },
-            {
-              "key": "경북 영천시",
-              "label": "경북 영천시",
-              "sido": "경북",
-              "tons": 92.7,
-              "share": 0.261,
-              "prevShare": 0.333,
-              "yoyShare": 0.257,
-              "isNew": false,
-              "isNewVsYoy": false,
-              "prices": [
-                {
-                  "unitTag": "4kg",
-                  "avg": 17341,
-                  "vsMarketPct": -12.2
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": 38262,
-                  "vsMarketPct": 3.9
                 }
               ]
             },
@@ -16382,22 +16274,17 @@
               "key": "충북 충주시",
               "label": "충북 충주시",
               "sido": "충북",
-              "tons": 24.5,
-              "share": 0.069,
-              "prevShare": 0.063,
-              "yoyShare": 0.085,
+              "tons": 6.6,
+              "share": 0.129,
+              "prevShare": 0.107,
+              "yoyShare": 0.229,
               "isNew": false,
               "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
-                  "avg": 16675,
-                  "vsMarketPct": -15.6
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": null,
-                  "vsMarketPct": null
+                  "avg": 16742,
+                  "vsMarketPct": -11
                 }
               ]
             },
@@ -16405,78 +16292,99 @@
               "key": "경북 영주시",
               "label": "경북 영주시",
               "sido": "경북",
-              "tons": 23.9,
-              "share": 0.067,
-              "prevShare": 0.074,
-              "yoyShare": 0.057,
+              "tons": 5.1,
+              "share": 0.101,
+              "prevShare": 0.183,
+              "yoyShare": 0.006,
               "isNew": false,
               "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
-                  "avg": 16030,
-                  "vsMarketPct": -18.9
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": null,
-                  "vsMarketPct": null
+                  "avg": 15540,
+                  "vsMarketPct": -17.4
                 }
               ]
             },
             {
-              "key": "경북 청송군",
-              "label": "경북 청송군",
-              "sido": "경북",
-              "tons": 23,
-              "share": 0.065,
-              "prevShare": 0.085,
-              "yoyShare": 0.014,
+              "key": "충북 영동군",
+              "label": "충북 영동군",
+              "sido": "충북",
+              "tons": 2.9,
+              "share": 0.057,
+              "prevShare": 0.025,
+              "yoyShare": 0.01,
               "isNew": false,
               "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
-                  "avg": 25228,
-                  "vsMarketPct": 27.7
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": 35398,
-                  "vsMarketPct": -3.8
+                  "avg": 18916,
+                  "vsMarketPct": 0.6
                 }
               ]
             },
             {
-              "key": "경북 상주시",
-              "label": "경북 상주시",
+              "key": "경북 봉화군",
+              "label": "경북 봉화군",
               "sido": "경북",
-              "tons": 19.5,
-              "share": 0.055,
-              "prevShare": 0.05,
-              "yoyShare": 0.023,
+              "tons": 2.4,
+              "share": 0.048,
+              "prevShare": 0,
+              "yoyShare": 0,
+              "isNew": true,
+              "isNewVsYoy": true,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 15787,
+                  "vsMarketPct": -16
+                }
+              ]
+            },
+            {
+              "key": "경기 이천시",
+              "label": "경기 이천시",
+              "sido": "경기",
+              "tons": 0.7,
+              "share": 0.014,
+              "prevShare": 0.028,
+              "yoyShare": 0.015,
               "isNew": false,
               "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
-                  "avg": 21587,
-                  "vsMarketPct": 9.2
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": 26461,
-                  "vsMarketPct": -28.1
+                  "avg": 18271,
+                  "vsMarketPct": -2.8
                 }
               ]
             },
             {
-              "key": "경북 경산시",
-              "label": "경북 경산시",
+              "key": "강원 양구군",
+              "label": "강원 양구군",
+              "sido": "강원",
+              "tons": 0.7,
+              "share": 0.013,
+              "prevShare": 0,
+              "yoyShare": 0,
+              "isNew": true,
+              "isNewVsYoy": true,
+              "prices": [
+                {
+                  "unitTag": "4kg",
+                  "avg": 13400,
+                  "vsMarketPct": -28.7
+                }
+              ]
+            },
+            {
+              "key": "경북 영천시",
+              "label": "경북 영천시",
               "sido": "경북",
-              "tons": 7.6,
-              "share": 0.022,
-              "prevShare": 0.036,
+              "tons": 0.6,
+              "share": 0.012,
+              "prevShare": 0.023,
               "yoyShare": 0,
               "isNew": false,
               "isNewVsYoy": true,
@@ -16485,57 +16393,24 @@
                   "unitTag": "4kg",
                   "avg": null,
                   "vsMarketPct": null
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": null,
-                  "vsMarketPct": null
-                }
-              ]
-            },
-            {
-              "key": "경북 봉화군",
-              "label": "경북 봉화군",
-              "sido": "경북",
-              "tons": 6.5,
-              "share": 0.018,
-              "prevShare": 0,
-              "yoyShare": 0.005,
-              "isNew": true,
-              "isNewVsYoy": false,
-              "prices": [
-                {
-                  "unitTag": "4kg",
-                  "avg": 16491,
-                  "vsMarketPct": -16.5
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": null,
-                  "vsMarketPct": null
                 }
               ]
             },
             {
               "key": "__etc__",
-              "label": "기타 17곳",
+              "label": "기타 2곳",
               "sido": "기타",
-              "tons": 19.6,
-              "share": 0.055,
-              "prevShare": 0.046,
-              "yoyShare": 0.046,
+              "tons": 0.2,
+              "share": 0.004,
+              "prevShare": 0.017,
+              "yoyShare": 0.03,
               "isNew": false,
               "isNewVsYoy": false,
               "prices": [
                 {
                   "unitTag": "4kg",
-                  "avg": 17038,
-                  "vsMarketPct": -13.8
-                },
-                {
-                  "unitTag": "10kg",
-                  "avg": null,
-                  "vsMarketPct": null
+                  "avg": 15764,
+                  "vsMarketPct": -16.2
                 }
               ]
             }
@@ -16546,27 +16421,27 @@
             {
               "corpCode": "11000103",
               "corpName": "중앙청과",
-              "tons": 147.9
+              "tons": 17
             },
             {
               "corpCode": "11000101",
               "corpName": "서울청과",
-              "tons": 92.6
-            },
-            {
-              "corpCode": "11000102",
-              "corpName": "농협(공)",
-              "tons": 62.4
+              "tons": 12.8
             },
             {
               "corpCode": "11000104",
               "corpName": "동부팜청과",
-              "tons": 30.2
+              "tons": 8.8
+            },
+            {
+              "corpCode": "11000102",
+              "corpName": "농협(공)",
+              "tons": 6.9
             },
             {
               "corpCode": "11000105",
               "corpName": "한국청과",
-              "tons": 21.5
+              "tons": 5.3
             }
           ],
           "rows": [
@@ -16574,156 +16449,92 @@
               "key": "충북 음성군",
               "label": "충북 음성군",
               "sido": "충북",
-              "tons": 137.3,
+              "tons": 31.6,
               "cells": {
                 "11000101": 0.303,
-                "11000102": 0.018,
-                "11000103": 0.592,
-                "11000104": 0.069,
-                "11000105": 0.018
+                "11000102": 0.004,
+                "11000103": 0.507,
+                "11000104": 0.133,
+                "11000105": 0.054
               },
               "cellTons": {
-                "11000101": 41.6,
-                "11000102": 2.5,
-                "11000103": 81.4,
-                "11000104": 9.5,
-                "11000105": 2.4
+                "11000101": 9.6,
+                "11000102": 0.1,
+                "11000103": 16,
+                "11000104": 4.2,
+                "11000105": 1.7
               },
               "topCorp": {
                 "corpCode": "11000103",
-                "share": 0.592
-              }
-            },
-            {
-              "key": "경북 영천시",
-              "label": "경북 영천시",
-              "sido": "경북",
-              "tons": 92.7,
-              "cells": {
-                "11000101": 0.265,
-                "11000102": 0.089,
-                "11000103": 0.444,
-                "11000104": 0.072,
-                "11000105": 0.131
-              },
-              "cellTons": {
-                "11000101": 24.6,
-                "11000102": 8.2,
-                "11000103": 41.2,
-                "11000104": 6.6,
-                "11000105": 12.1
-              },
-              "topCorp": {
-                "corpCode": "11000103",
-                "share": 0.444
+                "share": 0.507
               }
             },
             {
               "key": "충북 충주시",
               "label": "충북 충주시",
               "sido": "충북",
-              "tons": 24.5,
+              "tons": 6.6,
               "cells": {
-                "11000102": 0.771,
-                "11000103": 0.02,
-                "11000105": 0.21
+                "11000102": 0.696,
+                "11000105": 0.304
               },
               "cellTons": {
-                "11000102": 18.9,
-                "11000103": 0.5,
-                "11000105": 5.1
+                "11000102": 4.6,
+                "11000105": 2
               },
               "topCorp": {
                 "corpCode": "11000102",
-                "share": 0.771
+                "share": 0.696
               }
             },
             {
               "key": "경북 영주시",
               "label": "경북 영주시",
               "sido": "경북",
-              "tons": 23.9,
+              "tons": 5.1,
               "cells": {
-                "11000101": 0.42,
-                "11000102": 0.327,
-                "11000103": 0.253
+                "11000101": 0.506,
+                "11000102": 0.3,
+                "11000103": 0.194
               },
               "cellTons": {
-                "11000101": 10,
-                "11000102": 7.8,
-                "11000103": 6
+                "11000101": 2.6,
+                "11000102": 1.5,
+                "11000103": 1
               },
               "topCorp": {
                 "corpCode": "11000101",
-                "share": 0.42
+                "share": 0.506
               }
             },
             {
-              "key": "경북 청송군",
-              "label": "경북 청송군",
-              "sido": "경북",
-              "tons": 23,
+              "key": "충북 영동군",
+              "label": "충북 영동군",
+              "sido": "충북",
+              "tons": 2.9,
               "cells": {
-                "11000101": 0.434,
-                "11000103": 0.566
+                "11000104": 0.748,
+                "11000105": 0.252
               },
               "cellTons": {
-                "11000101": 10,
-                "11000103": 13
-              },
-              "topCorp": {
-                "corpCode": "11000103",
-                "share": 0.566
-              }
-            },
-            {
-              "key": "경북 상주시",
-              "label": "경북 상주시",
-              "sido": "경북",
-              "tons": 19.5,
-              "cells": {
-                "11000102": 1
-              },
-              "cellTons": {
-                "11000102": 19.5
-              },
-              "topCorp": {
-                "corpCode": "11000102",
-                "share": 1
-              }
-            },
-            {
-              "key": "경북 경산시",
-              "label": "경북 경산시",
-              "sido": "경북",
-              "tons": 7.6,
-              "cells": {
-                "11000101": 0.2,
-                "11000102": 0.055,
-                "11000103": 0.146,
-                "11000104": 0.599
-              },
-              "cellTons": {
-                "11000101": 1.5,
-                "11000102": 0.4,
-                "11000103": 1.1,
-                "11000104": 4.6
+                "11000104": 2.2,
+                "11000105": 0.7
               },
               "topCorp": {
                 "corpCode": "11000104",
-                "share": 0.599
+                "share": 0.748
               }
             },
             {
               "key": "경북 봉화군",
               "label": "경북 봉화군",
               "sido": "경북",
-              "tons": 6.5,
+              "tons": 2.4,
               "cells": {
                 "11000104": 1
               },
               "cellTons": {
-                "11000104": 6.5
+                "11000104": 2.4
               },
               "topCorp": {
                 "corpCode": "11000104",
@@ -16731,27 +16542,67 @@
               }
             },
             {
-              "key": "__etc__",
-              "label": "기타 17곳",
-              "sido": "기타",
-              "tons": 19.6,
+              "key": "경기 이천시",
+              "label": "경기 이천시",
+              "sido": "경기",
+              "tons": 0.7,
               "cells": {
-                "11000101": 0.252,
-                "11000102": 0.26,
-                "11000103": 0.241,
-                "11000104": 0.152,
-                "11000105": 0.096
+                "11000102": 1
               },
               "cellTons": {
-                "11000101": 4.9,
-                "11000102": 5.1,
-                "11000103": 4.7,
-                "11000104": 3,
-                "11000105": 1.9
+                "11000102": 0.7
               },
               "topCorp": {
                 "corpCode": "11000102",
-                "share": 0.26
+                "share": 1
+              }
+            },
+            {
+              "key": "강원 양구군",
+              "label": "강원 양구군",
+              "sido": "강원",
+              "tons": 0.7,
+              "cells": {
+                "11000101": 1
+              },
+              "cellTons": {
+                "11000101": 0.7
+              },
+              "topCorp": {
+                "corpCode": "11000101",
+                "share": 1
+              }
+            },
+            {
+              "key": "경북 영천시",
+              "label": "경북 영천시",
+              "sido": "경북",
+              "tons": 0.6,
+              "cells": {
+                "11000105": 1
+              },
+              "cellTons": {
+                "11000105": 0.6
+              },
+              "topCorp": {
+                "corpCode": "11000105",
+                "share": 1
+              }
+            },
+            {
+              "key": "__etc__",
+              "label": "기타 2곳",
+              "sido": "기타",
+              "tons": 0.2,
+              "cells": {
+                "11000105": 1
+              },
+              "cellTons": {
+                "11000105": 0.2
+              },
+              "topCorp": {
+                "corpCode": "11000105",
+                "share": 1
               }
             }
           ]
@@ -16776,6 +16627,24 @@
     {
       "itemCode": "citrus",
       "nameKo": "감귤",
+      "leader": {
+        "code": "house",
+        "nameKo": "하우스감귤",
+        "share": 1
+      },
+      "anchor": {
+        "code": "house",
+        "nameKo": "하우스감귤",
+        "share": 0.995,
+        "sangLaneFound": true,
+        "since": "2026-06-06",
+        "reason": "FIRST",
+        "truncated": true,
+        "basisKg": 3,
+        "basisSource": "VARIETY_BOX",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 5,
       "onPoster": true,
@@ -16839,6 +16708,7 @@
         {
           "unitTag": "3kg",
           "unitLabel": "3kg",
+          "handover": null,
           "kg": 3,
           "isRep": true,
           "isAnchor": true,
@@ -17507,6 +17377,7 @@
         {
           "unitTag": "6kg",
           "unitLabel": "6kg",
+          "handover": null,
           "kg": 6,
           "isRep": false,
           "isAnchor": false,
@@ -17987,6 +17858,7 @@
         {
           "unitTag": "5kg",
           "unitLabel": "5kg",
+          "handover": null,
           "kg": 5,
           "isRep": false,
           "isAnchor": false,
@@ -21428,12 +21300,12 @@
       "tons": null
     }
   ],
-  "headlines": [
-    "포도 샤인머스캣 2kg 7,959원(▼4.6%) 경계↓ 지속 · 안정 대비 ▼47.8%",
-    "사과 홍로 10kg 60,564원 전일 ▼7.9%",
-    "복숭아 4kg 19,760원 전일 ▼5.8%"
-  ],
-  "structuralHeadline": "배 산지 구성 변화 — 당일 반입 중 전남 비중 24%, 전년 추석 D−21엔 45%(-21%p) · 전남 곡성군 1.8t가 이끔",
+  "headlines": {
+    "supply": "사과 반입 전일 203t → 283t(▲39%), 전년 같은 날比 ▲124% · 전년 추석 D−21比 ▼5% — 홍로 266t(전일 ▲36%)",
+    "price": "포도 샤인머스캣 2kg 7,959원(▼4.6%) 경계↓ 지속 · 안정 대비 ▼47.8%"
+  },
+  "structuralHeadline": "사과 반입 전일 203t → 283t(▲39%), 전년 같은 날比 ▲124% · 전년 추석 D−21比 ▼5% — 홍로 266t(전일 ▲36%)",
+  "anchorEvents": [],
   "chuseok": {
     "thisYear": {
       "chuseok": "2026-09-25",
@@ -21454,13 +21326,15 @@
     "가락 상품기준가는 거래가 적은 날 전 거래일 값이 그대로 반복(미갱신)되는 경우가 있어, 특·상·보통·하 전 등급이 전 거래일과 완전히 같은 날은 결측으로 처리(평균·추이에서 제외, 당일이면 평균가† 표시). 다른 등급이 바뀐 날의 '상' 동일값은 실제 값으로 본다.",
     "소비자가격은 KAMIS 전국 소매 평균(주 5일 조사·오후 발표)이며 낱개 단위(10개 등)라 도매 원/상자와 수준 비교는 하지 않음 — 같은 소매 lane 의 변화율끼리만. 전이율 = 소매 전월비 ÷ 도매(기준규격 상) 전월비(도매 변화 ±3% 미만이면 미산출). 소매·도매 단위가 같은 경우(포도 2kg)에만 소매/도매 배율 표기.",
     "부서 임계표에 지배품종·월 행이 없는 품목(복숭아 엘바트·감귤 하우스·단감 태추 등)은 '자체 산출' 임계로 판정 — 부서 산식(안정=직전 5개년 같은 달 올림픽 평균, σ 구간)을 가락 '상' lane 에 적용한 보조 지표이며 심각↓는 같은 품목 부서 비율 차용. 부서 임계와 구분해 읽을 것.",
-    "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
+    "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한.",
+    "기준 품종(헤더 pill)은 최근 5거래일 물량 1위 품종으로 정하되, 이미 정한 기준 품종보다 5%p 이상 앞선 날이 3거래일 연속일 때만 바뀐다(당일 최다 품종 ★과 다를 수 있음 — 기준 품종·규격이 날마다 흔들리면 가격·위기단계·연속일수를 이어 읽을 수 없기 때문). 바뀐 날은 「기준 전환」으로 표시하고 이전 기준 규격 행을 3거래일 병기하며 위기단계 연속일수는 전환일부터 다시 센다. '기준' chip = 그 품종의 기준 포장규격(부서 기준규격 → 실물 대표 규격)."
   ],
   "provenance": {
-    "sangLatest": "2026-09-19",
-    "garakLatest": "2026-09-19",
+    "sangLatest": "2026-09-21",
+    "garakLatest": "2026-09-21",
     "expectedDate": "2026-09-04",
     "queries": [
+      "ExternalPriceCache provider=garak marketKey IN (GARAK, GARAK#V_*) itemCode IN fruit dateKey 2026-06-06..2026-07-31 (§22 앵커 재생 창 — 일별 5거래일 품종 비중, 가격 인덱스 비대상)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-01..2026-09-04",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2026-08-01..2026-09-04 (§13 소매, kg kind lane 은 단위당 환산)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2025-08-04..2025-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
