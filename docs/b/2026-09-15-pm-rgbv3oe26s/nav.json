@@ -3,7 +3,12 @@
   "edition": "pm",
   "prev": {
     "date": "2026-09-14",
+    "edition": "am",
     "url": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-14-flw4ug5kql/index.html"
   },
-  "next": null
+  "next": {
+    "date": "2026-09-16",
+    "edition": "am",
+    "url": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-16-uqg5xnd5sm/index.html"
+  }
 }
