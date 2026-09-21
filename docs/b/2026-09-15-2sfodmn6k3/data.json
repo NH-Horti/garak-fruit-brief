@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T16:44:45.298Z",
+  "generatedAt": "2026-09-21T01:47:07.257Z",
   "targetDate": "2026-09-15",
   "weekday": "화",
   "sentOn": "2026-09-21",
@@ -9,6 +9,24 @@
     {
       "itemCode": "apple",
       "nameKo": "사과",
+      "leader": {
+        "code": "hongro",
+        "nameKo": "홍로",
+        "share": 0.835
+      },
+      "anchor": {
+        "code": "hongro",
+        "nameKo": "홍로",
+        "share": 0.887,
+        "sangLaneFound": true,
+        "since": "2026-08-22",
+        "reason": "CONFIRMED",
+        "truncated": false,
+        "basisKg": 10,
+        "basisSource": "ITEM_BOX",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 1,
       "onPoster": true,
@@ -72,6 +90,7 @@
         {
           "unitTag": "10kg",
           "unitLabel": "10kg",
+          "handover": null,
           "kg": 10,
           "isRep": true,
           "isAnchor": true,
@@ -827,6 +846,7 @@
         {
           "unitTag": "5kg",
           "unitLabel": "5kg",
+          "handover": null,
           "kg": 5,
           "isRep": false,
           "isAnchor": false,
@@ -4931,6 +4951,24 @@
     {
       "itemCode": "pear",
       "nameKo": "배",
+      "leader": {
+        "code": "shingo",
+        "nameKo": "신고",
+        "share": 0.936
+      },
+      "anchor": {
+        "code": "shingo",
+        "nameKo": "신고",
+        "share": 0.914,
+        "sangLaneFound": true,
+        "since": "2026-09-09",
+        "reason": "COLLAPSE",
+        "truncated": false,
+        "basisKg": 15,
+        "basisSource": "ITEM_BOX",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 2,
       "onPoster": true,
@@ -4994,6 +5032,7 @@
         {
           "unitTag": "15kg",
           "unitLabel": "15kg",
+          "handover": null,
           "kg": 15,
           "isRep": true,
           "isAnchor": true,
@@ -5759,6 +5798,7 @@
         {
           "unitTag": "7.5kg",
           "unitLabel": "7.5kg",
+          "handover": null,
           "kg": 7.5,
           "isRep": false,
           "isAnchor": false,
@@ -9749,6 +9789,24 @@
     {
       "itemCode": "grape",
       "nameKo": "포도",
+      "leader": {
+        "code": "shine",
+        "nameKo": "샤인머스캣",
+        "share": 0.588
+      },
+      "anchor": {
+        "code": "shine",
+        "nameKo": "샤인머스캣",
+        "share": 0.574,
+        "sangLaneFound": true,
+        "since": "2026-07-02",
+        "reason": "CONFIRMED",
+        "truncated": false,
+        "basisKg": 2,
+        "basisSource": "THRESHOLD",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 3,
       "onPoster": true,
@@ -9812,6 +9870,7 @@
         {
           "unitTag": "2kg",
           "unitLabel": "2kg",
+          "handover": null,
           "kg": 2,
           "isRep": false,
           "isAnchor": true,
@@ -10567,6 +10626,7 @@
         {
           "unitTag": "4kg",
           "unitLabel": "4kg",
+          "handover": null,
           "kg": 4,
           "isRep": false,
           "isAnchor": false,
@@ -14711,6 +14771,24 @@
     {
       "itemCode": "peach",
       "nameKo": "복숭아",
+      "leader": {
+        "code": "fantasia",
+        "nameKo": "환타지아",
+        "share": 0.263
+      },
+      "anchor": {
+        "code": "elberta",
+        "nameKo": "엘바트",
+        "share": 0.3,
+        "sangLaneFound": true,
+        "since": "2026-09-09",
+        "reason": "COLLAPSE",
+        "truncated": false,
+        "basisKg": 4,
+        "basisSource": "VARIETY_BOX",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 4,
       "onPoster": true,
@@ -14774,9 +14852,10 @@
         {
           "unitTag": "4kg",
           "unitLabel": "4kg",
+          "handover": null,
           "kg": 4,
-          "isRep": false,
-          "isAnchor": false,
+          "isRep": true,
+          "isAnchor": true,
           "qtyUnits": 12685,
           "tons": 50.7,
           "vol": {
@@ -15538,6 +15617,7 @@
         {
           "unitTag": "2.5kg",
           "unitLabel": "2.5kg",
+          "handover": null,
           "kg": 2.5,
           "isRep": false,
           "isAnchor": false,
@@ -19423,6 +19503,24 @@
     {
       "itemCode": "sweet-persimmon",
       "nameKo": "단감",
+      "leader": {
+        "code": "태추",
+        "nameKo": "태추",
+        "share": 0.72
+      },
+      "anchor": {
+        "code": "태추",
+        "nameKo": "태추",
+        "share": 0.688,
+        "sangLaneFound": true,
+        "since": "2026-09-10",
+        "reason": "CONFIRMED",
+        "truncated": false,
+        "basisKg": 10,
+        "basisSource": "SANG_UNIT",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 5,
       "onPoster": true,
@@ -19486,6 +19584,7 @@
         {
           "unitTag": "4.5kg",
           "unitLabel": "4.5kg",
+          "handover": null,
           "kg": 4.5,
           "isRep": false,
           "isAnchor": false,
@@ -19762,6 +19861,7 @@
         {
           "unitTag": "2.5kg",
           "unitLabel": "2.5kg",
+          "handover": null,
           "kg": 2.5,
           "isRep": false,
           "isAnchor": false,
@@ -20068,6 +20168,7 @@
         {
           "unitTag": "5kg",
           "unitLabel": "5kg",
+          "handover": null,
           "kg": 5,
           "isRep": false,
           "isAnchor": false,
@@ -22579,6 +22680,24 @@
     {
       "itemCode": "citrus",
       "nameKo": "감귤",
+      "leader": {
+        "code": "house",
+        "nameKo": "하우스감귤",
+        "share": 0.952
+      },
+      "anchor": {
+        "code": "house",
+        "nameKo": "하우스감귤",
+        "share": 0.955,
+        "sangLaneFound": true,
+        "since": "2026-06-17",
+        "reason": "FIRST",
+        "truncated": true,
+        "basisKg": 3,
+        "basisSource": "VARIETY_BOX",
+        "event": null,
+        "pending": null
+      },
       "iconDataUri": null,
       "rank": 6,
       "onPoster": true,
@@ -22642,6 +22761,7 @@
         {
           "unitTag": "3kg",
           "unitLabel": "3kg",
+          "handover": null,
           "kg": 3,
           "isRep": true,
           "isAnchor": true,
@@ -23382,6 +23502,7 @@
         {
           "unitTag": "6kg",
           "unitLabel": "6kg",
+          "handover": null,
           "kg": 6,
           "isRep": false,
           "isAnchor": false,
@@ -23934,6 +24055,7 @@
         {
           "unitTag": "5kg",
           "unitLabel": "5kg",
+          "handover": null,
           "kg": 5,
           "isRep": false,
           "isAnchor": false,
@@ -27486,12 +27608,12 @@
       "tons": null
     }
   ],
-  "headlines": [
-    "배 신고 15kg 51,013원(▼14.0%) 안정 회복 · 전일 경계↑",
-    "감귤 하우스감귤 3kg 25,184원(▲16.5%) 주의↑ 진입 · 전일 안정",
-    "포도 샤인머스캣 2kg 6,500원(▼4.7%) 경계↓ 지속 · 안정 대비 ▼57.4%"
-  ],
-  "structuralHeadline": "복숭아 산지 구성 변화 — 당일 반입 중 충북 비중 40%, 전년 추석 D−10엔 72%(-32%p) · 충북 음성군 46t가 이끔",
+  "headlines": {
+    "supply": "사과 반입 전일 567t → 496t(▼12%), 전년 같은 날比 ▲67% · 전년 추석 D−10比 ▲146% — 홍로 414t(전일 ▼14%)",
+    "price": "배 신고 15kg 51,013원(▼14.0%) 안정 회복 · 전일 경계↑"
+  },
+  "structuralHeadline": "사과 반입 전일 567t → 496t(▼12%), 전년 같은 날比 ▲67% · 전년 추석 D−10比 ▲146% — 홍로 414t(전일 ▼14%)",
+  "anchorEvents": [],
   "chuseok": {
     "thisYear": {
       "chuseok": "2026-09-25",
@@ -27512,13 +27634,15 @@
     "가락 상품기준가는 거래가 적은 날 전 거래일 값이 그대로 반복(미갱신)되는 경우가 있어, 특·상·보통·하 전 등급이 전 거래일과 완전히 같은 날은 결측으로 처리(평균·추이에서 제외, 당일이면 평균가† 표시). 다른 등급이 바뀐 날의 '상' 동일값은 실제 값으로 본다.",
     "소비자가격은 KAMIS 전국 소매 평균(주 5일 조사·오후 발표)이며 낱개 단위(10개 등)라 도매 원/상자와 수준 비교는 하지 않음 — 같은 소매 lane 의 변화율끼리만. 전이율 = 소매 전월비 ÷ 도매(기준규격 상) 전월비(도매 변화 ±3% 미만이면 미산출). 소매·도매 단위가 같은 경우(포도 2kg)에만 소매/도매 배율 표기.",
     "부서 임계표에 지배품종·월 행이 없는 품목(복숭아 엘바트·감귤 하우스·단감 태추 등)은 '자체 산출' 임계로 판정 — 부서 산식(안정=직전 5개년 같은 달 올림픽 평균, σ 구간)을 가락 '상' lane 에 적용한 보조 지표이며 심각↓는 같은 품목 부서 비율 차용. 부서 임계와 구분해 읽을 것.",
-    "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한."
+    "위기단계는 부서 위기단계 임계표 기준. 지배품종 임계가 있으면 그 품종·규격의 상품가로, 없으면 공문 대표품종 기준(일일 가격동향과 동일)으로 판정. 가격안정대는 해당 월 '주의' 하한~상한.",
+    "기준 품종(헤더 pill)은 최근 5거래일 물량 1위 품종으로 정하되, 이미 정한 기준 품종보다 5%p 이상 앞선 날이 3거래일 연속일 때만 바뀐다(당일 최다 품종 ★과 다를 수 있음 — 기준 품종·규격이 날마다 흔들리면 가격·위기단계·연속일수를 이어 읽을 수 없기 때문). 바뀐 날은 「기준 전환」으로 표시하고 이전 기준 규격 행을 3거래일 병기하며 위기단계 연속일수는 전환일부터 다시 센다. '기준' chip = 그 품종의 기준 포장규격(부서 기준규격 → 실물 대표 규격)."
   ],
   "provenance": {
-    "sangLatest": "2026-09-19",
-    "garakLatest": "2026-09-19",
+    "sangLatest": "2026-09-21",
+    "garakLatest": "2026-09-21",
     "expectedDate": "2026-09-15",
     "queries": [
+      "ExternalPriceCache provider=garak marketKey IN (GARAK, GARAK#V_*) itemCode IN fruit dateKey 2026-06-17..2026-07-31 (§22 앵커 재생 창 — 일별 5거래일 품종 비중, 가격 인덱스 비대상)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2026-08-01..2026-09-15",
       "ExternalPriceCache provider=kamis_retail itemCode IN fruit dateKey 2026-08-01..2026-09-15 (§13 소매, kg kind lane 은 단위당 환산)",
       "ExternalPriceCache provider IN (garak, garak_sang) itemCode IN fruit dateKey 2025-08-15..2025-09-30 (가격 lane: garak_sang 전부 + GARAK#U_)",
