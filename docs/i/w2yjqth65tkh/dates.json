@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T01:41:38.260Z",
+  "updated_at": "2026-09-21T01:43:09.414Z",
   "dates": [
     {
       "date": "2026-09-19",
@@ -30,6 +30,12 @@
       "edition": "am",
       "weekday": "목",
       "url": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-17-6klmqkepmm/index.html"
+    },
+    {
+      "date": "2026-09-17",
+      "edition": "pm",
+      "weekday": "목",
+      "url": "https://nh-horti.github.io/garak-fruit-brief/b/2026-09-17-pm-4zdva2kzow/index.html"
     },
     {
       "date": "2026-09-16",
