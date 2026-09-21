@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T02:04:13.367Z",
+  "generatedAt": "2026-09-21T03:24:13.840Z",
   "targetDate": "2026-09-07",
   "weekday": "월",
   "sentOn": "2026-09-21",
@@ -4617,7 +4617,8 @@
           "code": "shingo",
           "nameKo": "신고",
           "days": 1,
-          "needDays": 3
+          "needDays": 2,
+          "rule": "FAST"
         }
       },
       "iconDataUri": null,
@@ -17925,7 +17926,8 @@
           "code": "태추",
           "nameKo": "태추",
           "days": 1,
-          "needDays": 3
+          "needDays": 3,
+          "rule": "CONFIRM"
         }
       },
       "iconDataUri": null,
@@ -25143,10 +25145,10 @@
     }
   ],
   "headlines": {
-    "supply": "배 반입 전일 68t → 222t(▲227%), 전년 같은 날比 ▲840% · 전년 추석 D−18比 ▼37% — 원황 29t(전일 ▲93%)",
-    "price": "포도 샤인머스캣 2kg 8,165원(▼0.9%) 경계↓ 지속 · 안정 대비 ▼46.5%"
+    "supply": "단감 반입 2.0t, 전년 같은 날比 ▲467% · 전년 추석 D−18比 ▲21% — 서촌 0.6t",
+    "price": "배 기준 전환 예정 — 신고 당일 물량 60% 이상 1일째(2일 연속이면 내일 원황 → 신고) · 현재 기준 원황 15kg 38,347원 안정"
   },
-  "structuralHeadline": "배 반입 전일 68t → 222t(▲227%), 전년 같은 날比 ▲840% · 전년 추석 D−18比 ▼37% — 원황 29t(전일 ▲93%)",
+  "structuralHeadline": "단감 반입 2.0t, 전년 같은 날比 ▲467% · 전년 추석 D−18比 ▲21% — 서촌 0.6t",
   "anchorEvents": [],
   "chuseok": {
     "thisYear": {
