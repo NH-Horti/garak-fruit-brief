@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T06:14:04.470Z",
+  "generatedAt": "2026-09-22T06:54:16.076Z",
   "targetDate": "2026-09-22",
   "weekday": "화",
   "sentOn": "2026-09-22",
@@ -2362,7 +2362,180 @@
           "wholesaleYoyPct": -40.7,
           "wholesaleUnit": "10kg"
         },
-        "ratioToWholesale": null
+        "ratioToWholesale": null,
+        "perUnit": {
+          "count": 10,
+          "high": 2304,
+          "mid": 1639
+        },
+        "gradeSpread": {
+          "pct": 40.6,
+          "normalPct": 39.7,
+          "years": 5
+        },
+        "rankAmongYears": {
+          "rank": 6,
+          "of": 6
+        },
+        "vsChuseok": {
+          "date": "2025-10-02",
+          "daysBefore": 3,
+          "value": 26512,
+          "pct": -13.1
+        },
+        "wholesaleIndexed": {
+          "unit": "10kg",
+          "points": [
+            {
+              "date": "2026-08-24",
+              "price": 29165
+            },
+            {
+              "date": "2026-08-25",
+              "price": 28364
+            },
+            {
+              "date": "2026-08-26",
+              "price": 28064
+            },
+            {
+              "date": "2026-08-27",
+              "price": 25793
+            },
+            {
+              "date": "2026-08-28",
+              "price": 25715
+            },
+            {
+              "date": "2026-08-31",
+              "price": 26279
+            },
+            {
+              "date": "2026-09-01",
+              "price": 27950
+            },
+            {
+              "date": "2026-09-02",
+              "price": 30503
+            },
+            {
+              "date": "2026-09-03",
+              "price": 28134
+            },
+            {
+              "date": "2026-09-04",
+              "price": 25917
+            },
+            {
+              "date": "2026-09-07",
+              "price": 25202
+            },
+            {
+              "date": "2026-09-08",
+              "price": 24442
+            },
+            {
+              "date": "2026-09-09",
+              "price": 23114
+            },
+            {
+              "date": "2026-09-10",
+              "price": 21546
+            },
+            {
+              "date": "2026-09-11",
+              "price": 22636
+            },
+            {
+              "date": "2026-09-14",
+              "price": 18881
+            },
+            {
+              "date": "2026-09-15",
+              "price": 20542
+            },
+            {
+              "date": "2026-09-16",
+              "price": 17481
+            },
+            {
+              "date": "2026-09-17",
+              "price": 15664
+            },
+            {
+              "date": "2026-09-18",
+              "price": 15949
+            },
+            {
+              "date": "2026-09-21",
+              "price": 18500
+            }
+          ]
+        },
+        "regions": {
+          "date": "2026-09-21",
+          "rows": [
+            {
+              "code": "2100",
+              "nameKo": "부산",
+              "price": 21140
+            },
+            {
+              "code": "1101",
+              "nameKo": "서울",
+              "price": 21338
+            },
+            {
+              "code": "2501",
+              "nameKo": "대전",
+              "price": 21450
+            },
+            {
+              "code": "2300",
+              "nameKo": "인천",
+              "price": 23300
+            },
+            {
+              "code": "2200",
+              "nameKo": "대구",
+              "price": 27000
+            },
+            {
+              "code": "2401",
+              "nameKo": "광주",
+              "price": 28450
+            },
+            {
+              "code": "2601",
+              "nameKo": "울산",
+              "price": 28650
+            },
+            {
+              "code": "3911",
+              "nameKo": "제주",
+              "price": 38300
+            }
+          ],
+          "min": {
+            "nameKo": "부산",
+            "price": 21140
+          },
+          "max": {
+            "nameKo": "제주",
+            "price": 38300
+          },
+          "median": 25150,
+          "national": 23043,
+          "maxMinRatio": 1.8
+        },
+        "cpi": {
+          "label": "사과",
+          "month": "202608",
+          "index": 163.59,
+          "yoyPct": -8.9,
+          "momPct": -4.3,
+          "totalYoyPct": 3.1
+        }
       },
       "corps": {
         "date": "2026-09-22",
@@ -8241,7 +8414,144 @@
           "wholesaleYoyPct": -37.7,
           "wholesaleUnit": "15kg"
         },
-        "ratioToWholesale": null
+        "ratioToWholesale": null,
+        "perUnit": {
+          "count": 10,
+          "high": 3105,
+          "mid": 2353
+        },
+        "gradeSpread": {
+          "pct": 31.9,
+          "normalPct": 27.3,
+          "years": 5
+        },
+        "rankAmongYears": {
+          "rank": 5,
+          "of": 6
+        },
+        "vsChuseok": {
+          "date": "2025-10-02",
+          "daysBefore": 3,
+          "value": 30559,
+          "pct": 1.6
+        },
+        "wholesaleIndexed": {
+          "unit": "15kg",
+          "points": [
+            {
+              "date": "2026-08-24",
+              "price": null
+            },
+            {
+              "date": "2026-08-25",
+              "price": null
+            },
+            {
+              "date": "2026-08-26",
+              "price": null
+            },
+            {
+              "date": "2026-08-27",
+              "price": 45673
+            },
+            {
+              "date": "2026-08-28",
+              "price": 45673
+            },
+            {
+              "date": "2026-08-31",
+              "price": 49972
+            },
+            {
+              "date": "2026-09-14",
+              "price": 42771
+            },
+            {
+              "date": "2026-09-15",
+              "price": 36769
+            },
+            {
+              "date": "2026-09-16",
+              "price": 36092
+            },
+            {
+              "date": "2026-09-17",
+              "price": 32186
+            },
+            {
+              "date": "2026-09-18",
+              "price": 29386
+            },
+            {
+              "date": "2026-09-21",
+              "price": 26351
+            }
+          ]
+        },
+        "regions": {
+          "date": "2026-09-21",
+          "rows": [
+            {
+              "code": "2601",
+              "nameKo": "울산",
+              "price": 26050
+            },
+            {
+              "code": "1101",
+              "nameKo": "서울",
+              "price": 26971
+            },
+            {
+              "code": "2401",
+              "nameKo": "광주",
+              "price": 28667
+            },
+            {
+              "code": "2300",
+              "nameKo": "인천",
+              "price": 29800
+            },
+            {
+              "code": "2200",
+              "nameKo": "대구",
+              "price": 29900
+            },
+            {
+              "code": "2100",
+              "nameKo": "부산",
+              "price": 31550
+            },
+            {
+              "code": "2501",
+              "nameKo": "대전",
+              "price": 33000
+            },
+            {
+              "code": "3911",
+              "nameKo": "제주",
+              "price": 36550
+            }
+          ],
+          "min": {
+            "nameKo": "울산",
+            "price": 26050
+          },
+          "max": {
+            "nameKo": "제주",
+            "price": 36550
+          },
+          "median": 29850,
+          "national": 31045,
+          "maxMinRatio": 1.4
+        },
+        "cpi": {
+          "label": "배",
+          "month": "202608",
+          "index": 166.16,
+          "yoyPct": 8.4,
+          "momPct": -4.1,
+          "totalYoyPct": 3.1
+        }
       },
       "corps": {
         "date": "2026-09-22",
@@ -14168,6 +14478,171 @@
           "retail": 12653,
           "wholesale": 7532,
           "ratio": 1.7
+        },
+        "perUnit": null,
+        "gradeSpread": null,
+        "rankAmongYears": {
+          "rank": 5,
+          "of": 5
+        },
+        "vsChuseok": {
+          "date": "2025-10-02",
+          "daysBefore": 3,
+          "value": 14959,
+          "pct": -15.4
+        },
+        "wholesaleIndexed": {
+          "unit": "2kg",
+          "points": [
+            {
+              "date": "2026-08-24",
+              "price": 17562
+            },
+            {
+              "date": "2026-08-25",
+              "price": 17860
+            },
+            {
+              "date": "2026-08-26",
+              "price": 17851
+            },
+            {
+              "date": "2026-08-27",
+              "price": 17089
+            },
+            {
+              "date": "2026-08-28",
+              "price": 17522
+            },
+            {
+              "date": "2026-08-31",
+              "price": 16533
+            },
+            {
+              "date": "2026-09-01",
+              "price": 16324
+            },
+            {
+              "date": "2026-09-02",
+              "price": 15739
+            },
+            {
+              "date": "2026-09-03",
+              "price": 15842
+            },
+            {
+              "date": "2026-09-04",
+              "price": 15114
+            },
+            {
+              "date": "2026-09-07",
+              "price": 15505
+            },
+            {
+              "date": "2026-09-08",
+              "price": 15720
+            },
+            {
+              "date": "2026-09-09",
+              "price": 14744
+            },
+            {
+              "date": "2026-09-10",
+              "price": 13665
+            },
+            {
+              "date": "2026-09-11",
+              "price": 13707
+            },
+            {
+              "date": "2026-09-14",
+              "price": 12947
+            },
+            {
+              "date": "2026-09-15",
+              "price": 12344
+            },
+            {
+              "date": "2026-09-16",
+              "price": 12230
+            },
+            {
+              "date": "2026-09-17",
+              "price": 12721
+            },
+            {
+              "date": "2026-09-18",
+              "price": 12596
+            },
+            {
+              "date": "2026-09-21",
+              "price": 13642
+            }
+          ]
+        },
+        "regions": {
+          "date": "2026-09-21",
+          "rows": [
+            {
+              "code": "1101",
+              "nameKo": "서울",
+              "price": 11563
+            },
+            {
+              "code": "2300",
+              "nameKo": "인천",
+              "price": 12115
+            },
+            {
+              "code": "2200",
+              "nameKo": "대구",
+              "price": 12200
+            },
+            {
+              "code": "2501",
+              "nameKo": "대전",
+              "price": 12673
+            },
+            {
+              "code": "2401",
+              "nameKo": "광주",
+              "price": 12793
+            },
+            {
+              "code": "2601",
+              "nameKo": "울산",
+              "price": 13200
+            },
+            {
+              "code": "3911",
+              "nameKo": "제주",
+              "price": 16400
+            },
+            {
+              "code": "2100",
+              "nameKo": "부산",
+              "price": 17100
+            }
+          ],
+          "min": {
+            "nameKo": "서울",
+            "price": 11563
+          },
+          "max": {
+            "nameKo": "부산",
+            "price": 17100
+          },
+          "median": 12733,
+          "national": 12653,
+          "maxMinRatio": 1.5
+        },
+        "cpi": {
+          "label": "포도",
+          "month": "202608",
+          "index": 134.08,
+          "yoyPct": -10.3,
+          "momPct": -7.1,
+          "totalYoyPct": 3.1
         }
       },
       "corps": {
@@ -19435,7 +19910,143 @@
           "wholesaleYoyPct": -18.1,
           "wholesaleUnit": "4kg"
         },
-        "ratioToWholesale": null
+        "ratioToWholesale": null,
+        "perUnit": {
+          "count": 10,
+          "high": 1904,
+          "mid": 1730
+        },
+        "gradeSpread": null,
+        "rankAmongYears": null,
+        "vsChuseok": null,
+        "wholesaleIndexed": {
+          "unit": "4kg",
+          "points": [
+            {
+              "date": "2026-08-24",
+              "price": 18771
+            },
+            {
+              "date": "2026-08-25",
+              "price": 18771
+            },
+            {
+              "date": "2026-08-26",
+              "price": 19963
+            },
+            {
+              "date": "2026-08-27",
+              "price": 19963
+            },
+            {
+              "date": "2026-08-28",
+              "price": 26267
+            },
+            {
+              "date": "2026-08-31",
+              "price": 26950
+            },
+            {
+              "date": "2026-09-01",
+              "price": 31002
+            },
+            {
+              "date": "2026-09-02",
+              "price": 36114
+            },
+            {
+              "date": "2026-09-03",
+              "price": 37763
+            },
+            {
+              "date": "2026-09-04",
+              "price": 40155
+            },
+            {
+              "date": "2026-09-07",
+              "price": 35992
+            },
+            {
+              "date": "2026-09-08",
+              "price": 34246
+            },
+            {
+              "date": "2026-09-09",
+              "price": 33247
+            },
+            {
+              "date": "2026-09-10",
+              "price": 32455
+            },
+            {
+              "date": "2026-09-11",
+              "price": 31428
+            },
+            {
+              "date": "2026-09-14",
+              "price": 28026
+            },
+            {
+              "date": "2026-09-15",
+              "price": 27735
+            },
+            {
+              "date": "2026-09-16",
+              "price": 26814
+            },
+            {
+              "date": "2026-09-17",
+              "price": 27258
+            },
+            {
+              "date": "2026-09-18",
+              "price": 28256
+            },
+            {
+              "date": "2026-09-21",
+              "price": 29835
+            }
+          ]
+        },
+        "regions": {
+          "date": "2026-09-21",
+          "rows": [
+            {
+              "code": "1101",
+              "nameKo": "서울",
+              "price": 15867
+            },
+            {
+              "code": "2601",
+              "nameKo": "울산",
+              "price": 18000
+            },
+            {
+              "code": "3911",
+              "nameKo": "제주",
+              "price": 21600
+            }
+          ],
+          "min": {
+            "nameKo": "서울",
+            "price": 15867
+          },
+          "max": {
+            "nameKo": "제주",
+            "price": 21600
+          },
+          "median": 18000,
+          "national": 19044,
+          "maxMinRatio": 1.4
+        },
+        "cpi": {
+          "label": "복숭아",
+          "month": "202608",
+          "index": 135.83,
+          "yoyPct": -14.3,
+          "momPct": -11.8,
+          "totalYoyPct": 3.1
+        }
       },
       "corps": {
         "date": "2026-09-22",
@@ -29764,7 +30375,180 @@
           "wholesaleYoyPct": -7.1,
           "wholesaleUnit": "3kg"
         },
-        "ratioToWholesale": null
+        "ratioToWholesale": null,
+        "perUnit": {
+          "count": 10,
+          "high": 733,
+          "mid": 554
+        },
+        "gradeSpread": {
+          "pct": 32.4,
+          "normalPct": 27.7,
+          "years": 4
+        },
+        "rankAmongYears": {
+          "rank": 5,
+          "of": 5
+        },
+        "vsChuseok": {
+          "date": "2025-10-02",
+          "daysBefore": 3,
+          "value": 8330,
+          "pct": -12
+        },
+        "wholesaleIndexed": {
+          "unit": "3kg",
+          "points": [
+            {
+              "date": "2026-08-24",
+              "price": 8898
+            },
+            {
+              "date": "2026-08-25",
+              "price": 9394
+            },
+            {
+              "date": "2026-08-26",
+              "price": 9306
+            },
+            {
+              "date": "2026-08-27",
+              "price": 8649
+            },
+            {
+              "date": "2026-08-28",
+              "price": 9021
+            },
+            {
+              "date": "2026-08-31",
+              "price": 9157
+            },
+            {
+              "date": "2026-09-01",
+              "price": 8453
+            },
+            {
+              "date": "2026-09-02",
+              "price": 8929
+            },
+            {
+              "date": "2026-09-03",
+              "price": 8344
+            },
+            {
+              "date": "2026-09-04",
+              "price": 8646
+            },
+            {
+              "date": "2026-09-07",
+              "price": 9018
+            },
+            {
+              "date": "2026-09-08",
+              "price": 8653
+            },
+            {
+              "date": "2026-09-09",
+              "price": 8596
+            },
+            {
+              "date": "2026-09-10",
+              "price": 8346
+            },
+            {
+              "date": "2026-09-11",
+              "price": 8812
+            },
+            {
+              "date": "2026-09-14",
+              "price": 8995
+            },
+            {
+              "date": "2026-09-15",
+              "price": 10478
+            },
+            {
+              "date": "2026-09-16",
+              "price": 9955
+            },
+            {
+              "date": "2026-09-17",
+              "price": 9818
+            },
+            {
+              "date": "2026-09-18",
+              "price": 9754
+            },
+            {
+              "date": "2026-09-21",
+              "price": 8591
+            }
+          ]
+        },
+        "regions": {
+          "date": "2026-09-21",
+          "rows": [
+            {
+              "code": "2100",
+              "nameKo": "부산",
+              "price": 6503
+            },
+            {
+              "code": "2601",
+              "nameKo": "울산",
+              "price": 6900
+            },
+            {
+              "code": "2300",
+              "nameKo": "인천",
+              "price": 6930
+            },
+            {
+              "code": "2200",
+              "nameKo": "대구",
+              "price": 7255
+            },
+            {
+              "code": "1101",
+              "nameKo": "서울",
+              "price": 7256
+            },
+            {
+              "code": "2501",
+              "nameKo": "대전",
+              "price": 7307
+            },
+            {
+              "code": "3911",
+              "nameKo": "제주",
+              "price": 7365
+            },
+            {
+              "code": "2401",
+              "nameKo": "광주",
+              "price": 7737
+            }
+          ],
+          "min": {
+            "nameKo": "부산",
+            "price": 6503
+          },
+          "max": {
+            "nameKo": "광주",
+            "price": 7737
+          },
+          "median": 7256,
+          "national": 7330,
+          "maxMinRatio": 1.2
+        },
+        "cpi": {
+          "label": "귤",
+          "month": "202608",
+          "index": 205.43,
+          "yoyPct": -24.3,
+          "momPct": -2.4,
+          "totalYoyPct": 3.1
+        }
       },
       "corps": {
         "date": "2026-09-22",
@@ -36968,6 +37752,8 @@
       "MafraSettleCache 2026-08-21..2026-09-19 최다 시장(370401,240004,311201,220001,350301,250001) 품종·규격 일별 전등급 (30일 격차 추이)",
       "GarakCorpTradeCache · MafraSettleCache(상위 3시장 370401,240004,311201,220001,230001,240001,110008,210009,350301,250001) 직전 5개년 추석 정렬 창 2025-08-29..2025-10-03 · 2024-08-10..2024-09-14 · 2023-08-22..2023-09-26 · 2022-08-03..2022-09-07 · 2021-08-14..2021-09-18 품종·규격 일별 (§25 D-25p 격차 평년)",
       "ExternalPriceCache provider=garak_sang itemCode IN fruit dateKey ≥ 2021-09-22 lane 별 추석 ±45일 비중 (§25 명절 lane 판정 — 17 lane)",
+      "ExternalPriceCache provider=kamis_retail_region itemCode IN fruit dateKey 2026-09-15..2026-09-22 (§26 지역별 소매 8곳)",
+      "BokSeriesCache statCode 901Y009/* 최근 15개월 (§26 소비자물가지수 품목·총지수)",
       "GarakCorpTradeCache 일자×산지 Σkg 2021-01-01..2026-09-22 (상위 12 시군 원문 + 나머지 합 — 출하 시기·진도, §12.4g)",
       "GarakCorpTradeCache (인증구분, 규격, 법인) Σ 2026-08-24..2026-09-22 + 전년 같은 창 (인증 프리미엄, §12.8)",
       "GarakOriginPriceCache itemCode IN fruit dateKey 2026-09-18..2026-09-22 (당일 상위 산지, 상세 전용)",
