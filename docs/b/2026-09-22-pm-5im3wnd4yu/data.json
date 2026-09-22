@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T09:43:07.285Z",
+  "generatedAt": "2026-09-22T09:52:48.159Z",
   "targetDate": "2026-09-22",
   "weekday": "화",
   "sentOn": "2026-09-22",
@@ -2485,7 +2485,10 @@
               "mid": 13775,
               "normalVsNationalPct": 6.2,
               "vsNormalPp": -14.5,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": -7.8,
+              "vsYoyPct": -14.9,
+              "spreadPct": 53.5
             },
             {
               "code": "1101",
@@ -2495,7 +2498,10 @@
               "mid": 14750,
               "normalVsNationalPct": -2.3,
               "vsNormalPp": -5.1,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": -6.8,
+              "vsYoyPct": -9.4,
+              "spreadPct": 44.7
             },
             {
               "code": "2501",
@@ -2505,7 +2511,10 @@
               "mid": 16600,
               "normalVsNationalPct": 11.3,
               "vsNormalPp": -18.2,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 6.9,
+              "vsYoyPct": -22.8,
+              "spreadPct": 29.2
             },
             {
               "code": "2300",
@@ -2515,7 +2524,10 @@
               "mid": 16850,
               "normalVsNationalPct": -0.2,
               "vsNormalPp": 1.3,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 5.9,
+              "vsYoyPct": 0.4,
+              "spreadPct": 38.3
             },
             {
               "code": "2200",
@@ -2525,7 +2537,10 @@
               "mid": 16033,
               "normalVsNationalPct": 5,
               "vsNormalPp": 12.2,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 22.7,
+              "vsYoyPct": 7.3,
+              "spreadPct": 68.4
             },
             {
               "code": "2401",
@@ -2535,7 +2550,10 @@
               "mid": 16367,
               "normalVsNationalPct": -4.4,
               "vsNormalPp": 27.9,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 19.3,
+              "vsYoyPct": 9.4,
+              "spreadPct": 73.8
             },
             {
               "code": "2601",
@@ -2545,7 +2563,10 @@
               "mid": 16450,
               "normalVsNationalPct": 3.4,
               "vsNormalPp": 20.9,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": -2.7,
+              "vsYoyPct": 0.9,
+              "spreadPct": 74.2
             },
             {
               "code": "3911",
@@ -2555,7 +2576,10 @@
               "mid": 23550,
               "normalVsNationalPct": 14.2,
               "vsNormalPp": 52,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 31.8,
+              "vsYoyPct": 33.2,
+              "spreadPct": 62.6
             }
           ],
           "min": {
@@ -2569,7 +2593,10 @@
           "median": 25150,
           "national": 23043,
           "nationalMid": 16392,
-          "maxMinRatio": 1.8
+          "maxMinRatio": 1.8,
+          "normalMaxMinRatio": 1.2,
+          "nationalVsWeekPct": 2,
+          "nationalVsYoyPct": -11.3
         },
         "cpi": {
           "label": "사과",
@@ -8544,7 +8571,10 @@
               "mid": 16600,
               "normalVsNationalPct": -8.5,
               "vsNormalPp": -7.6,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 2,
+              "vsYoyPct": -5.4,
+              "spreadPct": 56.9
             },
             {
               "code": "1101",
@@ -8554,7 +8584,10 @@
               "mid": 20025,
               "normalVsNationalPct": -4.8,
               "vsNormalPp": -8.3,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": -5.2,
+              "vsYoyPct": 4.7,
+              "spreadPct": 34.7
             },
             {
               "code": "2401",
@@ -8564,7 +8597,10 @@
               "mid": 22400,
               "normalVsNationalPct": 1.8,
               "vsNormalPp": -9.5,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": -1.8,
+              "vsYoyPct": -2.4,
+              "spreadPct": 28
             },
             {
               "code": "2300",
@@ -8574,7 +8610,10 @@
               "mid": 22400,
               "normalVsNationalPct": 11.5,
               "vsNormalPp": -15.5,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": null,
+              "vsYoyPct": -5.7,
+              "spreadPct": 33
             },
             {
               "code": "2200",
@@ -8584,7 +8623,10 @@
               "mid": 22050,
               "normalVsNationalPct": 13.3,
               "vsNormalPp": -17,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 1.5,
+              "vsYoyPct": -16.5,
+              "spreadPct": 35.6
             },
             {
               "code": "2100",
@@ -8594,7 +8636,10 @@
               "mid": null,
               "normalVsNationalPct": 0.7,
               "vsNormalPp": 0.9,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": -5.3,
+              "vsYoyPct": 20.4,
+              "spreadPct": null
             },
             {
               "code": "2501",
@@ -8604,7 +8649,10 @@
               "mid": 25767,
               "normalVsNationalPct": 13.2,
               "vsNormalPp": -6.9,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": 32,
+              "vsYoyPct": 2.6,
+              "spreadPct": 28.1
             },
             {
               "code": "3911",
@@ -8614,7 +8662,10 @@
               "mid": null,
               "normalVsNationalPct": 9.8,
               "vsNormalPp": 7.9,
-              "normalYears": 5
+              "normalYears": 5,
+              "vsWeekPct": -8.6,
+              "vsYoyPct": 5.8,
+              "spreadPct": null
             }
           ],
           "min": {
@@ -8628,7 +8679,10 @@
           "median": 29850,
           "national": 31045,
           "nationalMid": 23528,
-          "maxMinRatio": 1.4
+          "maxMinRatio": 1.4,
+          "normalMaxMinRatio": 1.2,
+          "nationalVsWeekPct": 22.1,
+          "nationalVsYoyPct": 6.2
         },
         "cpi": {
           "label": "배",
@@ -14679,7 +14733,10 @@
               "mid": null,
               "normalVsNationalPct": -2.6,
               "vsNormalPp": -6,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -6.2,
+              "vsYoyPct": -24.9,
+              "spreadPct": null
             },
             {
               "code": "2300",
@@ -14689,7 +14746,10 @@
               "mid": null,
               "normalVsNationalPct": -7.1,
               "vsNormalPp": 2.8,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -14.1,
+              "vsYoyPct": -31,
+              "spreadPct": null
             },
             {
               "code": "2200",
@@ -14699,7 +14759,10 @@
               "mid": null,
               "normalVsNationalPct": 9.7,
               "vsNormalPp": -13.3,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -9.6,
+              "vsYoyPct": -36.9,
+              "spreadPct": null
             },
             {
               "code": "2501",
@@ -14709,7 +14772,10 @@
               "mid": null,
               "normalVsNationalPct": -2.1,
               "vsNormalPp": 2.3,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -7.5,
+              "vsYoyPct": -23.3,
+              "spreadPct": null
             },
             {
               "code": "2401",
@@ -14719,7 +14785,10 @@
               "mid": null,
               "normalVsNationalPct": 8.1,
               "vsNormalPp": -7,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -10.7,
+              "vsYoyPct": -25.3,
+              "spreadPct": null
             },
             {
               "code": "2601",
@@ -14729,7 +14798,10 @@
               "mid": null,
               "normalVsNationalPct": -5.4,
               "vsNormalPp": 9.7,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -7.4,
+              "vsYoyPct": -9.9,
+              "spreadPct": null
             },
             {
               "code": "3911",
@@ -14739,7 +14811,10 @@
               "mid": null,
               "normalVsNationalPct": 9,
               "vsNormalPp": 20.6,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -1.8,
+              "vsYoyPct": -20.6,
+              "spreadPct": null
             },
             {
               "code": "2100",
@@ -14749,7 +14824,10 @@
               "mid": null,
               "normalVsNationalPct": 3.9,
               "vsNormalPp": 31.2,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": 4.4,
+              "vsYoyPct": 4.4,
+              "spreadPct": null
             }
           ],
           "min": {
@@ -14763,7 +14841,10 @@
           "median": 12733,
           "national": 12653,
           "nationalMid": null,
-          "maxMinRatio": 1.5
+          "maxMinRatio": 1.5,
+          "normalMaxMinRatio": 1.2,
+          "nationalVsWeekPct": -7.5,
+          "nationalVsYoyPct": -20.9
         },
         "cpi": {
           "label": "포도",
@@ -20150,7 +20231,10 @@
               "mid": null,
               "normalVsNationalPct": null,
               "vsNormalPp": null,
-              "normalYears": 2
+              "normalYears": 2,
+              "vsWeekPct": -19.5,
+              "vsYoyPct": -31,
+              "spreadPct": null
             },
             {
               "code": "2601",
@@ -20160,7 +20244,10 @@
               "mid": null,
               "normalVsNationalPct": null,
               "vsNormalPp": null,
-              "normalYears": 2
+              "normalYears": 2,
+              "vsWeekPct": 9.4,
+              "vsYoyPct": -13.3,
+              "spreadPct": null
             },
             {
               "code": "3911",
@@ -20170,7 +20257,10 @@
               "mid": null,
               "normalVsNationalPct": null,
               "vsNormalPp": null,
-              "normalYears": 2
+              "normalYears": 2,
+              "vsWeekPct": 8.5,
+              "vsYoyPct": -3.8,
+              "spreadPct": null
             }
           ],
           "min": {
@@ -20184,7 +20274,10 @@
           "median": 18000,
           "national": 19044,
           "nationalMid": null,
-          "maxMinRatio": 1.4
+          "maxMinRatio": 1.4,
+          "normalMaxMinRatio": null,
+          "nationalVsWeekPct": -1.1,
+          "nationalVsYoyPct": -22.2
         },
         "cpi": {
           "label": "복숭아",
@@ -30645,7 +30738,10 @@
               "mid": 7167,
               "normalVsNationalPct": 1.7,
               "vsNormalPp": -13,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -15.3,
+              "vsYoyPct": -32.1,
+              "spreadPct": -9.3
             },
             {
               "code": "2601",
@@ -30655,7 +30751,10 @@
               "mid": 6140,
               "normalVsNationalPct": -1.5,
               "vsNormalPp": -4.4,
-              "normalYears": 3
+              "normalYears": 3,
+              "vsWeekPct": 13.3,
+              "vsYoyPct": -25.2,
+              "spreadPct": 12.4
             },
             {
               "code": "2300",
@@ -30665,7 +30764,10 @@
               "mid": 4520,
               "normalVsNationalPct": -3.4,
               "vsNormalPp": -2.1,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -16.7,
+              "vsYoyPct": -24.3,
+              "spreadPct": 53.3
             },
             {
               "code": "2200",
@@ -30675,7 +30777,10 @@
               "mid": 5327,
               "normalVsNationalPct": 1,
               "vsNormalPp": -2,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -3.7,
+              "vsYoyPct": -23,
+              "spreadPct": 36.2
             },
             {
               "code": "1101",
@@ -30685,7 +30790,10 @@
               "mid": 5274,
               "normalVsNationalPct": -1.5,
               "vsNormalPp": 0.5,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -6.8,
+              "vsYoyPct": -26.6,
+              "spreadPct": 37.6
             },
             {
               "code": "2501",
@@ -30695,7 +30803,10 @@
               "mid": 5015,
               "normalVsNationalPct": 8.9,
               "vsNormalPp": -9.2,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -3.1,
+              "vsYoyPct": -36.6,
+              "spreadPct": 45.7
             },
             {
               "code": "3911",
@@ -30705,7 +30816,10 @@
               "mid": 4970,
               "normalVsNationalPct": -9.4,
               "vsNormalPp": 9.9,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": 1.5,
+              "vsYoyPct": -16.9,
+              "spreadPct": 48.2
             },
             {
               "code": "2401",
@@ -30715,7 +30829,10 @@
               "mid": 4660,
               "normalVsNationalPct": 4.5,
               "vsNormalPp": 1.1,
-              "normalYears": 4
+              "normalYears": 4,
+              "vsWeekPct": -4.2,
+              "vsYoyPct": -32.9,
+              "spreadPct": 66
             }
           ],
           "min": {
@@ -30729,7 +30846,10 @@
           "median": 7256,
           "national": 7330,
           "nationalMid": 5538,
-          "maxMinRatio": 1.2
+          "maxMinRatio": 1.2,
+          "normalMaxMinRatio": 1.2,
+          "nationalVsWeekPct": -2.5,
+          "nationalVsYoyPct": -26.1
         },
         "cpi": {
           "label": "귤",
