@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T05:39:09.956Z",
+  "generatedAt": "2026-09-22T06:14:04.470Z",
   "targetDate": "2026-09-22",
   "weekday": "화",
   "sentOn": "2026-09-22",
@@ -5428,7 +5428,10 @@
                   "vsGarakPct": null,
                   "kg": 92361,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 5,
@@ -5436,7 +5439,10 @@
                   "vsGarakPct": null,
                   "kg": 68211,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 4407,
@@ -5449,15 +5455,18 @@
               "tons": 5216.3,
               "partial": false,
               "cells": [
-                null,
                 {
                   "unitKg": 20,
                   "perKg": 3632,
                   "vsGarakPct": 18,
                   "kg": 234800,
                   "unitMismatch": true,
-                  "thin": false
-                }
+                  "thin": false,
+                  "normalVsGarakPct": -15.3,
+                  "vsNormalPp": 33.3,
+                  "normalYears": 5
+                },
+                null
               ],
               "itemPerKg": 3469,
               "smallPackShare": 0
@@ -5475,7 +5484,10 @@
                   "vsGarakPct": -3.6,
                   "kg": 20100,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -14.4,
+                  "vsNormalPp": 10.8,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 5,
@@ -5483,7 +5495,10 @@
                   "vsGarakPct": 11,
                   "kg": 62365,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -1.3,
+                  "vsNormalPp": 12.3,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 6229,
@@ -5502,7 +5517,10 @@
                   "vsGarakPct": -16.2,
                   "kg": 11520,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -5.6,
+                  "vsNormalPp": -10.6,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 5,
@@ -5510,7 +5528,10 @@
                   "vsGarakPct": -12.9,
                   "kg": 38855,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -8.9,
+                  "vsNormalPp": -4,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 4930,
@@ -5529,7 +5550,10 @@
                   "vsGarakPct": -7.6,
                   "kg": 351851,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 5,
@@ -5537,7 +5561,10 @@
                   "vsGarakPct": -0.8,
                   "kg": 451966,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 4597,
@@ -5696,162 +5723,215 @@
           "garakUnitKg": 10,
           "marketUnitKg": 20,
           "unitMismatch": true,
+          "basis": "chuseok",
           "points": [
             {
               "date": "2026-08-21",
               "garak": 6910,
               "market": 4677,
-              "gapPct": -32.3
+              "gapPct": -32.3,
+              "index": 67.7,
+              "normalIndex": 84.3
             },
             {
               "date": "2026-08-22",
               "garak": 5990,
               "market": 4171,
-              "gapPct": -30.4
+              "gapPct": -30.4,
+              "index": 69.6,
+              "normalIndex": 89.8
             },
             {
               "date": "2026-08-24",
               "garak": 5524,
               "market": 4139,
-              "gapPct": -25.1
+              "gapPct": -25.1,
+              "index": 74.9,
+              "normalIndex": 87.2
             },
             {
               "date": "2026-08-25",
               "garak": 5368,
               "market": 4280,
-              "gapPct": -20.3
+              "gapPct": -20.3,
+              "index": 79.7,
+              "normalIndex": 85.3
             },
             {
               "date": "2026-08-26",
               "garak": 5276,
               "market": 4330,
-              "gapPct": -17.9
+              "gapPct": -17.9,
+              "index": 82.1,
+              "normalIndex": 83.4
             },
             {
               "date": "2026-08-27",
               "garak": 4850,
               "market": 4179,
-              "gapPct": -13.8
+              "gapPct": -13.8,
+              "index": 86.2,
+              "normalIndex": 84.3
             },
             {
               "date": "2026-08-28",
               "garak": 4848,
               "market": 4092,
-              "gapPct": -15.6
+              "gapPct": -15.6,
+              "index": 84.4,
+              "normalIndex": 81.9
             },
             {
               "date": "2026-08-29",
               "garak": 4543,
               "market": 3920,
-              "gapPct": -13.7
+              "gapPct": -13.7,
+              "index": 86.3,
+              "normalIndex": 86
             },
             {
               "date": "2026-08-31",
               "garak": 4933,
               "market": 4292,
-              "gapPct": -13
+              "gapPct": -13,
+              "index": 87,
+              "normalIndex": 90.6
             },
             {
               "date": "2026-09-01",
               "garak": 5147,
               "market": 4858,
-              "gapPct": -5.6
+              "gapPct": -5.6,
+              "index": 94.4,
+              "normalIndex": 90.8
             },
             {
               "date": "2026-09-02",
               "garak": 6137,
               "market": 4634,
-              "gapPct": -24.5
+              "gapPct": -24.5,
+              "index": 75.5,
+              "normalIndex": 92.3
             },
             {
               "date": "2026-09-03",
               "garak": 5330,
               "market": 4558,
-              "gapPct": -14.5
+              "gapPct": -14.5,
+              "index": 85.5,
+              "normalIndex": 92.2
             },
             {
               "date": "2026-09-04",
               "garak": 4984,
               "market": 4383,
-              "gapPct": -12.1
+              "gapPct": -12.1,
+              "index": 87.9,
+              "normalIndex": 90.4
             },
             {
               "date": "2026-09-05",
               "garak": 4344,
               "market": 3696,
-              "gapPct": -14.9
+              "gapPct": -14.9,
+              "index": 85.1,
+              "normalIndex": 95.1
             },
             {
               "date": "2026-09-07",
               "garak": 4328,
               "market": 4197,
-              "gapPct": -3
+              "gapPct": -3,
+              "index": 97,
+              "normalIndex": 89.2
             },
             {
               "date": "2026-09-08",
               "garak": 4383,
               "market": 4068,
-              "gapPct": -7.2
+              "gapPct": -7.2,
+              "index": 92.8,
+              "normalIndex": 88.1
             },
             {
               "date": "2026-09-09",
               "garak": 4114,
               "market": 3896,
-              "gapPct": -5.3
+              "gapPct": -5.3,
+              "index": 94.7,
+              "normalIndex": 87.7
             },
             {
               "date": "2026-09-10",
               "garak": 3813,
               "market": 3796,
-              "gapPct": -0.4
+              "gapPct": -0.4,
+              "index": 99.6,
+              "normalIndex": 91.6
             },
             {
               "date": "2026-09-11",
               "garak": 3967,
               "market": 3614,
-              "gapPct": -8.9
+              "gapPct": -8.9,
+              "index": 91.1,
+              "normalIndex": 94.2
             },
             {
               "date": "2026-09-12",
               "garak": 3709,
               "market": 3235,
-              "gapPct": -12.8
+              "gapPct": -12.8,
+              "index": 87.2,
+              "normalIndex": 97.7
             },
             {
               "date": "2026-09-14",
               "garak": 3802,
               "market": 3367,
-              "gapPct": -11.4
+              "gapPct": -11.4,
+              "index": 88.6,
+              "normalIndex": 103
             },
             {
               "date": "2026-09-15",
               "garak": 3926,
               "market": 3382,
-              "gapPct": -13.9
+              "gapPct": -13.9,
+              "index": 86.1,
+              "normalIndex": 99.1
             },
             {
               "date": "2026-09-16",
               "garak": 3202,
               "market": 3178,
-              "gapPct": -0.7
+              "gapPct": -0.7,
+              "index": 99.3,
+              "normalIndex": 96.4
             },
             {
               "date": "2026-09-17",
               "garak": 3000,
               "market": 3447,
-              "gapPct": 14.9
+              "gapPct": 14.9,
+              "index": 114.9,
+              "normalIndex": 90.6
             },
             {
               "date": "2026-09-18",
               "garak": 2820,
               "market": 3259,
-              "gapPct": 15.6
+              "gapPct": 15.6,
+              "index": 115.6,
+              "normalIndex": 82.5
             },
             {
               "date": "2026-09-19",
               "garak": 3078,
               "market": 3632,
-              "gapPct": 18
+              "gapPct": 18,
+              "index": 118,
+              "normalIndex": 84.7
             }
           ]
         },
@@ -11218,7 +11298,10 @@
                   "vsGarakPct": null,
                   "kg": 87660,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 7.5,
@@ -11226,7 +11309,10 @@
                   "vsGarakPct": null,
                   "kg": 180788,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3027,
@@ -11245,7 +11331,10 @@
                   "vsGarakPct": -40.4,
                   "kg": 36855,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -14,
+                  "vsNormalPp": -26.4,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 7.5,
@@ -11253,7 +11342,10 @@
                   "vsGarakPct": -3.3,
                   "kg": 113738,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -4.7,
+                  "vsNormalPp": 1.4,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 2855,
@@ -11272,7 +11364,10 @@
                   "vsGarakPct": 5.7,
                   "kg": 39975,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": 3.2,
+                  "vsNormalPp": 2.5,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 7.5,
@@ -11280,7 +11375,10 @@
                   "vsGarakPct": 10.3,
                   "kg": 93600,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": 2.5,
+                  "vsNormalPp": 7.8,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 3323,
@@ -11299,7 +11397,10 @@
                   "vsGarakPct": 5,
                   "kg": 21930,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -9.1,
+                  "vsNormalPp": 14.1,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 7.5,
@@ -11307,7 +11408,10 @@
                   "vsGarakPct": 4.7,
                   "kg": 72698,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -0.2,
+                  "vsNormalPp": 4.9,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 3336,
@@ -11326,7 +11430,10 @@
                   "vsGarakPct": -5.9,
                   "kg": 374745,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 7.5,
@@ -11334,7 +11441,10 @@
                   "vsGarakPct": -0.3,
                   "kg": 1256348,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3125,
@@ -11493,162 +11603,215 @@
           "garakUnitKg": 15,
           "marketUnitKg": 15,
           "unitMismatch": false,
+          "basis": "chuseok",
           "points": [
             {
               "date": "2026-08-21",
               "garak": null,
               "market": 1881,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-08-22",
               "garak": null,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-08-24",
               "garak": null,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-08-25",
               "garak": 2881,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-08-26",
               "garak": 3176,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": 89
             },
             {
               "date": "2026-08-27",
               "garak": 2486,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": 91.6
             },
             {
               "date": "2026-08-28",
               "garak": 3373,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": 101.5
             },
             {
               "date": "2026-08-29",
               "garak": 2998,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": 142.6
             },
             {
               "date": "2026-08-31",
               "garak": 3437,
               "market": 2393,
-              "gapPct": -30.4
+              "gapPct": -30.4,
+              "index": 69.6,
+              "normalIndex": 83.3
             },
             {
               "date": "2026-09-01",
               "garak": 2964,
               "market": 2585,
-              "gapPct": -12.8
+              "gapPct": -12.8,
+              "index": 87.2,
+              "normalIndex": 88.1
             },
             {
               "date": "2026-09-02",
               "garak": 2382,
               "market": 3016,
-              "gapPct": 26.6
+              "gapPct": 26.6,
+              "index": 126.6,
+              "normalIndex": 87.4
             },
             {
               "date": "2026-09-03",
               "garak": 3266,
               "market": 3295,
-              "gapPct": 0.9
+              "gapPct": 0.9,
+              "index": 100.9,
+              "normalIndex": 82.1
             },
             {
               "date": "2026-09-04",
               "garak": 3068,
               "market": 2737,
-              "gapPct": -10.8
+              "gapPct": -10.8,
+              "index": 89.2,
+              "normalIndex": 106.3
             },
             {
               "date": "2026-09-05",
               "garak": 3211,
               "market": 2259,
-              "gapPct": -29.6
+              "gapPct": -29.6,
+              "index": 70.4,
+              "normalIndex": 93.5
             },
             {
               "date": "2026-09-07",
               "garak": 3122,
               "market": 2548,
-              "gapPct": -18.4
+              "gapPct": -18.4,
+              "index": 81.6,
+              "normalIndex": 79.8
             },
             {
               "date": "2026-09-08",
               "garak": 2935,
               "market": 2274,
-              "gapPct": -22.5
+              "gapPct": -22.5,
+              "index": 77.5,
+              "normalIndex": 80.4
             },
             {
               "date": "2026-09-09",
               "garak": 2723,
               "market": 2269,
-              "gapPct": -16.7
+              "gapPct": -16.7,
+              "index": 83.3,
+              "normalIndex": 83.1
             },
             {
               "date": "2026-09-10",
               "garak": 2940,
               "market": 2251,
-              "gapPct": -23.4
+              "gapPct": -23.4,
+              "index": 76.6,
+              "normalIndex": 85.8
             },
             {
               "date": "2026-09-11",
               "garak": 2724,
               "market": 2210,
-              "gapPct": -18.9
+              "gapPct": -18.9,
+              "index": 81.1,
+              "normalIndex": 84.4
             },
             {
               "date": "2026-09-12",
               "garak": 2922,
               "market": 2201,
-              "gapPct": -24.7
+              "gapPct": -24.7,
+              "index": 75.3,
+              "normalIndex": 84.8
             },
             {
               "date": "2026-09-14",
               "garak": 3095,
               "market": 2004,
-              "gapPct": -35.3
+              "gapPct": -35.3,
+              "index": 64.7,
+              "normalIndex": 86.6
             },
             {
               "date": "2026-09-15",
               "garak": 2846,
               "market": 2039,
-              "gapPct": -28.4
+              "gapPct": -28.4,
+              "index": 71.6,
+              "normalIndex": 94.5
             },
             {
               "date": "2026-09-16",
               "garak": 2728,
               "market": 2127,
-              "gapPct": -22
+              "gapPct": -22,
+              "index": 78,
+              "normalIndex": 94.1
             },
             {
               "date": "2026-09-17",
               "garak": 2396,
               "market": 1991,
-              "gapPct": -16.9
+              "gapPct": -16.9,
+              "index": 83.1,
+              "normalIndex": 94.8
             },
             {
               "date": "2026-09-18",
               "garak": 2190,
               "market": 1883,
-              "gapPct": -14
+              "gapPct": -14,
+              "index": 86,
+              "normalIndex": 90.9
             },
             {
               "date": "2026-09-19",
               "garak": 2228,
               "market": 1327,
-              "gapPct": -40.4
+              "gapPct": -40.4,
+              "index": 59.6,
+              "normalIndex": 86
             }
           ]
         },
@@ -17181,7 +17344,10 @@
                   "vsGarakPct": null,
                   "kg": 92632,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 4,
@@ -17189,7 +17355,10 @@
                   "vsGarakPct": null,
                   "kg": 142912,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3196,
@@ -17208,7 +17377,10 @@
                   "vsGarakPct": -29.2,
                   "kg": 31138,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -5.2,
+                  "vsNormalPp": -24,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 4,
@@ -17216,7 +17388,10 @@
                   "vsGarakPct": -22.3,
                   "kg": 35940,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -9.4,
+                  "vsNormalPp": -12.9,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 2798,
@@ -17235,7 +17410,10 @@
                   "vsGarakPct": -17.4,
                   "kg": 31274,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -2.6,
+                  "vsNormalPp": -14.8,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 4,
@@ -17243,7 +17421,10 @@
                   "vsGarakPct": -5.8,
                   "kg": 55996,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -4.6,
+                  "vsNormalPp": -1.2,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 2932,
@@ -17262,7 +17443,10 @@
                   "vsGarakPct": -3.9,
                   "kg": 20578,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": 6.5,
+                  "vsNormalPp": -10.4,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 4,
@@ -17270,7 +17454,10 @@
                   "vsGarakPct": -11.1,
                   "kg": 46452,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": 1.3,
+                  "vsNormalPp": -12.4,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 3569,
@@ -17289,7 +17476,10 @@
                   "vsGarakPct": -16.3,
                   "kg": 362140,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 4,
@@ -17297,7 +17487,10 @@
                   "vsGarakPct": -10,
                   "kg": 688724,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3004,
@@ -17456,162 +17649,215 @@
           "garakUnitKg": 2,
           "marketUnitKg": 2,
           "unitMismatch": false,
+          "basis": "chuseok",
           "points": [
             {
               "date": "2026-08-21",
               "garak": 3921,
               "market": 4055,
-              "gapPct": 3.4
+              "gapPct": 3.4,
+              "index": 103.4,
+              "normalIndex": 94.4
             },
             {
               "date": "2026-08-22",
               "garak": 3884,
               "market": 3986,
-              "gapPct": 2.6
+              "gapPct": 2.6,
+              "index": 102.6,
+              "normalIndex": 99.4
             },
             {
               "date": "2026-08-24",
               "garak": 3900,
               "market": 4229,
-              "gapPct": 8.4
+              "gapPct": 8.4,
+              "index": 108.4,
+              "normalIndex": 96.5
             },
             {
               "date": "2026-08-25",
               "garak": 3864,
               "market": 3954,
-              "gapPct": 2.3
+              "gapPct": 2.3,
+              "index": 102.3,
+              "normalIndex": 96.7
             },
             {
               "date": "2026-08-26",
               "garak": 3812,
               "market": 3814,
-              "gapPct": 0.1
+              "gapPct": 0.1,
+              "index": 100.1,
+              "normalIndex": 95.6
             },
             {
               "date": "2026-08-27",
               "garak": 3602,
               "market": 3582,
-              "gapPct": -0.6
+              "gapPct": -0.6,
+              "index": 99.4,
+              "normalIndex": 94.5
             },
             {
               "date": "2026-08-28",
               "garak": 3634,
               "market": 3397,
-              "gapPct": -6.5
+              "gapPct": -6.5,
+              "index": 93.5,
+              "normalIndex": 96.3
             },
             {
               "date": "2026-08-29",
               "garak": 3900,
               "market": 3303,
-              "gapPct": -15.3
+              "gapPct": -15.3,
+              "index": 84.7,
+              "normalIndex": 98.3
             },
             {
               "date": "2026-08-31",
               "garak": 3700,
               "market": 3299,
-              "gapPct": -10.8
+              "gapPct": -10.8,
+              "index": 89.2,
+              "normalIndex": 95.7
             },
             {
               "date": "2026-09-01",
               "garak": 3676,
               "market": 3243,
-              "gapPct": -11.8
+              "gapPct": -11.8,
+              "index": 88.2,
+              "normalIndex": 92.1
             },
             {
               "date": "2026-09-02",
               "garak": 3535,
               "market": 3056,
-              "gapPct": -13.6
+              "gapPct": -13.6,
+              "index": 86.4,
+              "normalIndex": 96.7
             },
             {
               "date": "2026-09-03",
               "garak": 3475,
               "market": 3121,
-              "gapPct": -10.2
+              "gapPct": -10.2,
+              "index": 89.8,
+              "normalIndex": 96.2
             },
             {
               "date": "2026-09-04",
               "garak": 3361,
               "market": 2976,
-              "gapPct": -11.5
+              "gapPct": -11.5,
+              "index": 88.5,
+              "normalIndex": 92
             },
             {
               "date": "2026-09-05",
               "garak": 3483,
               "market": 2892,
-              "gapPct": -17
+              "gapPct": -17,
+              "index": 83,
+              "normalIndex": 89.7
             },
             {
               "date": "2026-09-07",
               "garak": 3450,
               "market": 3017,
-              "gapPct": -12.6
+              "gapPct": -12.6,
+              "index": 87.4,
+              "normalIndex": 90.1
             },
             {
               "date": "2026-09-08",
               "garak": 3524,
               "market": 3158,
-              "gapPct": -10.4
+              "gapPct": -10.4,
+              "index": 89.6,
+              "normalIndex": 94.3
             },
             {
               "date": "2026-09-09",
               "garak": 3145,
               "market": 3255,
-              "gapPct": 3.5
+              "gapPct": 3.5,
+              "index": 103.5,
+              "normalIndex": 93.1
             },
             {
               "date": "2026-09-10",
               "garak": 2877,
               "market": 2940,
-              "gapPct": 2.2
+              "gapPct": 2.2,
+              "index": 102.2,
+              "normalIndex": 96.4
             },
             {
               "date": "2026-09-11",
               "garak": 2792,
               "market": 2807,
-              "gapPct": 0.5
+              "gapPct": 0.5,
+              "index": 100.5,
+              "normalIndex": 101.7
             },
             {
               "date": "2026-09-12",
               "garak": 2650,
               "market": 2739,
-              "gapPct": 3.4
+              "gapPct": 3.4,
+              "index": 103.4,
+              "normalIndex": 100.5
             },
             {
               "date": "2026-09-14",
               "garak": 2646,
               "market": 2737,
-              "gapPct": 3.4
+              "gapPct": 3.4,
+              "index": 103.4,
+              "normalIndex": 95.7
             },
             {
               "date": "2026-09-15",
               "garak": 2485,
               "market": 2645,
-              "gapPct": 6.4
+              "gapPct": 6.4,
+              "index": 106.4,
+              "normalIndex": 94.5
             },
             {
               "date": "2026-09-16",
               "garak": 2501,
               "market": 2548,
-              "gapPct": 1.9
+              "gapPct": 1.9,
+              "index": 101.9,
+              "normalIndex": 92.8
             },
             {
               "date": "2026-09-17",
               "garak": 2613,
               "market": 2425,
-              "gapPct": -7.2
+              "gapPct": -7.2,
+              "index": 92.8,
+              "normalIndex": 91.3
             },
             {
               "date": "2026-09-18",
               "garak": 2566,
               "market": 2179,
-              "gapPct": -15.1
+              "gapPct": -15.1,
+              "index": 84.9,
+              "normalIndex": 90.9
             },
             {
               "date": "2026-09-19",
               "garak": 2829,
               "market": 2003,
-              "gapPct": -29.2
+              "gapPct": -29.2,
+              "index": 70.8,
+              "normalIndex": 94.8
             }
           ]
         },
@@ -21906,7 +22152,10 @@
                   "vsGarakPct": null,
                   "kg": 113396,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 10,
@@ -21914,7 +22163,10 @@
                   "vsGarakPct": null,
                   "kg": 37170,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 4161,
@@ -21933,7 +22185,10 @@
                   "vsGarakPct": -27.2,
                   "kg": 21740,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -21.5,
+                  "vsNormalPp": -5.7,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 10,
@@ -21941,7 +22196,10 @@
                   "vsGarakPct": -8.3,
                   "kg": 2730,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -15,
+                  "vsNormalPp": 6.7,
+                  "normalYears": 5
                 }
               ],
               "itemPerKg": 3272,
@@ -21960,7 +22218,10 @@
                   "vsGarakPct": -23.3,
                   "kg": 17476,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -19.8,
+                  "vsNormalPp": -3.5,
+                  "normalYears": 5
                 },
                 {
                   "unitKg": 10,
@@ -21968,7 +22229,10 @@
                   "vsGarakPct": -16,
                   "kg": 2250,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -21.1,
+                  "vsNormalPp": 5.1,
+                  "normalYears": 3
                 }
               ],
               "itemPerKg": 3298,
@@ -21987,7 +22251,10 @@
                   "vsGarakPct": -33.2,
                   "kg": 23652,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -19.5,
+                  "vsNormalPp": -13.7,
+                  "normalYears": 5
                 },
                 null
               ],
@@ -22007,7 +22274,10 @@
                   "vsGarakPct": -11.5,
                   "kg": 326808,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 10,
@@ -22015,7 +22285,10 @@
                   "vsGarakPct": -2,
                   "kg": 49770,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3849,
@@ -22171,162 +22444,215 @@
           "garakUnitKg": 4,
           "marketUnitKg": 4,
           "unitMismatch": false,
+          "basis": "chuseok",
           "points": [
             {
               "date": "2026-08-21",
               "garak": 3756,
               "market": 3570,
-              "gapPct": -5
+              "gapPct": -5,
+              "index": 95,
+              "normalIndex": 91
             },
             {
               "date": "2026-08-22",
               "garak": 3756,
               "market": 3063,
-              "gapPct": -18.5
+              "gapPct": -18.5,
+              "index": 81.5,
+              "normalIndex": 94.1
             },
             {
               "date": "2026-08-24",
               "garak": 3844,
               "market": 3334,
-              "gapPct": -13.3
+              "gapPct": -13.3,
+              "index": 86.7,
+              "normalIndex": 89.2
             },
             {
               "date": "2026-08-25",
               "garak": 3674,
               "market": 3358,
-              "gapPct": -8.6
+              "gapPct": -8.6,
+              "index": 91.4,
+              "normalIndex": 93
             },
             {
               "date": "2026-08-26",
               "garak": 3893,
               "market": 3421,
-              "gapPct": -12.1
+              "gapPct": -12.1,
+              "index": 87.9,
+              "normalIndex": 93.2
             },
             {
               "date": "2026-08-27",
               "garak": 4180,
               "market": 3536,
-              "gapPct": -15.4
+              "gapPct": -15.4,
+              "index": 84.6,
+              "normalIndex": 92.6
             },
             {
               "date": "2026-08-28",
               "garak": 4401,
               "market": 3549,
-              "gapPct": -19.4
+              "gapPct": -19.4,
+              "index": 80.6,
+              "normalIndex": 93.4
             },
             {
               "date": "2026-08-29",
               "garak": 4026,
               "market": 3675,
-              "gapPct": -8.7
+              "gapPct": -8.7,
+              "index": 91.3,
+              "normalIndex": 90.5
             },
             {
               "date": "2026-08-31",
               "garak": 4368,
               "market": 4046,
-              "gapPct": -7.4
+              "gapPct": -7.4,
+              "index": 92.6,
+              "normalIndex": 90.2
             },
             {
               "date": "2026-09-01",
               "garak": 4540,
               "market": 4094,
-              "gapPct": -9.8
+              "gapPct": -9.8,
+              "index": 90.2,
+              "normalIndex": 90.1
             },
             {
               "date": "2026-09-02",
               "garak": 5112,
               "market": 4307,
-              "gapPct": -15.7
+              "gapPct": -15.7,
+              "index": 84.3,
+              "normalIndex": 91.3
             },
             {
               "date": "2026-09-03",
               "garak": 5240,
               "market": 4325,
-              "gapPct": -17.5
+              "gapPct": -17.5,
+              "index": 82.5,
+              "normalIndex": 93.7
             },
             {
               "date": "2026-09-04",
               "garak": 4939,
               "market": 4326,
-              "gapPct": -12.4
+              "gapPct": -12.4,
+              "index": 87.6,
+              "normalIndex": 98.8
             },
             {
               "date": "2026-09-05",
               "garak": 4818,
               "market": 4182,
-              "gapPct": -13.2
+              "gapPct": -13.2,
+              "index": 86.8,
+              "normalIndex": 98.1
             },
             {
               "date": "2026-09-07",
               "garak": 4812,
               "market": 4274,
-              "gapPct": -11.2
+              "gapPct": -11.2,
+              "index": 88.8,
+              "normalIndex": 92.1
             },
             {
               "date": "2026-09-08",
               "garak": 4704,
               "market": 4125,
-              "gapPct": -12.3
+              "gapPct": -12.3,
+              "index": 87.7,
+              "normalIndex": 90.1
             },
             {
               "date": "2026-09-09",
               "garak": 4762,
               "market": 4413,
-              "gapPct": -7.3
+              "gapPct": -7.3,
+              "index": 92.7,
+              "normalIndex": 89.4
             },
             {
               "date": "2026-09-10",
               "garak": 4610,
               "market": 4398,
-              "gapPct": -4.6
+              "gapPct": -4.6,
+              "index": 95.4,
+              "normalIndex": 91.4
             },
             {
               "date": "2026-09-11",
               "garak": 4513,
               "market": 4146,
-              "gapPct": -8.1
+              "gapPct": -8.1,
+              "index": 91.9,
+              "normalIndex": 93.3
             },
             {
               "date": "2026-09-12",
               "garak": 4085,
               "market": 3913,
-              "gapPct": -4.2
+              "gapPct": -4.2,
+              "index": 95.8,
+              "normalIndex": 94.8
             },
             {
               "date": "2026-09-14",
               "garak": 4260,
               "market": 3709,
-              "gapPct": -12.9
+              "gapPct": -12.9,
+              "index": 87.1,
+              "normalIndex": 90
             },
             {
               "date": "2026-09-15",
               "garak": 4148,
               "market": 3877,
-              "gapPct": -6.5
+              "gapPct": -6.5,
+              "index": 93.5,
+              "normalIndex": 92.9
             },
             {
               "date": "2026-09-16",
               "garak": 4192,
               "market": 3633,
-              "gapPct": -13.3
+              "gapPct": -13.3,
+              "index": 86.7,
+              "normalIndex": 88.4
             },
             {
               "date": "2026-09-17",
               "garak": 3977,
               "market": 3147,
-              "gapPct": -20.9
+              "gapPct": -20.9,
+              "index": 79.1,
+              "normalIndex": 88.6
             },
             {
               "date": "2026-09-18",
               "garak": 4151,
               "market": 3661,
-              "gapPct": -11.8
+              "gapPct": -11.8,
+              "index": 88.2,
+              "normalIndex": 81
             },
             {
               "date": "2026-09-19",
               "garak": 4551,
               "market": 3311,
-              "gapPct": -27.2
+              "gapPct": -27.2,
+              "index": 72.8,
+              "normalIndex": 78.5
             }
           ]
         },
@@ -26304,7 +26630,10 @@
                   "vsGarakPct": null,
                   "kg": 360,
                   "unitMismatch": false,
-                  "thin": true
+                  "thin": true,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 5,
@@ -26312,7 +26641,10 @@
                   "vsGarakPct": null,
                   "kg": 1685,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 4249,
@@ -26331,7 +26663,10 @@
                   "vsGarakPct": null,
                   "kg": 770,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 5,
@@ -26339,7 +26674,10 @@
                   "vsGarakPct": -38.3,
                   "kg": 2095,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 1
                 }
               ],
               "itemPerKg": 3989,
@@ -26358,7 +26696,10 @@
                   "vsGarakPct": null,
                   "kg": 1370,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 5,
@@ -26366,7 +26707,10 @@
                   "vsGarakPct": null,
                   "kg": 395,
                   "unitMismatch": false,
-                  "thin": true
+                  "thin": true,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3955,
@@ -26386,7 +26730,10 @@
                   "vsGarakPct": null,
                   "kg": 280,
                   "unitMismatch": false,
-                  "thin": true
+                  "thin": true,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3349,
@@ -26405,7 +26752,10 @@
                   "vsGarakPct": null,
                   "kg": 5160,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 5,
@@ -26413,7 +26763,10 @@
                   "vsGarakPct": 4.5,
                   "kg": 15850,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3841,
@@ -32021,7 +32374,10 @@
                   "vsGarakPct": null,
                   "kg": 27423,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 6,
@@ -32029,7 +32385,10 @@
                   "vsGarakPct": null,
                   "kg": 15282,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 4970,
@@ -32048,7 +32407,10 @@
                   "vsGarakPct": -17.9,
                   "kg": 20262,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -8.4,
+                  "vsNormalPp": -9.5,
+                  "normalYears": 5
                 },
                 null
               ],
@@ -32068,7 +32430,10 @@
                   "vsGarakPct": -0.4,
                   "kg": 10959,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -2.5,
+                  "vsNormalPp": 2.1,
+                  "normalYears": 5
                 },
                 null
               ],
@@ -32088,7 +32453,10 @@
                   "vsGarakPct": -14.2,
                   "kg": 6879,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -16.4,
+                  "vsNormalPp": 2.2,
+                  "normalYears": 5
                 },
                 null
               ],
@@ -32108,7 +32476,10 @@
                   "vsGarakPct": -8,
                   "kg": 156111,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 6,
@@ -32116,7 +32487,10 @@
                   "vsGarakPct": 3.5,
                   "kg": 19782,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 4645,
@@ -32275,162 +32649,215 @@
           "garakUnitKg": 3,
           "marketUnitKg": 3,
           "unitMismatch": false,
+          "basis": "chuseok",
           "points": [
             {
               "date": "2026-08-21",
               "garak": 6726,
               "market": 5777,
-              "gapPct": -14.1
+              "gapPct": -14.1,
+              "index": 85.9,
+              "normalIndex": 94.9
             },
             {
               "date": "2026-08-22",
               "garak": 6422,
               "market": 5656,
-              "gapPct": -11.9
+              "gapPct": -11.9,
+              "index": 88.1,
+              "normalIndex": 99.6
             },
             {
               "date": "2026-08-24",
               "garak": 6485,
               "market": 6600,
-              "gapPct": 1.8
+              "gapPct": 1.8,
+              "index": 101.8,
+              "normalIndex": 100.1
             },
             {
               "date": "2026-08-25",
               "garak": 6770,
               "market": 5814,
-              "gapPct": -14.1
+              "gapPct": -14.1,
+              "index": 85.9,
+              "normalIndex": 92.7
             },
             {
               "date": "2026-08-26",
               "garak": 6561,
               "market": 5698,
-              "gapPct": -13.2
+              "gapPct": -13.2,
+              "index": 86.8,
+              "normalIndex": 93.1
             },
             {
               "date": "2026-08-27",
               "garak": 6120,
               "market": 5900,
-              "gapPct": -3.6
+              "gapPct": -3.6,
+              "index": 96.4,
+              "normalIndex": 91.8
             },
             {
               "date": "2026-08-28",
               "garak": 6544,
               "market": 5576,
-              "gapPct": -14.8
+              "gapPct": -14.8,
+              "index": 85.2,
+              "normalIndex": 98.6
             },
             {
               "date": "2026-08-29",
               "garak": 6397,
               "market": 5556,
-              "gapPct": -13.1
+              "gapPct": -13.1,
+              "index": 86.9,
+              "normalIndex": 100.4
             },
             {
               "date": "2026-08-31",
               "garak": 6544,
               "market": 5797,
-              "gapPct": -11.4
+              "gapPct": -11.4,
+              "index": 88.6,
+              "normalIndex": 91.7
             },
             {
               "date": "2026-09-01",
               "garak": 6249,
               "market": 5935,
-              "gapPct": -5
+              "gapPct": -5,
+              "index": 95,
+              "normalIndex": 92.6
             },
             {
               "date": "2026-09-02",
               "garak": 6482,
               "market": 5732,
-              "gapPct": -11.6
+              "gapPct": -11.6,
+              "index": 88.4,
+              "normalIndex": 90.9
             },
             {
               "date": "2026-09-03",
               "garak": 5917,
               "market": 5688,
-              "gapPct": -3.9
+              "gapPct": -3.9,
+              "index": 96.1,
+              "normalIndex": 92.3
             },
             {
               "date": "2026-09-04",
               "garak": 6013,
               "market": 5150,
-              "gapPct": -14.4
+              "gapPct": -14.4,
+              "index": 85.6,
+              "normalIndex": 94.5
             },
             {
               "date": "2026-09-05",
               "garak": 5901,
               "market": 5657,
-              "gapPct": -4.1
+              "gapPct": -4.1,
+              "index": 95.9,
+              "normalIndex": 93
             },
             {
               "date": "2026-09-07",
               "garak": 6211,
               "market": 6014,
-              "gapPct": -3.2
+              "gapPct": -3.2,
+              "index": 96.8,
+              "normalIndex": 98
             },
             {
               "date": "2026-09-08",
               "garak": 5991,
               "market": 6350,
-              "gapPct": 6
+              "gapPct": 6,
+              "index": 106,
+              "normalIndex": 106.6
             },
             {
               "date": "2026-09-09",
               "garak": 5925,
               "market": 5868,
-              "gapPct": -1
+              "gapPct": -1,
+              "index": 99,
+              "normalIndex": 98
             },
             {
               "date": "2026-09-10",
               "garak": 5993,
               "market": 5849,
-              "gapPct": -2.4
+              "gapPct": -2.4,
+              "index": 97.6,
+              "normalIndex": 95.4
             },
             {
               "date": "2026-09-11",
               "garak": 6269,
               "market": 6298,
-              "gapPct": 0.5
+              "gapPct": 0.5,
+              "index": 100.5,
+              "normalIndex": 94.3
             },
             {
               "date": "2026-09-12",
               "garak": 6854,
               "market": 5769,
-              "gapPct": -15.8
+              "gapPct": -15.8,
+              "index": 84.2,
+              "normalIndex": 102.1
             },
             {
               "date": "2026-09-14",
               "garak": 6640,
               "market": 6107,
-              "gapPct": -8
+              "gapPct": -8,
+              "index": 92,
+              "normalIndex": 100
             },
             {
               "date": "2026-09-15",
               "garak": 7106,
               "market": 6017,
-              "gapPct": -15.3
+              "gapPct": -15.3,
+              "index": 84.7,
+              "normalIndex": 96.3
             },
             {
               "date": "2026-09-16",
               "garak": 6997,
               "market": 6307,
-              "gapPct": -9.9
+              "gapPct": -9.9,
+              "index": 90.1,
+              "normalIndex": 92.8
             },
             {
               "date": "2026-09-17",
               "garak": 6951,
               "market": 5238,
-              "gapPct": -24.6
+              "gapPct": -24.6,
+              "index": 75.4,
+              "normalIndex": 91.5
             },
             {
               "date": "2026-09-18",
               "garak": 7009,
               "market": 5211,
-              "gapPct": -25.7
+              "gapPct": -25.7,
+              "index": 74.3,
+              "normalIndex": 89.5
             },
             {
               "date": "2026-09-19",
               "garak": 6401,
               "market": 5258,
-              "gapPct": -17.9
+              "gapPct": -17.9,
+              "index": 82.1,
+              "normalIndex": 91.6
             }
           ]
         },
@@ -36093,7 +36520,10 @@
                   "vsGarakPct": null,
                   "kg": 8130,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 2.5,
@@ -36101,7 +36531,10 @@
                   "vsGarakPct": null,
                   "kg": 2040,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 2907,
@@ -36120,7 +36553,10 @@
                   "vsGarakPct": -5.1,
                   "kg": 2045,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -19,
+                  "vsNormalPp": 13.9,
+                  "normalYears": 3
                 },
                 {
                   "unitKg": 2.5,
@@ -36128,7 +36564,10 @@
                   "vsGarakPct": 6.4,
                   "kg": 2133,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": -5.6,
+                  "vsNormalPp": 12,
+                  "normalYears": 3
                 }
               ],
               "itemPerKg": 3426,
@@ -36160,7 +36599,10 @@
                   "vsGarakPct": -1.9,
                   "kg": 2015,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 1
                 },
                 null
               ],
@@ -36180,7 +36622,10 @@
                   "vsGarakPct": -0.7,
                   "kg": 12500,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 },
                 {
                   "unitKg": 2.5,
@@ -36188,7 +36633,10 @@
                   "vsGarakPct": -0.2,
                   "kg": 4558,
                   "unitMismatch": false,
-                  "thin": false
+                  "thin": false,
+                  "normalVsGarakPct": null,
+                  "vsNormalPp": null,
+                  "normalYears": 0
                 }
               ],
               "itemPerKg": 3587,
@@ -36334,66 +36782,87 @@
           "garakUnitKg": 5,
           "marketUnitKg": 5,
           "unitMismatch": false,
+          "basis": "chuseok",
           "points": [
             {
               "date": "2026-09-05",
               "garak": null,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-09-10",
               "garak": null,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-09-11",
               "garak": null,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-09-12",
               "garak": null,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-09-14",
               "garak": null,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": 111.1
             },
             {
               "date": "2026-09-15",
               "garak": 2915,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-09-16",
               "garak": 3580,
               "market": null,
-              "gapPct": null
+              "gapPct": null,
+              "index": null,
+              "normalIndex": null
             },
             {
               "date": "2026-09-17",
               "garak": 3179,
               "market": 1221,
-              "gapPct": -61.6
+              "gapPct": -61.6,
+              "index": 38.4,
+              "normalIndex": 107.1
             },
             {
               "date": "2026-09-18",
               "garak": 3159,
               "market": 3587,
-              "gapPct": 13.5
+              "gapPct": 13.5,
+              "index": 113.5,
+              "normalIndex": 100.4
             },
             {
               "date": "2026-09-19",
               "garak": 2501,
               "market": 2373,
-              "gapPct": -5.1
+              "gapPct": -5.1,
+              "index": 94.9,
+              "normalIndex": 81
             }
           ]
         },
@@ -36497,6 +36966,7 @@
       "MafraSettleCache itemCode IN fruit dateKey IN W(2026-09-15,2026-09-16,2026-09-17,2026-09-18,2026-09-19) (시장·법인·품종·규격 Σ) + 비교 창 15일 (시장·법인 Σ) · MafraSettleCoverage W 부분 수신 (§12.17 전국 시장, 확정일 2026-09-19)",
       "GarakCorpTradeCache dateKey IN W + 비교 창 (법인·품종·규격 Σ, 가락 원표 치환) + 2026-08-21..2026-09-19 품종·규격 일별 (§12.17)",
       "MafraSettleCache 2026-08-21..2026-09-19 최다 시장(370401,240004,311201,220001,350301,250001) 품종·규격 일별 전등급 (30일 격차 추이)",
+      "GarakCorpTradeCache · MafraSettleCache(상위 3시장 370401,240004,311201,220001,230001,240001,110008,210009,350301,250001) 직전 5개년 추석 정렬 창 2025-08-29..2025-10-03 · 2024-08-10..2024-09-14 · 2023-08-22..2023-09-26 · 2022-08-03..2022-09-07 · 2021-08-14..2021-09-18 품종·규격 일별 (§25 D-25p 격차 평년)",
       "ExternalPriceCache provider=garak_sang itemCode IN fruit dateKey ≥ 2021-09-22 lane 별 추석 ±45일 비중 (§25 명절 lane 판정 — 17 lane)",
       "GarakCorpTradeCache 일자×산지 Σkg 2021-01-01..2026-09-22 (상위 12 시군 원문 + 나머지 합 — 출하 시기·진도, §12.4g)",
       "GarakCorpTradeCache (인증구분, 규격, 법인) Σ 2026-08-24..2026-09-22 + 전년 같은 창 (인증 프리미엄, §12.8)",
