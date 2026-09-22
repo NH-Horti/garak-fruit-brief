@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T06:54:16.076Z",
+  "generatedAt": "2026-09-22T07:06:59.319Z",
   "targetDate": "2026-09-22",
   "weekday": "화",
   "sentOn": "2026-09-22",
@@ -2478,42 +2478,58 @@
             {
               "code": "2100",
               "nameKo": "부산",
-              "price": 21140
+              "price": 21140,
+              "vsNationalPct": -8.3,
+              "mid": 13775
             },
             {
               "code": "1101",
               "nameKo": "서울",
-              "price": 21338
+              "price": 21338,
+              "vsNationalPct": -7.4,
+              "mid": 14750
             },
             {
               "code": "2501",
               "nameKo": "대전",
-              "price": 21450
+              "price": 21450,
+              "vsNationalPct": -6.9,
+              "mid": 16600
             },
             {
               "code": "2300",
               "nameKo": "인천",
-              "price": 23300
+              "price": 23300,
+              "vsNationalPct": 1.1,
+              "mid": 16850
             },
             {
               "code": "2200",
               "nameKo": "대구",
-              "price": 27000
+              "price": 27000,
+              "vsNationalPct": 17.2,
+              "mid": 16033
             },
             {
               "code": "2401",
               "nameKo": "광주",
-              "price": 28450
+              "price": 28450,
+              "vsNationalPct": 23.5,
+              "mid": 16367
             },
             {
               "code": "2601",
               "nameKo": "울산",
-              "price": 28650
+              "price": 28650,
+              "vsNationalPct": 24.3,
+              "mid": 16450
             },
             {
               "code": "3911",
               "nameKo": "제주",
-              "price": 38300
+              "price": 38300,
+              "vsNationalPct": 66.2,
+              "mid": 23550
             }
           ],
           "min": {
@@ -2526,6 +2542,7 @@
           },
           "median": 25150,
           "national": 23043,
+          "nationalMid": 16392,
           "maxMinRatio": 1.8
         },
         "cpi": {
@@ -8494,42 +8511,58 @@
             {
               "code": "2601",
               "nameKo": "울산",
-              "price": 26050
+              "price": 26050,
+              "vsNationalPct": -16.1,
+              "mid": 16600
             },
             {
               "code": "1101",
               "nameKo": "서울",
-              "price": 26971
+              "price": 26971,
+              "vsNationalPct": -13.1,
+              "mid": 20025
             },
             {
               "code": "2401",
               "nameKo": "광주",
-              "price": 28667
+              "price": 28667,
+              "vsNationalPct": -7.7,
+              "mid": 22400
             },
             {
               "code": "2300",
               "nameKo": "인천",
-              "price": 29800
+              "price": 29800,
+              "vsNationalPct": -4,
+              "mid": 22400
             },
             {
               "code": "2200",
               "nameKo": "대구",
-              "price": 29900
+              "price": 29900,
+              "vsNationalPct": -3.7,
+              "mid": 22050
             },
             {
               "code": "2100",
               "nameKo": "부산",
-              "price": 31550
+              "price": 31550,
+              "vsNationalPct": 1.6,
+              "mid": null
             },
             {
               "code": "2501",
               "nameKo": "대전",
-              "price": 33000
+              "price": 33000,
+              "vsNationalPct": 6.3,
+              "mid": 25767
             },
             {
               "code": "3911",
               "nameKo": "제주",
-              "price": 36550
+              "price": 36550,
+              "vsNationalPct": 17.7,
+              "mid": null
             }
           ],
           "min": {
@@ -8542,6 +8575,7 @@
           },
           "median": 29850,
           "national": 31045,
+          "nationalMid": 23528,
           "maxMinRatio": 1.4
         },
         "cpi": {
@@ -14586,42 +14620,58 @@
             {
               "code": "1101",
               "nameKo": "서울",
-              "price": 11563
+              "price": 11563,
+              "vsNationalPct": -8.6,
+              "mid": null
             },
             {
               "code": "2300",
               "nameKo": "인천",
-              "price": 12115
+              "price": 12115,
+              "vsNationalPct": -4.3,
+              "mid": null
             },
             {
               "code": "2200",
               "nameKo": "대구",
-              "price": 12200
+              "price": 12200,
+              "vsNationalPct": -3.6,
+              "mid": null
             },
             {
               "code": "2501",
               "nameKo": "대전",
-              "price": 12673
+              "price": 12673,
+              "vsNationalPct": 0.2,
+              "mid": null
             },
             {
               "code": "2401",
               "nameKo": "광주",
-              "price": 12793
+              "price": 12793,
+              "vsNationalPct": 1.1,
+              "mid": null
             },
             {
               "code": "2601",
               "nameKo": "울산",
-              "price": 13200
+              "price": 13200,
+              "vsNationalPct": 4.3,
+              "mid": null
             },
             {
               "code": "3911",
               "nameKo": "제주",
-              "price": 16400
+              "price": 16400,
+              "vsNationalPct": 29.6,
+              "mid": null
             },
             {
               "code": "2100",
               "nameKo": "부산",
-              "price": 17100
+              "price": 17100,
+              "vsNationalPct": 35.1,
+              "mid": null
             }
           ],
           "min": {
@@ -14634,6 +14684,7 @@
           },
           "median": 12733,
           "national": 12653,
+          "nationalMid": null,
           "maxMinRatio": 1.5
         },
         "cpi": {
@@ -20014,17 +20065,23 @@
             {
               "code": "1101",
               "nameKo": "서울",
-              "price": 15867
+              "price": 15867,
+              "vsNationalPct": -16.7,
+              "mid": null
             },
             {
               "code": "2601",
               "nameKo": "울산",
-              "price": 18000
+              "price": 18000,
+              "vsNationalPct": -5.5,
+              "mid": null
             },
             {
               "code": "3911",
               "nameKo": "제주",
-              "price": 21600
+              "price": 21600,
+              "vsNationalPct": 13.4,
+              "mid": null
             }
           ],
           "min": {
@@ -20037,6 +20094,7 @@
           },
           "median": 18000,
           "national": 19044,
+          "nationalMid": null,
           "maxMinRatio": 1.4
         },
         "cpi": {
@@ -30491,42 +30549,58 @@
             {
               "code": "2100",
               "nameKo": "부산",
-              "price": 6503
+              "price": 6503,
+              "vsNationalPct": -11.3,
+              "mid": 7167
             },
             {
               "code": "2601",
               "nameKo": "울산",
-              "price": 6900
+              "price": 6900,
+              "vsNationalPct": -5.9,
+              "mid": 6140
             },
             {
               "code": "2300",
               "nameKo": "인천",
-              "price": 6930
+              "price": 6930,
+              "vsNationalPct": -5.5,
+              "mid": 4520
             },
             {
               "code": "2200",
               "nameKo": "대구",
-              "price": 7255
+              "price": 7255,
+              "vsNationalPct": -1,
+              "mid": 5327
             },
             {
               "code": "1101",
               "nameKo": "서울",
-              "price": 7256
+              "price": 7256,
+              "vsNationalPct": -1,
+              "mid": 5274
             },
             {
               "code": "2501",
               "nameKo": "대전",
-              "price": 7307
+              "price": 7307,
+              "vsNationalPct": -0.3,
+              "mid": 5015
             },
             {
               "code": "3911",
               "nameKo": "제주",
-              "price": 7365
+              "price": 7365,
+              "vsNationalPct": 0.5,
+              "mid": 4970
             },
             {
               "code": "2401",
               "nameKo": "광주",
-              "price": 7737
+              "price": 7737,
+              "vsNationalPct": 5.6,
+              "mid": 4660
             }
           ],
           "min": {
@@ -30539,6 +30613,7 @@
           },
           "median": 7256,
           "national": 7330,
+          "nationalMid": 5538,
           "maxMinRatio": 1.2
         },
         "cpi": {
