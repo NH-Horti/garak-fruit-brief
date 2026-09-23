@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T03:47:05.048Z",
+  "generatedAt": "2026-09-23T04:46:47.808Z",
   "targetDate": "2026-09-23",
   "weekday": "수",
   "sentOn": "2026-09-23",
@@ -12040,7 +12040,7 @@
       "iconDataUri": null,
       "rank": 3,
       "onPoster": true,
-      "tradeValue": 1621029994,
+      "tradeValue": 1621779993,
       "defaultBoxKg": 5,
       "offSeason": false,
       "variety": {
@@ -12075,7 +12075,7 @@
         "variety": {
           "code": "shine",
           "nameKo": "샤인머스캣",
-          "tons": 237,
+          "tons": 237.1,
           "prevTons": 260.7,
           "vsPrevPct": -9.1,
           "vsYoy": {
@@ -12104,7 +12104,7 @@
           "kg": 2,
           "isRep": false,
           "isAnchor": true,
-          "qtyUnits": 42893,
+          "qtyUnits": 42923,
           "tons": 85.8,
           "vol": {
             "prev": {
@@ -13733,7 +13733,7 @@
         {
           "code": "shine",
           "nameKo": "샤인머스캣",
-          "tons": 237,
+          "tons": 237.1,
           "share": 0.544,
           "prevTons": 260.7,
           "prevShare": 0.585,
@@ -14663,7 +14663,7 @@
         "variety": {
           "code": "shine",
           "nameKo": "샤인머스캣",
-          "tons": 237,
+          "tons": 237.1,
           "corps": [
             {
               "corpCode": "11000101",
@@ -14692,8 +14692,8 @@
             {
               "corpCode": "11000104",
               "corpName": "동부팜청과",
-              "tons": 42.5,
-              "share": 0.179,
+              "tons": 42.6,
+              "share": 0.18,
               "prevShare": 0.185,
               "yoyShare": 0.176
             },
@@ -14712,9 +14712,9 @@
             "unitTag": "2kg",
             "unitLabel": "2kg",
             "varietyCode": "shine",
-            "qty": 42893,
+            "qty": 42923,
             "tons": 85.8,
-            "marketAvg": 6703,
+            "marketAvg": 6716,
             "corps": [
               {
                 "corpCode": "11000101",
@@ -14722,15 +14722,15 @@
                 "qty": 13047,
                 "qtyShare": 0.304,
                 "avg": 6453,
-                "vsMarketPct": -3.7
+                "vsMarketPct": -3.9
               },
               {
                 "corpCode": "11000103",
                 "corpName": "중앙청과",
                 "qty": 12553,
-                "qtyShare": 0.293,
+                "qtyShare": 0.292,
                 "avg": 6836,
-                "vsMarketPct": 2
+                "vsMarketPct": 1.8
               },
               {
                 "corpCode": "11000102",
@@ -14738,15 +14738,15 @@
                 "qty": 7899,
                 "qtyShare": 0.184,
                 "avg": 6743,
-                "vsMarketPct": 0.6
+                "vsMarketPct": 0.4
               },
               {
                 "corpCode": "11000104",
                 "corpName": "동부팜청과",
-                "qty": 7186,
+                "qty": 7216,
                 "qtyShare": 0.168,
-                "avg": 7162,
-                "vsMarketPct": 6.8
+                "avg": 7236,
+                "vsMarketPct": 7.7
               },
               {
                 "corpCode": "11000105",
@@ -14754,7 +14754,7 @@
                 "qty": 2208,
                 "qtyShare": 0.051,
                 "avg": 5792,
-                "vsMarketPct": -13.6
+                "vsMarketPct": -13.8
               }
             ]
           },
@@ -14822,7 +14822,7 @@
           "seasonDay": 115,
           "normalSeasons": 5,
           "progress": {
-            "currentTons": 14060.1,
+            "currentTons": 14060.2,
             "normalTonsToDate": 11527.6,
             "vsNormalPct": 22,
             "seasonEarly": false,
@@ -16596,7 +16596,7 @@
             },
             {
               "month": 9,
-              "current": 7466.8,
+              "current": 7466.9,
               "partial": true,
               "last": 8858.6,
               "normal": 7773,
@@ -16870,13 +16870,13 @@
         "variety": {
           "code": "shine",
           "nameKo": "샤인머스캣",
-          "tons": 237,
+          "tons": 237.1,
           "sidos": [
             {
               "key": "경북",
               "label": "경북",
               "sido": "경북",
-              "tons": 208.5,
+              "tons": 208.6,
               "share": 0.88,
               "prevShare": 0.86,
               "yoyShare": 0.914
@@ -16931,12 +16931,12 @@
         "table": {
           "scope": "variety",
           "label": "샤인머스캣",
-          "tons": 237,
+          "tons": 237.1,
           "lanes": [
             {
               "unitTag": "2kg",
               "unitLabel": "2kg",
-              "marketAvg": 6703
+              "marketAvg": 6716
             },
             {
               "unitTag": "4kg",
@@ -16959,7 +16959,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 5287,
-                  "vsMarketPct": -21.1
+                  "vsMarketPct": -21.3
                 },
                 {
                   "unitTag": "4kg",
@@ -16982,7 +16982,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 6674,
-                  "vsMarketPct": -0.4
+                  "vsMarketPct": -0.6
                 },
                 {
                   "unitTag": "4kg",
@@ -16995,7 +16995,7 @@
               "key": "경북 상주시",
               "label": "경북 상주시",
               "sido": "경북",
-              "tons": 55.2,
+              "tons": 55.3,
               "share": 0.233,
               "prevShare": 0.216,
               "yoyShare": 0.18,
@@ -17004,8 +17004,8 @@
               "prices": [
                 {
                   "unitTag": "2kg",
-                  "avg": 9263,
-                  "vsMarketPct": 38.2
+                  "avg": 9301,
+                  "vsMarketPct": 38.5
                 },
                 {
                   "unitTag": "4kg",
@@ -17028,7 +17028,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 5730,
-                  "vsMarketPct": -14.5
+                  "vsMarketPct": -14.7
                 },
                 {
                   "unitTag": "4kg",
@@ -17051,7 +17051,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 5190,
-                  "vsMarketPct": -22.6
+                  "vsMarketPct": -22.7
                 },
                 {
                   "unitTag": "4kg",
@@ -17074,7 +17074,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 5196,
-                  "vsMarketPct": -22.5
+                  "vsMarketPct": -22.6
                 },
                 {
                   "unitTag": "4kg",
@@ -17097,7 +17097,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 5877,
-                  "vsMarketPct": -12.3
+                  "vsMarketPct": -12.5
                 },
                 {
                   "unitTag": "4kg",
@@ -17120,7 +17120,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 5092,
-                  "vsMarketPct": -24
+                  "vsMarketPct": -24.2
                 },
                 {
                   "unitTag": "4kg",
@@ -17143,7 +17143,7 @@
                 {
                   "unitTag": "2kg",
                   "avg": 7150,
-                  "vsMarketPct": 6.7
+                  "vsMarketPct": 6.5
                 },
                 {
                   "unitTag": "4kg",
@@ -17174,7 +17174,7 @@
             {
               "corpCode": "11000104",
               "corpName": "동부팜청과",
-              "tons": 42.5
+              "tons": 42.6
             },
             {
               "corpCode": "11000105",
@@ -17233,12 +17233,12 @@
               "key": "경북 상주시",
               "label": "경북 상주시",
               "sido": "경북",
-              "tons": 55.2,
+              "tons": 55.3,
               "cells": {
-                "11000101": 0.12,
-                "11000102": 0.269,
-                "11000103": 0.4,
-                "11000104": 0.157,
+                "11000101": 0.119,
+                "11000102": 0.268,
+                "11000103": 0.399,
+                "11000104": 0.158,
                 "11000105": 0.055
               },
               "cellTons": {
@@ -17250,7 +17250,7 @@
               },
               "topCorp": {
                 "corpCode": "11000103",
-                "share": 0.4
+                "share": 0.399
               }
             },
             {
@@ -38439,7 +38439,7 @@
   },
   "edition": "PM",
   "footnotes": [
-    "오후 잠정판 — 당일 오전 경매 자료가 전산에 반영된 13시 기준 산출(확정 전). 정산 보정이 반영된 확정본은 다음 날 06:30 아침판으로 발송.",
+    "오후 잠정판 — 당일 오전 경매 자료가 전산에 반영된 14시 기준 산출(확정 전). 정산 보정이 반영된 확정본은 다음 날 06:30 아침판으로 발송.",
     "가격은 가락시장 가격백분위 '상'(상위 5~40% 구간 평균, 공문 '상품기준')이며 단위는 실물 포장규격당 원. '평균가' 표기는 상품기준가 미수신으로 경매원표 전등급 평균을 쓴 값.",
     "거래량(반입)은 가락시장 경매 낙찰물량(톤)으로 공문의 반입량과 같은 정의. 규격 비중은 실물 단위수×kg 기준.",
     "전일비는 직전 거래일 대비. 전월·전년동월·평년동월은 일일 가격동향과 같은 정의 — 전월=직전 달력월 평균, 전년동월=전년 같은 달 평균, 평년동월=최근 5년 같은 달 중 최고·최저를 뺀 3년 평균. 같은 품종·규격·등급 lane 의 일별가 단순평균으로 산정. 규격표의 전월비·전년동월비·평년비는 당일가 대 그 평균이며, 포스터 등락 아래 작은 숫자가 그 비교 기준값(전일가·전월 평균·전년동월 평균·평년동월 평균).",
