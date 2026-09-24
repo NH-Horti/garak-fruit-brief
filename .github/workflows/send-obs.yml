@@ -1,0 +1,135 @@
+name: krei-observation (send)
+run-name: >-
+  obs · ${{ github.event.client_payload.ym || inputs.ym }}
+
+# 관측회의 발언 노트 카톡 — Market Analysis(docs/design/28 Q11)가 회의 당일 06:20 KST 에 발행 후 dispatch.
+# 페이지는 별개 사이트(NH-Horti/krei-observation-brief), 카카오 키·토큰만 이 레포 것을 재사용.
+on:
+  repository_dispatch:
+    types: [obs-published]
+  workflow_dispatch:
+    inputs:
+      ym:
+        description: '월호 (YYYY-MM)'
+        required: true
+        type: string
+      page_url:
+        description: '발언 노트 URL'
+        required: true
+        type: string
+      title:
+        description: '제목'
+        required: false
+        type: string
+        default: '과일관측회의 발언 노트'
+      description:
+        description: '설명'
+        required: false
+        type: string
+        default: ''
+      dry_run:
+        description: '템플릿만 출력, 전송 안 함'
+        required: false
+        type: boolean
+        default: true
+      force:
+        description: '영수증 무시 재전송'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: send-obs-${{ github.event.client_payload.ym || inputs.ym }}
+  cancel-in-progress: false
+
+jobs:
+  send:
+    if: github.ref_name == 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Wait until send time
+        if: github.event_name == 'repository_dispatch'
+        shell: bash
+        run: |
+          set -euo pipefail
+          target="${{ github.event.client_payload.send_at || '07:00' }}"
+          today="$(TZ=Asia/Seoul date +%F)"
+          target_epoch="$(TZ=Asia/Seoul date -d "$today $target" +%s)"
+          wait=$(( target_epoch - $(date +%s) ))
+          if [ "$wait" -le 0 ]; then echo "send time passed — sending now"; exit 0; fi
+          if [ "$wait" -gt 7200 ]; then wait=7200; fi
+          echo "waiting ${wait}s until $today $target KST"
+          sleep "$wait"
+
+      - name: Send Kakao
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_STATUS_FILE: ${{ runner.temp }}/kakao-status.txt
+          KAKAO_REFRESH_TOKEN_OUT_FILE: ${{ runner.temp }}/kakao-refresh-token.txt
+          P_YM: ${{ github.event.client_payload.ym || inputs.ym }}
+          P_URL: ${{ github.event.client_payload.page_url || inputs.page_url }}
+          P_TITLE: ${{ github.event.client_payload.title || inputs.title }}
+          P_DESC: ${{ github.event.client_payload.description || inputs.description }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          extra=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then extra="$extra --dry-run"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then extra="$extra --force"; fi
+          python send_obs.py --ym "$P_YM" --page-url "$P_URL" --title "$P_TITLE" --description "$P_DESC" $extra
+
+      - name: Commit delivery receipt
+        if: always() && inputs.dry_run != true
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain docs/delivery)" ]; then echo "No receipt changes."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/delivery
+          git commit -m "obs delivery receipt (${{ github.event.client_payload.ym || inputs.ym }})"
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main || true
+          done
+          exit 1
+
+      - name: Summary
+        if: always()
+        shell: bash
+        run: |
+          status='not_attempted'
+          if [ -f "$RUNNER_TEMP/kakao-status.txt" ]; then status="$(tr -d '\r\n' < "$RUNNER_TEMP/kakao-status.txt")"; fi
+          echo "## krei-observation send · ${{ github.event.client_payload.ym || inputs.ym }} · Kakao: $status" >> "$GITHUB_STEP_SUMMARY"
+          if [ -s "$RUNNER_TEMP/kakao-refresh-token.txt" ]; then
+            echo "::error::Kakao returned a renewed refresh token. Rotate KAKAO_REFRESH_TOKEN in BOTH repos — see README."
+            exit 1
+          fi
+          case "$status" in
+            success|already_delivered|dry_run) ;;
+            *) echo "::error::Kakao delivery did not complete: $status"; exit 1 ;;
+          esac
