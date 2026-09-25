@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-25",
+  "edition": "am",
+  "status": "success",
+  "channel": "kakao",
+  "message_format": "text_stale",
+  "freshness": "STALE",
+  "sent_at_kst": "2026-09-25T12:46:09+09:00",
+  "reason": "2026-09-25 에 data12 시장-level 행 없음"
+}
