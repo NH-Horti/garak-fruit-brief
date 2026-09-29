@@ -1,0 +1,9 @@
+{
+ "schema_version": 1,
+ "kind": "observation",
+ "ym": "2026-10",
+ "status": "success",
+ "channel": "kakao",
+ "page_url": "https://nh-horti.github.io/krei-observation-brief/o/2026-10-k5zq5ukdqb/",
+ "sent_at_kst": "2026-09-30T07:00:03+09:00"
+}
