@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "edition": "am",
+  "status": "success",
+  "channel": "kakao",
+  "message_format": "feed",
+  "freshness": "FRESH",
+  "sent_at_kst": "2026-10-15T06:30:04+09:00",
+  "urls": {
+    "page": "https://nh-horti.github.io/garak-fruit-brief/b/2026-10-14-ubnfazlsny/index.html",
+    "poster": "https://nh-horti.github.io/garak-fruit-brief/b/2026-10-14-ubnfazlsny/poster.png",
+    "card": "https://nh-horti.github.io/garak-fruit-brief/b/2026-10-14-ubnfazlsny/card.png"
+  },
+  "item_count": 6,
+  "template_sha256": "858350f5a31593d8f8c45b762b7e3dd3eec466ebc35b87fcc116b6149b2839dd"
+}
