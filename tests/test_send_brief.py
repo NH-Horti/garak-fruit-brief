@@ -70,7 +70,7 @@ class ReceiptTests(unittest.TestCase):
                  mock.patch.object(send_brief, "DELIVERY_DIR", docs / "delivery"), \
                  mock.patch.object(send_brief, "wait_for_url", return_value=True), \
                  mock.patch.object(send_brief.kakao_client, "send_template", side_effect=lambda t, s=None: sent.append(t) or {"result_code": 0}):
-                args = send_brief.main.__globals__["argparse"].Namespace(date="2026-09-11", token="abc", freshness="FRESH", reason="", wait_sec=1, dry_run=False, force=False)
+                args = send_brief.main.__globals__["argparse"].Namespace(date="2026-09-11", token="abc", freshness="FRESH", edition="am", reason="", wait_sec=1, dry_run=False, force=False)
                 self.assertEqual(send_brief.run(args), 0)
                 self.assertEqual(len(sent), 1)
                 self.assertEqual(sent[0]["object_type"], "feed")
@@ -92,7 +92,7 @@ class ReceiptTests(unittest.TestCase):
                  mock.patch.object(send_brief, "DELIVERY_DIR", docs / "delivery"), \
                  mock.patch.object(send_brief, "wait_for_url", return_value=False), \
                  mock.patch.object(send_brief.kakao_client, "send_template", side_effect=lambda t, s=None: sent.append(t) or {}):
-                args = send_brief.main.__globals__["argparse"].Namespace(date="2026-09-11", token="abc", freshness="FRESH", reason="", wait_sec=1, dry_run=False, force=False)
+                args = send_brief.main.__globals__["argparse"].Namespace(date="2026-09-11", token="abc", freshness="FRESH", edition="am", reason="", wait_sec=1, dry_run=False, force=False)
                 self.assertEqual(send_brief.run(args), 0)
                 self.assertEqual(sent[0]["object_type"], "text")
                 rec = json.loads((docs / "delivery" / "2026-09-11.json").read_text(encoding="utf-8"))
