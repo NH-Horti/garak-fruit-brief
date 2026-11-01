@@ -102,6 +102,39 @@ jobs:
           if [ "${{ inputs.force }}" = "true" ]; then extra="$extra --force"; fi
           python send_obs.py --ym "$P_YM" --page-url "$P_URL" --title "$P_TITLE" --description "$P_DESC" $extra
 
+      # Same as send.yml: a renewed refresh token must be saved to BOTH repos
+      # (needs KAKAO_SECRETS_PAT), otherwise the next send in either repo dies.
+      - name: Persist renewed Kakao refresh token
+        if: always()
+        id: kakao_persist
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.KAKAO_SECRETS_PAT }}
+          KAKAO_SECRET_TARGET_REPOS: 'NH-Horti/garak-fruit-brief NH-Horti/agri-news-brief'
+        run: |
+          set -uo pipefail
+          if [ ! -s "$RUNNER_TEMP/kakao-refresh-token.txt" ]; then
+            echo "renewed=false" >> "$GITHUB_OUTPUT"
+            echo "persisted=n/a" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "renewed=true" >> "$GITHUB_OUTPUT"
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "persisted=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::KAKAO_SECRETS_PAT is not configured; the renewed Kakao refresh token cannot be saved automatically."
+            exit 0
+          fi
+          persisted='true'
+          for repo in $KAKAO_SECRET_TARGET_REPOS; do
+            if tr -d '\r\n' < "$RUNNER_TEMP/kakao-refresh-token.txt" | gh secret set KAKAO_REFRESH_TOKEN --repo "$repo"; then
+              echo "Saved the renewed KAKAO_REFRESH_TOKEN to $repo"
+            else
+              persisted='false'
+              echo "::error::Saving the renewed KAKAO_REFRESH_TOKEN to $repo failed"
+            fi
+          done
+          echo "persisted=$persisted" >> "$GITHUB_OUTPUT"
+
       - name: Commit delivery receipt
         if: always() && inputs.dry_run != true
         shell: bash
@@ -124,9 +157,10 @@ jobs:
         run: |
           status='not_attempted'
           if [ -f "$RUNNER_TEMP/kakao-status.txt" ]; then status="$(tr -d '\r\n' < "$RUNNER_TEMP/kakao-status.txt")"; fi
-          echo "## krei-observation send · ${{ github.event.client_payload.ym || inputs.ym }} · Kakao: $status" >> "$GITHUB_STEP_SUMMARY"
-          if [ -s "$RUNNER_TEMP/kakao-refresh-token.txt" ]; then
-            echo "::error::Kakao returned a renewed refresh token. Rotate KAKAO_REFRESH_TOKEN in BOTH repos — see README."
+          persisted='${{ steps.kakao_persist.outputs.persisted || 'n/a' }}'
+          echo "## krei-observation send · ${{ github.event.client_payload.ym || inputs.ym }} · Kakao: $status · refresh token saved: $persisted" >> "$GITHUB_STEP_SUMMARY"
+          if [ -s "$RUNNER_TEMP/kakao-refresh-token.txt" ] && [ "$persisted" != 'true' ]; then
+            echo "::error::Kakao returned a renewed refresh token that was NOT saved; the stored secret is now invalid. Rotate KAKAO_REFRESH_TOKEN in BOTH repos with agri-news-brief/scripts/rotate-kakao-refresh-token.ps1 and configure KAKAO_SECRETS_PAT — see README."
             exit 1
           fi
           case "$status" in

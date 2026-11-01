@@ -19,17 +19,23 @@
 | `KAKAO_REST_API_KEY` | 카카오 앱 REST 키 (agri-news-brief 와 같은 앱) |
 | `KAKAO_CLIENT_SECRET` | 카카오 앱 client secret |
 | `KAKAO_REFRESH_TOKEN` | "나에게 보내기" 동의한 계정의 refresh token (agri-news-brief 와 **같은 값**) |
+| `KAKAO_SECRETS_PAT` | 두 레포(`garak-fruit-brief`, `agri-news-brief`)에 *Secrets: Read and write* 권한을 가진 fine-grained PAT. 갱신된 refresh token 을 두 레포에 자동 저장할 때 사용 (두 레포 모두에 등록) |
 
 GitHub Pages: Settings → Pages → Source `Deploy from a branch`, Branch `main` / `/docs`. (`docs/.nojekyll` 필수)
 
 ## Refresh token 갱신 절차 (두 레포 공유)
 
-카카오는 만료 임박 시 토큰 갱신 응답에 새 `refresh_token` 을 준다. 이 레포와 agri-news-brief 가 같은 토큰을 쓰므로
-**어느 쪽이든 갱신을 감지하면 Actions 가 실패로 알린다**(`Refresh token renewed: true`). 그때:
+카카오 refresh token 은 유효기간 60일이고, 발급 30일 뒤 **첫 갱신 호출**에 새 `refresh_token` 이 내려오며 기존 토큰은
+즉시 무효가 된다. 이 레포와 agri-news-brief 가 같은 토큰을 쓰므로 먼저 갱신 호출한 쪽만 새 토큰을 받는다
+(2026-08-31·09-30·10-31 미발송 원인. 10-31 은 토요일 06:30 이 레포가 갱신본을 받고 유실해 양쪽이 모두 죽었다).
 
-1. agri-news-brief 의 `scripts/rotate-kakao-refresh-token.ps1` 로 재발급
-2. **두 레포 모두** `KAKAO_REFRESH_TOKEN` secret 갱신
-3. 이 레포 `send.yml` 을 `workflow_dispatch` (date=어제, force=true) 로 재전송 확인
+- **자동 저장(기본)**: 두 레포 모두에 `KAKAO_SECRETS_PAT` secret 이 있으면 `send.yml`·`send-obs.yml`(이 레포)과
+  `daily.yml`·`secrets-check.yml`(agri-news-brief)이 갱신본을 받는 즉시 두 레포의 `KAKAO_REFRESH_TOKEN` 에 저장한다.
+  실행 요약의 `Refresh token renewed: true (saved to both repos: true)` 로 확인하며, 그 경우 할 일은 없다.
+- **수동 복구**(PAT 가 없거나 저장이 실패하면 Actions 가 실패로 알린다):
+  1. agri-news-brief 의 `scripts/rotate-kakao-refresh-token.ps1` 로 재발급 — `-UpdateGitHubSecret` 이 기본값으로
+     **두 레포 secret 을 함께** 갱신한다
+  2. 이 레포 `send.yml` 을 `workflow_dispatch`(date·token = 실패한 런과 동일) 로 재전송
 
 ## 수동 실행
 

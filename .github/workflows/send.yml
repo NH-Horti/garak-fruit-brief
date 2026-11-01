@@ -127,6 +127,43 @@ jobs:
             --reason "${{ steps.vars.outputs.reason }}" \
             $extra
 
+      # Kakao renews the refresh token on the first refresh call made with less
+      # than a month left (60-day token -> after day 30) and invalidates the stored
+      # one immediately. agri-news-brief shares this token, so the renewed value
+      # must land in BOTH repos or the next send in either dies with KOE322
+      # (2026-08-31, 2026-09-30, 2026-10-31). Needs KAKAO_SECRETS_PAT: a fine-grained
+      # PAT with "Secrets: read and write" on both repos, stored in both repos.
+      - name: Persist renewed Kakao refresh token
+        if: always()
+        id: kakao_persist
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.KAKAO_SECRETS_PAT }}
+          KAKAO_SECRET_TARGET_REPOS: 'NH-Horti/garak-fruit-brief NH-Horti/agri-news-brief'
+        run: |
+          set -uo pipefail
+          if [ ! -s "$RUNNER_TEMP/kakao-refresh-token.txt" ]; then
+            echo "renewed=false" >> "$GITHUB_OUTPUT"
+            echo "persisted=n/a" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "renewed=true" >> "$GITHUB_OUTPUT"
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "persisted=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::KAKAO_SECRETS_PAT is not configured; the renewed Kakao refresh token cannot be saved automatically."
+            exit 0
+          fi
+          persisted='true'
+          for repo in $KAKAO_SECRET_TARGET_REPOS; do
+            if tr -d '\r\n' < "$RUNNER_TEMP/kakao-refresh-token.txt" | gh secret set KAKAO_REFRESH_TOKEN --repo "$repo"; then
+              echo "Saved the renewed KAKAO_REFRESH_TOKEN to $repo"
+            else
+              persisted='false'
+              echo "::error::Saving the renewed KAKAO_REFRESH_TOKEN to $repo failed"
+            fi
+          done
+          echo "persisted=$persisted" >> "$GITHUB_OUTPUT"
+
       - name: Commit delivery receipt
         if: always() && inputs.dry_run != true
         shell: bash
@@ -154,16 +191,17 @@ jobs:
           if [ -f "$RUNNER_TEMP/kakao-status.txt" ]; then status="$(tr -d '\r\n' < "$RUNNER_TEMP/kakao-status.txt")"; fi
           renewed='false'
           if [ -s "$RUNNER_TEMP/kakao-refresh-token.txt" ]; then renewed='true'; fi
+          persisted='${{ steps.kakao_persist.outputs.persisted || 'n/a' }}'
           {
             echo '## garak-fruit-brief send'
             echo "- Date: ${{ steps.vars.outputs.date }} (${{ steps.vars.outputs.edition }}, send at ${{ steps.vars.outputs.send_at }} KST)"
             echo "- Freshness: ${{ steps.vars.outputs.freshness }}"
             echo "- Kakao: $status"
-            echo "- Refresh token renewed: $renewed"
+            echo "- Refresh token renewed: $renewed (saved to both repos: $persisted)"
             echo "- Page: https://nh-horti.github.io/garak-fruit-brief/b/${{ steps.vars.outputs.pathdate }}-${{ steps.vars.outputs.token }}/index.html"
           } >> "$GITHUB_STEP_SUMMARY"
-          if [ "$renewed" = 'true' ]; then
-            echo "::error::Kakao returned a renewed refresh token. Rotate KAKAO_REFRESH_TOKEN in BOTH repos (garak-fruit-brief, agri-news-brief) — see README."
+          if [ "$renewed" = 'true' ] && [ "$persisted" != 'true' ]; then
+            echo "::error::Kakao returned a renewed refresh token that was NOT saved; the stored secret is now invalid. Rotate KAKAO_REFRESH_TOKEN in BOTH repos with agri-news-brief/scripts/rotate-kakao-refresh-token.ps1 and configure KAKAO_SECRETS_PAT — see README."
             exit 1
           fi
           if [ "$status" != 'success' ] && [ "$status" != 'already_delivered' ] && [ "${{ inputs.dry_run }}" != 'true' ]; then
