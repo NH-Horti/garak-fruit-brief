@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "edition": "pm",
+  "status": "success",
+  "channel": "kakao",
+  "message_format": "feed",
+  "freshness": "FRESH",
+  "sent_at_kst": "2026-11-12T13:00:03+09:00",
+  "urls": {
+    "page": "https://nh-horti.github.io/garak-fruit-brief/b/2026-11-12-pm-ka5qu6uuwr/index.html",
+    "poster": "https://nh-horti.github.io/garak-fruit-brief/b/2026-11-12-pm-ka5qu6uuwr/poster.png",
+    "card": "https://nh-horti.github.io/garak-fruit-brief/b/2026-11-12-pm-ka5qu6uuwr/card.png"
+  },
+  "item_count": 6,
+  "template_sha256": "641882bc2fda5fe3acae0503712ceeefb426ff5ba9ce63716937962441a6ac8e"
+}
